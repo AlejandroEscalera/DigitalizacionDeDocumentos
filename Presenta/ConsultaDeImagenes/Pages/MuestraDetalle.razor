@@ -1,0 +1,43 @@
+﻿@page "/MuestraDetalle/{RecordId}"
+@using ConsultaDeImagenes.Data;
+@using ConsultaDeImagenes.Services;
+@inject MyDataService myDataService
+@inject NavigationManager NavigationManager
+
+@if (selectedResult != null && !muestraRegistros)
+{
+    <div>
+        <h3>Detalle:</h3>
+        <p>@selectedResult.Description</p>
+    </div>
+}
+
+@code {
+    [Parameter]
+    public int RecordId { get; set; }
+
+    private string searchKey;
+    private bool muestraRegistros;
+    private List<MyRecord> searchResults;
+    private MyRecord selectedResult;
+
+    private void ShowDetail(int recordId)
+    {
+        // Busca el registro seleccionado por el usuario utilizando su ID
+        selectedResult = myDataService.GetRecordById(recordId);
+        if (muestraRegistros)
+        {
+            muestraRegistros = false;            
+        }
+
+    }
+
+    protected override void OnInitialized()
+    {
+        int recordId = this.RecordId;
+        if (recordId != 0)
+        {
+            ShowDetail(recordId);
+        }
+    }
+}

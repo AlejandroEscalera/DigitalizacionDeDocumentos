@@ -1,0 +1,86 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <SupportedOSPlatformVersion>7.0</SupportedOSPlatformVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="bin\Debug\net6.0-windows\Libs\**" />
+    <EmbeddedResource Remove="bin\Debug\net6.0-windows\Libs\**" />
+    <None Remove="bin\Debug\net6.0-windows\Libs\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CefSharp.Common.NETCore" Version="111.2.70" />
+    <PackageReference Include="CefSharp.WinForms.NETCore" Version="111.2.70" />
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.1.0" />
+    <PackageReference Include="EPPlus" Version="6.2.1" />
+    <PackageReference Include="EPPlus.Interfaces" Version="6.1.1" />
+    <PackageReference Include="EPPlus.System.Drawing" Version="6.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
+    <PackageReference Include="Serilog" Version="2.12.0" />
+    <PackageReference Include="Serilog.Extensions.Hosting" Version="5.0.1" />
+    <PackageReference Include="Serilog.Settings.Configuration" Version="3.4.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="4.1.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+    <PackageReference Include="Serilog.Sinks.Observable" Version="2.0.2" />
+    <PackageReference Include="System.IO.Packaging" Version="7.0.0" />
+    <PackageReference Include="System.Reactive" Version="5.0.0" />
+    <PackageReference Include="TinyCsvParser" Version="2.7.0" />
+    <PackageReference Include="WinForms.DataVisualization" Version="1.8.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Dominio\gob.fnd.Dominio.Digitalizacion.Excel\gob.fnd.Dominio.Digitalizacion.Excel.csproj" />
+    <ProjectReference Include="..\..\Dominio\gob.fnd.Dominio.Digitalizacion.Negocio.CargaCsv\gob.fnd.Dominio.Digitalizacion.Negocio.CargaCsv.csproj" />
+    <ProjectReference Include="..\..\Dominio\gob.fnd.Dominio.Digitalizacion.Negocio.Ocr\gob.fnd.Dominio.Digitalizacion.Negocio.Ocr.csproj" />
+    <ProjectReference Include="..\..\Dominio\gob.fnd.Dominio.Digitalizacion.Negocio.Procesa\gob.fnd.Dominio.Digitalizacion.Negocio.Procesa.csproj" />
+    <ProjectReference Include="..\..\Dominio\gob.fnd.Dominio.Digitalizacion.Negocio\gob.fnd.Dominio.Digitalizacion.Negocio.csproj" />
+    <ProjectReference Include="..\..\Dominio\gob.fnd.Dominio.Digitalizacion\gob.fnd.Dominio.Digitalizacion.csproj" />
+    <ProjectReference Include="..\..\Infra\Jaec.Helper\Jaec.Helper.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appSettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="chromiumembeddedframework.runtime.win-arm64" Version="111.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="chromiumembeddedframework.runtime.win-x64" Version="111.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="chromiumembeddedframework.runtime.win-x86" Version="111.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Debug\net6.0-windows\" />
+    <Folder Include="Properties\PublishProfiles\" />
+  </ItemGroup>
+
+</Project>

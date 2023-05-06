@@ -1,0 +1,40 @@
+.template-gobmx .section-intro {
+    position: relative;
+    /*background: transparent url( 'https://framework-gb.cdn.gob.mx/templates/imssdigital/bg-imss-header.jpg' ) no-repeat center center;*/
+    background-size: cover;
+    padding: 60px 0 82px;
+    color: white;
+    min-height: 500px; 
+}
+
+.template-gobmx .section-intro.banner {
+
+}
+
+.template-gobmx .section-intro__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.template-gobmx .section-intro__video .intro-video-play {
+    content: '';
+    display: block;
+    width: 6em;
+    height: 6em;
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    background: transparent url( 'https://framework-gb.cdn.gob.mx/templates/imssdigital/ico-play-sec.svg' ) no-repeat center center;
+    background-size: cover;
+    margin-left: -25px;
+    opacity: 0.6;
+    transition: opacity 200ms;
+    cursor: pointer;
+    z-index: 10;
+}
+.template-gobmx .section-intro__video .intro-video-play:hover {
+    opacity: 1;
+    transition: opacity 200ms;
+}

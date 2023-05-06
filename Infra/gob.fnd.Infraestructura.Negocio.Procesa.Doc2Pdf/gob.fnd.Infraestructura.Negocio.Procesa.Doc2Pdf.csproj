@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GemBox.Document" Version="35.0.1300" />
+    <PackageReference Include="itext7" Version="7.2.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Dominio\gob.fnd.Dominio.Digitalizacion.Negocio.Procesa\gob.fnd.Dominio.Digitalizacion.Negocio.Procesa.csproj" />
+    <ProjectReference Include="..\..\Dominio\gob.fnd.Dominio.Digitalizacion\gob.fnd.Dominio.Digitalizacion.csproj" />
+    <ProjectReference Include="..\Jaec.Helper\Jaec.Helper.csproj" />
+  </ItemGroup>
+
+</Project>
