@@ -60,12 +60,6 @@ En este caso Polyform Noncommercial License
 [GemBox.Document] por GemBox, licencia (https://www.nuget.org/packages/GemBox.Document/35.0.1300/license)
 En este caso "Free Version" (con su limitación de uso)
 
-[IronOcr] por Iron Software, licencia (https://ironsoftware.com/csharp/ocr/licensing/?utm_source=developer-ide&utm_medium=nuget-package-manager#license-terms-modal-tabs-eula)
-En este caso se usó el trial, no entró como producción la implementación del OCR, pero se incluye como ejemplo y caso de uso para futuras referencias y desarrollos.
-
-[IronOcr.Languages.Spanish] por Iron Software, licencia (https://ironsoftware.com/csharp/ocr/licensing/#eula-modal)
-En este caso se usó el trial, no entró como producción la implementación del OCR, pero se incluye como ejemplo y caso de uso para futuras referencias y desarrollos.
-
 [itext7] por iText Software, licencia (https://www.gnu.org/licenses/agpl-3.0.html)
 En este caso no se usó para un portal de internet, y se incluyen los fuentes para dar cumplimiento
 
@@ -111,16 +105,31 @@ En este caso no se alteran los derechos relacionados de los productos de Microso
 
 [Serilog.Sinks.Console] por Serilog Contributors, licencia (https://licenses.nuget.org/Apache-2.0)
 
+[Serilog.Sinks.File] por Serilog Contributors, licencia (https://licenses.nuget.org/Apache-2.0)
 
+[Serilog.Sinks.Observable] por Serilog Contributors, licencia (https://licenses.nuget.org/Apache-2.0)
 
+[Sewer56.Update.Extractors.SevenZipSharp] por Sewer56, licencia (https://licenses.nuget.org/LGPL-3.0-or-later)
 
+[SharpZipLib] por ICSharpCode, licencia MIT - (https://github.com/icsharpcode/SharpZipLib/blob/master/LICENSE.txt)
 
+[System.Configuration.ConfigurationManager] por Microsoft, licencia (https://licenses.nuget.org/MIT)
 
+[System.Drawing.Common] por Microsoft, licencia (https://licenses.nuget.org/MIT)
 
+[System.IO.Packaging] por Microsoft, licencia (https://licenses.nuget.org/MIT)
 
+[System.Reactive] por .NET Foundation and Contributors, licencia MIT (https://github.com/dotnet/reactive/blob/main/LICENSE)
 
+[System.Text.Encoding.CodePages] por Microsoft, licencia (https://licenses.nuget.org/MIT)
 
+[TinyCsvParser] por Philipp Wagner, licencia (https://licenses.nuget.org/MIT)
 
+[WinForms.DataVisualization] por Microsoft, Kirsan and contributers, licencia (https://github.com/kirsan31/winforms-datavisualization/blob/dev/LICENSE.TXT)
 
+# Paquetes privados
+[IronOcr] por Iron Software, licencia (https://ironsoftware.com/csharp/ocr/licensing/?utm_source=developer-ide&utm_medium=nuget-package-manager#license-terms-modal-tabs-eula)
+En este caso se usó el trial, no entró como producción la implementación del OCR, siempre se ejecutó como desarrollo, pero se incluye como ejemplo y caso de uso para futuras referencias y desarrollos.
 
-
+[IronOcr.Languages.Spanish] por Iron Software, licencia (https://ironsoftware.com/csharp/ocr/licensing/#eula-modal)
+En este caso se usó el trial, no entró como producción la implementación del OCR, siempre se ejecutó como desarrollo, pero se incluye como ejemplo y caso de uso para futuras referencias y desarrollos.
