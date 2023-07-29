@@ -23,5 +23,6 @@ namespace gob.fnd.Dominio.Digitalizacion.Entidades.Consultas.ReporteFinal
         public bool EsOrigenDelDr { get; set; }
         public bool TieneImagenDirecta { get; set; }
         public bool TieneImagenIndirecta { get; set; }
+        public bool TieneImagenExpediente { get; set; }
     }
 }

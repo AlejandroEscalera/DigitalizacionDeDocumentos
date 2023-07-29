@@ -14,5 +14,11 @@ namespace gob.fnd.Dominio.Digitalizacion.Excel.Config
         /// </summary>
         /// <returns>Lista de correos por agencia</returns>
         IEnumerable<CorreosAgencia> ObtieneTodosLosCorreosYAgentes();
+
+        /// <summary>
+        /// Obtiene una lista de Agencias, Agentes, Guarda Valores y sus correos.
+        /// </summary>
+        /// <returns>Lista de correos por agencia</returns>
+        Task<IEnumerable<CorreosAgencia>> ObtieneTodosLosCorreosYAgentesAsync();
     }
 }

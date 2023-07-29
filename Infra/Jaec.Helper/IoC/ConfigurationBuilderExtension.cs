@@ -14,8 +14,8 @@ namespace Jaec.Helper.IoC
         /// <param name="builder">Patrón que realizará la construcción de objetos dentro del aplicativo</param>
         public static IConfiguration BuildConfig(this ConfigurationBuilder builder) {
             builder.SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
-                .AddJsonFile($"appsettings.{Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") ?? "Production"}.json", optional: true).
+                .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+                .AddJsonFile($"appsettings.{Environment.GetEnvironmentVariable("DOTNET_ENVIRONMENT") ?? "Production"}.json", optional: false).
                 AddEnvironmentVariables();
             return builder.Build();
         }

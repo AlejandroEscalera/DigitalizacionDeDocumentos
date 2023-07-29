@@ -191,6 +191,8 @@ public partial class MainFRM
     }
     protected void BtnECRSiguiente(object sender, EventArgs e)
     {
+        if (_estoyPintandoDatos)
+            return;
         if (_expCasRegionSeleccionada != 0)
         {
             if (_windowsFormsGloablInformation is not null && _infoExpedientes is not null )
@@ -216,6 +218,9 @@ public partial class MainFRM
 
     protected void BtnECASiguiente(object sender, EventArgs e)
     {
+        if (_estoyPintandoDatos)
+            return;
+
         if (_expCasAgenciaSeleccionada != 0)
         {
             if (_windowsFormsGloablInformation is not null && _infoExpedientes is not null)
@@ -242,6 +247,9 @@ public partial class MainFRM
 
     protected void BtnECAAnterior(object sender, EventArgs e)
     {
+        if (_estoyPintandoDatos)
+            return;
+
         canNavigate = true;
         _estoyPintandoDatos = true;
         try
@@ -257,6 +265,9 @@ public partial class MainFRM
 
     protected void BtnECEAnterior(object sender, EventArgs e)
     {
+        if (_estoyPintandoDatos)
+            return;
+
         canNavigate = true;
         _estoyPintandoDatos = true;
         try

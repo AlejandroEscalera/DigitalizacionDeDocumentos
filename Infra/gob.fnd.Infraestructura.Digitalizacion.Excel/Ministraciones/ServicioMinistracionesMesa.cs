@@ -142,6 +142,88 @@ namespace gob.fnd.Infraestructura.Digitalizacion.Excel.Ministraciones
             return resultado.OrderBy(x=>x.NumCredito).Select(y=>y).ToList();
         }
 
+        public async Task<IEnumerable<MinistracionesMesa>> GetMinistracionesAsync()
+        {
+            OfficeOpenXml.ExcelPackage.LicenseContext = OfficeOpenXml.LicenseContext.NonCommercial;
+            IList<MinistracionesMesa> resultado = new List<MinistracionesMesa>();
+            if (!File.Exists(_archivoMinistracionesMesa))
+            {
+                _logger.LogError("No se encontró el Archivo de Ministraciones de la Mesa a procesar\n{archivoMinistracionesMesa}", _archivoMinistracionesMesa);
+                return resultado;
+            }
+
+            #region Abrimos el excel de ABSaldos y Extraemos la información de todos los campos
+            FileStream fs = new(_archivoMinistracionesMesa, FileMode.Open, FileAccess.Read, FileShare.Read);
+            using (var package = new ExcelPackage())
+            {
+                await package.LoadAsync(fs);
+                if (package.Workbook.Worksheets.Count == 0)
+                    return resultado;
+                var hoja = await Task.Run(() => { return package.Workbook.Worksheets[0]; });
+                ObtieneValoresCampos(hoja);
+                int row = 2;
+                bool salDelCiclo = false;
+                await Task.Run(() =>
+                {
+                    while (!salDelCiclo)
+                    {
+                        var obj = new MinistracionesMesa();
+                        var celda = hoja.Cells[row, iAnalista];
+                        obj.Analista = FNDExcelHelper.GetCellString(celda);
+                        if (string.IsNullOrEmpty(obj.Analista))
+                        {
+                            salDelCiclo = true;
+                            //break;
+                        }
+                        else
+                        {
+                            obj.Id = row - 1;
+                            celda = hoja.Cells[row, iNumCredito];
+                            obj.NumCredito = FNDExcelHelper.GetCellString(celda);
+                            celda = hoja.Cells[row, iNumMinistracion];
+                            obj.NumMinistracion = FNDExcelHelper.GetCellInt(celda);
+                            celda = hoja.Cells[row, iNumSolicitud];
+                            obj.NumSolicitud = FNDExcelHelper.GetCellInt(celda);
+                            celda = hoja.Cells[row, iStaSolicitud];
+                            obj.StaSolicitud = FNDExcelHelper.GetCellString(celda);
+                            celda = hoja.Cells[row, iFechaInicio];
+                            obj.FechaInicio = FNDExcelHelper.GetCellDateTime(celda);
+                            celda = hoja.Cells[row, iDescripcion];
+                            obj.Descripcion = FNDExcelHelper.GetCellString(celda);
+                            celda = hoja.Cells[row, iMontoOtorgado];
+                            obj.MontoOtorgado = Convert.ToDecimal(FNDExcelHelper.GetCellDouble(celda));
+                            celda = hoja.Cells[row, iFechaAsignacion];
+                            obj.FechaAsignacion = FNDExcelHelper.GetCellDateTime(celda);
+                            celda = hoja.Cells[row, iAcreditado];
+                            obj.Acreditado = FNDExcelHelper.GetCellString(celda);
+                            celda = hoja.Cells[row, iRegional];
+                            obj.Regional = FNDExcelHelper.GetCellInt(celda);
+                            celda = hoja.Cells[row, iSucursal];
+                            obj.Sucursal = FNDExcelHelper.GetCellInt(celda);
+                            celda = hoja.Cells[row, iAgencia];
+                            obj.CatAgencia = FNDExcelHelper.GetCellString(celda);
+                            obj.EsOrigenDelDoctor = (obj.FechaInicio >= _periodoDelDoctor);
+                            obj.EsSolicitudDoctor = (obj.FechaInicio >= _periodoDelDoctor);
+                            if (!string.IsNullOrEmpty(obj.NumCredito) && (obj.NumCredito.Length > 17))
+                            {
+                                string tratamiento = obj.NumCredito.Substring(3, 1);
+                                obj.EsTratamiento = tratamiento.Equals("8");
+                            }
+                        }
+
+                        if (!salDelCiclo)
+                        {
+                            resultado.Add(obj);
+                        }
+                        row++;
+                    }
+                });
+            }
+            #endregion
+
+            return resultado.OrderBy(x => x.NumCredito).Select(y => y).ToList();
+        }
+
         private void ObtieneValoresCampos(ExcelWorksheet hoja)
         {
             iAnalista = BuscaCelda(hoja, iAnalista, C_STR_ANALISTA);

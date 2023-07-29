@@ -16,6 +16,7 @@ namespace AppConsultaImagen
         public SpashScreenFRM()
         {
             InitializeComponent();
+            Text = "Splash Screen";
             timer1.Start();
         }
 

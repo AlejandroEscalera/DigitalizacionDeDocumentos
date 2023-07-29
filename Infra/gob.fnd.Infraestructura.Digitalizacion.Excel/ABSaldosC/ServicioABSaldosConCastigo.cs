@@ -814,5 +814,217 @@ namespace gob.fnd.Infraestructura.Digitalizacion.Excel.ABSaldosC
 
             return lista;
         }
+
+        public async Task<IEnumerable<ABSaldosConCastigo>> ObtieneABSaldosConCastigoProcesadosAsync()
+        {
+            string archivoOrigen = _archivoSaldosConCastigoProcesado;
+
+            OfficeOpenXml.ExcelPackage.LicenseContext = OfficeOpenXml.LicenseContext.NonCommercial;
+            //DateTime fechaFiltro = _obtieneCatalogoProductos.ObtieneFechaFiltro() ?? (new DateTime(2020, 7, 1));
+
+            bool resultado = false;
+            if (!File.Exists(archivoOrigen))
+            {
+                _logger.LogError("No se encontró el Archivo de AB Saldos ya procesados\n{archivoABSaldos} con Castigos", archivoOrigen);
+                return new List<ABSaldosConCastigo>();
+            }
+            _logger.LogWarning("Cargando el archivo ABSaldos\n{archivoABSaldos} con Castigos", archivoOrigen);
+            IList<ABSaldosConCastigo> lista = new List<ABSaldosConCastigo>();
+            //var filtro = _obtieneCatalogoProductos.ObtieneListaAFiltrar();
+            //IEnumerable<string> numerosDeProducto = ObtieneArregloDeNumerosDeProducto(filtro);
+            #region Abrimos el excel de ABSaldos y Extraemos la información de todos los campos
+            FileStream fs = new(archivoOrigen, FileMode.Open, FileAccess.Read);
+            using (var package = new ExcelPackage())
+            {
+                await package.LoadAsync(fs);
+                if (package.Workbook.Worksheets.Count == 0)
+                    return lista;
+                var hoja = package.Workbook.Worksheets[0];
+                //ObtieneValoresCampos(hoja);
+                int row = 2;
+                await Task.Run(() => { 
+                    while (!resultado)
+                    {
+                        var obj = new ABSaldosConCastigo();
+
+                        int col = 1;
+                        var celda = hoja.Cells[row, col];
+                        obj.CatRegion = FNDExcelHelper.GetCellString(celda);
+                        col++;
+                        if (string.IsNullOrEmpty(obj.CatRegion))
+                            break;
+
+                        celda = hoja.Cells[row, col];
+                        obj.Sucursal = FNDExcelHelper.GetCellDouble(celda);
+                        col++;
+
+                        celda = hoja.Cells[row, col];
+                        obj.CatSucursal = FNDExcelHelper.GetCellString(celda);
+                        col++;
+
+                        celda = hoja.Cells[row, col];
+                        obj.NumeroCliente = FNDExcelHelper.GetCellString(celda);
+                        col++;
+
+                        celda = hoja.Cells[row, col];
+                        obj.Acreditado = FNDExcelHelper.GetCellString(celda);
+                        col++;
+
+                        celda = hoja.Cells[row, col];
+                        obj.NumCredito = FNDExcelHelper.GetCellString(celda);
+                        col++;
+
+                        celda = hoja.Cells[row, col];
+                        obj.EsTratamiento = Condiciones.ObtieneEsTratamiento(FNDExcelHelper.GetCellString(celda)) ?? false;
+                        col++;
+
+                        celda = hoja.Cells[row, col];
+                        obj.NumeroAperturaCredito = FNDExcelHelper.GetCellString(celda);
+                        col++;
+
+                        celda = hoja.Cells[row, col];
+                        obj.FechaApertura = FNDExcelHelper.GetCellDateTime(celda);
+                        col++;
+
+                        celda = hoja.Cells[row, col];
+                        obj.FechaVencimiento = FNDExcelHelper.GetCellDateTime(celda);
+                        col++;
+
+                        celda = hoja.Cells[row, col];
+                        obj.FechaMinistra = FNDExcelHelper.GetCellDateTime(celda);
+                        col++;
+
+                        celda = hoja.Cells[row, col];
+                        obj.MontoCredito = FNDExcelHelper.GetCellDecimal(celda);
+                        col++;
+
+                        celda = hoja.Cells[row, col];
+                        obj.InteresCont = FNDExcelHelper.GetCellDecimal(celda);
+                        col++;
+
+                        celda = hoja.Cells[row, col];
+                        obj.Agente = FNDExcelHelper.GetCellString(celda);
+                        col++;
+
+                        celda = hoja.Cells[row, col];
+                        obj.GuardaValores = FNDExcelHelper.GetCellString(celda);
+                        col++;
+
+                        celda = hoja.Cells[row, col];
+                        obj.NombreEjecutivo = FNDExcelHelper.GetCellString(celda);
+                        col++;
+
+                        celda = hoja.Cells[row, col];
+                        obj.NumProducto = FNDExcelHelper.GetCellString(celda);
+                        col++;
+
+                        celda = hoja.Cells[row, col];
+                        obj.TipoDeCredito = FNDExcelHelper.GetCellString(celda);
+                        col++;
+
+                        celda = hoja.Cells[row, col];
+                        obj.CatProducto = FNDExcelHelper.GetCellString(celda);
+                        col++;
+
+                        celda = hoja.Cells[row, col];
+                        obj.Castigo = Condiciones.RegresaObtieneCastigo(FNDExcelHelper.GetCellString(celda));
+                        col++;
+
+                        celda = hoja.Cells[row, col];
+                        obj.EsCarteraActiva = Condiciones.ObtieneEstaEnABSaldosActivo(FNDExcelHelper.GetCellString(celda)) ?? false;
+                        col++;
+
+                        celda = hoja.Cells[row, col];
+                        obj.EsOrigenDelDoctor = Condiciones.RegresaEsPeriodoDelDr(FNDExcelHelper.GetCellString(celda)) ?? false;
+                        col++;
+
+                        celda = hoja.Cells[row, col];
+                        obj.EsCancelacionDelDoctor = Condiciones.RegresaEsPeriodoDelDr(FNDExcelHelper.GetCellString(celda)) ?? false;
+                        col++;
+
+                        celda = hoja.Cells[row, col];
+                        obj.ExpedienteDigital = Condiciones.ObtieneTieneExpedienteDigital(FNDExcelHelper.GetCellString(celda)) ?? false;
+                        col++;
+
+                        celda = hoja.Cells[row, col];
+                        obj.NoPDF = FNDExcelHelper.GetCellInt(celda);
+                        col++;
+
+                        celda = hoja.Cells[row, col];
+                        obj.CuentaConGuardaValores = Condiciones.ObtieneTieneGuardaValores(FNDExcelHelper.GetCellString(celda)) ?? false;
+                        col++;
+
+                        celda = hoja.Cells[row, col];
+                        obj.TipoCartera = FNDExcelHelper.GetCellString(celda);
+                        col++;
+
+                        celda = hoja.Cells[row, col];
+                        obj.MontoMinistraCap = FNDExcelHelper.GetCellDecimal(celda);
+                        col++;
+
+                        celda = hoja.Cells[row, col];
+                        obj.NumCreditoOriginal = FNDExcelHelper.GetCellString(celda);
+                        col++;
+
+                        celda = hoja.Cells[row, col];
+                        obj.SesionDeAutorizacion = FNDExcelHelper.GetCellString(celda);
+                        col++;
+
+                        celda = hoja.Cells[row, col];
+                        obj.MesCastigo = FNDExcelHelper.GetCellString(celda);
+                        col++;
+
+                        celda = hoja.Cells[row, col];
+                        obj.AnioCastigo = FNDExcelHelper.GetCellInt(celda);
+                        col++;
+
+                        celda = hoja.Cells[row, col];
+                        obj.Generacion = FNDExcelHelper.GetCellString(celda);
+                        col++;
+
+                        celda = hoja.Cells[row, col];
+                        obj.FechaCancelacion = FNDExcelHelper.GetCellDateTime(celda);
+                        col++;
+
+                        celda = hoja.Cells[row, col];
+                        obj.AnioOriginacion = FNDExcelHelper.GetCellInt(celda);
+                        col++;
+
+                        celda = hoja.Cells[row, col];
+                        obj.EstaEnCreditosCancelados = Condiciones.ObtieneEstaEnCancelado(FNDExcelHelper.GetCellString(celda)) ?? false;
+                        col++;
+
+                        celda = hoja.Cells[row, col];
+                        obj.NumeroMinistracion = FNDExcelHelper.GetCellInt(celda);
+                        col++;
+
+                        celda = hoja.Cells[row, col];
+                        obj.FechaInicioMinistracion = FNDExcelHelper.GetCellDateTime(celda);
+                        col++;
+
+                        celda = hoja.Cells[row, col];
+                        obj.ClasificacionMesa = FNDExcelHelper.GetCellString(celda);
+                        col++;
+
+                        celda = hoja.Cells[row, col];
+                        obj.FechaDeSolicitud = FNDExcelHelper.GetCellDateTime(celda);
+                        col++;
+
+                        celda = hoja.Cells[row, col];
+                        obj.MontoOtorgado = FNDExcelHelper.GetCellDecimal(celda);
+                        // col++;
+
+                        lista.Add(obj);
+                        row++;
+
+                    }
+                });
+            }
+            #endregion
+
+            // throw new NotImplementedException();
+
+            return lista;
+        }
     }
 }

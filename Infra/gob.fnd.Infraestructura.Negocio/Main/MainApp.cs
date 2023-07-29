@@ -17,12 +17,12 @@ using gob.fnd.Dominio.Digitalizacion.Excel;
 using gob.fnd.Dominio.Digitalizacion.Excel.Cancelados;
 using gob.fnd.Dominio.Digitalizacion.Excel.Ministraciones;
 using gob.fnd.Dominio.Digitalizacion.Entidades.Imagenes;
+using gob.fnd.Dominio.Digitalizacion.Entidades.ABSaldos;
 
 namespace gob.fnd.Infraestructura.Negocio.Main
 {
     public class MainApp : IMainControlApp
     {
-
         private readonly ILogger<MainApp> _logger;
         private readonly IConfiguration _configuration;
         private readonly IObtieneCatalogoProductos _obtieneCatalogoProductos;
@@ -43,8 +43,6 @@ namespace gob.fnd.Infraestructura.Negocio.Main
         private readonly bool _soloCargaImagenesProcesadas;
         private readonly bool _seRealizaArqueo;
         private readonly string _archivoSaldosConCastigoProcesados;
-
-        // private readonly IObtieneParametrosCarta _parametros;
 
         public MainApp(ILogger<MainApp> logger,
             IConfiguration configuration,
@@ -91,11 +89,11 @@ namespace gob.fnd.Infraestructura.Negocio.Main
             //             _parametros = parametros;
         }
 
-        public void Run()
+        private async Task MetodoNormal()
         {
-
             // Aqui comienza la aplicación
             _logger.LogWarning("Inicio el proceso: {fecha} {hora}", DateTime.Now.ToLongDateString(), DateTime.Now.ToLongTimeString());
+
 
             #region Obtengo el Catalogo de productos
             var productos = _obtieneCatalogoProductos.ObtieneElCatalogoDelProducto();
@@ -103,7 +101,8 @@ namespace gob.fnd.Infraestructura.Negocio.Main
             #endregion
 
             #region Obtengo los ABSaldos de las regionales
-            var saldoRegionales = _servicioABSaldosRegionales.CargaProcesaYLimpia();
+            IEnumerable<ABSaldosRegionales> saldoRegionales = await _servicioABSaldosRegionales.CargaProcesaYLimpia();
+
             _logger.LogInformation("La cantidad de archivos de saldos regionales son {cantidadArchivosRegionales}", saldoRegionales.Count());
             #endregion
 
@@ -179,7 +178,8 @@ namespace gob.fnd.Infraestructura.Negocio.Main
                 imagenesExps = _servicioImagenes.ObtieneInformacionDeTodosLosArchivosDeImagen(imagenesExceles, true);
                 _logger.LogInformation("Se encontraron las siguientes imagenes de exceles {imagenesExpedientes}", (imagenesExps.Count() - imagenesExceles.Count()) + 1);
             }
-            else {
+            else
+            {
                 imagenesExps = _servicioImagenes.CargaImagenesTratadas();
                 _logger.LogInformation("Se cargaron {totalImagenes} imagenes", imagenesExps.Count());
             }
@@ -192,7 +192,7 @@ namespace gob.fnd.Infraestructura.Negocio.Main
             _cruceInformacion.CruzaInformacionSaldosRegionalesSaldosConCastigo(ref saldoRegionales, ref saldosConCastigo);
             _logger.LogInformation("Termino de cruzar Saldos Regionales vs Saldos con Castigo (Contables)!");
 
-            
+
 
 
             _cruceInformacion.CruzaInformacionSaldosActivosCreditosCancelados(ref saldosActivos, ref creditosCancelados);
@@ -224,7 +224,7 @@ namespace gob.fnd.Infraestructura.Negocio.Main
                 _cruceInformacion.CruzaInformacionAbSaldosImagenes(ref saldosActivos, ref imagenesExps);
             if (!_registraTodasLasImagenes || _soloCargaImagenesProcesadas)
                 _cruceInformacion.CruzaInformacionAbSaldosCorporativoImagenes(ref saldosConCastigo, ref imagenesExps);
-            if (detalleGuardaValores is not null) 
+            if (detalleGuardaValores is not null)
             {
                 _cruceInformacion.CruzaInformacionMinistracionesGuardaValores(ref ministracionesMesa, ref detalleGuardaValores);
                 if (!_registraTodasLasImagenes || _soloCargaImagenesProcesadas)
@@ -280,6 +280,12 @@ namespace gob.fnd.Infraestructura.Negocio.Main
 
             _logger.LogWarning("Finalizó correctamente la generación de informacion: {dia} {hora}", DateTime.Now.ToLongDateString(), DateTime.Now.ToLongTimeString());
             return;
+
+        }
+
+        public void Run()
+        {
+            MetodoNormal().Wait();
         }
 
     }

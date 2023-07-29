@@ -29,6 +29,7 @@ public class ServicioDirToXls : IServicioDirToXls
     private readonly string _archivoComplementoImagenes;
     private readonly string _archivoComplementoImagenesSegundaParte;
     private readonly string _archivoOrigenImagenesBienesAdjudicados;
+    private readonly string _archivoOrigenCreditosLiquidados;
 
     public ServicioDirToXls(ILogger<ServicioDirToXls> logger, IConfiguration configuration)
     {
@@ -42,6 +43,7 @@ public class ServicioDirToXls : IServicioDirToXls
         _carpetaRaizComplementos = "D:\\OD\\OneDrive - FND\\Documentos - Expedientes de Cartera de Crédito";
         _registraTodasLasImagenes = true;  (_configuration.GetValue<string>("registraTodasLasImagenes") ?? "").Equals("Si");
         _archivoOrigenImagenesBienesAdjudicados = _configuration.GetValue<string>("archivoOrigenImagenesBienesAdjudicados") ??"";
+        _archivoOrigenCreditosLiquidados = _configuration.GetValue<string>("archivoOrigenCreditosLiquidados") ?? "";
     }
 
     public IEnumerable<ArchivosImagenes> ObtieneImagenesComplementarias(string directorio = "", int consecutivo = 0)
@@ -229,6 +231,133 @@ public class ServicioDirToXls : IServicioDirToXls
 
     }
 
+    public IEnumerable<ArchivosImagenes> ObtieneImagenesComplementariasTerceraParte(string archivoImagenesComplementarias = "", int consecutivo = 0)
+    {
+        IList<ArchivosImagenes> resultado = new List<ArchivosImagenes>();
+        OfficeOpenXml.ExcelPackage.LicenseContext = OfficeOpenXml.LicenseContext.NonCommercial;
+        if (archivoImagenesComplementarias == "")
+        {
+            archivoImagenesComplementarias = _archivoComplementoImagenesSegundaParte;
+        }
+        if (!File.Exists(archivoImagenesComplementarias))
+        {
+            _logger.LogError("No encontró el archivo maestro de la información del respaldo 3 {archivoRespaldo3}", archivoImagenesComplementarias);
+            return resultado;
+        }
+        int threadId = 104;
+        int job = 1;
+        int item = 1;
+        int id = consecutivo;
+        FileStream fs = new(archivoImagenesComplementarias, FileMode.Open, FileAccess.Read);
+        using var package = new ExcelPackage();
+        package.Load(fs);
+        StringBuilder stringBuilder = new();
+        ExcelWorksheet? hoja = package.Workbook.Worksheets.FirstOrDefault();
+        if (hoja != null)
+        {
+            int renglon = 2;
+            string celdaFullName = "Comienza";
+            while (!string.IsNullOrEmpty(celdaFullName))
+            {
+                celdaFullName = hoja.Cells[renglon, 1].Text ?? "";
+                if (!string.IsNullOrEmpty(celdaFullName))
+                {
+                    string rutaCorta = string.Empty;
+                    if (celdaFullName.Contains(_carpetaRaizComplementos, StringComparison.InvariantCultureIgnoreCase))
+                        rutaCorta = celdaFullName.Replace(_carpetaRaizComplementos, "");
+                    else
+                        rutaCorta = celdaFullName.Replace("Y:\\", "");
+                    ArchivosImagenes archivo = new()
+                    {
+                        Id = id,
+                        ArchivoOrigen = "Complementos 001",
+                        TamanioArchivo = 0,
+                        FechaDeModificacion = DateTime.Now,
+                        NombreArchivo = Path.GetFileName(celdaFullName).Trim(),
+                        RutaDeGuardado = (Path.GetDirectoryName(rutaCorta) ?? "").Trim(),
+                        UsuarioDeModificacion = "",
+                        NumCredito = Condiciones.ObtieneNumCredito(Condiciones.LimpiaNoNumeros(Path.GetFileName(celdaFullName))),
+                        UrlArchivo = celdaFullName,
+                        Extension = new FileInfo(Path.GetFileName(celdaFullName).Trim()).Extension,
+                        CarpetaDestino = "F:\\11\\UE\\" + (Path.GetDirectoryName(rutaCorta) ?? "").Trim(),
+                        ThreadId = threadId,
+                        Job = job
+                    };
+
+                    #region Reemplazo el número de credito por el de la carpeta (si aplica)
+                    if (Condiciones.QuitaCastigo(archivo.NumCredito).Equals(Condiciones.C_STR_NULLO))
+                    {
+                        string[] directorios = (Path.GetDirectoryName(rutaCorta) ?? "").Split(Path.DirectorySeparatorChar);
+                        if (directorios is not null && (directorios.Length > 0))
+                        {
+                            string posibleNumeroContrato = (directorios.LastOrDefault() ?? "");
+                            RevisaContratoDirectorio(archivo, posibleNumeroContrato);
+                            // Reviso un directorio antes tambien
+                            if (Condiciones.QuitaCastigo(archivo.NumCredito).Equals(Condiciones.C_STR_NULLO) && directorios.Length > 1)
+                            {
+                                posibleNumeroContrato = directorios[^2];
+                                RevisaContratoDirectorio(archivo, posibleNumeroContrato);
+                            }
+                            if ((archivo.NumCredito ?? "").Equals(Condiciones.C_STR_NULLO))
+                            {
+                                stringBuilder.AppendLine(archivo.UrlArchivo);
+                            }
+                        }
+                    }
+                    #endregion
+                    /// Si aun así el número de crédito es nulo, no lo guardo
+                    if ((!Condiciones.QuitaCastigo(archivo.NumCredito).Equals(Condiciones.C_STR_NULLO)) || _registraTodasLasImagenes)
+                    {
+                        archivo.NumContrato = Condiciones.ObtieneNumContrato(archivo.NumCredito);
+                        archivo.IdSearch = Condiciones.ObtieneNumContrato(archivo.NumCredito)[..14];
+                        resultado.Add(archivo);
+                        id++;
+                    }
+                    else
+                    {
+                        if ((archivo.NumCredito ?? "").Equals(Condiciones.C_STR_NULLO))
+                            _logger.LogInformation("Expediente : {archivo} {ruta}", archivo.NombreArchivo, archivo.RutaDeGuardado);
+                        else
+                            _logger.LogInformation("No se registra!! {ruta} {nombreArchivo}", archivo.UrlArchivo, archivo.NombreArchivo);
+                    }
+                }
+                item++;
+                if (item > 91)
+                {
+                    item = 1;
+                    job++;
+                    if (job > 89)
+                    {
+                        job = 1;
+                        threadId++;
+                    }
+                }
+                renglon++;
+            }
+        }
+        _logger.LogInformation("Se encontraron {cantidadArchivos} en el complemento de imagenes", resultado.Count);
+
+        if (stringBuilder.Length > 0)
+        {
+            _logger.LogInformation("Expedientes sin número de crédito {expedientes}\n", stringBuilder.ToString());
+        }
+        return resultado.ToList(); // resultado.Where(x => !Condiciones.QuitaCastigo(x.NumCredito).Equals(Condiciones.C_STR_NULLO)).ToList();
+
+    }
+
+    private void RevisaContratoDirectorio(ArchivosImagenes archivo, string posibleNumeroContrato)
+    {
+        if (!string.IsNullOrEmpty(posibleNumeroContrato))
+        {
+            archivo.NumCredito = Condiciones.ObtieneNumCredito(posibleNumeroContrato);
+            if ((archivo.NumCredito ?? "").Equals(Condiciones.C_STR_NULLO))
+            {
+                _logger.LogInformation("Expediente : {archivo}", archivo.UrlArchivo);
+            }
+            _logger.LogInformation("Expediente : {numCredito} {archivo}", archivo.NumCredito, archivo.NombreArchivo);
+        }
+    }
+
     public IEnumerable<ArchivosImagenes> ObtieneImagenesDesdeDirectorio(string directorio = "", int consecutivo = 0)
     {
         IList<ArchivosImagenes> resultado = new List<ArchivosImagenes>();
@@ -395,6 +524,83 @@ public class ServicioDirToXls : IServicioDirToXls
             }
         }
         _logger.LogInformation("Se encontraron {cantidadArchivos} en Bienes Adjudicados", resultado.Count);
+        //return resultado.Where(x => !Condiciones.QuitaCastigo(x.NumCredito).Equals(Condiciones.C_STR_NULLO)).ToList();
+        return resultado;
+    }
+
+    public IEnumerable<ArchivosImagenes> ObtieneImagenesCreditosLiquidados(string directorio = "", int consecutivo = 0)
+    {
+        //throw new NotImplementedException();
+        IList<ArchivosImagenes> resultado = new List<ArchivosImagenes>();
+        OfficeOpenXml.ExcelPackage.LicenseContext = OfficeOpenXml.LicenseContext.NonCommercial;
+        if (string.IsNullOrEmpty(directorio))
+        {
+            directorio = _archivoOrigenCreditosLiquidados;
+        }
+
+        if (!File.Exists(directorio))
+        {
+            _logger.LogError("No encontró el archivo con las imagenes de los creditos liquidados {archivoCreditosLiquidados}", directorio);
+            return resultado;
+        }
+        int id = 1;
+        FileStream fs = new(directorio, FileMode.Open, FileAccess.Read);
+        using var package = new ExcelPackage();
+        package.Load(fs);
+        ExcelWorksheet? hoja = package.Workbook.Worksheets.FirstOrDefault();
+
+        if (hoja != null)
+        {
+            int renglon = 2;
+            string celdaFullName = "Comienza";
+            while (!string.IsNullOrEmpty(celdaFullName))
+            {
+                celdaFullName = hoja.Cells[renglon, 1].Text ?? "";
+                if (!string.IsNullOrEmpty(celdaFullName))
+                {
+                    string rutaCorta = celdaFullName.Replace("G:\\14\\lq\\", "");
+                    ArchivosImagenes archivo = new()
+                    {
+                        Id = id,
+                        ArchivoOrigen = "G:\\14\\LQ",
+                        TamanioArchivo = 0,
+                        FechaDeModificacion = DateTime.Now,
+                        NombreArchivo = Path.GetFileName(celdaFullName).Trim(),
+                        RutaDeGuardado = (Path.GetDirectoryName(rutaCorta) ?? "").Trim(),
+                        UsuarioDeModificacion = "",
+                        NumCredito = Condiciones.ObtieneNumCredito(Condiciones.LimpiaNoNumeros(Path.GetFileName(celdaFullName))),
+                        UrlArchivo = celdaFullName,
+                        Extension = new FileInfo(Path.GetFileName(celdaFullName).Trim()).Extension,
+                        CarpetaDestino = "G:\\11\\LQ\\" + (Path.GetDirectoryName(rutaCorta) ?? "").Trim()
+                    };
+
+                    #region Reemplazo el número de credito por el de la carpeta (si aplica)
+                    if (Condiciones.QuitaCastigo(archivo.NumCredito).Equals(Condiciones.C_STR_NULLO))
+                    {
+                        string[] directorios = (Path.GetDirectoryName(rutaCorta) ?? "").Split(Path.DirectorySeparatorChar);
+                        if (directorios is not null && (directorios.Length > 0))
+                        {
+                            string posibleNumeroContrato = (directorios.LastOrDefault() ?? "");
+                            if (!string.IsNullOrEmpty(posibleNumeroContrato))
+                            {
+                                archivo.NumCredito = Condiciones.ObtieneNumCredito(posibleNumeroContrato);
+                                _logger.LogInformation("Expediente : {numCredito} {archivo}", archivo.NumCredito, archivo.NombreArchivo);
+                            }
+                        }
+                    }
+                    #endregion
+                    /// Si aun así el número de crédito es nulo, no lo guardo
+                    if ((!Condiciones.QuitaCastigo(archivo.NumCredito).Equals(Condiciones.C_STR_NULLO)) || _registraTodasLasImagenes)
+                    {
+                        resultado.Add(archivo);
+                        id++;
+                    }
+                }
+                renglon++;
+            }
+        }
+
+        _logger.LogInformation("Se encontraron {cantidadArchivos} de imagenes de Créditos Liquidados", resultado.Count);
         //return resultado.Where(x => !Condiciones.QuitaCastigo(x.NumCredito).Equals(Condiciones.C_STR_NULLO)).ToList();
         return resultado;
     }

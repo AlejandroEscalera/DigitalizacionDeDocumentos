@@ -33,5 +33,10 @@ namespace gob.fnd.Dominio.Digitalizacion.Excel.ABSaldosC
         /// </summary>
         /// <returns>Lista de ABSaldos activos</returns>
         IEnumerable<ABSaldosActivos> ObtieneABSaldosActivosProcesados();
+        /// <summary>
+        /// Obtiene una lista de AB Saldos activos desde el archivo de origen
+        /// </summary>
+        /// <returns>Lista de ABSaldos activos</returns>
+        Task<IEnumerable<ABSaldosActivos>> GetABSaldosActivosAsync();
     }
 }

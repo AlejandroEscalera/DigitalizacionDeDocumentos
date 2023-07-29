@@ -185,13 +185,6 @@ public class WindowsFormsGlobalInformation
                         _consultaServices = (IConsultaServices)ActivatorUtilities.CreateInstance(_host.Services, tipoCarga);
                     }
                 }
-                /*
-                else            
-                {
-                    _consultaServices = (IConsultaServices)ActivatorUtilities.CreateInstance(_host.Services, typeof(gob.fnd.Infraestructura.Negocio.Consultas.ConsultaServices));
-                    // Type? tipoCarga = gob.fnd.Infraestructura.Negocio.Consultas.ConsultaServices.;
-                }
-                */
             }
             if (_consultaServices is null)
             {

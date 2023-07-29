@@ -16,13 +16,17 @@ namespace gob.fnd.Infraestructura.Negocio.Procesa.Image2Pdf
         public IList<string> ConvierteArchivo(string archivo, string directorioDestino)
         {
             IList<string> list = new List<string>();
-            FileInfo fileInfo = new(archivo);
+            //FileInfo fileInfo = new(archivo);
 
             if (!Directory.Exists(directorioDestino))
             {
                 Directory.CreateDirectory(directorioDestino);
             }
-            string archivoSalida = System.IO.Path.Combine(directorioDestino, (fileInfo.Name ?? "").Replace(fileInfo.Extension, "_" + fileInfo.Extension.Replace(".", "")) + " R.pdf");
+
+            string fileNameSpecial = System.IO.Path.GetFileName(directorioDestino + ".texto").Replace(".texto", "");
+
+            // string archivoSalida = System.IO.Path.Combine(directorioDestino, (fileInfo.Name ?? "").Replace(fileInfo.Extension, "_" + fileInfo.Extension.Replace(".", "")) + " R.pdf");
+            string archivoSalida = System.IO.Path.Combine(directorioDestino, fileNameSpecial + ".pdf");
 
             // Crear un objeto ImageData a partir de la imagen
             ImageData imagen = ImageDataFactory.Create(archivo);

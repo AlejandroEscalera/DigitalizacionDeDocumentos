@@ -1,4 +1,5 @@
-﻿using gob.fnd.Dominio.Digitalizacion.Entidades.Cancelados;
+﻿using AppConsultaImagen.Pinta;
+using gob.fnd.Dominio.Digitalizacion.Entidades.Cancelados;
 using gob.fnd.Dominio.Digitalizacion.Entidades.Cancelados.RerporteFinal;
 using gob.fnd.Dominio.Digitalizacion.Entidades.Consultas;
 using gob.fnd.Dominio.Digitalizacion.Entidades.Consultas.ReporteFinal;
@@ -71,6 +72,11 @@ public partial class MainFRM : Form
     {
         regresaTabNavegacion = 2;
         regresaTabReportesFinales = 6;
+        datosRegreso.Push(new NavegacionRetorno()
+        {
+            TabPrincipal = regresaTabNavegacion,
+            TabReporte = regresaTabReportesFinales
+        });
         MuestraImagenRdCancelados();
     }
 
@@ -226,7 +232,7 @@ public partial class MainFRM : Form
             if (agencia != 0 && !string.IsNullOrEmpty(numeroDeCredito))
             {
                 _expCasExpedienteNumCreditoSeleccionado = numeroDeCredito;
-                ExpedienteDeConsulta? expediente = BuscaImagenes(_expCasExpedienteNumCreditoSeleccionado);
+                ExpedienteDeConsultaGv? expediente = BuscaImagenes(_expCasExpedienteNumCreditoSeleccionado);
                 if (expediente is not null && (imagenesEncontradas is not null) && (imagenesEncontradas.Any()))
                 {
                     MuestraExpedienteEnImagen(expediente);

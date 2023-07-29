@@ -15,9 +15,11 @@ namespace gob.fnd.Infraestructura.Negocio.Procesa.Image2Pdf
         public IList<string> ConvierteArchivo(string archivo, string directorioDestino)
         {
             IList<string> list = new List<string>();
-            FileInfo fileInfo = new(archivo);
+            //FileInfo fileInfo = new(archivo);
+            string fileNameSpecial = System.IO.Path.GetFileName(directorioDestino + ".texto").Replace(".texto", "");
 
-            string pdfDestino = System.IO.Path.Combine(directorioDestino, (fileInfo.Name ?? "").Replace(fileInfo.Extension, "_" + fileInfo.Extension.Replace(".", "")) + ".pdf");
+            // string pdfDestino = System.IO.Path.Combine(directorioDestino, (fileInfo.Name ?? "").Replace(fileInfo.Extension, "_" + fileInfo.Extension.Replace(".", "")) + ".pdf");
+            string pdfDestino = System.IO.Path.Combine(directorioDestino, fileNameSpecial + ".pdf");
 
             if (!Directory.Exists(System.IO.Path.GetDirectoryName(pdfDestino) ?? ""))
             {

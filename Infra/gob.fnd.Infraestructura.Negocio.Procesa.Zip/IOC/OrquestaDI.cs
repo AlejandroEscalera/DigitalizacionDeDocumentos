@@ -15,6 +15,7 @@ namespace gob.fnd.Infraestructura.Negocio.Procesa.Zip.IOC
         public void Load(IServiceCollection services)
         {
             services.AddScoped<IDescomprimeArchivoZip, DescomprimeArchivoZipService>();
+            services.AddScoped<IComprimeArchivoZIP, ComprimeArchivoZIPService>();
         }
     }
 }

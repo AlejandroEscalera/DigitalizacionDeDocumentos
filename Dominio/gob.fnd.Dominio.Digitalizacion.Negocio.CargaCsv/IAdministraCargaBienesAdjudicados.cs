@@ -9,6 +9,12 @@ namespace gob.fnd.Dominio.Digitalizacion.Negocio.CargaCsv
 {
     public interface IAdministraCargaBienesAdjudicados
     {
-        IEnumerable<DetalleBienesAdjudicados> CargaBiensAdjudicados(string archivoBienesAdjudicados = "");
+        /// <summary>
+        /// Cargo desde un archivo csv los bienes adjudicados
+        /// </summary>
+        /// <param name="archivoBienesAdjudicados">Nombre del archivo de Bienes adjudicados, en caso de blanco sacar
+        /// del archivo de configuración</param>
+        /// <returns></returns>
+        IEnumerable<DetalleBienesAdjudicados> CargaBienesAdjudicados(string archivoBienesAdjudicados = "");
     }
 }

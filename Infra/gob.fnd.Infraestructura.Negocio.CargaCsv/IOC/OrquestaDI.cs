@@ -22,6 +22,9 @@ namespace gob.fnd.Infraestructura.Negocio.CargaCsv.IOC
             services.AddScoped<IAdministraABSaldosDiario, AdministraABSaldosDiarioService>();
             services.AddScoped<IAdministraCargaCreditosCancelados, AdministraCreditosCanceladosService>();
             services.AddScoped<IAdministraCargaBienesAdjudicados, AdministraBienesAdjudicadosService>();
+            services.AddScoped<IAdministraCargaLiquidaciones, AdministraCargaLiquidacionesService>();
+            services.AddScoped<IAdministraTratamientoBase, AdministraTratamientoBaseService>();
+            services.AddScoped<IAdministraExpedientesJuridicos, AdministraExpedientesJuridicosService>();
         }
     }
 }

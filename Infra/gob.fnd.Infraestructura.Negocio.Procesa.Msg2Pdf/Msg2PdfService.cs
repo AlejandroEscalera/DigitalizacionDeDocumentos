@@ -30,9 +30,11 @@ public class Msg2PdfService : IMsg2Pdf
     public IList<string> ConvierteArchivo(string archivo, string directorioDestino)
     {
         IList<string> list = new List<string>();
-        FileInfo fi = new(archivo);
+        //FileInfo fi = new(archivo);
+        string fileNameSpecial = Path.GetFileName(directorioDestino + ".texto").Replace(".texto","");
 
-        string documentoDestino = System.IO.Path.Combine(directorioDestino, (fi.Name ?? "").Replace(fi.Extension, "_" + fi.Extension.Replace(".", "")) + ".pdf");
+        //string documentoDestino = System.IO.Path.Combine(directorioDestino, (fi.Name ?? "").Replace(fi.Extension, "_" + fi.Extension.Replace(".", "")) + ".pdf");
+        string documentoDestino = System.IO.Path.Combine(directorioDestino, fileNameSpecial + ".pdf");
         if (!Directory.Exists(System.IO.Path.GetDirectoryName(documentoDestino) ?? ""))
         {
             Directory.CreateDirectory(System.IO.Path.GetDirectoryName(documentoDestino) ?? "");
@@ -110,6 +112,10 @@ public class Msg2PdfService : IMsg2Pdf
             using PdfWriter pdfWriter = new(pdfStream);
             PdfDocument pdfDoc = new(pdfWriter);
             Document doc = new(pdfDoc);
+
+            // Cambia la rotación de la página
+            pdfDoc.SetDefaultPageSize(iText.Kernel.Geom.PageSize.LEGAL.Rotate());
+
             doc.Add(new Paragraph("Asunto: " + msgFile.Subject));
             if (msgFile.Headers is not null)
             {
@@ -126,7 +132,7 @@ public class Msg2PdfService : IMsg2Pdf
             }
             doc.Add(new Paragraph("-----------------------------------------------------------------"));
             doc.Add(new Paragraph("Contenido del mensaje:"));
-            doc.Add(new AreaBreak(AreaBreakType.LAST_PAGE)); // Agrega un salto de página
+            //doc.Add(new AreaBreak(AreaBreakType.LAST_PAGE)); // Agrega un salto de página
             doc.Add(new Paragraph(""));
             if (string.IsNullOrEmpty(msgFile.BodyHtml))
             {
@@ -157,6 +163,8 @@ public class Msg2PdfService : IMsg2Pdf
 
                 using PdfWriter pdfWriter = new(pdfStream);
                 PdfDocument pdfDoc = new(pdfWriter);
+                // Cambia la rotación de la página
+                pdfDoc.SetDefaultPageSize(iText.Kernel.Geom.PageSize.LEGAL.Rotate());
                 // Verificar si el mensaje contiene contenido HTML
                 if (!string.IsNullOrEmpty(msgFile.BodyHtml))
                 {

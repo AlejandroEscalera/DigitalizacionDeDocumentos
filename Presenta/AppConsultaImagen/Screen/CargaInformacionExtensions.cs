@@ -12,7 +12,7 @@ namespace AppConsultaImagen
     public partial class MainFRM
     {
         private WindowsFormsGlobalInformation? _windowsFormsGloablInformation;
-        private IEnumerable<ExpedienteDeConsulta>? _infoExpedientes;
+        private IEnumerable<ExpedienteDeConsultaGv>? _infoExpedientes;
         private IEnumerable<ArchivoImagenCorta>? _archivosImagenes;
         //private IEnumerable<ArchivoImagenBienesAdjudicadosCorta>? _archivoImagenBienesAdjudicados;
         private IEnumerable<ExpCasRegiones>? _expCasRegiones;
@@ -84,7 +84,7 @@ namespace AppConsultaImagen
             }
             return nuevoOrigen;
         }
-        public IEnumerable<ExpedienteDeConsulta> BuscaPorNumeroDeCredito(string numeroDeCredito)
+        public IEnumerable<ExpedienteDeConsultaGv> BuscaPorNumeroDeCredito(string numeroDeCredito)
         {
             if (_infoExpedientes is null) {
                 Close();
@@ -114,7 +114,7 @@ namespace AppConsultaImagen
             return resultado;
         }
 
-        public IEnumerable<ExpedienteDeConsulta> BuscaPorAcreditado(string nombreDeAcreditado)
+        public IEnumerable<ExpedienteDeConsultaGv> BuscaPorAcreditado(string nombreDeAcreditado)
         {
             if (_infoExpedientes is null)
             {

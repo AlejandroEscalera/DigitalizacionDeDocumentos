@@ -29,6 +29,7 @@
     <PackageReference Include="Serilog.Sinks.Console" Version="4.1.0" />
     <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
     <PackageReference Include="Serilog.Sinks.Observable" Version="2.0.2" />
+    <PackageReference Include="SharpZipLib" Version="1.4.2" />
     <PackageReference Include="System.IO.Packaging" Version="7.0.0" />
     <PackageReference Include="System.Reactive" Version="5.0.0" />
     <PackageReference Include="TinyCsvParser" Version="2.7.0" />
@@ -61,10 +62,29 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="appSettings.json">
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="appsettings.Debug.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="appsettings.Production.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="appsettings.Debug.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="appsettings.Production.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 
   <ItemGroup>
     <PackageReference Update="chromiumembeddedframework.runtime.win-arm64" Version="111.2.2" />
@@ -82,5 +102,9 @@
     <Folder Include="bin\Debug\net6.0-windows\" />
     <Folder Include="Properties\PublishProfiles\" />
   </ItemGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="call ejemplo.bat &quot;$(ProjectDir)$(OutDir)&quot; &quot;$(Configuration)&quot;" />
+  </Target>
 
 </Project>

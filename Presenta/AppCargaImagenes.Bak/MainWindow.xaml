@@ -1,0 +1,28 @@
+﻿<Window x:Class="AppCargaImagenes.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppCargaImagenes"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" FontSize="20">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="5"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="5"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="5"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Label Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2">Seleccione la carpeta para la carga de archivos liquidados</Label>
+        <TextBlock Grid.Column="1" Grid.Row="2"  Grid.ColumnSpan="2 " x:Name="txtCarpetaDeCarga"></TextBlock>
+        <Button Grid.Column="3" Grid.Row="2" x:Name="btnAceptaCarpetaDeCarga">...</Button>
+    </Grid>
+</Window>

@@ -7,7 +7,10 @@ using gob.fnd.Dominio.Digitalizacion.Excel.Config;
 using gob.fnd.Dominio.Digitalizacion.Excel.DirToXlsx;
 using gob.fnd.Dominio.Digitalizacion.Excel.GuardaValores;
 using gob.fnd.Dominio.Digitalizacion.Excel.Imagenes;
+using gob.fnd.Dominio.Digitalizacion.Excel.Juridico;
+using gob.fnd.Dominio.Digitalizacion.Excel.Liquidaciones;
 using gob.fnd.Dominio.Digitalizacion.Excel.Ministraciones;
+using gob.fnd.Dominio.Digitalizacion.Excel.Tratamientos;
 using gob.fnd.Infraestructura.Digitalizacion.Excel.ABSaldosC;
 using gob.fnd.Infraestructura.Digitalizacion.Excel.Arqueos;
 using gob.fnd.Infraestructura.Digitalizacion.Excel.BienesAdjudicados;
@@ -17,6 +20,8 @@ using gob.fnd.Infraestructura.Digitalizacion.Excel.DirToXlsx;
 using gob.fnd.Infraestructura.Digitalizacion.Excel.Excel;
 using gob.fnd.Infraestructura.Digitalizacion.Excel.GuardaValores;
 using gob.fnd.Infraestructura.Digitalizacion.Excel.Imagenes;
+using gob.fnd.Infraestructura.Digitalizacion.Excel.Juridico;
+using gob.fnd.Infraestructura.Digitalizacion.Excel.Liquidaciones;
 using gob.fnd.Infraestructura.Digitalizacion.Excel.Ministraciones;
 using Jaec.Helper.IoC;
 using Microsoft.Extensions.DependencyInjection;
@@ -45,6 +50,10 @@ namespace gob.fnd.Infraestructura.Digitalizacion.Excel.IOC
             services.AddScoped<IServicioCancelados, ServicioCancelados>();
             services.AddScoped<IServicioABSaldosRegionales, ServicioABSaldosRegionales>();
             services.AddScoped<IBienesAdjudicados, ServicioBienesAdjudicados>();
+            services.AddScoped<IBienesAdjudicadosIdentificados, ServicioBienesAdjudicadosIdentificados>();
+            services.AddScoped < ILiquidaciones, LiquidacionesService>();
+            services.AddScoped<ITratamientos, Tratamientos.TratamientosService>();
+            services.AddScoped<IJuridico, JuridicoService>();
         }
     }
 }

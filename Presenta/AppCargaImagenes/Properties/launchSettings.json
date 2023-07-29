@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "AppCargaImagenes": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Debug"
+      }
+    }
+  }
+}

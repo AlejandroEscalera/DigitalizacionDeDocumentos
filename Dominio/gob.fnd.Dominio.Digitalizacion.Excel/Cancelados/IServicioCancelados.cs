@@ -21,5 +21,10 @@ namespace gob.fnd.Dominio.Digitalizacion.Excel.Cancelados
         /// </summary>
         /// <returns>regresa si pudo o no guardar la información</returns>
         bool GuardaCreditosCancelados(IEnumerable<CreditosCancelados> listaCreditosCancelados);
+        /// <summary>
+        /// Obtiene una lista de los creditos Cancelados
+        /// </summary>
+        /// <returns>Regresa la lista de los créditos cancelados</returns>
+        Task<IEnumerable<CreditosCancelados>> GetCreditosCanceladosAsync(string archivo = "");
     }
 }

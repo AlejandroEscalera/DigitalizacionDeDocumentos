@@ -17,7 +17,10 @@ public partial class MainFRM
     {
         canNavigate = true;
         if (principal)
+        {
+            pnlRegresaAnteriorBxE.Visible = datosRegreso.Count() != 0;
             tabNavegacion.SelectedIndex = 0;
+        }
         else
             tabNavegacion.SelectedIndex = 1;
         canNavigate = false;
@@ -38,6 +41,7 @@ public partial class MainFRM
         {
             tabNavegacion.SelectedIndex = 3;
             tabExpedientesConCastigo.SelectedIndex = 0;
+            Close();
         }
         canNavigate = false;
         pnlDetalleBusquedaPorExpediente.Visible = false;
@@ -52,6 +56,8 @@ public partial class MainFRM
         imagenActual = 1;
         ImagenAnterior();
     }
+
+
 
     protected void ActivaNavegacion()
     {

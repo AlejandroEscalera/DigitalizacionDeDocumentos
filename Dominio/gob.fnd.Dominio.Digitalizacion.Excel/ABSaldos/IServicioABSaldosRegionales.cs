@@ -15,6 +15,6 @@ namespace gob.fnd.Dominio.Digitalizacion.Excel
         /// <param name="archivoOrigen">Ubicación donde se localiza el archivo de AB Saldos Original en .ZIP</param>
         /// <param name="archivoDestino">Nuevo archivo ya limpio y depurado</param>
         /// <returns></returns>
-        IEnumerable<ABSaldosRegionales> CargaProcesaYLimpia(string archivoOrigen="", string archivoDestino="");
+        Task<IEnumerable<ABSaldosRegionales>> CargaProcesaYLimpia(string archivoOrigen="", string archivoDestino="");
     }
 }

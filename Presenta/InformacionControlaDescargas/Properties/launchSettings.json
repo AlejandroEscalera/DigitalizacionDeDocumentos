@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "InformacionControlaDescargas": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Debug"
+      }
+    }
+  }
+}

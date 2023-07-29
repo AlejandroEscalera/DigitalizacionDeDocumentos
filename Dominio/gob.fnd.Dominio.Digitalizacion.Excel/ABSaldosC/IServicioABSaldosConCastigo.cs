@@ -39,5 +39,7 @@ namespace gob.fnd.Dominio.Digitalizacion.Excel.ABSaldosC
         bool GuardaInformacionABSaldos(string archivoDestino, IEnumerable<ABSaldosConCastigo> listadoCreditos); // , string archivoDestino
 
         IEnumerable<ABSaldosConCastigo> ObtieneABSaldosConCastigoProcesados();
+
+        Task<IEnumerable<ABSaldosConCastigo>> ObtieneABSaldosConCastigoProcesadosAsync();
     }
 }

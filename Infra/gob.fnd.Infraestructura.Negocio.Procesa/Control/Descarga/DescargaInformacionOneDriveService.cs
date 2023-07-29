@@ -25,7 +25,7 @@ namespace gob.fnd.Infraestructura.Negocio.Procesa.Control.Descarga
         public bool DescargaInformacion(ArchivosImagenes archivoADescargar, string carpetaDestino)
         {
             // Aqui cambie la unidad de origen de F: a c:
-            string sRutaArchivoOrigen = (archivoADescargar.UrlArchivo ?? "").Replace("f:","c:",StringComparison.InvariantCultureIgnoreCase);
+            string sRutaArchivoOrigen = (archivoADescargar.UrlArchivo ?? "").Replace("f:","g:",StringComparison.InvariantCultureIgnoreCase);
             FileInfo fi = new(sRutaArchivoOrigen);
             string archivoDestino = Path.Combine(carpetaDestino, archivoADescargar.NombreArchivo??"");
             if (!fi.Exists) 
@@ -37,12 +37,18 @@ namespace gob.fnd.Infraestructura.Negocio.Procesa.Control.Descarga
             }
             try
             {
-                if (File.Exists(archivoDestino))
-                    File.Delete(archivoDestino);
-                Directory.CreateDirectory(carpetaDestino);
-                _logger.LogTrace("Iniciando descarga del archivo {id} con el {nombreArchivoDestino}", archivoADescargar.Id, archivoADescargar.NombreArchivo);
-                File.Copy(fi.FullName, archivoDestino, true);
-                _logger.LogInformation("Se descargó el archivo {id} con el nombre {nombreArchivoDestino} con {numKB} kb", archivoADescargar.Id, archivoADescargar.NombreArchivo, fi.Length / 1024);
+                /// Lo estoy obviando para ahorrar tiempo
+                if (!File.Exists(archivoDestino))
+                {
+                    //File.Delete(archivoDestino);
+                    Directory.CreateDirectory(carpetaDestino);
+                    _logger.LogTrace("Iniciando descarga del archivo {id} con el {nombreArchivoDestino}", archivoADescargar.Id, archivoADescargar.NombreArchivo);
+                    File.Copy(fi.FullName, archivoDestino, true);
+                    _logger.LogInformation("Se descargó el archivo {id} con el nombre {nombreArchivoDestino} con {numKB} kb", archivoADescargar.Id, archivoADescargar.NombreArchivo, fi.Length / 1024);
+                }
+                else {
+                    //File.Delete(archivoDestino);
+                }
             }
             catch (Exception ex)
             {

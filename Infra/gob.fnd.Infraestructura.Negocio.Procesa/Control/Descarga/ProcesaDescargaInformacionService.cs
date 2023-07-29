@@ -33,7 +33,8 @@ namespace gob.fnd.Infraestructura.Negocio.Procesa.Control.Descarga
             /// string baseFileName = Path.Combine((origen.CarpetaDestino ?? "").Replace(",", "_").Replace(";", "_"), primerLimpieza);
             origen.NombreArchivo = primerLimpieza;
             // Aqui se cambia 
-            origen.CarpetaDestino = (origen.CarpetaDestino ?? "").Replace(",", "_").Replace(";", "_").Replace("F:\\","G:\\");
+            origen.CarpetaDestino = (origen.CarpetaDestino ?? "").Replace(",", "_").Replace(";", "_").Replace("F:\\","F:\\"); /// Quite el cambio de ruta 
+            origen.UrlArchivo = (origen.UrlArchivo ?? "").Replace("F:\\", "Y:\\");
             IDescargaInformacion descargaInformacion;
             descargaInformacion = SeleccionaDescargaInformacionFactory(origen);
             return (descargaInformacion.DescargaInformacion(origen, origen.CarpetaDestino));

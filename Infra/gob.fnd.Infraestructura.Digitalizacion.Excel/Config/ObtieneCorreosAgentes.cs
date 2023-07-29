@@ -81,5 +81,56 @@ namespace gob.fnd.Infraestructura.Digitalizacion.Excel.Config
             return lista.ToArray();
 
         }
+
+        public async Task<IEnumerable<CorreosAgencia>> ObtieneTodosLosCorreosYAgentesAsync()
+        {
+            IList<CorreosAgencia> lista = new List<CorreosAgencia>();
+            if (!File.Exists(_archivoConfiguracion))
+            {
+                _logger.LogError("No se puede procesar el archivo de configuracion:\n{archivoConfiguracion}", _archivoConfiguracion);
+                return lista.ToArray();
+            }
+
+            #region Abrimos el excel de Filtors, y obtengo el Catalogo de Productos
+            FileStream fs = new(_archivoConfiguracion, FileMode.Open, FileAccess.Read);
+            using (var package = new ExcelPackage())
+            {
+                await package.LoadAsync(fs);
+                if (package.Workbook.Worksheets.Count == 0)
+                    return lista.ToArray();
+                var hoja = await Task.Run(() =>{ return package.Workbook.Worksheets.FirstOrDefault(x => x.Name == "Agencias"); });
+                if (hoja == null)
+                {
+                    return lista.ToArray();
+                }
+                int row = 2;
+                bool resultado = false;
+                await Task.Run(() => {
+                    while (!resultado)
+                    {
+                        CorreosAgencia obj = new()
+                        {
+                            NoAgencia = Convert.ToInt32(FNDExcelHelper.GetCellDouble(hoja.Cells[row, C_INT_NO_AGENCIA])),
+                            Agencia = FNDExcelHelper.GetCellString(hoja.Cells[row, C_INT_AGENCIA]),
+                            NombreAgente = FNDExcelHelper.GetCellString(hoja.Cells[row, C_INT_NOMBRE_AGENTE]),
+                            CorreoAgente = FNDExcelHelper.GetCellString(hoja.Cells[row, C_INT_CORREO_AGENTE]),
+                            NombreGuardaValores = FNDExcelHelper.GetCellString(hoja.Cells[row, C_INT_NOMBRE_GUARDA_VALORES]),
+                            CorreoGuardaValores = FNDExcelHelper.GetCellString(hoja.Cells[row, C_INT_CORREO_GUARDA_VALORES]),
+                            LigaAgencia = FNDExcelHelper.GetCellString(hoja.Cells[row, C_INT_LIGA_AGENCIA]),
+                            Region = FNDExcelHelper.GetCellString(hoja.Cells[row, C_INT_REGION])
+                        };
+
+                        if (string.IsNullOrEmpty(obj.Agencia) || string.IsNullOrWhiteSpace(obj.Agencia))
+                            resultado = true;
+                        if (!resultado)
+                            lista.Add(obj);
+                        row++;
+                    }
+                });                
+            }
+            #endregion
+
+            return lista.ToArray();
+        }
     }
 }

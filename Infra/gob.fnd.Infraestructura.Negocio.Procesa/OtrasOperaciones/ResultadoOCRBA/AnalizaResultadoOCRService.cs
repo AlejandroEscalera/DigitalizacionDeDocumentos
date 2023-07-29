@@ -1,5 +1,6 @@
 ﻿using gob.fnd.Dominio.Digitalizacion.Entidades.CorteDiario.Saldos;
 using gob.fnd.Dominio.Digitalizacion.Entidades.Imagenes;
+using gob.fnd.Dominio.Digitalizacion.Entidades.Ocr;
 using gob.fnd.Dominio.Digitalizacion.Excel.Imagenes;
 using gob.fnd.Dominio.Digitalizacion.Excel.Ministraciones;
 using gob.fnd.Dominio.Digitalizacion.Negocio.CargaCsv;
@@ -15,33 +16,18 @@ using System.Threading.Tasks;
 
 namespace gob.fnd.Infraestructura.Negocio.Procesa.OtrasOperaciones.ResultadoOCRBA
 {
-    public class DetalleInformacionCreditosOcr
-    {
-        public string? NumeroDeExpediente { get; set; }
-        public string? RutaDeGuardado { get; set; }
-        public int Pagina { get; set; }
-        public string? Leyenda { get; set; }
-        public string? NumeroDeCredito { get; set; }
-        public int Region { get; set; }
-        public string? CatRegion { get; set; }
-        public int Agencia { get; set; }
-        public string? CatAgencia { get; set; }
-        public string? NumCliente { get; set; }
-        public string? Acreditado { get; set; }
-    }
-
     public class AnalizaResultadoOCRService : IAnalizaResultadoOCR
     {
         private readonly ILogger<AnalizaResultadoOCRService> _logger;
         private readonly IConfiguration _configuration;
         private readonly IServicioImagenes _servicioImagenes;
         private readonly ICreaArchivoCsv _creaArchivoCsv;
-        private readonly IServicioMinistracionesMesa _ministracionesMesaService;
+        // private readonly IServicioMinistracionesMesa _ministracionesMesaService;
         private readonly IAdministraCargaConsulta _administraCargaConsultaService;
         private readonly string _archivoExpedientesConsulta;
 
         public AnalizaResultadoOCRService(ILogger<AnalizaResultadoOCRService> logger, IConfiguration configuration, IServicioImagenes servicioImagenes, ICreaArchivoCsv creaArchivoCsv,
-            IServicioMinistracionesMesa ministracionesMesaService,
+            // IServicioMinistracionesMesa ministracionesMesaService,
             IAdministraCargaConsulta administraCargaConsultaService
             )
         {
@@ -49,7 +35,7 @@ namespace gob.fnd.Infraestructura.Negocio.Procesa.OtrasOperaciones.ResultadoOCRB
             _configuration = configuration;
             _servicioImagenes = servicioImagenes;
             _creaArchivoCsv = creaArchivoCsv;
-            _ministracionesMesaService = ministracionesMesaService;
+            // _ministracionesMesaService = ministracionesMesaService;
             _administraCargaConsultaService = administraCargaConsultaService;
             _archivoExpedientesConsulta = _configuration.GetValue<string>("archivoExpedientesConsulta") ?? "";
         }

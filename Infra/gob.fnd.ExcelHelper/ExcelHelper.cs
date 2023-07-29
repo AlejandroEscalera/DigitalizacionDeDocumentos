@@ -43,9 +43,12 @@ namespace gob.fnd.ExcelHelper
             if (origen.Value.GetType().Name.ToUpper().Contains("DOUBLE"))
             {
                 double fechaExcel = Convert.ToDouble(origen.Value);
-
-                DateTime date = new DateTime(1900, 1, 1).AddDays(fechaExcel - 2);
-                return date;
+                try
+                {
+                    DateTime date = new DateTime(1900, 1, 1).AddDays(fechaExcel - 2);
+                    return date;
+                }
+                catch { return null; }
             }
             if (origen.Value.GetType().Name.ToUpper().Contains("DATETIME"))
             {

@@ -23,6 +23,7 @@ namespace gob.fnd.Infraestructura.Negocio.CargaCsv
         private readonly string _archivoDeExpedienteDeConsulta;
         private readonly string _archivoArchivoImagenCorta;
         private readonly string _archivosImagenesBienesAdjudicadosCorta;
+        private readonly string _archivoImagenExpedientesCorta;
         private readonly string _formatDateTime;
         private readonly IConfiguration _configuration;
         private readonly ILogger<AdministraCargaConsultaService> _logger;
@@ -34,6 +35,7 @@ namespace gob.fnd.Infraestructura.Negocio.CargaCsv
             _archivoDeExpedienteDeConsulta = _configuration.GetValue<string>("archivoExpedientesConsulta") ?? "";
             _archivoArchivoImagenCorta = _configuration.GetValue<string>("archivoImagenCorta") ?? "";
             _archivosImagenesBienesAdjudicadosCorta = _configuration.GetValue<string>("archivosImagenesBienesAdjudicadosCorta") ?? "";
+            _archivoImagenExpedientesCorta = _configuration.GetValue<string>("archivoImagenExpedientesCorta") ?? "";
             _formatDateTime = CultureInfo.CurrentCulture.DateTimeFormat.ShortDatePattern;
         }
 
@@ -50,6 +52,7 @@ namespace gob.fnd.Infraestructura.Negocio.CargaCsv
 
         public IEnumerable<ArchivoImagenCorta> CargaArchivoImagenCorta(string archivoArchivoImagenCorta = "")
         {
+
             if (string.IsNullOrEmpty(archivoArchivoImagenCorta))
                 archivoArchivoImagenCorta = _archivoArchivoImagenCorta;
             IList<ArchivoImagenCorta> resultado = new List<ArchivoImagenCorta>();
@@ -162,6 +165,92 @@ namespace gob.fnd.Infraestructura.Negocio.CargaCsv
                                       .ToList();
             }
             ((List<ArchivoImagenBienesAdjudicadosCorta>)resultado).AddRange(imagenesEnCorto);
+            _logger.LogInformation("Termino la carga de los expedientes de consulta.");
+            return resultado;
+        }
+
+        public IEnumerable<ArchivoImagenExpedientesCorta> CargaArchivoImagenExpedientesCortas(string archivoImagenExpedientesCorta = "")
+        {
+            if (string.IsNullOrEmpty(archivoImagenExpedientesCorta))
+                archivoImagenExpedientesCorta = _archivoImagenExpedientesCorta;
+            IList<ArchivoImagenExpedientesCorta> resultado = new List<ArchivoImagenExpedientesCorta>();
+            if (!File.Exists(archivoImagenExpedientesCorta))
+            {
+                return resultado;
+            }
+            string nuevoContenidoArchivo = EliminaInconsistencias(archivoImagenExpedientesCorta);
+            IEnumerable<ArchivoImagenExpedientesCorta> imagenesEnCorto;
+            using (MemoryStream memoryStream = new(Encoding.UTF8.GetBytes(nuevoContenidoArchivo)))
+            {
+                var options = new CsvParserOptions(true, '|');
+                var parser = new CsvParser<ArchivoImagenExpedientesCorta>(options, new ArchivoImagenExpedientesCortaCsvMapping());
+                imagenesEnCorto = parser.ReadFromStream(memoryStream, Encoding.UTF8)
+                                      .Select(r => r.Result)
+                                      .ToList();
+            }
+            ((List<ArchivoImagenExpedientesCorta>)resultado).AddRange(imagenesEnCorto);
+            _logger.LogInformation("Termino la carga de los expedientes de consulta.");
+            return resultado;
+        }
+
+        public IEnumerable<ExpedienteDeConsultaGv> CargaExpedienteDeConsultaGv(string archivoDeExpedienteDeConsulta = "")
+        {
+            if (string.IsNullOrEmpty(archivoDeExpedienteDeConsulta))
+                archivoDeExpedienteDeConsulta = _archivoDeExpedienteDeConsulta;
+            IList<ExpedienteDeConsultaGv> resultado = new List<ExpedienteDeConsultaGv>();
+            if (!File.Exists(archivoDeExpedienteDeConsulta))
+                return resultado;
+            string nuevoContenidoArchivo = EliminaInconsistencias(archivoDeExpedienteDeConsulta);
+            IEnumerable<ExpedienteDeConsultaGvCarga> expedienteDeConsulta;
+            using (MemoryStream memoryStream = new(Encoding.UTF8.GetBytes(nuevoContenidoArchivo)))
+            {
+                var options = new CsvParserOptions(true, '|');
+                var parser = new CsvParser<ExpedienteDeConsultaGvCarga>(options, new ExpedienteConsultaGvCsvMapping());
+                expedienteDeConsulta = parser.ReadFromStream(memoryStream, Encoding.UTF8)
+                                      .Select(r => r.Result)
+                                      .ToList();
+            }
+            #region Parsea el resultado
+            resultado = expedienteDeConsulta.Select(x => new ExpedienteDeConsultaGv()
+            {
+                NumCredito = x.NumCredito,
+                NumCreditoCancelado = x.NumCreditoCancelado,
+                EsSaldosActivo = x.EsSaldosActivo,
+                EsCancelado = x.EsCancelado,
+                EsOrigenDelDr = x.EsOrigenDelDr,
+                EsCanceladoDelDr = x.EsCanceladoDelDr,
+                EsCastigado = x.EsCastigado,
+                TieneArqueo = x.TieneArqueo,
+                Acreditado = x.Acreditado,
+                FechaApertura = GetDateTimeFromString(x.FechaApertura),
+                FechaCancelacion = GetDateTimeFromString(x.FechaCancelacion),
+                Castigo = x.Castigo,
+                NumProducto = x.NumProducto,
+                CatProducto = x.CatProducto,
+                TipoDeCredito = x.TipoDeCredito,
+                Ejecutivo = x.Ejecutivo,
+                Analista = x.Analista,
+                FechaInicioMinistracion = GetDateTimeFromString(x.FechaInicioMinistracion),
+                FechaSolicitud = GetDateTimeFromString(x.FechaSolicitud),
+                MontoCredito = x.MontoCredito,
+                InterCont = x.InterCont,
+                Region = x.Region,
+                Agencia = x.Agencia,
+                CatRegion = x.CatRegion,
+                CatAgencia = x.CatAgencia,
+                EsCreditoAReportar = x.EsCreditoAReportar,
+                StatusImpago = x.StatusImpago,
+                StatusCarteraVencida = x.StatusCarteraVencida,
+                StatusCarteraVigente = x.StatusCarteraVigente,
+                TieneImagenDirecta = x.TieneImagenDirecta,
+                TieneImagenIndirecta = x.TieneImagenIndirecta,
+                SldoTotContval = x.SldoTotContval,
+                NumCliente = x.NumCliente,
+                TieneGuardaValor = x.TieneGuardaValor
+            }).ToList();
+            #endregion
+
+            // ((List<ExpedienteDeConsulta>)resultado).AddRange(expedienteDeConsulta);
             _logger.LogInformation("Termino la carga de los expedientes de consulta.");
             return resultado;
         }

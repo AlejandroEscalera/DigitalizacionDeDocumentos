@@ -1,4 +1,6 @@
 ﻿using gob.fnd.Dominio.Digitalizacion.Entidades.Imagenes;
+using gob.fnd.Dominio.Digitalizacion.Entidades.ReportesAvance;
+using gob.fnd.Dominio.Digitalizacion.Negocio.Procesa.Control.Descarga;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -31,8 +33,10 @@ namespace gob.fnd.Dominio.Digitalizacion.Negocio.Procesa.Control
         IEnumerable<ArchivosImagenes> CargaSoloPdf(string archivo ="");
 
 
-        public bool CreaArchivosYCarpetasDeControlOcr(IEnumerable<ArchivosImagenes> imagenes);
+        bool CreaArchivosYCarpetasDeControlOcr(IEnumerable<ArchivosImagenes> imagenes);
 
-
+        void ProcesaImagenesCargadas(IList<ArchivosImagenes> imagenesDescargadasYProcesadas, IList<ArchivosImagenes> recuperaImagenes);
+        
+        Task ProcesaImagenesCargadasAsync(IList<ArchivosImagenes> imagenesDescargadasYProcesadas, IList<ArchivosImagenes> recuperaImagenes, IProgress<ReporteProgresoDescompresionArchivos> progresa);
     }
 }

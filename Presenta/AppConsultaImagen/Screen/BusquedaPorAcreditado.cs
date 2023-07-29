@@ -1,4 +1,5 @@
-﻿using gob.fnd.Dominio.Digitalizacion.Entidades.Consultas;
+﻿using AppConsultaImagen.Pinta;
+using gob.fnd.Dominio.Digitalizacion.Entidades.Consultas;
 using gob.fnd.Dominio.Digitalizacion.Entidades.Imagenes;
 using System;
 using System.Collections.Generic;
@@ -25,6 +26,8 @@ public partial class MainFRM
     }
     protected void BtnBuscarPorAcreditado(object sender, EventArgs e)
     {
+        if (_estoyPintandoDatos)
+            return;
         string nombreAcreditado = txtNombreAcreditadoxA.Text.Trim();
         _informacionDeConsulta = BuscaPorAcreditado(nombreAcreditado).OrderByDescending(x => x.NumCredito).ToList();
         if (!_informacionDeConsulta.Any())
@@ -49,7 +52,7 @@ public partial class MainFRM
         }
     }
 
-    private void MuestraExpedientePorAcreditado(ExpedienteDeConsulta? expediente)
+    private void MuestraExpedientePorAcreditado(ExpedienteDeConsultaGv? expediente)
     {
         if (expediente == null)
         {
@@ -111,17 +114,25 @@ public partial class MainFRM
     }
     protected void BtnMuestraImagenxA(object sender, EventArgs e)
     {
-        regresaTabNavegacion = 1;
-        regresaTabReportesFinales = 0;
-        string numCredito = txtNumeroCreditoxA.Text;
-        pnlDetalleBusquedaxA.Visible = false;
-        if (_informacionDeConsulta is not null)
+        if (btnVerImagenxA.Visible)
         {
-            // var expediente = _informacionDeConsulta.Where(x => (x.NumCredito ?? "").Equals(numCredito)).FirstOrDefault();
-            var expediente = BuscaImagenes(QuitaCastigo(numCredito));
+            regresaTabNavegacion = 1;
+            regresaTabReportesFinales = 0;
+            datosRegreso.Push(new NavegacionRetorno()
+            {
+                TabPrincipal = regresaTabNavegacion,
+                TabReporte = regresaTabReportesFinales
+            });
+            string numCredito = txtNumeroCreditoxA.Text;
             pnlDetalleBusquedaxA.Visible = false;
-            MuestraExpedienteEnImagen(expediente);
-            NavegaVisorImagenes();
+            if (_informacionDeConsulta is not null)
+            {
+                // var expediente = _informacionDeConsulta.Where(x => (x.NumCredito ?? "").Equals(numCredito)).FirstOrDefault();
+                var expediente = BuscaImagenes(QuitaCastigo(numCredito));
+                pnlDetalleBusquedaxA.Visible = false;
+                MuestraExpedienteEnImagen(expediente);
+                NavegaVisorImagenes();
+            }
         }
     }
 

@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Dominio\gob.fnd.Dominio.Digitalizacion.Negocio.CargaCsv\gob.fnd.Dominio.Digitalizacion.Negocio.CargaCsv.csproj" />
+    <ProjectReference Include="..\..\Dominio\gob.fnd.Dominio.Digitalizacion.Negocio.Procesa\gob.fnd.Dominio.Digitalizacion.Negocio.Procesa.csproj" />
     <ProjectReference Include="..\..\Dominio\gob.fnd.Dominio.Digitalizacion\gob.fnd.Dominio.Digitalizacion.csproj" />
     <ProjectReference Include="..\Jaec.Helper\Jaec.Helper.csproj" />
   </ItemGroup>

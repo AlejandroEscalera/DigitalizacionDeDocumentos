@@ -16,6 +16,11 @@ namespace gob.fnd.Dominio.Digitalizacion.Excel.Ministraciones
         /// <returns>Lista de ministraciones</returns>
         IEnumerable<MinistracionesMesa> GetMinistraciones();
         /// <summary>
+        /// Obtiene una lista de Ministraciones de la mesa
+        /// </summary>
+        /// <returns>Lista de ministraciones</returns>
+        Task<IEnumerable<MinistracionesMesa>> GetMinistracionesAsync();
+        /// <summary>
         /// Guarda la información de las ministraciones
         /// </summary>
         /// <param name="lista">Lista de ministraciones despues de cruce</param>

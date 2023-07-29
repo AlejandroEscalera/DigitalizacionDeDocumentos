@@ -1,4 +1,5 @@
-﻿using gob.fnd.Dominio.Digitalizacion.Entidades.BienesAdjudicados;
+﻿using AppConsultaImagen.Pinta;
+using gob.fnd.Dominio.Digitalizacion.Entidades.BienesAdjudicados;
 using gob.fnd.Dominio.Digitalizacion.Entidades.Cancelados.RerporteFinal;
 using System;
 using System.Collections.Generic;
@@ -12,6 +13,7 @@ namespace AppConsultaImagen
     {
         private DetalleBienesAdjudicados? _detalleBienAdjudicado = null;
         private IEnumerable<DetalleBienesAdjudicados>? _detalleBienesAdjudicados;
+        private string[] creditosRelacionadosBienesAdjudicados = Array.Empty<string>();
 
         private void InicializaBusquedaBienesAdjudicados() 
         {
@@ -92,7 +94,11 @@ namespace AppConsultaImagen
         {
             regresaTabNavegacion = 2;
             regresaTabReportesFinales = 9;
-
+            datosRegreso.Push(new NavegacionRetorno()
+            {
+                TabPrincipal = regresaTabNavegacion,
+                TabReporte = regresaTabReportesFinales
+            });
             MuestraImagenBienAdjudicado();
         }
 
@@ -104,6 +110,8 @@ namespace AppConsultaImagen
                 string numeroDeExpediente = Convert.ToString(dgbaDetalleBienesAdjudicados.CurrentRow.Cells[4].Value) ?? string.Empty;
                 string acreditados = Convert.ToString(dgbaDetalleBienesAdjudicados.CurrentRow.Cells[5].Value) ?? string.Empty;
                 _detalleBienAdjudicado = _detalleBienesAdjudicados?.FirstOrDefault(x => (x.CveBien ?? "").Equals(claveBien) && (x.ExpedienteElectronico ?? "").Equals(numeroDeExpediente));
+                char[] delimitadores = new char[] { ',','¬','\n' };
+                creditosRelacionadosBienesAdjudicados = (_detalleBienAdjudicado?.NumCredito ?? "").Split(delimitadores);
                 BuscaImagenesBa(numeroDeExpediente, acreditados);
                 canNavigate = true;
                 try
@@ -122,7 +130,11 @@ namespace AppConsultaImagen
         {
             regresaTabNavegacion = 2;
             regresaTabReportesFinales = 9;
-
+            datosRegreso.Push(new NavegacionRetorno()
+            {
+                TabPrincipal = regresaTabNavegacion,
+                TabReporte = regresaTabReportesFinales
+            });
             MuestraImagenBienAdjudicado();
         }
 

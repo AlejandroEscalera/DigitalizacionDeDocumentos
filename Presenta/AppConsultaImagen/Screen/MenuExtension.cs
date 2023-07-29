@@ -16,7 +16,7 @@ public partial class MainFRM : Form
     const string C_STR_MENU_BUSQUEDA_POR_ACREDITADO = "Por acreditado";
 
     const string C_STR_MENU_REPORTE_POR_EXPEDIENTE = "Expedientes activos";
-    const string C_STR_MENU_REPORTE_POR_CASTIGO = "Expedientes con Castigo";
+    const string C_STR_MENU_REPORTE_POR_CASTIGO = "Salir"; // Expedientes con Castigo
     #endregion
 
     #region Constante de colores

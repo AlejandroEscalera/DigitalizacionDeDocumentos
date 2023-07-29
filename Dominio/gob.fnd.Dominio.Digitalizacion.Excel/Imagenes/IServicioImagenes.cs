@@ -69,5 +69,20 @@ namespace gob.fnd.Dominio.Digitalizacion.Excel.Imagenes
         /// <param name="nombreActual">Nombre de origen</param>
         /// <returns>Informacion del Nombre del Archivo Analizado</returns>
         AnalisisNombreImagen ObtieneNombreCalificado(string nombreOrigen);
+
+        /// <summary>
+        /// Permite cargar los registros de las imagenes que hayan sido procesadas
+        /// </summary>
+        /// <param name="archivo">NombreDelArchivoProcesado</param>
+        /// <returns>listado de imágenes</returns>
+
+        Task<IEnumerable<ArchivosImagenes>> CargaImagenesTratadasAsync(string archivo = "");
+        /// <summary>
+        /// Guardo las imagenes en un excel para su revisión
+        /// </summary>
+        /// <param name="imagenes">listado de imagenes por guardar en un archivo de excel</param>
+        /// <param name="archivoSalida">Nombre del archivo de salida a guardar, se le agrego para guardar los controles de las imagenes en los procesos de tratamiento</param>
+        /// <returns>si pudo o no guardar la información</returns>
+        Task<bool> GuardarImagenesAsync(IEnumerable<ArchivosImagenes> imagenes, string archivoSalida = "");
     }
 }

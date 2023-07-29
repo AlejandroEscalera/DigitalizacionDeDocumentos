@@ -94,7 +94,7 @@ public class ServicioABSaldosRegionales : IServicioABSaldosRegionales
     /// <param name="archivoDestino">Nuevo archivo ya limpio y depurado</param>
     /// <returns></returns>
     /// <exception cref="NotImplementedException"></exception>
-    public IEnumerable<ABSaldosRegionales> CargaProcesaYLimpia(string archivoOrigen="", string archivoDestino="")
+    public async Task<IEnumerable<ABSaldosRegionales>> CargaProcesaYLimpia(string archivoOrigen="", string archivoDestino="")
     {
         if (string.IsNullOrEmpty(archivoOrigen)) {
             archivoOrigen = _archivoCreditos;
@@ -118,7 +118,7 @@ public class ServicioABSaldosRegionales : IServicioABSaldosRegionales
         FileStream fs = new(archivoOrigen, FileMode.Open, FileAccess.Read);
         using (var package = new ExcelPackage())
         {
-            package.Load(fs);
+            await package.LoadAsync(fs);
             if (package.Workbook.Worksheets.Count == 0)
                 return lista;
             var hoja = package.Workbook.Worksheets[0];

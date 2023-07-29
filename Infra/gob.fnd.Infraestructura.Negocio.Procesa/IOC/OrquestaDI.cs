@@ -1,10 +1,12 @@
 ﻿using gob.fnd.Dominio.Digitalizacion.Excel.BienesAdjudicados;
 using gob.fnd.Dominio.Digitalizacion.Negocio.CargaCsv;
+using gob.fnd.Dominio.Digitalizacion.Negocio.Procesa.BienesAdjudicados;
 using gob.fnd.Dominio.Digitalizacion.Negocio.Procesa.Control;
 using gob.fnd.Dominio.Digitalizacion.Negocio.Procesa.Control.Descarga;
 using gob.fnd.Dominio.Digitalizacion.Negocio.Procesa.Control.File2Pdf;
 using gob.fnd.Dominio.Digitalizacion.Negocio.Procesa.Control.ZIP;
 using gob.fnd.Dominio.Digitalizacion.Negocio.Procesa.OtrasOperaciones.ResultadoOCRBA;
+using gob.fnd.Infraestructura.Negocio.Procesa.BienesAdjudicados;
 using gob.fnd.Infraestructura.Negocio.Procesa.Control;
 using gob.fnd.Infraestructura.Negocio.Procesa.Control.Descarga;
 using gob.fnd.Infraestructura.Negocio.Procesa.Control.File2Pdf;
@@ -28,5 +30,6 @@ public class OrquestaDI : IJaecContainer
         services.AddScoped<IDescargaInformacionOneDrive, DescargaInformacionOneDriveService>();
         services.AddScoped<IProcesaDescargaInformacion, ProcesaDescargaInformacionService>();
         services.AddScoped<IAnalizaResultadoOCR, AnalizaResultadoOCRService>();
+        services.AddScoped<IAnalizaInformacionBienesAdjudicados, AnalizaInformacionBienesAdjudicadosService>();
     }
 }

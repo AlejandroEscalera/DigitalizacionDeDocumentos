@@ -39,7 +39,7 @@ public class AdministraBienesAdjudicadosService : IAdministraCargaBienesAdjudica
         return nuevoContenidoArchivo;
     }
 
-    public IEnumerable<DetalleBienesAdjudicados> CargaBiensAdjudicados(string archivoBienesAdjudicados = "")
+    public IEnumerable<DetalleBienesAdjudicados> CargaBienesAdjudicados(string archivoBienesAdjudicados = "")
     {
         if (string.IsNullOrWhiteSpace(archivoBienesAdjudicados))
             archivoBienesAdjudicados = _archivoBienesAdjudicados;

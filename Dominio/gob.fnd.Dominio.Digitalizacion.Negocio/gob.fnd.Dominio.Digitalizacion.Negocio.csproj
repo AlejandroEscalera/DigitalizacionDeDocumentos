@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\gob.fnd.Dominio.Digitalizacion.Excel\gob.fnd.Dominio.Digitalizacion.Excel.csproj" />
     <ProjectReference Include="..\gob.fnd.Dominio.Digitalizacion\gob.fnd.Dominio.Digitalizacion.csproj" />
   </ItemGroup>
 

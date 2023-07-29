@@ -1,4 +1,5 @@
-﻿using gob.fnd.Dominio.Digitalizacion.Entidades.Consultas;
+﻿using AppConsultaImagen.Pinta;
+using gob.fnd.Dominio.Digitalizacion.Entidades.Consultas;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +13,7 @@ namespace AppConsultaImagen;
 /// </summary>
 public partial class MainFRM
 {
-    IEnumerable<ExpedienteDeConsulta>? _informacionDeConsulta;
+    IEnumerable<ExpedienteDeConsultaGv>? _informacionDeConsulta;
     bool _estoyPintandoDatos = false;
 
     protected void InicializaBusquedaPorExpediente() 
@@ -23,12 +24,42 @@ public partial class MainFRM
         btnVerImagenxE.Click += BtnMuestraImagen;
         tblBusquedaPorExpediente.SelectionChanged += (this.TblBusquedaPorExpediente_SelectionChanged);
         tblBusquedaPorExpediente.CellDoubleClick += BtnMuestraImagen;
+        bntRegresaAnteriorBxE.Click += RegresaAnteriorBxE;
 #pragma warning restore CS8622 // La nulabilidad de los tipos de referencia del tipo de parámetro no coincide con el delegado de destino (posiblemente debido a los atributos de nulabilidad).
     }
+
+    protected void RegresaAnteriorBxE(object sender, EventArgs e)
+    {
+        canNavigate = true;
+        try
+        {
+            var datosARegresar = datosRegreso.Pop();
+            regresaTabNavegacion = datosARegresar.TabPrincipal;
+            regresaTabReportesFinales = datosARegresar.TabReporte;
+
+            pnlRegresaAnteriorBxE.Visible = datosRegreso.Count != 0;
+            tabNavegacion.SelectedIndex = regresaTabNavegacion;
+            tabReportesFinales.SelectedIndex = regresaTabReportesFinales;
+        }
+        finally
+        {
+            canNavigate = false;
+        }
+    }
+
     protected void BtnBuscarPorExpediente(object sender, EventArgs e)
     {
-        string numeroDeCredito = txtNumeroExpediente.Text.Replace(" ","0");
-        _informacionDeConsulta = BuscaPorNumeroDeCredito(numeroDeCredito).OrderByDescending(x=>x.NumCredito).ToList();
+        BuscaPorExpediente();
+    }
+
+    private void BuscaPorExpediente()
+    {
+        if (_estoyPintandoDatos)
+        {
+            return;
+        }
+        string numeroDeCredito = txtNumeroExpediente.Text.Replace(" ", "0");
+        _informacionDeConsulta = BuscaPorNumeroDeCredito(numeroDeCredito).OrderByDescending(x => x.NumCredito).ToList();
         if (!_informacionDeConsulta.Any())
         {
             MessageBox.Show("No se encontró información");
@@ -52,7 +83,7 @@ public partial class MainFRM
         }
     }
 
-    private void MuestraExpedientePorNumero(ExpedienteDeConsulta? expediente)
+    private void MuestraExpedientePorNumero(ExpedienteDeConsultaGv? expediente)
     {
         if (expediente == null)
         {
@@ -115,16 +146,24 @@ public partial class MainFRM
 
     protected void BtnMuestraImagen(object sender, EventArgs e)
     {
-        regresaTabNavegacion = 0;
-        regresaTabReportesFinales = 0;
-        string numCredito = txtNumCreditoxE.Text;
-        if (_informacionDeConsulta is not null)
+        if (btnVerImagenxE.Visible)
         {
-            // var expediente = _informacionDeConsulta.Where(x => (x.NumCredito ?? "").Equals(numCredito)).FirstOrDefault();
-            var expediente = BuscaImagenes(QuitaCastigo(numCredito));
-            pnlDetalleBusquedaPorExpediente.Visible = false;
-            MuestraExpedienteEnImagen(expediente);
-            NavegaVisorImagenes();
+            regresaTabNavegacion = 0;
+            regresaTabReportesFinales = 0;
+            datosRegreso.Push(new NavegacionRetorno()
+            {
+                TabPrincipal = regresaTabNavegacion,
+                TabReporte = regresaTabReportesFinales
+            });
+            string numCredito = txtNumCreditoxE.Text;
+            if (_informacionDeConsulta is not null)
+            {
+                // var expediente = _informacionDeConsulta.Where(x => (x.NumCredito ?? "").Equals(numCredito)).FirstOrDefault();
+                var expediente = BuscaImagenes(QuitaCastigo(numCredito));
+                pnlDetalleBusquedaPorExpediente.Visible = false;
+                MuestraExpedienteEnImagen(expediente);
+                NavegaVisorImagenes();
+            }
         }
     }
 

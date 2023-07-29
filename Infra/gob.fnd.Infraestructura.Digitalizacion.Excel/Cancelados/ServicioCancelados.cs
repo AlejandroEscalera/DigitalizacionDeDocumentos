@@ -571,4 +571,118 @@ public class ServicioCancelados : IServicioCancelados
         return true;
     }
 
+    public async Task<IEnumerable<CreditosCancelados>> GetCreditosCanceladosAsync(string archivo = "")
+    {
+        if (string.IsNullOrWhiteSpace(archivo))
+        {
+            archivo = _archivoCancelaciones;
+        }
+        OfficeOpenXml.ExcelPackage.LicenseContext = OfficeOpenXml.LicenseContext.NonCommercial;
+        IList<CreditosCancelados> resultado = new List<CreditosCancelados>();
+        if (!File.Exists(archivo))
+        {
+            _logger.LogError("No se encontró el Archivo de Ministraciones de la Mesa a procesar\n{archivoMinistracionesMesa}", archivo);
+            return resultado;
+        }
+
+        #region Abrimos el excel de ABSaldos y Extraemos la información de todos los campos
+        FileStream fs = new(archivo, FileMode.Open, FileAccess.Read, FileShare.Read);
+        using (var package = new ExcelPackage())
+        {
+            await package.LoadAsync(fs);
+            if (package.Workbook.Worksheets.Count == 0)
+                return resultado;
+            var hoja = await Task.Run(() => { return package.Workbook.Worksheets[0]; });
+            ObtieneValoresCampos(hoja);
+            int row = 2;
+            bool salDelCiclo = false;
+            await Task.Run(() => {
+                while (!salDelCiclo)
+                {
+                    var obj = new CreditosCancelados();
+                    var celda = hoja.Cells[row, iNumCreditoActual];
+                    obj.NumCreditoActual = FNDExcelHelper.GetCellString(celda);
+                    if (string.IsNullOrEmpty(obj.NumCreditoActual))
+                    {
+                        salDelCiclo = true;
+                        //break;
+                    }
+                    else
+                    {
+                        obj.Id = row - 1;
+                        celda = hoja.Cells[row, iNumCreditoNvo];
+                        obj.NumCreditoNvo = FNDExcelHelper.GetCellString(celda);
+                        celda = hoja.Cells[row, iNumCreditoOrigen];
+                        obj.NumCreditoOrigen = FNDExcelHelper.GetCellString(celda);
+                        celda = hoja.Cells[row, iNumCliente];
+                        obj.NumCliente = FNDExcelHelper.GetCellString(celda);
+                        celda = hoja.Cells[row, iGenero];
+                        obj.Genero = FNDExcelHelper.GetCellString(celda);
+                        celda = hoja.Cells[row, iTipoPersona];
+                        obj.TipoPersona = FNDExcelHelper.GetCellString(celda);
+                        celda = hoja.Cells[row, iPortafolio];
+                        obj.Portafolio = FNDExcelHelper.GetCellString(celda);
+                        celda = hoja.Cells[row, iSesionAutorizacion];
+                        obj.SesionAutorizacion = FNDExcelHelper.GetCellString(celda);
+                        celda = hoja.Cells[row, iMesCastigo];
+                        obj.MesCastigo = FNDExcelHelper.GetCellString(celda);
+                        celda = hoja.Cells[row, iAnioCastigo];
+                        obj.AnioCastigo = FNDExcelHelper.GetCellInt(celda);
+                        celda = hoja.Cells[row, iGeneracion];
+                        obj.Generacion = FNDExcelHelper.GetCellString(celda);
+                        celda = hoja.Cells[row, iFechaCancelacion];
+                        obj.FechaCancelacion = FNDExcelHelper.GetCellDateTime(celda);
+                        celda = hoja.Cells[row, iEntidad];
+                        obj.Entidad = FNDExcelHelper.GetCellString(celda);
+                        celda = hoja.Cells[row, iCoordinacionRegional];
+                        obj.CoordinacionRegional = FNDExcelHelper.GetCellString(celda);
+                        celda = hoja.Cells[row, iAgencia];
+                        obj.Agencia = FNDExcelHelper.GetCellString(celda);
+                        celda = hoja.Cells[row, iAcreditado];
+                        obj.Acreditado = FNDExcelHelper.GetCellString(celda);
+                        celda = hoja.Cells[row, iCartera];
+                        obj.Cartera = FNDExcelHelper.GetCellString(celda);
+                        celda = hoja.Cells[row, iConcepto];
+                        obj.Concepto = FNDExcelHelper.GetCellString(celda);
+                        celda = hoja.Cells[row, iCuentaCredito];
+                        obj.CuentaCredito = FNDExcelHelper.GetCellString(celda);
+                        celda = hoja.Cells[row, iImporteCancelado];
+                        obj.ImporteCancelado = Convert.ToDecimal(FNDExcelHelper.GetCellDouble(celda));
+                        celda = hoja.Cells[row, iSaldoContable];
+                        obj.SaldoContable = Convert.ToDecimal(FNDExcelHelper.GetCellDouble(celda));
+                        celda = hoja.Cells[row, iPrimeraDispersion];
+                        obj.PrimeraDispersion = FNDExcelHelper.GetCellDateTime(celda);
+                        celda = hoja.Cells[row, iAnioOrignacion];
+                        obj.AnioOrignacion = FNDExcelHelper.GetCellInt(celda);
+                        celda = hoja.Cells[row, iObservacion];
+                        obj.Observacion = FNDExcelHelper.GetCellString(celda);
+                        celda = hoja.Cells[row, iTipoDeOperacion];
+                        obj.TipoDeOperacion = FNDExcelHelper.GetCellString(celda);
+                        celda = hoja.Cells[row, iPiso];
+                        obj.Piso = FNDExcelHelper.GetCellInt(celda);
+
+                        // Calculados
+                        obj.EsOrigenDelDoctor = (obj.PrimeraDispersion >= _periodoDelDoctor);
+                        obj.EsCancelacionDelDoctor = (obj.FechaCancelacion >= _periodoDelDoctor);
+                        if (!string.IsNullOrEmpty(obj.NumCreditoOrigen) && obj.NumCreditoOrigen.Length > 17)
+                        {
+                            string tratamiento = obj.NumCreditoOrigen.Substring(3, 1);
+                            obj.EsTratamiento = tratamiento.Equals("8");
+                        }
+
+                    }
+
+                    if (!salDelCiclo)
+                    {
+                        resultado.Add(obj);
+                    }
+                    row++;
+                }
+            });
+
+        }
+        #endregion
+
+        return resultado.OrderBy(x => x.NumCreditoActual).Select(y => y).ToList();
+    }
 }

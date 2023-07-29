@@ -1,4 +1,5 @@
-﻿using CefSharp;
+﻿using AppConsultaImagen.Pinta;
+using CefSharp;
 using CefSharp.WinForms;
 using gob.fnd.Dominio.Digitalizacion.Entidades.Consultas;
 using gob.fnd.Dominio.Digitalizacion.Entidades.Imagenes;
@@ -20,6 +21,8 @@ public partial class MainFRM
     private int imagenActual = 0;
     private int regresaTabNavegacion = 0;
     private int regresaTabReportesFinales = 0;
+    private readonly Stack<NavegacionRetorno> datosRegreso = new();
+
     private string _unidadDeDiscoImagenes = "";
 
 
@@ -39,6 +42,11 @@ public partial class MainFRM
         canNavigate = true;
         try
         {
+            var datosARegresar = datosRegreso.Pop();
+            regresaTabNavegacion = datosARegresar.TabPrincipal;
+            regresaTabReportesFinales = datosARegresar.TabReporte;
+
+            pnlRegresaAnteriorBxE.Visible = datosRegreso.Count != 0;
             tabNavegacion.SelectedIndex = regresaTabNavegacion;
             tabReportesFinales.SelectedIndex = regresaTabReportesFinales;
         }
@@ -82,7 +90,7 @@ public partial class MainFRM
                 File.Delete(fileName);
     }
 
-    private void MuestraExpedienteEnImagen(ExpedienteDeConsulta? expediente)
+    private void MuestraExpedienteEnImagen(ExpedienteDeConsultaGv? expediente)
     {
         if (expediente == null)
         {
@@ -90,12 +98,31 @@ public partial class MainFRM
             return;
         }
         pnlVisorDeImagenes.Visible = true;
-
-        txtNumCreditoVI.Text = expediente.NumCredito;
+        string numCredito = expediente.NumCredito?? "000000000000000000";
+        txtNumCreditoVI.Text = numCredito;
+        txtNumCreditoVI.ReadOnly = true;
         txtAcreditadoVI.Text = expediente.Acreditado;
-        txtAnalistaVI.Text = expediente.Analista;
+        txtAcreditadoVI.ReadOnly = true;
+        if (numCredito.Substring(3, 1).Equals("8"))
+        {
+            if (_windowsFormsGloablInformation is not null) {
+                var listaCreditos = _windowsFormsGloablInformation.ActivaConsultasServices().ObtieneCreditoOrigen(numCredito);
+                // pongo en una sola linea la lista de creditos, separado por comas en txtAnalistaVI.Text
+                lblAnalista.Text = "Crédito(s) Origen :";
+                lblAnalista.TextAlign = ContentAlignment.TopRight;
+                txtAnalistaVI.Text = string.Join(",", listaCreditos.Select(x => x));
+            }
+        }
+        else
+        {
+            lblAnalista.Text = "Analista :";
+            lblAnalista.TextAlign = ContentAlignment.TopRight;
+            txtAnalistaVI.Text = expediente.Analista;
+        }
         txtFechaEntradaMesaVI.Text = expediente.FechaSolicitud.HasValue? expediente.FechaSolicitud.Value.ToShortDateString() : string.Empty;
+        txtFechaEntradaMesaVI.ReadOnly = true;
         txtFechaPrimeraMinistracionVI.Text = expediente.FechaInicioMinistracion.HasValue ? expediente.FechaInicioMinistracion.Value.ToShortDateString() : string.Empty;
+        txtFechaPrimeraMinistracionVI.ReadOnly = true;
     }
 
     protected void ImagenAnterior() 
@@ -113,7 +140,7 @@ public partial class MainFRM
                 string archivoActual = Path.Combine(imagenesEncontradas[imagenActual].CarpetaDestino ?? "", imagenesEncontradas[imagenActual].NombreArchivo ?? "");
                 if (!File.Exists(archivoActual))
                 {
-                    archivoActual = Path.Combine(imagenesEncontradas[imagenActual].CarpetaDestino ?? "", imagenesEncontradas[imagenActual].NombreArchivo ?? "").Replace("F:\\", _unidadDeDiscoImagenes, StringComparison.OrdinalIgnoreCase);
+                    archivoActual = Path.Combine(imagenesEncontradas[imagenActual].CarpetaDestino ?? "", imagenesEncontradas[imagenActual].NombreArchivo ?? ""); // .Replace("F:\\", _unidadDeDiscoImagenes, StringComparison.OrdinalIgnoreCase);
                 }
                 lblCargando.Text = "Cargando...";
                 lblCargando.ForeColor = Color.Red;
@@ -148,7 +175,7 @@ public partial class MainFRM
                 string archivoActual = Path.Combine(imagenesEncontradas[imagenActual].CarpetaDestino ?? "", imagenesEncontradas[imagenActual].NombreArchivo ?? "");
                 if (!File.Exists(archivoActual))
                 {
-                    archivoActual = Path.Combine(imagenesEncontradas[imagenActual].CarpetaDestino ?? "", imagenesEncontradas[imagenActual].NombreArchivo ?? "").Replace("F:\\", _unidadDeDiscoImagenes, StringComparison.OrdinalIgnoreCase);
+                    archivoActual = Path.Combine(imagenesEncontradas[imagenActual].CarpetaDestino ?? "", imagenesEncontradas[imagenActual].NombreArchivo ?? ""); // .Replace("F:\\", _unidadDeDiscoImagenes, StringComparison.OrdinalIgnoreCase);
                 }
                 lblCargando.Text = "Cargando...";
                 lblCargando.ForeColor = Color.Red;

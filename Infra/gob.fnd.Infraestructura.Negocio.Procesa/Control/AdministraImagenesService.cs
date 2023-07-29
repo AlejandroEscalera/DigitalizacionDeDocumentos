@@ -1,6 +1,7 @@
 ﻿using gob.fnd.Dominio.Digitalizacion.Entidades.Cancelados;
 using gob.fnd.Dominio.Digitalizacion.Entidades.Control;
 using gob.fnd.Dominio.Digitalizacion.Entidades.Imagenes;
+using gob.fnd.Dominio.Digitalizacion.Entidades.ReportesAvance;
 using gob.fnd.Dominio.Digitalizacion.Excel.ABSaldosC;
 using gob.fnd.Dominio.Digitalizacion.Excel.Config;
 using gob.fnd.Dominio.Digitalizacion.Excel.GuardaValores;
@@ -18,6 +19,7 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Diagnostics;
 using System.IO;
 using System.IO.IsolatedStorage;
 using System.Linq;
@@ -230,7 +232,8 @@ public class AdministraImagenesService : IAdministraImagenesService
         string nuevaCarpetaDestino = string.Empty;
         try
         {
-            nuevaCarpetaDestino = archivoAProcesar.CarpetaDestino + System.IO.Path.DirectorySeparatorChar + (fileInfo.Name ?? "").Replace(fileInfo.Extension, "_" + fileInfo.Extension.Replace(".", ""));
+            // nuevaCarpetaDestino = archivoAProcesar.CarpetaDestino + System.IO.Path.DirectorySeparatorChar + (fileInfo.Name ?? "").Replace(fileInfo.Extension, "_" + fileInfo.Extension.Replace(".", ""));
+            nuevaCarpetaDestino = Path.Combine(archivoAProcesar.CarpetaDestino??"", string.Format("{0}-{1}", archivoAProcesar.Id, archivoAProcesar.SubArchivo));
         }
         catch
         {
@@ -274,7 +277,9 @@ public class AdministraImagenesService : IAdministraImagenesService
         string[] extensionesDocumentosPorConvertir = new[] { "docx", "doc", "gif", "jfif", "jpeg", "jpg", "png", "tif", "msg" };
         if (extensionesDocumentosPorConvertir.Any(x => fileInfo.Extension.Contains(x, StringComparison.InvariantCultureIgnoreCase)))
         {
-            string directorioDestino = baseFileName.Replace(".", "_");
+
+            // string directorioDestino = baseFileName.Replace(".", "_").Replace(",", "_");
+            string directorioDestino = Path.Combine(Path.GetDirectoryName(baseFileName)??"",string.Format("{0}-{1}",archivoAProcesar.Id, archivoAProcesar.SubArchivo));
             ArchivosImagenes archivoConvertido = _procesaConversionArchivos.ConvierteArchivoDesde(archivoAProcesar, fileInfo.FullName, nuevaCarpetaDestino, ref subArchivo);
             // Se agrega el archivo siempre y cuando se pudo convertir
             if (!archivoConvertido.ErrorAlDescargar)
@@ -332,15 +337,7 @@ public class AdministraImagenesService : IAdministraImagenesService
                                     where (new int[] { 232344 }).Any(x => arc.Id == x)
                                     select arc).ToList();
                 */
-                foreach (var imagen in recuperaImagenes)
-                {
-                    _procesaDescargaInformacion.DescargaArchivo(imagen);
-                    int subArchivo = 0;
-                    var resultado = ProcesaArchivo(imagen, ref subArchivo);
-                    if (subArchivo != 0)
-                        _logger.LogInformation("Se proceso un archivo!");
-                    ((List<ArchivosImagenes>)imagenesDescargadasYProcesadas).AddRange(resultado);
-                }
+                ProcesaImagenesCargadas(imagenesDescargadasYProcesadas, recuperaImagenes);
             }
 
             IEnumerable<string> archivosPorGuardar = RecorreDirectorios(_directorioRaizControl, threadId, job, "PD", true);
@@ -351,6 +348,45 @@ public class AdministraImagenesService : IAdministraImagenesService
             }
         }
         return true;
+    }
+
+    public void ProcesaImagenesCargadas(IList<ArchivosImagenes> imagenesDescargadasYProcesadas, IList<ArchivosImagenes> recuperaImagenes)
+    {
+        foreach (var imagen in recuperaImagenes)
+        {
+            _procesaDescargaInformacion.DescargaArchivo(imagen);
+            int subArchivo = 0;
+            var resultado = ProcesaArchivo(imagen, ref subArchivo);
+            if (subArchivo != 0)
+                _logger.LogInformation("Se proceso un archivo!");
+            ((List<ArchivosImagenes>)imagenesDescargadasYProcesadas).AddRange(resultado);
+        }
+    }
+
+    public async Task ProcesaImagenesCargadasAsync(IList<ArchivosImagenes> imagenesDescargadasYProcesadas, IList<ArchivosImagenes> recuperaImagenes, IProgress<ReporteProgresoDescompresionArchivos> progresa)
+    {
+        long archivosCompletados = 0;
+        long totalArchivos = recuperaImagenes.Count;
+        foreach (var imagen in recuperaImagenes)
+        {
+            archivosCompletados++;
+            await Task.Run(() => { _procesaDescargaInformacion.DescargaArchivo(imagen); });
+            int subArchivo = 0;
+            ReporteProgresoDescompresionArchivos reporte = new()
+            {
+                ArchivoProcesado = archivosCompletados,
+                CantidadArchivos = totalArchivos,
+                InformacionArchivo = imagen.NombreArchivo
+            };
+            progresa.Report(reporte);
+            IEnumerable<ArchivosImagenes> resultado = await Task.Run(() =>
+            {
+                return ProcesaArchivo(imagen, ref subArchivo);
+            });
+            if (subArchivo != 0)
+                _logger.LogInformation("Se proceso un archivo!");
+            ((List<ArchivosImagenes>)imagenesDescargadasYProcesadas).AddRange(resultado);
+        }
     }
 
     public bool RecolectaArchivosYCarpetasDeControl(int maxThreadId, int maxJobId, string control = "CTL")

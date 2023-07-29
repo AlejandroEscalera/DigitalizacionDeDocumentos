@@ -273,6 +273,13 @@ namespace gob.fnd.Infraestructura.Digitalizacion.Excel.HelperInterno
             {
                 string expresion = RemoveLetters(expresionConEspacios).Trim();
                 string separoElExpediente = expresion.Length > 17 ? expresion[..18] : ((expresion.Length < 18) && (expresion.Length > 13) ? expresion : "0"); //  
+                if (expresion.Length == 12)
+                {
+                    if (!expresion.Substring(4, 3).Equals("000"))
+                    {
+                        separoElExpediente = string.Concat(expresion.AsSpan(0, 4), "000", expresion.AsSpan(4, 8));
+                    }
+                }
                 separoElExpediente = separoElExpediente.Trim();
                 #region convierto el expediente a numérico
                 if (separoElExpediente.Length == 18)
@@ -553,6 +560,15 @@ namespace gob.fnd.Infraestructura.Digitalizacion.Excel.HelperInterno
             #endregion            //
 
             return resultado;
+        }
+
+        public static string ObtieneNumContrato(string? numCredito) 
+        { 
+            if (!string.IsNullOrEmpty(numCredito) && numCredito.Length > 14)
+            {
+                return numCredito[..15]+"000";
+            }
+            return (numCredito+C_STR_NULLO)[..15] + "000";
         }
     }
 }

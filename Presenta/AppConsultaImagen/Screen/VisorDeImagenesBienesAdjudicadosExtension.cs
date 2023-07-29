@@ -1,4 +1,6 @@
-﻿using CefSharp;
+﻿using AppConsultaImagen.Dialogo;
+using AppConsultaImagen.Pinta;
+using CefSharp;
 using gob.fnd.Dominio.Digitalizacion.Entidades.BienesAdjudicados;
 using gob.fnd.Dominio.Digitalizacion.Entidades.Consultas;
 using gob.fnd.Dominio.Digitalizacion.Entidades.Imagenes;
@@ -39,8 +41,27 @@ public partial class MainFRM
         btnBaDocDestino.Click += BtnBaDocDestinoClick;
         btnBaConJur.Click += BtnBaConJurClick;
         btnBaDestino.Click += BtnBaDestinoClick;
+        btnVerCreditosRelacionados.Click += BtnVerCreditosRelacionadosClick;
 //#pragma warning restore CS8622 // La nulabilidad de los tipos de referencia del tipo de parámetro no coincide con el delegado de destino (posiblemente debido a los atributos de nulabilidad).
     }
+
+    private void BtnVerCreditosRelacionadosClick(object? sender, EventArgs e)
+    {
+        if (creditosRelacionadosBienesAdjudicados.Length != 0)
+        {
+            regresaTabNavegacion = tabNavegacion.SelectedIndex;
+            regresaTabReportesFinales = tabReportesFinales.SelectedIndex;
+            datosRegreso.Push(new NavegacionRetorno()
+            {
+                TabPrincipal = regresaTabNavegacion,
+                TabReporte = regresaTabReportesFinales
+            });
+            var frm = new SeleccionaExpedienteFRM();
+            frm.FormaPrincipal = this;
+            frm.CargaListaDeExpedientes(creditosRelacionadosBienesAdjudicados);
+        }
+    }
+
     private void BtnBaIdentCasoClick(object? sender, EventArgs e)
     {
         SeleccionaEtapa(1);
@@ -184,7 +205,7 @@ public partial class MainFRM
                 string archivoActual = Path.Combine(_imagenesEncontradasBienesAdjudicados[imagenActualBienesAdjudicados].CarpetaDestino ?? "", _imagenesEncontradasBienesAdjudicados[imagenActualBienesAdjudicados].NombreArchivo ?? "");
                 if (!File.Exists(archivoActual))
                 {
-                    archivoActual = Path.Combine(_imagenesEncontradasBienesAdjudicados[imagenActualBienesAdjudicados].CarpetaDestino ?? "", _imagenesEncontradasBienesAdjudicados[imagenActualBienesAdjudicados].NombreArchivo ?? "").Replace("F:\\", _unidadDeDiscoImagenes, StringComparison.OrdinalIgnoreCase);
+                    archivoActual = Path.Combine(_imagenesEncontradasBienesAdjudicados[imagenActualBienesAdjudicados].CarpetaDestino ?? "", _imagenesEncontradasBienesAdjudicados[imagenActualBienesAdjudicados].NombreArchivo ?? ""); // .Replace("F:\\", _unidadDeDiscoImagenes, StringComparison.OrdinalIgnoreCase);
                 }
                 lblBaCargando.Text = "Cargando...";
                 lblBaCargando.ForeColor = Color.Red;
@@ -223,7 +244,7 @@ public partial class MainFRM
                 string archivoActual = Path.Combine(_imagenesEncontradasBienesAdjudicados[imagenActualBienesAdjudicados].CarpetaDestino ?? "", _imagenesEncontradasBienesAdjudicados[imagenActualBienesAdjudicados].NombreArchivo ?? "");
                 if (!File.Exists(archivoActual))
                 {
-                    archivoActual = Path.Combine(_imagenesEncontradasBienesAdjudicados[imagenActualBienesAdjudicados].CarpetaDestino ?? "", _imagenesEncontradasBienesAdjudicados[imagenActualBienesAdjudicados].NombreArchivo ?? "").Replace("F:", _unidadDeDiscoImagenes, StringComparison.OrdinalIgnoreCase);
+                    archivoActual = Path.Combine(_imagenesEncontradasBienesAdjudicados[imagenActualBienesAdjudicados].CarpetaDestino ?? "", _imagenesEncontradasBienesAdjudicados[imagenActualBienesAdjudicados].NombreArchivo ?? ""); //.Replace("F:", _unidadDeDiscoImagenes, StringComparison.OrdinalIgnoreCase);
                 }
                 lblBaCargando.Text = "Cargando...";
                 lblBaCargando.ForeColor = Color.Red;

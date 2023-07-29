@@ -1,4 +1,5 @@
-﻿using gob.fnd.Dominio.Digitalizacion.Entidades.Consultas;
+﻿using AppConsultaImagen.Pinta;
+using gob.fnd.Dominio.Digitalizacion.Entidades.Consultas;
 using gob.fnd.Dominio.Digitalizacion.Entidades.Consultas.ReporteFinal;
 using System;
 using System.Collections.Generic;
@@ -100,6 +101,11 @@ public partial class MainFRM
     {
         regresaTabNavegacion = 2;
         regresaTabReportesFinales = 3;
+        datosRegreso.Push(new NavegacionRetorno()
+        {
+            TabPrincipal = regresaTabNavegacion,
+            TabReporte = regresaTabReportesFinales
+        });
         if (dgvrdDetalleAgencias.SelectedRows is not null && dgvrdDetalleAgencias.CurrentRow is not null)
         {
             object objValue = dgvrdDetalleAgencias.CurrentRow.Cells[2].Value;
@@ -216,6 +222,11 @@ public partial class MainFRM
     {
         regresaTabNavegacion = 2;
         regresaTabReportesFinales = 3;
+        datosRegreso.Push(new NavegacionRetorno()
+        {
+            TabPrincipal = regresaTabNavegacion,
+            TabReporte = regresaTabReportesFinales
+        });
         MuestraImagenRd();
     }
 
@@ -237,7 +248,7 @@ public partial class MainFRM
             if (agencia != 0 && !string.IsNullOrEmpty(numeroDeCredito))
             {
                 _expCasExpedienteNumCreditoSeleccionado = numeroDeCredito;
-                ExpedienteDeConsulta? expediente = BuscaImagenes(_expCasExpedienteNumCreditoSeleccionado);
+                ExpedienteDeConsultaGv? expediente = BuscaImagenes(_expCasExpedienteNumCreditoSeleccionado);
                 if (expediente is not null)
                 {
                     MuestraExpedienteEnImagen(expediente);
@@ -252,7 +263,7 @@ public partial class MainFRM
 
     }
 
-    private ExpedienteDeConsulta? BuscaImagenes(string numeroDeCredito, bool directas = true)
+    private ExpedienteDeConsultaGv? BuscaImagenes(string numeroDeCredito, bool directas = true)
     {
         if (_windowsFormsGloablInformation is not null)
         {
