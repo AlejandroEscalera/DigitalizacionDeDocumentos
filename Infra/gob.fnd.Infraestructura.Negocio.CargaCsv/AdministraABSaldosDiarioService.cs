@@ -117,10 +117,12 @@ namespace gob.fnd.Infraestructura.Negocio.CargaCsv
                 // Descarga el archivo como un array de bytes.
                 byte[] archivo = cliente.GetByteArrayAsync(url).Result;
                 string nombreArchivoDescarga = Encoding.UTF8.GetString(archivo);
+                archivoABSaldosDiarioDestinoZip = Path.Combine(Path.GetDirectoryName(archivoABSaldosDiarioDestinoZip)?? "", nombreArchivoDescarga);
                 url = _rutaDeDescarga + nombreArchivoDescarga;
 
                 archivo = cliente.GetByteArrayAsync(url).Result;
-
+                if (File.Exists(archivoABSaldosDiarioDestinoZip))
+                    File.Delete(archivoABSaldosDiarioDestinoZip);
                 File.WriteAllBytes(archivoABSaldosDiarioDestinoZip, archivo);
                 _logger.LogInformation("Archivo descargado con éxito en {ruta} ", Path.GetDirectoryName(archivoABSaldosDiarioDestinoZip));
                 _descomprimeArchivoZipService.DescomprimeArchivo(archivoABSaldosDiarioDestinoZip, Path.GetDirectoryName(_archivoABSaldosDiarioDestino)??"");

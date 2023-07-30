@@ -14,6 +14,7 @@ using gob.fnd.Dominio.Digitalizacion.Excel.ABSaldosC;
 using gob.fnd.Dominio.Digitalizacion.Excel.BienesAdjudicados;
 using gob.fnd.Dominio.Digitalizacion.Excel.Cancelados;
 using gob.fnd.Dominio.Digitalizacion.Excel.Config;
+using gob.fnd.Dominio.Digitalizacion.Excel.GuardaValores;
 using gob.fnd.Dominio.Digitalizacion.Excel.Imagenes;
 using gob.fnd.Dominio.Digitalizacion.Excel.Juridico;
 using gob.fnd.Dominio.Digitalizacion.Excel.Liquidaciones;
@@ -57,6 +58,7 @@ public partial class ConsultaServices : IConsultaServices
     private readonly IAdministraExpedientesJuridicos _administraExpedientesJuridicosService;
     private readonly IJuridico _juridicoService;
     private readonly IObtieneCatalogoProductos _obtieneCatalogoProductos;
+    private readonly IAdministraGuardaValores _administraGuardaValores;
     #endregion
 
     #region Información de los archivos
@@ -137,7 +139,8 @@ public partial class ConsultaServices : IConsultaServices
         IOperacionesTratamientos operacionesTratamientosService,
         IAdministraExpedientesJuridicos administraExpedientesJuridicosService,
         IJuridico juridicoService,
-        IObtieneCatalogoProductos obtieneCatalogoProductos
+        IObtieneCatalogoProductos obtieneCatalogoProductos, 
+        IAdministraGuardaValores administraGuardaValores
     #endregion
         )
     {
@@ -163,6 +166,7 @@ public partial class ConsultaServices : IConsultaServices
         _administraExpedientesJuridicosService = administraExpedientesJuridicosService;
         _juridicoService = juridicoService;
         _obtieneCatalogoProductos = obtieneCatalogoProductos;
+        _administraGuardaValores = administraGuardaValores;
         _archivoSoloPDFProcesado = _configuration.GetValue<string>("archivoSoloPDFProcesado") ?? "";
         _archivoExpedientesConsultaCsv = _configuration.GetValue<string>("archivoExpedientesConsulta") ?? "";
         _archivoExpedientesConsultaGvCsv = _configuration.GetValue<string>("archivoExpedientesConsultaGv") ?? "";
@@ -215,7 +219,8 @@ public partial class ConsultaServices : IConsultaServices
             {
                 if (_administraABSaldosDiarioService.DescargaABSaldosDiario())
                 {
-                    _abSaldosCompleta = _administraCargaCorteDiarioService.CargaABSaldosCompleta(_archivoABSaldosDiarioDestino);
+                    string lastFileName = ObtieneUltimoABSaldos();
+                    _abSaldosCompleta = _administraCargaCorteDiarioService.CargaABSaldosCompleta(lastFileName);
                     LlenaInformacionABSaldosFiltroCredito(_abSaldosCompleta);
                     ultimosSaldos = true;
                 }
@@ -747,11 +752,17 @@ public partial class ConsultaServices : IConsultaServices
         return resultado??new List<GuardaValores>();
     }
 
-    public IEnumerable<GuardaValores> ObtieneGuardaValores(int Agencia) 
+    public IEnumerable<GuardaValores> ObtieneGuardaValores(int agencia) 
     {
         if (_guardaValores is not null && _guardaValores.Any())
-            return _guardaValores;
+        {
+            if (agencia != 0)
+            {
+                return SoloUnaAgencia(agencia);
+            }
 
+            return _guardaValores;
+        }
         if (_imagenesCortas is not null)
         {
             var productos = _obtieneCatalogoProductos.ObtieneElCatalogoDelProducto();
@@ -794,7 +805,7 @@ public partial class ConsultaServices : IConsultaServices
             var losSaldosAReportar = ObtieneSaldosFiltrados(productos);
             var faltantes = losSaldosAReportar.Where(x => !_guardaValores.Any(z => (z.NumCredito ?? "").Equals(x.NumCredito))).ToList();
             CruzaInformacionAgencias(_agencias, faltantes);
-
+            CruzaInformacionExpedientesJuridico(faltantes);
 
             if (File.Exists(@"C:\Demos\Palomino\GV.CSV"))
                 File.Delete(@"C:\Demos\Palomino\GV.CSV");
@@ -802,33 +813,62 @@ public partial class ConsultaServices : IConsultaServices
             if (File.Exists(@"C:\Demos\Palomino\GV-Faltantes.CSV"))
                 File.Delete(@"C:\Demos\Palomino\GV-Faltantes.CSV");
             _ = _creaArchivoCsvService.CreaArchivoCsv(@"C:\Demos\Palomino\GV-Faltantes.CSV", faltantes);
+            ((List<GuardaValores>)_guardaValores).AddRange(faltantes);
 
-            if (Agencia !=0)
+            if (agencia != 0)
             {
-                IEnumerable<GuardaValores> resultadoResumen = _guardaValores.Where(x => x.Sucursal == Agencia).GroupBy(x => x.NumContrato).Select(
-                    x => new GuardaValores() { 
-                        Regional =x.First().Regional,
-                        CatRegional = x.First().CatRegional,
-                        EstadoInegi = x.First().EstadoInegi,
-                        Sucursal = x.First().Sucursal,
-                        CatAgencia = x.First().CatAgencia,
-                        NumCte = x.First().NumCte,
-                        Acreditado = x.First().Acreditado,
-                        NumContrato = x.Key,
-                        NumProducto =x.First().NumProducto,
-                        CatProducto = x.First().CatProducto,
-                        EstadoDeLaCartera = x.First().EstadoDeLaCartera,
-                        SldoTotContval = x.Sum(y=>y.SldoTotContval),
-                        Imagen = x.First().Imagen,
-                        TieneTurnoCobranza = x.Any(y=>y.TieneTurnoCobranza),
-                        TieneTurnoJuridico = x.Any(y=>y.TieneTurnoJuridico),
-                    });
-                return resultadoResumen.ToList();
+                return SoloUnaAgencia(agencia);
             }
+
             return _guardaValores;
         }
 
         return new List<GuardaValores>();
+    }
+
+    private IEnumerable<GuardaValores> SoloUnaAgencia(int agencia)
+    {
+        if (_guardaValores is not null && _guardaValores.Any())
+        {
+            IEnumerable<GuardaValores> resultadoResumen = _guardaValores.Where(x => x.Sucursal == agencia).GroupBy(x => x.NumContrato).Select(
+                x => new GuardaValores()
+                {
+                    Regional = x.First().Regional,
+                    CatRegional = x.First().CatRegional,
+                    EstadoInegi = x.First().EstadoInegi,
+                    Sucursal = x.First().Sucursal,
+                    CatAgencia = x.First().CatAgencia,
+                    NumCte = x.First().NumCte,
+                    Acreditado = x.First().Acreditado,
+                    NumContrato = x.Key,
+                    NumProducto = x.First().NumProducto,
+                    CatProducto = x.First().CatProducto,
+                    EstadoDeLaCartera = x.First().EstadoDeLaCartera,
+                    SldoTotContval = x.Sum(y => y.SldoTotContval),
+                    Imagen = x.First().Imagen,
+                    TieneTurnoCobranza = x.Any(y => y.TieneTurnoCobranza),
+                    TieneTurnoJuridico = x.Any(y => y.TieneTurnoJuridico),
+                });
+            return resultadoResumen.OrderBy(x => x.NumContrato).ToList();
+        }
+        else
+            return new List<GuardaValores>();
+    }
+
+    private void CruzaInformacionExpedientesJuridico(List<GuardaValores> guardaValores)
+    {
+        if (_imagenesCortasExpedientesJuridico is not null)
+        { 
+            var cruce = from gv in guardaValores
+                        join img in _imagenesCortasExpedientesJuridico on QuitaCastigo(gv.NumCredito)[..14] equals QuitaCastigo(img.NumCredito)[..14]
+                        select new { gv, img };
+            foreach(var item in cruce)
+            {
+                item.gv.TieneTurnoCobranza = item.img.EsCobranza;
+                item.gv.TieneTurnoJuridico = item.img.EsTurno;
+                item.gv.Imagen = Path.Combine(item.img.CarpetaDestino??"",item.img.NombreArchivo??"");
+            }
+        }
     }
 
     private static bool ObtieneEsCreditoAReportar(ABSaldosCompleta saldos)
@@ -1300,4 +1340,16 @@ public partial class ConsultaServices : IConsultaServices
         return listaImagenesEncontradas;
     }
 
+    public bool GuardaValores(IEnumerable<GuardaValores> valoresAGuardar, string nombreArchivoReporte)
+    {
+        try
+        {
+            _administraGuardaValores.GuardaReporteGuardaValores(valoresAGuardar, nombreArchivoReporte);
+            return true;
+        }
+        catch
+        {
+            return false;
+        }
+    }
 }

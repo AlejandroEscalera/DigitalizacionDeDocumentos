@@ -208,7 +208,7 @@ namespace gob.fnd.ExcelHelper
                 //picture.From.ColumnOff = 4;
                 picture.From.RowOff = Pixel2MTU(5);//Two pixel space for better alignment
                 //picture.From.RowOff = 5;
-                picture.SetSize(123);
+                picture.SetSize(110);
             }
         }
         /// <summary>

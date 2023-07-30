@@ -15,12 +15,36 @@ namespace AppConsultaImagen
         }
         public void BtnGuardaValoresClick(object? sender, EventArgs e)
         {
-            var guardaValores = _windowsFormsGloablInformation?.ActivaConsultasServices().ObtieneGuardaValores(0);
-            if (guardaValores != null)
+            // sfdGuardaReporte
+            // string myDocumentsPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            sfdGuardaReporte.DefaultExt = "xlsx";
+            sfdGuardaReporte.Filter = "Archivos de Excel (*.xlsx)|*.xlsx|Todos los archivos (*.*)|*.*";
+            sfdGuardaReporte.FileName = string.Format("{0:yy}{0:MM}{0:dd}_{1}.xlsx", DateTime.Now, lblrdDetalleAgencia.Text.Replace("Creditos de la Agencia ","").Replace(",","").Replace(" ","-").Replace(".",""));
+
+            // Obtiene la ruta de la carpeta "Mis documentos"
+            string myDocumentsPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+
+            // Establece la ruta de inicio en "Mis documentos"
+            sfdGuardaReporte.InitialDirectory = myDocumentsPath;
+
+            if (sfdGuardaReporte.ShowDialog() == DialogResult.OK)
             {
-                foreach (var gv in guardaValores)
+                // Obtiene la ruta del archivo seleccionado
+                string rutaArchivo = sfdGuardaReporte.FileName;
+                object objValue = dgvrdDetalleAgencias.Rows[0].Cells[1].Value;
+                int agencia = Convert.ToInt32(objValue);
+                // Guarda el archivo
+                var guardaValores = _windowsFormsGloablInformation?.ActivaConsultasServices().ObtieneGuardaValores(agencia);
+                if (guardaValores != null)
                 {
-                    Console.WriteLine($"Regional: {gv.Regional}");
+                    if (_windowsFormsGloablInformation?.ActivaConsultasServices().GuardaValores(guardaValores, rutaArchivo) == true)
+                    {
+                        MessageBox.Show($"Se guardó el archivo con {guardaValores.Count()} contratos.");
+                    }
+                    else
+                    {
+                        MessageBox.Show($"Hay un error al intentar guardar los contratos.");
+                    }
                 }
             }
         }

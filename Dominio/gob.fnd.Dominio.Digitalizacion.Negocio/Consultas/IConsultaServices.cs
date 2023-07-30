@@ -168,6 +168,7 @@ namespace gob.fnd.Dominio.Digitalizacion.Negocio.Consultas
 
         #region GuardaValores
         IEnumerable<GuardaValores> ObtieneGuardaValores(int Agencia);
+        bool GuardaValores(IEnumerable<GuardaValores> valoresAGuardar, string nombreArchivoReporte);
         #endregion
     }
 }

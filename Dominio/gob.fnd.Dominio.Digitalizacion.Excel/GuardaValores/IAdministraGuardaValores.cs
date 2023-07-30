@@ -1,4 +1,5 @@
 ﻿using gob.fnd.Dominio.Digitalizacion.Entidades.Arqueo;
+using gob.fnd.Dominio.Digitalizacion.Entidades.GuardaValores;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,5 +29,6 @@ namespace gob.fnd.Dominio.Digitalizacion.Excel.GuardaValores
         /// <param name="archivoGuardaValor">Nombre del archivo</param>
         /// <returns>Los guardavalores previos</returns>
         IEnumerable<InformacionGuardaValor> CargaInformacionGuardaValoresPrevia(string archivoGuardaValor = "");
+        bool GuardaReporteGuardaValores(IEnumerable<Entidades.GuardaValores.GuardaValores> guardaValores, string archivoGuardaValor = "");
     }
 }

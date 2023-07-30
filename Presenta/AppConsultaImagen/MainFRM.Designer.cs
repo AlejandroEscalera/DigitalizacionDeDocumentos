@@ -1215,6 +1215,7 @@
             colldTieneImagenDirecta = new DataGridViewTextBoxColumn();
             colldTieneImagenIndirecta = new DataGridViewTextBoxColumn();
             this.tmrPB = new global::System.Windows.Forms.Timer(this.components);
+            sfdGuardaReporte = new SaveFileDialog();
             pnlHeader.SuspendLayout();
             pnlSubMenu.SuspendLayout();
             pnlPorReportes.SuspendLayout();
@@ -12965,6 +12966,11 @@
             colldTieneImagenIndirecta.Visible = false;
             colldTieneImagenIndirecta.Width = 125;
             // 
+            // sfdGuardaReporte
+            // 
+            sfdGuardaReporte.DefaultExt = "xlsx";
+            sfdGuardaReporte.Filter = "Archivos de Excel (*.xlsx)|*.xlsx|Todos los archivos (*.*)|*.*";
+            // 
             // MainFRM
             // 
             this.AutoScaleDimensions = new SizeF(9F, 20F);
@@ -14140,5 +14146,6 @@
         private DataGridViewTextBoxColumn colrdTieneImagenIndirecta;
         private Button btnDescargaGuardaValores;
         private Button btnReporteGuardaValor;
+        private SaveFileDialog sfdGuardaReporte;
     }
 }

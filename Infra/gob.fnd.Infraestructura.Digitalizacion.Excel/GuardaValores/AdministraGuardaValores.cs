@@ -1,4 +1,5 @@
 ﻿using gob.fnd.Dominio.Digitalizacion.Entidades.Arqueo;
+using gob.fnd.Dominio.Digitalizacion.Entidades.GuardaValores;
 using gob.fnd.Dominio.Digitalizacion.Entidades.Imagenes;
 using gob.fnd.Dominio.Digitalizacion.Excel.GuardaValores;
 using gob.fnd.ExcelHelper;
@@ -7,11 +8,13 @@ using gob.fnd.Infraestructura.Digitalizacion.Excel.HelperInterno;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using OfficeOpenXml;
+using OfficeOpenXml.Style;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Drawing;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -19,9 +22,9 @@ namespace gob.fnd.Infraestructura.Digitalizacion.Excel.GuardaValores;
 
 public class AdministraGuardaValores : IAdministraGuardaValores
 {
-    const int C_INT_AUDITOR = 2 -1;
+    const int C_INT_AUDITOR = 2 - 1;
     const int C_INT_ACREDITADO = 4 - 1;
-    const int C_INT_NUMCTE = 3 - 1 ;
+    const int C_INT_NUMCTE = 3 - 1;
     const int C_INT_NUMERO_CREDITO = 5 - 1;
     const int C_INT_CAT_TIPO_CREDITO = 6 - 1;
     const int C_INT_CAT_TIPO_DOCUMENTO = 7 - 1;
@@ -72,7 +75,7 @@ public class AdministraGuardaValores : IAdministraGuardaValores
                 x.Name.Contains("RG OPE GVA 005 010", StringComparison.OrdinalIgnoreCase)
                 ));
             }
-            if (hoja is null) 
+            if (hoja is null)
                 hoja ??= package.Workbook.Worksheets.FirstOrDefault(x => x.Name.Contains("Hoja1", StringComparison.OrdinalIgnoreCase));
             int renglon = archivo.PrimerRenglonGuardaValores;
             if (hoja is not null)
@@ -81,7 +84,7 @@ public class AdministraGuardaValores : IAdministraGuardaValores
                 int[] celdaCampos = ObtieneValoresCampos(hoja, archivo);
                 // luego obtengo los valores de cada renglon, basado en los campos encontrados
                 bool renglonVacio = false;
-                renglon = archivo.PrimerRenglonGuardaValores -1;
+                renglon = archivo.PrimerRenglonGuardaValores - 1;
 
                 string numeroCredito = "000000000000000000";
 
@@ -133,7 +136,7 @@ public class AdministraGuardaValores : IAdministraGuardaValores
     }
 
 
-    public bool GuardaInformacionGuardaValores(IEnumerable<InformacionGuardaValor> guardaValores, string archivoGuardaValor ="")
+    public bool GuardaInformacionGuardaValores(IEnumerable<InformacionGuardaValor> guardaValores, string archivoGuardaValor = "")
     {
         if (string.IsNullOrEmpty(archivoGuardaValor))
             archivoGuardaValor = _archivoGuardaValor;
@@ -142,7 +145,7 @@ public class AdministraGuardaValores : IAdministraGuardaValores
         if (File.Exists(archivoGuardaValor))
             File.Delete(archivoGuardaValor);
 
-        FileStream fs = new(archivoGuardaValor ?? "", FileMode.CreateNew, FileAccess.ReadWrite,FileShare.ReadWrite);
+        FileStream fs = new(archivoGuardaValor ?? "", FileMode.CreateNew, FileAccess.ReadWrite, FileShare.ReadWrite);
         using var package = new ExcelPackage(fs);
         ExcelWorksheet? hoja = package.Workbook.Worksheets.Add("GuardaValores");
         hoja.Name = "GuardaValores";
@@ -167,7 +170,7 @@ public class AdministraGuardaValores : IAdministraGuardaValores
         col++;
 
         hoja.Cells[row, col].Value = "Archivo que origina la información"; // Id
-        hoja.Cells[row, col].Style.WrapText= true;
+        hoja.Cells[row, col].Style.WrapText = true;
         FNDExcelHelper.ChangeBackgroundColor(hoja.Cells[row, col], Color.FromArgb(179, 142, 93));
         hoja.Column(col).Width = 0; // 88.33 + 0.78;
         col++;
@@ -245,7 +248,7 @@ public class AdministraGuardaValores : IAdministraGuardaValores
         hoja.Column(col).Width = 51.56 + 0.78;
         col++;
         hoja.Cells[row, col].Value = "Tiene expediente Digital"; // Id
-        hoja.Cells[row, col].Style.WrapText= true;
+        hoja.Cells[row, col].Style.WrapText = true;
         FNDExcelHelper.ChangeBackgroundColor(hoja.Cells[row, col], Color.FromArgb(179, 142, 93));
         hoja.Column(col).Width = 9.22 + 0.78;
         col++;
@@ -286,7 +289,7 @@ public class AdministraGuardaValores : IAdministraGuardaValores
             hoja.Cells[row, col].Value = guardaValor.Acreditado;
             col++;
             hoja.Cells[row, col].Value = guardaValor.NumCte;
-            col++;                
+            col++;
             hoja.Cells[row, col].Value = guardaValor.NumeroCredito;
 
             col++;
@@ -308,7 +311,7 @@ public class AdministraGuardaValores : IAdministraGuardaValores
             if (guardaValor.FechaDeVencimiento is not null)
             {
                 hoja.Cells[row, col].SetCellDate(guardaValor.FechaDeVencimiento.Value);
-//                        .Value = guardaValor.FechaDeVencimiento;
+                //                        .Value = guardaValor.FechaDeVencimiento;
             }
             col++;
             hoja.Cells[row, col].Value = guardaValor.EstadoFisico;
@@ -330,7 +333,7 @@ public class AdministraGuardaValores : IAdministraGuardaValores
             col++;
             hoja.Cells[row, col].Value = Condiciones.TieneExpedienteDigital(guardaValor.TieneExpedienteDigital);
             col++;
-            hoja.Cells[row, col].Value = Condiciones.ObtieneCastigo( guardaValor.Castigo);
+            hoja.Cells[row, col].Value = Condiciones.ObtieneCastigo(guardaValor.Castigo);
             col++;
             hoja.Cells[row, col].Value = Condiciones.EstaEnArqueosSinABSaldo(guardaValor.EsNuevo);
             col++;
@@ -575,7 +578,7 @@ public class AdministraGuardaValores : IAdministraGuardaValores
         int primeraColumnaGuardaValores;
         int primerRenglonGuardaValores; // el primer renglon es +1
         // Por default todos los campos no son encontrados
-        int[] resultado = {-1, -1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1};
+        int[] resultado = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 };
         int campoBusqueda = 0;
         // Si no hay informacion de los campos, ni entro
         if (archivo.CamposDeInformacionGuardaValor != null)
@@ -587,7 +590,7 @@ public class AdministraGuardaValores : IAdministraGuardaValores
                     _logger.LogTrace("Revisar correcto e incorrecto");
                 primerRenglonGuardaValores = archivo.PrimerRenglonGuardaValores; // el primer renglon es +1
                 primeraColumnaGuardaValores = archivo.PrimerColumnaDetalleGuardaValores;
-                if (!string.IsNullOrEmpty(campo) && !string.IsNullOrWhiteSpace(campo)) 
+                if (!string.IsNullOrEmpty(campo) && !string.IsNullOrWhiteSpace(campo))
                 {
                     ExcelRange? celda = null;
                     while (celda is null && primerRenglonGuardaValores > 0)
@@ -599,7 +602,7 @@ public class AdministraGuardaValores : IAdministraGuardaValores
                         }
                     }
                     // Solo si lo encuentra coloco el número de campo
-                    if (celda is not null && primerRenglonGuardaValores > 0) 
+                    if (celda is not null && primerRenglonGuardaValores > 0)
                     {
                         ExcelAddress direccionCelda = new(celda.Address);
                         resultado[campoBusqueda] = direccionCelda.Start.Column;
@@ -635,15 +638,15 @@ public class AdministraGuardaValores : IAdministraGuardaValores
                 return resultado;
             var hoja = package.Workbook.Worksheets[0];
             int row = 2;
-            
+
             bool aunInformacion = true;
             while (aunInformacion)
             {
                 int col = 1;
-                InformacionGuardaValor guardaValor = new ();
+                InformacionGuardaValor guardaValor = new();
                 int id = FNDExcelHelper.GetCellInt(hoja.Cells[row, col]);
                 if (id == 0)
-                { 
+                {
                     //aunInformacion = false;
                     break;
                 }
@@ -692,15 +695,15 @@ public class AdministraGuardaValores : IAdministraGuardaValores
                 col++;
                 guardaValor.Detalle = FNDExcelHelper.GetCellString(hoja.Cells[row, col]);
                 col++;
-                guardaValor.TieneExpedienteDigital = Condiciones.ObtieneTieneExpedienteDigital(FNDExcelHelper.GetCellString(hoja.Cells[row, col]))??false;
+                guardaValor.TieneExpedienteDigital = Condiciones.ObtieneTieneExpedienteDigital(FNDExcelHelper.GetCellString(hoja.Cells[row, col])) ?? false;
                 col++;
                 guardaValor.Castigo = Condiciones.RegresaObtieneCastigo(FNDExcelHelper.GetCellString(hoja.Cells[row, col]));
                 col++;
-                guardaValor.EsNuevo = Condiciones.ObtieneEstaEnArqueosSinABSaldo(FNDExcelHelper.GetCellString(hoja.Cells[row, col]) )?? false;
+                guardaValor.EsNuevo = Condiciones.ObtieneEstaEnArqueosSinABSaldo(FNDExcelHelper.GetCellString(hoja.Cells[row, col])) ?? false;
                 col++;
-                guardaValor.AperturaTiempoDoctor = Condiciones.RegresaEsPeriodoDelDr(FNDExcelHelper.GetCellString(hoja.Cells[row, col]))?? false;
+                guardaValor.AperturaTiempoDoctor = Condiciones.RegresaEsPeriodoDelDr(FNDExcelHelper.GetCellString(hoja.Cells[row, col])) ?? false;
                 col++;
-                guardaValor.AunEnABSaldos = Condiciones.ObtenerEsCarteraABSaldos(FNDExcelHelper.GetCellString(hoja.Cells[row, col]))?? false;
+                guardaValor.AunEnABSaldos = Condiciones.ObtenerEsCarteraABSaldos(FNDExcelHelper.GetCellString(hoja.Cells[row, col])) ?? false;
                 row++;
 
                 resultado.Add(guardaValor);
@@ -712,4 +715,145 @@ public class AdministraGuardaValores : IAdministraGuardaValores
 
     }
 
+    public bool GuardaReporteGuardaValores(IEnumerable<Dominio.Digitalizacion.Entidades.GuardaValores.GuardaValores> guardaValores, string archivoGuardaValor = "")
+    {
+        if (string.IsNullOrEmpty(archivoGuardaValor))
+            archivoGuardaValor = _archivoGuardaValor;
+        if (string.IsNullOrEmpty(archivoGuardaValor))
+            return false;
+        if (File.Exists(archivoGuardaValor))
+            File.Delete(archivoGuardaValor);
+
+#pragma warning disable IDE0063 // Use la instrucción "using" simple
+        using (FileStream fs = new(archivoGuardaValor ?? "", FileMode.CreateNew, FileAccess.ReadWrite, FileShare.ReadWrite)) 
+        {
+            using (var package = new ExcelPackage(fs))
+            {
+                ExcelWorksheet? hoja = package.Workbook.Worksheets.Add("GuardaValores");
+                hoja.Name = "Documentos Valor";
+                #region Escribo los encabezados
+                int row = 1;
+                string logDirectory = AppDomain.CurrentDomain.BaseDirectory ?? "";
+                FNDExcelHelper.AddLogo(hoja, 0, 0, string.Format(@"{0}\Img\LogoFND2.png", logDirectory));
+                _logger.LogInformation("Logo agregado {archivoLogo}", string.Format(@"{0}\Img\LogoFND2.png", logDirectory));
+                hoja.Row(row).Height = 16.8 + 0.78;
+                row++;
+                hoja.Row(row).Height = 16.8 + 0.78;
+                row++;
+                hoja.Row(row).Height = 16.8 + 0.78;
+                row++;
+                hoja.Row(row).Height = 16.8 + 0.78;
+                row++;
+                hoja.Row(row).Height = 16.8 + 0.78;
+                hoja.Cells[row, 1, row, 9].Merge = true;
+                hoja.Cells[row, 1, row, 9].Value = "Documentos Valor Cartera Administrada";
+                hoja.Cells[row, 1, row, 9].Style.HorizontalAlignment = ExcelHorizontalAlignment.Center;
+                hoja.Cells[row, 1, row, 9].Style.VerticalAlignment = ExcelVerticalAlignment.Center;
+                hoja.Cells[row, 1, row, 9].Style.Font.Name = "Montserrat";
+                hoja.Cells[row, 1, row, 9].Style.Font.Size = 11;
+                hoja.Cells[row, 1, row, 9].Style.Font.Bold = true;
+                hoja.Cells[row, 1, row, 9].Style.Font.Color.SetColor(Color.White);
+                FNDExcelHelper.ChangeBackgroundColor(hoja.Cells[row, 1, row, 9], Color.FromArgb(98, 17, 50));
+                row++;
+                int col = 1;
+                hoja.Row(row).Height = 33.6 + 0.78;
+                Color titleColor = Color.FromArgb(40, 92, 77);
+                PrintTitleCell(hoja, row, col, 9, "Region", titleColor);
+                col++;
+                PrintTitleCell(hoja, row, col, 29.22, "Estado", titleColor);
+                col++;
+                PrintTitleCell(hoja, row, col, 22.44, "Agencia", titleColor);
+                col++;
+                PrintTitleCell(hoja, row, col, 12.22, "Numero de Cliente", titleColor);
+                col++;
+                PrintTitleCell(hoja, row, col, 43.22, "Nombre de Cliente", titleColor);
+                col++;
+                PrintTitleCell(hoja, row, col, 15.33, "Número de Contrato", titleColor);
+                col++;
+                PrintTitleCell(hoja, row, col, 40.44, "Producto", titleColor);
+                col++;
+                PrintTitleCell(hoja, row, col, 11.22, "Estatus de Cartera", titleColor);
+                col++;
+                PrintTitleCell(hoja, row, col, 17, "Monto", titleColor);
+                col++;
+                row++;
+                #endregion
+
+                #region Vacio los campos
+                foreach (var guardaValor in guardaValores)
+                {
+                    col = 1;
+                    hoja.Cells[row, 1, row, 9].Style.Font.Name = "Montserrat";
+                    hoja.Cells[row, 1, row, 9].Style.Font.Size = 9;
+                    hoja.Cells[row, 1, row, 9].Style.Font.Color.SetColor(Color.Black);
+
+                    hoja.Cells[row, col].Value = guardaValor.CatRegional;
+                    col++;
+                    hoja.Cells[row, col].Value = guardaValor.EstadoInegi;
+                    col++;
+                    hoja.Cells[row, col].Value = guardaValor.CatAgencia;
+                    col++;
+                    hoja.Cells[row, col].Value = guardaValor.NumCte;
+                    col++;
+                    hoja.Cells[row, col].Value = guardaValor.Acreditado;
+                    col++;
+                    hoja.Cells[row, col].Value = guardaValor.NumContrato;
+                    col++;
+                    hoja.Cells[row, col].Value = guardaValor.CatProducto;
+                    col++;
+                    hoja.Cells[row, col].Value = guardaValor.EstadoDeLaCartera;
+                    col++;
+                    hoja.Cells[row, col].Value = guardaValor.SldoTotContval;
+                    hoja.Cells[row, col].Style.Numberformat.Format = "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)";
+                    if (row % 2 == 1)
+                    {
+                        FNDExcelHelper.ChangeBackgroundColor(hoja.Cells[row, 1, row, 9], Color.FromArgb(243, 203, 215));
+                    }
+                    row++;
+                }
+                #endregion
+                #region autofiltro
+                hoja.Cells[String.Format("A6:I{0}", row - 1)].AutoFilter = true;
+
+                hoja.Cells[row, 9].Formula = string.Format("=SUBTOTAL(9,I6:I{0})", row - 1);
+                hoja.Cells[row, 9].Style.Numberformat.Format = "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)";
+                row++;
+                hoja.View.FreezePanes(7, 1);
+                #endregion
+                #region Printer Settings
+                hoja.PrinterSettings.RepeatRows = hoja.Cells["1:6"];
+                hoja.PrinterSettings.PrintArea = hoja.Cells[String.Format("A1:I{0}", row - 1)];
+                var footer01 = hoja.HeaderFooter.EvenFooter;
+                var footer02 = hoja.HeaderFooter.OddFooter;
+                footer01.CenteredText = footer02.CenteredText = "Fecha de Impresión: &D";
+                footer01.RightAlignedText = footer02.RightAlignedText = "Página &P de &N";
+                hoja.PrinterSettings.Orientation = eOrientation.Landscape;
+                
+                hoja.PrinterSettings.LeftMargin = 0.6m;
+                hoja.PrinterSettings.RightMargin = 0.6m;
+                hoja.PrinterSettings.TopMargin = 0.6m;
+                hoja.PrinterSettings.BottomMargin = 1.9m;
+                hoja.PrinterSettings.FitToWidth = 1;
+                #endregion 
+
+                package.Save();
+            }
+        }
+#pragma warning restore IDE0063 // Use la instrucción "using" simple
+        return true;
+    }
+
+    private static void PrintTitleCell(ExcelWorksheet hoja, int row, int col, double colWidth, string title, Color titleColor)
+    {
+        hoja.Cells[row, col].Value = title; // Id
+        hoja.Cells[row, col].Style.HorizontalAlignment = ExcelHorizontalAlignment.Center;
+        hoja.Cells[row, col].Style.VerticalAlignment = ExcelVerticalAlignment.Bottom;
+        hoja.Cells[row, col].Style.Font.Bold = true;
+        hoja.Cells[row, col].Style.Font.Name = "Montserrat";
+        hoja.Cells[row, col].Style.Font.Size = 11;
+        hoja.Cells[row, col].Style.Font.Color.SetColor(Color.White);
+        hoja.Cells[row, col].Style.WrapText = true;
+        FNDExcelHelper.ChangeBackgroundColor(hoja.Cells[row, col], titleColor);
+        hoja.Column(col).Width = colWidth + 0.78;
+    }
 }
