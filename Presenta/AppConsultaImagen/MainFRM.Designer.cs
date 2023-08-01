@@ -30,294 +30,294 @@
         {
             this.components = new global::System.ComponentModel.Container();
             global::System.ComponentModel.ComponentResourceManager resources = new global::System.ComponentModel.ComponentResourceManager(typeof(global::AppConsultaImagen.MainFRM));
-            global::System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new global::System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            global::System.Windows.Forms.DataVisualization.Charting.Series series1 = new global::System.Windows.Forms.DataVisualization.Charting.Series();
-            global::System.Windows.Forms.DataVisualization.Charting.Series series2 = new global::System.Windows.Forms.DataVisualization.Charting.Series();
-            global::System.Windows.Forms.DataVisualization.Charting.Series series3 = new global::System.Windows.Forms.DataVisualization.Charting.Series();
-            global::System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new global::System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            global::System.Windows.Forms.DataVisualization.Charting.Series series4 = new global::System.Windows.Forms.DataVisualization.Charting.Series();
-            global::System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint1 = new global::System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, 71D);
-            global::System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint2 = new global::System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, 229D);
-            global::System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint3 = new global::System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, 145D);
-            global::System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint4 = new global::System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, 106D);
-            global::System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint5 = new global::System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, 72D);
-            global::System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint6 = new global::System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, 111D);
-            global::System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new global::System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            global::System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new global::System.Windows.Forms.DataVisualization.Charting.Legend();
-            global::System.Windows.Forms.DataVisualization.Charting.Series series5 = new global::System.Windows.Forms.DataVisualization.Charting.Series();
-            DataGridViewCellStyle dataGridViewCellStyle16 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle7 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle8 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle9 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle10 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle11 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle12 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle13 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle14 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle15 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle17 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle18 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle19 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle20 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle21 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle22 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle23 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle24 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle25 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle26 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle27 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle28 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle29 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle30 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle31 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle32 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle33 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle34 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle35 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle36 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle37 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle38 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle39 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle40 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle41 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle42 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle43 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle44 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle45 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle46 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle47 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle48 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle49 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle50 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle51 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle52 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle53 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle54 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle55 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle56 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle57 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle58 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle59 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle60 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle61 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle62 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle63 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle64 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle65 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle66 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle67 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle68 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle69 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle70 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle71 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle72 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle73 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle74 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle75 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle76 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle77 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle78 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle79 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle80 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle81 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle82 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle83 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle84 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle85 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle86 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle87 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle88 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle89 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle90 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle91 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle92 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle93 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle94 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle95 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle96 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle97 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle98 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle99 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle100 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle101 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle102 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle103 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle104 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle105 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle106 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle107 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle108 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle109 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle110 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle111 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle112 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle113 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle114 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle115 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle116 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle117 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle118 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle119 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle120 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle121 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle122 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle123 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle124 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle125 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle126 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle127 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle128 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle129 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle130 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle131 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle132 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle133 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle134 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle135 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle136 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle137 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle138 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle139 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle140 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle141 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle142 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle143 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle144 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle145 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle146 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle147 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle148 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle149 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle150 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle151 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle152 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle153 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle154 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle155 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle156 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle157 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle158 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle159 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle160 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle161 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle162 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle163 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle164 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle165 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle166 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle167 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle168 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle169 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle170 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle171 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle172 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle173 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle174 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle175 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle176 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle177 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle178 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle179 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle180 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle181 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle182 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle183 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle199 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle184 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle185 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle186 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle187 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle188 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle189 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle190 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle191 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle192 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle193 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle194 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle195 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle196 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle197 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle198 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle200 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle201 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle202 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle203 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle204 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle205 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle206 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle207 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle208 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle209 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle210 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle211 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle212 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle213 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle214 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle215 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle216 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle217 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle218 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle219 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle220 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle221 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle222 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle223 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle224 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle225 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle226 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle227 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle242 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle228 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle229 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle230 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle231 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle232 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle233 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle234 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle235 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle236 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle237 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle238 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle239 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle240 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle241 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle243 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle244 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle245 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle246 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle247 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle248 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle249 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle250 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle251 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle252 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle253 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle254 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle255 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle256 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle257 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle258 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle259 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle260 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle261 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle262 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle263 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle264 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle265 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle266 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle267 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle268 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle269 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle270 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle271 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle272 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle273 = new DataGridViewCellStyle();
+            global::System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new global::System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            global::System.Windows.Forms.DataVisualization.Charting.Series series6 = new global::System.Windows.Forms.DataVisualization.Charting.Series();
+            global::System.Windows.Forms.DataVisualization.Charting.Series series7 = new global::System.Windows.Forms.DataVisualization.Charting.Series();
+            global::System.Windows.Forms.DataVisualization.Charting.Series series8 = new global::System.Windows.Forms.DataVisualization.Charting.Series();
+            global::System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new global::System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            global::System.Windows.Forms.DataVisualization.Charting.Series series9 = new global::System.Windows.Forms.DataVisualization.Charting.Series();
+            global::System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint7 = new global::System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, 71D);
+            global::System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint8 = new global::System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, 229D);
+            global::System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint9 = new global::System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, 145D);
+            global::System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint10 = new global::System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, 106D);
+            global::System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint11 = new global::System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, 72D);
+            global::System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint12 = new global::System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, 111D);
+            global::System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new global::System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            global::System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new global::System.Windows.Forms.DataVisualization.Charting.Legend();
+            global::System.Windows.Forms.DataVisualization.Charting.Series series10 = new global::System.Windows.Forms.DataVisualization.Charting.Series();
+            DataGridViewCellStyle dataGridViewCellStyle289 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle274 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle275 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle276 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle277 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle278 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle279 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle280 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle281 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle282 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle283 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle284 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle285 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle286 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle287 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle288 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle290 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle291 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle292 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle293 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle294 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle295 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle296 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle297 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle298 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle299 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle300 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle301 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle302 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle303 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle304 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle305 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle306 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle307 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle308 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle309 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle310 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle311 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle312 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle313 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle314 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle315 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle316 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle317 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle318 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle319 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle320 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle321 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle322 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle323 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle324 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle325 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle326 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle327 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle328 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle329 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle330 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle331 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle332 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle333 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle334 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle335 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle336 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle337 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle338 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle339 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle340 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle341 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle342 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle343 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle344 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle345 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle346 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle347 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle348 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle349 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle350 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle351 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle352 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle353 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle354 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle355 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle356 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle357 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle358 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle359 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle360 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle361 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle362 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle363 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle364 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle365 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle366 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle367 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle368 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle369 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle370 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle371 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle372 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle373 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle374 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle375 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle376 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle377 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle378 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle379 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle380 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle381 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle382 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle383 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle384 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle385 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle386 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle387 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle388 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle389 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle390 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle391 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle392 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle393 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle394 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle395 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle396 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle397 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle398 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle399 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle400 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle401 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle402 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle403 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle404 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle405 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle406 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle407 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle408 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle409 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle410 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle411 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle412 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle413 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle414 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle415 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle416 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle417 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle418 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle419 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle420 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle421 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle422 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle423 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle424 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle425 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle426 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle427 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle428 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle429 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle430 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle431 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle432 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle433 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle434 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle435 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle436 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle437 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle438 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle439 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle440 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle441 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle442 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle443 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle444 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle445 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle446 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle447 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle448 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle449 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle450 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle451 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle452 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle453 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle454 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle455 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle456 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle472 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle457 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle458 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle459 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle460 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle461 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle462 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle463 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle464 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle465 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle466 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle467 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle468 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle469 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle470 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle471 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle473 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle474 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle475 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle476 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle477 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle478 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle479 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle480 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle481 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle482 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle483 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle484 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle485 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle486 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle487 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle488 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle489 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle490 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle491 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle492 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle493 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle494 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle495 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle496 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle497 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle498 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle499 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle500 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle515 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle501 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle502 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle503 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle504 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle505 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle506 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle507 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle508 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle509 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle510 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle511 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle512 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle513 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle514 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle516 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle517 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle518 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle519 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle520 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle521 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle522 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle523 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle524 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle525 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle526 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle527 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle528 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle529 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle530 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle531 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle532 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle533 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle534 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle535 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle536 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle537 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle538 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle539 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle540 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle541 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle542 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle543 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle544 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle545 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle546 = new DataGridViewCellStyle();
             pnlHeader = new Panel();
             pnlSubMenu = new Panel();
             pnlPorReportes = new Panel();
@@ -455,6 +455,8 @@
             tabReportesFinales = new TabControl();
             tbpResumen = new TabPage();
             pnlResumenImagenes = new Panel();
+            lblNombreArchivoAbSaldos = new Label();
+            lblFechaAbSaldos = new Label();
             panel91 = new Panel();
             panel4 = new Panel();
             lblGloboLiquidados = new Label();
@@ -1128,6 +1130,7 @@
             PnlMuestraImagenes = new Panel();
             this.chromiumWebBrowser1 = new global::CefSharp.WinForms.ChromiumWebBrowser();
             pnlVisorDeImagenes = new Panel();
+            btnVerImagenGuardaValores = new Button();
             panel11 = new Panel();
             btnRegresaBusquedaImagenNormal = new Button();
             lblCargando = new Label();
@@ -1216,6 +1219,7 @@
             colldTieneImagenIndirecta = new DataGridViewTextBoxColumn();
             this.tmrPB = new global::System.Windows.Forms.Timer(this.components);
             sfdGuardaReporte = new SaveFileDialog();
+            fbdGuardaImagenes = new FolderBrowserDialog();
             pnlHeader.SuspendLayout();
             pnlSubMenu.SuspendLayout();
             pnlPorReportes.SuspendLayout();
@@ -1481,9 +1485,9 @@
             pnlPorReportes.Controls.Add(lblReportePorExpedienteConCastigo);
             pnlPorReportes.Controls.Add(lblReportesPorExpedienteActivo);
             pnlPorReportes.Dock = DockStyle.Right;
-            pnlPorReportes.Location = new Point(1047, 0);
+            pnlPorReportes.Location = new Point(1252, 0);
             pnlPorReportes.Name = "pnlPorReportes";
-            pnlPorReportes.Size = new Size(575, 42);
+            pnlPorReportes.Size = new Size(370, 42);
             pnlPorReportes.TabIndex = 6;
             pnlPorReportes.Visible = false;
             // 
@@ -2879,6 +2883,8 @@
             pnlResumenImagenes.BackColor = Color.White;
             pnlResumenImagenes.BackgroundImage = global::AppConsultaImagen.Properties.Resources.FondoPrograma;
             pnlResumenImagenes.BackgroundImageLayout = ImageLayout.Stretch;
+            pnlResumenImagenes.Controls.Add(lblNombreArchivoAbSaldos);
+            pnlResumenImagenes.Controls.Add(lblFechaAbSaldos);
             pnlResumenImagenes.Controls.Add(panel91);
             pnlResumenImagenes.Controls.Add(panel4);
             pnlResumenImagenes.Controls.Add(panel95);
@@ -2906,6 +2912,25 @@
             pnlResumenImagenes.Name = "pnlResumenImagenes";
             pnlResumenImagenes.Size = new Size(2023, 852);
             pnlResumenImagenes.TabIndex = 3;
+            // 
+            // lblNombreArchivoAbSaldos
+            // 
+            lblNombreArchivoAbSaldos.AutoSize = true;
+            lblNombreArchivoAbSaldos.ForeColor = Color.White;
+            lblNombreArchivoAbSaldos.Location = new Point(1312, 8);
+            lblNombreArchivoAbSaldos.Name = "lblNombreArchivoAbSaldos";
+            lblNombreArchivoAbSaldos.Size = new Size(56, 21);
+            lblNombreArchivoAbSaldos.TabIndex = 33;
+            lblNombreArchivoAbSaldos.Text = "label8";
+            // 
+            // lblFechaAbSaldos
+            // 
+            lblFechaAbSaldos.AutoSize = true;
+            lblFechaAbSaldos.Location = new Point(25, 767);
+            lblFechaAbSaldos.Name = "lblFechaAbSaldos";
+            lblFechaAbSaldos.Size = new Size(56, 21);
+            lblFechaAbSaldos.TabIndex = 32;
+            lblFechaAbSaldos.Text = "label8";
             // 
             // panel91
             // 
@@ -3574,8 +3599,8 @@
             // 
             // chrtPorNumCreditos
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chrtPorNumCreditos.ChartAreas.Add(chartArea1);
+            chartArea4.Name = "ChartArea1";
+            this.chrtPorNumCreditos.ChartAreas.Add(chartArea4);
             this.chrtPorNumCreditos.Dock = DockStyle.Bottom;
             this.chrtPorNumCreditos.Location = new Point(0, 137);
             this.chrtPorNumCreditos.Name = "chrtPorNumCreditos";
@@ -3662,10 +3687,10 @@
             this.chrtICV.Dock = DockStyle.Right;
             this.chrtICV.Location = new Point(-201, 0);
             this.chrtICV.Name = "chrtICV";
-            series1.ChartType = global::System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series1.Font = new Font("Montserrat", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            series1.Name = "Series1";
-            this.chrtICV.Series.Add(series1);
+            series6.ChartType = global::System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series6.Font = new Font("Montserrat", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            series6.Name = "Series1";
+            this.chrtICV.Series.Add(series6);
             this.chrtICV.Size = new Size(449, 94);
             this.chrtICV.TabIndex = 20;
             this.chrtICV.Text = "chart1";
@@ -3696,10 +3721,10 @@
             this.chrtCV.Dock = DockStyle.Right;
             this.chrtCV.Location = new Point(-201, 0);
             this.chrtCV.Name = "chrtCV";
-            series2.ChartType = global::System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series2.Font = new Font("Montserrat", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            series2.Name = "Series1";
-            this.chrtCV.Series.Add(series2);
+            series7.ChartType = global::System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series7.Font = new Font("Montserrat", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            series7.Name = "Series1";
+            this.chrtCV.Series.Add(series7);
             this.chrtCV.Size = new Size(449, 94);
             this.chrtCV.TabIndex = 20;
             this.chrtCV.Text = "chart1";
@@ -3731,10 +3756,10 @@
             this.chrtSaldo.Dock = DockStyle.Right;
             this.chrtSaldo.Location = new Point(-201, 20);
             this.chrtSaldo.Name = "chrtSaldo";
-            series3.ChartType = global::System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series3.Font = new Font("Montserrat", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            series3.Name = "Series1";
-            this.chrtSaldo.Series.Add(series3);
+            series8.ChartType = global::System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series8.Font = new Font("Montserrat", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            series8.Name = "Series1";
+            this.chrtSaldo.Series.Add(series8);
             this.chrtSaldo.Size = new Size(449, 74);
             this.chrtSaldo.TabIndex = 20;
             this.chrtSaldo.Text = "chart1";
@@ -4136,33 +4161,33 @@
             // 
             // chrtComportamientoDiario
             // 
-            chartArea2.Name = "ChartArea1";
-            this.chrtComportamientoDiario.ChartAreas.Add(chartArea2);
+            chartArea5.Name = "ChartArea1";
+            this.chrtComportamientoDiario.ChartAreas.Add(chartArea5);
             this.chrtComportamientoDiario.Dock = DockStyle.Fill;
             this.chrtComportamientoDiario.Location = new Point(0, 47);
             this.chrtComportamientoDiario.Name = "chrtComportamientoDiario";
-            series4.ChartArea = "ChartArea1";
-            series4.IsValueShownAsLabel = true;
-            series4.Name = "Series1";
-            dataPoint1.AxisLabel = "22 feb";
-            dataPoint1.Label = "71";
-            dataPoint2.AxisLabel = "28 feb";
-            dataPoint2.Label = "229";
-            dataPoint3.AxisLabel = "6 mar";
-            dataPoint3.Label = "145";
-            dataPoint4.AxisLabel = "10 mar";
-            dataPoint4.Label = "106";
-            dataPoint5.AxisLabel = "16 mar";
-            dataPoint5.Label = "72";
-            dataPoint6.AxisLabel = "21 mar";
-            dataPoint6.Label = "111";
-            series4.Points.Add(dataPoint1);
-            series4.Points.Add(dataPoint2);
-            series4.Points.Add(dataPoint3);
-            series4.Points.Add(dataPoint4);
-            series4.Points.Add(dataPoint5);
-            series4.Points.Add(dataPoint6);
-            this.chrtComportamientoDiario.Series.Add(series4);
+            series9.ChartArea = "ChartArea1";
+            series9.IsValueShownAsLabel = true;
+            series9.Name = "Series1";
+            dataPoint7.AxisLabel = "22 feb";
+            dataPoint7.Label = "71";
+            dataPoint8.AxisLabel = "28 feb";
+            dataPoint8.Label = "229";
+            dataPoint9.AxisLabel = "6 mar";
+            dataPoint9.Label = "145";
+            dataPoint10.AxisLabel = "10 mar";
+            dataPoint10.Label = "106";
+            dataPoint11.AxisLabel = "16 mar";
+            dataPoint11.Label = "72";
+            dataPoint12.AxisLabel = "21 mar";
+            dataPoint12.Label = "111";
+            series9.Points.Add(dataPoint7);
+            series9.Points.Add(dataPoint8);
+            series9.Points.Add(dataPoint9);
+            series9.Points.Add(dataPoint10);
+            series9.Points.Add(dataPoint11);
+            series9.Points.Add(dataPoint12);
+            this.chrtComportamientoDiario.Series.Add(series9);
             this.chrtComportamientoDiario.Size = new Size(479, 299);
             this.chrtComportamientoDiario.TabIndex = 19;
             this.chrtComportamientoDiario.Text = "chart2";
@@ -4759,20 +4784,20 @@
             // 
             // chrtPieDistribucionSaldos
             // 
-            chartArea3.Name = "ChartArea1";
-            this.chrtPieDistribucionSaldos.ChartAreas.Add(chartArea3);
+            chartArea6.Name = "ChartArea1";
+            this.chrtPieDistribucionSaldos.ChartAreas.Add(chartArea6);
             this.chrtPieDistribucionSaldos.Dock = DockStyle.Bottom;
-            legend1.Enabled = false;
-            legend1.Name = "Legend1";
-            this.chrtPieDistribucionSaldos.Legends.Add(legend1);
+            legend2.Enabled = false;
+            legend2.Name = "Legend1";
+            this.chrtPieDistribucionSaldos.Legends.Add(legend2);
             this.chrtPieDistribucionSaldos.Location = new Point(0, 60);
             this.chrtPieDistribucionSaldos.Name = "chrtPieDistribucionSaldos";
-            series5.ChartArea = "ChartArea1";
-            series5.ChartType = global::System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
-            series5.IsVisibleInLegend = false;
-            series5.Legend = "Legend1";
-            series5.Name = "Series1";
-            this.chrtPieDistribucionSaldos.Series.Add(series5);
+            series10.ChartArea = "ChartArea1";
+            series10.ChartType = global::System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
+            series10.IsVisibleInLegend = false;
+            series10.Legend = "Legend1";
+            series10.Name = "Series1";
+            this.chrtPieDistribucionSaldos.Series.Add(series10);
             this.chrtPieDistribucionSaldos.Size = new Size(481, 361);
             this.chrtPieDistribucionSaldos.TabIndex = 1;
             this.chrtPieDistribucionSaldos.Text = "chart1";
@@ -4790,14 +4815,14 @@
             dgvResumenRegiones.MultiSelect = false;
             dgvResumenRegiones.Name = "dgvResumenRegiones";
             dgvResumenRegiones.ReadOnly = true;
-            dataGridViewCellStyle16.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle16.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle16.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle16.ForeColor = Color.White;
-            dataGridViewCellStyle16.SelectionBackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle16.SelectionForeColor = Color.White;
-            dataGridViewCellStyle16.WrapMode = DataGridViewTriState.True;
-            dgvResumenRegiones.RowHeadersDefaultCellStyle = dataGridViewCellStyle16;
+            dataGridViewCellStyle289.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle289.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle289.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle289.ForeColor = Color.White;
+            dataGridViewCellStyle289.SelectionBackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle289.SelectionForeColor = Color.White;
+            dataGridViewCellStyle289.WrapMode = DataGridViewTriState.True;
+            dgvResumenRegiones.RowHeadersDefaultCellStyle = dataGridViewCellStyle289;
             dgvResumenRegiones.RowHeadersWidth = 51;
             dgvResumenRegiones.RowTemplate.Height = 29;
             dgvResumenRegiones.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
@@ -4808,12 +4833,12 @@
             // colrcRegion
             // 
             colrcRegion.DataPropertyName = "Region";
-            dataGridViewCellStyle1.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
-            dataGridViewCellStyle1.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle1.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
-            dataGridViewCellStyle1.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle1.SelectionForeColor = Color.White;
-            colrcRegion.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle274.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
+            dataGridViewCellStyle274.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle274.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
+            dataGridViewCellStyle274.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle274.SelectionForeColor = Color.White;
+            colrcRegion.DefaultCellStyle = dataGridViewCellStyle274;
             colrcRegion.HeaderText = "Cve";
             colrcRegion.MinimumWidth = 6;
             colrcRegion.Name = "colrcRegion";
@@ -4824,12 +4849,12 @@
             // colrcCatRegion
             // 
             colrcCatRegion.DataPropertyName = "CatRegion";
-            dataGridViewCellStyle2.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
-            dataGridViewCellStyle2.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle2.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
-            dataGridViewCellStyle2.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle2.SelectionForeColor = Color.White;
-            colrcCatRegion.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle275.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
+            dataGridViewCellStyle275.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle275.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
+            dataGridViewCellStyle275.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle275.SelectionForeColor = Color.White;
+            colrcCatRegion.DefaultCellStyle = dataGridViewCellStyle275;
             colrcCatRegion.HeaderText = "Region";
             colrcCatRegion.MinimumWidth = 6;
             colrcCatRegion.Name = "colrcCatRegion";
@@ -4839,15 +4864,15 @@
             // colrcCantidadClientesVigente
             // 
             colrcCantidadClientesVigente.DataPropertyName = "CantidadClientesVigente";
-            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle3.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle3.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle3.ForeColor = Color.White;
-            dataGridViewCellStyle3.Format = "N0";
-            dataGridViewCellStyle3.NullValue = "-";
-            dataGridViewCellStyle3.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle3.SelectionForeColor = Color.White;
-            colrcCantidadClientesVigente.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle276.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle276.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle276.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle276.ForeColor = Color.White;
+            dataGridViewCellStyle276.Format = "N0";
+            dataGridViewCellStyle276.NullValue = "-";
+            dataGridViewCellStyle276.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle276.SelectionForeColor = Color.White;
+            colrcCantidadClientesVigente.DefaultCellStyle = dataGridViewCellStyle276;
             colrcCantidadClientesVigente.HeaderText = "Clientes Cartera Vigente";
             colrcCantidadClientesVigente.MinimumWidth = 6;
             colrcCantidadClientesVigente.Name = "colrcCantidadClientesVigente";
@@ -4857,15 +4882,15 @@
             // colrcCantidadClientesImpago
             // 
             colrcCantidadClientesImpago.DataPropertyName = "CantidadClientesImpago";
-            dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle4.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle4.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle4.ForeColor = Color.White;
-            dataGridViewCellStyle4.Format = "N0";
-            dataGridViewCellStyle4.NullValue = "-";
-            dataGridViewCellStyle4.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle4.SelectionForeColor = Color.White;
-            colrcCantidadClientesImpago.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle277.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle277.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle277.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle277.ForeColor = Color.White;
+            dataGridViewCellStyle277.Format = "N0";
+            dataGridViewCellStyle277.NullValue = "-";
+            dataGridViewCellStyle277.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle277.SelectionForeColor = Color.White;
+            colrcCantidadClientesImpago.DefaultCellStyle = dataGridViewCellStyle277;
             colrcCantidadClientesImpago.HeaderText = "Clientes en Impagos";
             colrcCantidadClientesImpago.MinimumWidth = 6;
             colrcCantidadClientesImpago.Name = "colrcCantidadClientesImpago";
@@ -4875,15 +4900,15 @@
             // colrcCantidadClientesVencida
             // 
             colrcCantidadClientesVencida.DataPropertyName = "CantidadClientesVencida";
-            dataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle5.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle5.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle5.ForeColor = Color.White;
-            dataGridViewCellStyle5.Format = "N0";
-            dataGridViewCellStyle5.NullValue = "-";
-            dataGridViewCellStyle5.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle5.SelectionForeColor = Color.White;
-            colrcCantidadClientesVencida.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle278.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle278.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle278.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle278.ForeColor = Color.White;
+            dataGridViewCellStyle278.Format = "N0";
+            dataGridViewCellStyle278.NullValue = "-";
+            dataGridViewCellStyle278.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle278.SelectionForeColor = Color.White;
+            colrcCantidadClientesVencida.DefaultCellStyle = dataGridViewCellStyle278;
             colrcCantidadClientesVencida.HeaderText = "Clientes Cartera Vencida";
             colrcCantidadClientesVencida.MinimumWidth = 6;
             colrcCantidadClientesVencida.Name = "colrcCantidadClientesVencida";
@@ -4893,15 +4918,15 @@
             // colrcTotalDeClientes
             // 
             colrcTotalDeClientes.DataPropertyName = "TotalDeClientes";
-            dataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle6.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle6.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle6.ForeColor = Color.White;
-            dataGridViewCellStyle6.Format = "N0";
-            dataGridViewCellStyle6.NullValue = "-";
-            dataGridViewCellStyle6.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle6.SelectionForeColor = Color.White;
-            colrcTotalDeClientes.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle279.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle279.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle279.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle279.ForeColor = Color.White;
+            dataGridViewCellStyle279.Format = "N0";
+            dataGridViewCellStyle279.NullValue = "-";
+            dataGridViewCellStyle279.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle279.SelectionForeColor = Color.White;
+            colrcTotalDeClientes.DefaultCellStyle = dataGridViewCellStyle279;
             colrcTotalDeClientes.HeaderText = "Total de Clientes";
             colrcTotalDeClientes.MinimumWidth = 6;
             colrcTotalDeClientes.Name = "colrcTotalDeClientes";
@@ -4911,15 +4936,15 @@
             // colrcCantidadDeCreditosVigente
             // 
             colrcCantidadDeCreditosVigente.DataPropertyName = "CantidadDeCreditosVigente";
-            dataGridViewCellStyle7.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle7.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle7.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle7.ForeColor = Color.White;
-            dataGridViewCellStyle7.Format = "N0";
-            dataGridViewCellStyle7.NullValue = "-";
-            dataGridViewCellStyle7.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle7.SelectionForeColor = Color.White;
-            colrcCantidadDeCreditosVigente.DefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle280.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle280.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle280.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle280.ForeColor = Color.White;
+            dataGridViewCellStyle280.Format = "N0";
+            dataGridViewCellStyle280.NullValue = "-";
+            dataGridViewCellStyle280.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle280.SelectionForeColor = Color.White;
+            colrcCantidadDeCreditosVigente.DefaultCellStyle = dataGridViewCellStyle280;
             colrcCantidadDeCreditosVigente.HeaderText = "Créditos Cartera Vigente";
             colrcCantidadDeCreditosVigente.MinimumWidth = 6;
             colrcCantidadDeCreditosVigente.Name = "colrcCantidadDeCreditosVigente";
@@ -4929,15 +4954,15 @@
             // colrcCantidadDeCreditosImpago
             // 
             colrcCantidadDeCreditosImpago.DataPropertyName = "CantidadDeCreditosImpago";
-            dataGridViewCellStyle8.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle8.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle8.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle8.ForeColor = Color.White;
-            dataGridViewCellStyle8.Format = "N0";
-            dataGridViewCellStyle8.NullValue = "-";
-            dataGridViewCellStyle8.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle8.SelectionForeColor = Color.White;
-            colrcCantidadDeCreditosImpago.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle281.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle281.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle281.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle281.ForeColor = Color.White;
+            dataGridViewCellStyle281.Format = "N0";
+            dataGridViewCellStyle281.NullValue = "-";
+            dataGridViewCellStyle281.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle281.SelectionForeColor = Color.White;
+            colrcCantidadDeCreditosImpago.DefaultCellStyle = dataGridViewCellStyle281;
             colrcCantidadDeCreditosImpago.HeaderText = "Créditos en Impagos";
             colrcCantidadDeCreditosImpago.MinimumWidth = 6;
             colrcCantidadDeCreditosImpago.Name = "colrcCantidadDeCreditosImpago";
@@ -4947,15 +4972,15 @@
             // colrcCantidadDeCreditosVencida
             // 
             colrcCantidadDeCreditosVencida.DataPropertyName = "CantidadDeCreditosVencida";
-            dataGridViewCellStyle9.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle9.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle9.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle9.ForeColor = Color.White;
-            dataGridViewCellStyle9.Format = "N0";
-            dataGridViewCellStyle9.NullValue = "-";
-            dataGridViewCellStyle9.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle9.SelectionForeColor = Color.White;
-            colrcCantidadDeCreditosVencida.DefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle282.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle282.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle282.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle282.ForeColor = Color.White;
+            dataGridViewCellStyle282.Format = "N0";
+            dataGridViewCellStyle282.NullValue = "-";
+            dataGridViewCellStyle282.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle282.SelectionForeColor = Color.White;
+            colrcCantidadDeCreditosVencida.DefaultCellStyle = dataGridViewCellStyle282;
             colrcCantidadDeCreditosVencida.HeaderText = "Créditos Cartera Vencida";
             colrcCantidadDeCreditosVencida.MinimumWidth = 6;
             colrcCantidadDeCreditosVencida.Name = "colrcCantidadDeCreditosVencida";
@@ -4965,15 +4990,15 @@
             // colrcTotalDeCreditos
             // 
             colrcTotalDeCreditos.DataPropertyName = "TotalDeCreditos";
-            dataGridViewCellStyle10.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle10.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle10.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle10.ForeColor = Color.White;
-            dataGridViewCellStyle10.Format = "N0";
-            dataGridViewCellStyle10.NullValue = "-";
-            dataGridViewCellStyle10.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle10.SelectionForeColor = Color.White;
-            colrcTotalDeCreditos.DefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle283.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle283.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle283.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle283.ForeColor = Color.White;
+            dataGridViewCellStyle283.Format = "N0";
+            dataGridViewCellStyle283.NullValue = "-";
+            dataGridViewCellStyle283.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle283.SelectionForeColor = Color.White;
+            colrcTotalDeCreditos.DefaultCellStyle = dataGridViewCellStyle283;
             colrcTotalDeCreditos.HeaderText = "Total de Créditos";
             colrcTotalDeCreditos.MinimumWidth = 6;
             colrcTotalDeCreditos.Name = "colrcTotalDeCreditos";
@@ -4983,15 +5008,15 @@
             // colrcSaldosCarteraVigente
             // 
             colrcSaldosCarteraVigente.DataPropertyName = "SaldosCarteraVigente";
-            dataGridViewCellStyle11.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle11.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle11.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle11.ForeColor = Color.White;
-            dataGridViewCellStyle11.Format = "C2";
-            dataGridViewCellStyle11.NullValue = "-";
-            dataGridViewCellStyle11.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle11.SelectionForeColor = Color.White;
-            colrcSaldosCarteraVigente.DefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle284.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle284.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle284.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle284.ForeColor = Color.White;
+            dataGridViewCellStyle284.Format = "C2";
+            dataGridViewCellStyle284.NullValue = "-";
+            dataGridViewCellStyle284.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle284.SelectionForeColor = Color.White;
+            colrcSaldosCarteraVigente.DefaultCellStyle = dataGridViewCellStyle284;
             colrcSaldosCarteraVigente.HeaderText = "Saldos Vigente";
             colrcSaldosCarteraVigente.MinimumWidth = 6;
             colrcSaldosCarteraVigente.Name = "colrcSaldosCarteraVigente";
@@ -5001,15 +5026,15 @@
             // colrcSaldosCarteraImpago
             // 
             colrcSaldosCarteraImpago.DataPropertyName = "SaldosCarteraImpago";
-            dataGridViewCellStyle12.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle12.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle12.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle12.ForeColor = Color.White;
-            dataGridViewCellStyle12.Format = "C2";
-            dataGridViewCellStyle12.NullValue = ".";
-            dataGridViewCellStyle12.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle12.SelectionForeColor = Color.White;
-            colrcSaldosCarteraImpago.DefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle285.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle285.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle285.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle285.ForeColor = Color.White;
+            dataGridViewCellStyle285.Format = "C2";
+            dataGridViewCellStyle285.NullValue = ".";
+            dataGridViewCellStyle285.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle285.SelectionForeColor = Color.White;
+            colrcSaldosCarteraImpago.DefaultCellStyle = dataGridViewCellStyle285;
             colrcSaldosCarteraImpago.HeaderText = "Impagos";
             colrcSaldosCarteraImpago.MinimumWidth = 6;
             colrcSaldosCarteraImpago.Name = "colrcSaldosCarteraImpago";
@@ -5019,15 +5044,15 @@
             // colrcSaldosCarteraVencida
             // 
             colrcSaldosCarteraVencida.DataPropertyName = "SaldosCarteraVencida";
-            dataGridViewCellStyle13.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle13.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle13.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle13.ForeColor = Color.White;
-            dataGridViewCellStyle13.Format = "C2";
-            dataGridViewCellStyle13.NullValue = "-";
-            dataGridViewCellStyle13.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle13.SelectionForeColor = Color.White;
-            colrcSaldosCarteraVencida.DefaultCellStyle = dataGridViewCellStyle13;
+            dataGridViewCellStyle286.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle286.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle286.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle286.ForeColor = Color.White;
+            dataGridViewCellStyle286.Format = "C2";
+            dataGridViewCellStyle286.NullValue = "-";
+            dataGridViewCellStyle286.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle286.SelectionForeColor = Color.White;
+            colrcSaldosCarteraVencida.DefaultCellStyle = dataGridViewCellStyle286;
             colrcSaldosCarteraVencida.HeaderText = "Saldos Cartera Vencida";
             colrcSaldosCarteraVencida.MinimumWidth = 6;
             colrcSaldosCarteraVencida.Name = "colrcSaldosCarteraVencida";
@@ -5037,15 +5062,15 @@
             // colrcICV
             // 
             colrcICV.DataPropertyName = "ICV";
-            dataGridViewCellStyle14.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle14.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle14.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle14.ForeColor = Color.White;
-            dataGridViewCellStyle14.Format = "#0.0";
-            dataGridViewCellStyle14.NullValue = "-";
-            dataGridViewCellStyle14.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle14.SelectionForeColor = Color.White;
-            colrcICV.DefaultCellStyle = dataGridViewCellStyle14;
+            dataGridViewCellStyle287.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle287.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle287.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle287.ForeColor = Color.White;
+            dataGridViewCellStyle287.Format = "#0.0";
+            dataGridViewCellStyle287.NullValue = "-";
+            dataGridViewCellStyle287.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle287.SelectionForeColor = Color.White;
+            colrcICV.DefaultCellStyle = dataGridViewCellStyle287;
             colrcICV.HeaderText = "ICV %";
             colrcICV.MinimumWidth = 6;
             colrcICV.Name = "colrcICV";
@@ -5055,15 +5080,15 @@
             // colrcSaldosTotal
             // 
             colrcSaldosTotal.DataPropertyName = "SaldosTotal";
-            dataGridViewCellStyle15.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle15.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle15.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle15.ForeColor = Color.White;
-            dataGridViewCellStyle15.Format = "C2";
-            dataGridViewCellStyle15.NullValue = "-";
-            dataGridViewCellStyle15.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle15.SelectionForeColor = Color.White;
-            colrcSaldosTotal.DefaultCellStyle = dataGridViewCellStyle15;
+            dataGridViewCellStyle288.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle288.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle288.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle288.ForeColor = Color.White;
+            dataGridViewCellStyle288.Format = "C2";
+            dataGridViewCellStyle288.NullValue = "-";
+            dataGridViewCellStyle288.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle288.SelectionForeColor = Color.White;
+            colrcSaldosTotal.DefaultCellStyle = dataGridViewCellStyle288;
             colrcSaldosTotal.HeaderText = "Total de Saldos";
             colrcSaldosTotal.MinimumWidth = 6;
             colrcSaldosTotal.Name = "colrcSaldosTotal";
@@ -5114,13 +5139,13 @@
             // colraAgencia
             // 
             colraAgencia.DataPropertyName = "Agencia";
-            dataGridViewCellStyle17.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
-            dataGridViewCellStyle17.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle17.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
-            dataGridViewCellStyle17.NullValue = "-";
-            dataGridViewCellStyle17.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle17.SelectionForeColor = Color.White;
-            colraAgencia.DefaultCellStyle = dataGridViewCellStyle17;
+            dataGridViewCellStyle290.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
+            dataGridViewCellStyle290.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle290.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
+            dataGridViewCellStyle290.NullValue = "-";
+            dataGridViewCellStyle290.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle290.SelectionForeColor = Color.White;
+            colraAgencia.DefaultCellStyle = dataGridViewCellStyle290;
             colraAgencia.HeaderText = "Agencia";
             colraAgencia.MinimumWidth = 6;
             colraAgencia.Name = "colraAgencia";
@@ -5131,13 +5156,13 @@
             // colraCatAgencia
             // 
             colraCatAgencia.DataPropertyName = "CatAgencia";
-            dataGridViewCellStyle18.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle18.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
-            dataGridViewCellStyle18.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle18.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
-            dataGridViewCellStyle18.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle18.SelectionForeColor = Color.White;
-            colraCatAgencia.DefaultCellStyle = dataGridViewCellStyle18;
+            dataGridViewCellStyle291.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle291.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
+            dataGridViewCellStyle291.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle291.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
+            dataGridViewCellStyle291.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle291.SelectionForeColor = Color.White;
+            colraCatAgencia.DefaultCellStyle = dataGridViewCellStyle291;
             colraCatAgencia.HeaderText = "Agencia";
             colraCatAgencia.MinimumWidth = 6;
             colraCatAgencia.Name = "colraCatAgencia";
@@ -5147,15 +5172,15 @@
             // colraCantidadClientesVigente
             // 
             colraCantidadClientesVigente.DataPropertyName = "CantidadClientesVigente";
-            dataGridViewCellStyle19.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle19.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle19.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle19.ForeColor = Color.White;
-            dataGridViewCellStyle19.Format = "N0";
-            dataGridViewCellStyle19.NullValue = "-";
-            dataGridViewCellStyle19.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle19.SelectionForeColor = Color.White;
-            colraCantidadClientesVigente.DefaultCellStyle = dataGridViewCellStyle19;
+            dataGridViewCellStyle292.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle292.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle292.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle292.ForeColor = Color.White;
+            dataGridViewCellStyle292.Format = "N0";
+            dataGridViewCellStyle292.NullValue = "-";
+            dataGridViewCellStyle292.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle292.SelectionForeColor = Color.White;
+            colraCantidadClientesVigente.DefaultCellStyle = dataGridViewCellStyle292;
             colraCantidadClientesVigente.HeaderText = "Clientes Vigentes";
             colraCantidadClientesVigente.MinimumWidth = 6;
             colraCantidadClientesVigente.Name = "colraCantidadClientesVigente";
@@ -5165,15 +5190,15 @@
             // colraCantidadClientesImpago
             // 
             colraCantidadClientesImpago.DataPropertyName = "CantidadClientesImpago";
-            dataGridViewCellStyle20.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle20.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle20.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle20.ForeColor = Color.White;
-            dataGridViewCellStyle20.Format = "N0";
-            dataGridViewCellStyle20.NullValue = "-";
-            dataGridViewCellStyle20.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle20.SelectionForeColor = Color.White;
-            colraCantidadClientesImpago.DefaultCellStyle = dataGridViewCellStyle20;
+            dataGridViewCellStyle293.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle293.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle293.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle293.ForeColor = Color.White;
+            dataGridViewCellStyle293.Format = "N0";
+            dataGridViewCellStyle293.NullValue = "-";
+            dataGridViewCellStyle293.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle293.SelectionForeColor = Color.White;
+            colraCantidadClientesImpago.DefaultCellStyle = dataGridViewCellStyle293;
             colraCantidadClientesImpago.HeaderText = "Cantidad de Clientes en Impago";
             colraCantidadClientesImpago.MinimumWidth = 6;
             colraCantidadClientesImpago.Name = "colraCantidadClientesImpago";
@@ -5183,15 +5208,15 @@
             // colraClientesVencida
             // 
             colraClientesVencida.DataPropertyName = "CantidadClientesVencida";
-            dataGridViewCellStyle21.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle21.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle21.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle21.ForeColor = Color.White;
-            dataGridViewCellStyle21.Format = "N0";
-            dataGridViewCellStyle21.NullValue = "-";
-            dataGridViewCellStyle21.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle21.SelectionForeColor = Color.White;
-            colraClientesVencida.DefaultCellStyle = dataGridViewCellStyle21;
+            dataGridViewCellStyle294.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle294.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle294.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle294.ForeColor = Color.White;
+            dataGridViewCellStyle294.Format = "N0";
+            dataGridViewCellStyle294.NullValue = "-";
+            dataGridViewCellStyle294.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle294.SelectionForeColor = Color.White;
+            colraClientesVencida.DefaultCellStyle = dataGridViewCellStyle294;
             colraClientesVencida.HeaderText = "Cantidad Clientes Vencidos";
             colraClientesVencida.MinimumWidth = 6;
             colraClientesVencida.Name = "colraClientesVencida";
@@ -5201,15 +5226,15 @@
             // colraTotalDeClientes
             // 
             colraTotalDeClientes.DataPropertyName = "TotalDeClientes";
-            dataGridViewCellStyle22.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle22.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle22.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle22.ForeColor = Color.White;
-            dataGridViewCellStyle22.Format = "N0";
-            dataGridViewCellStyle22.NullValue = "-";
-            dataGridViewCellStyle22.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle22.SelectionForeColor = Color.White;
-            colraTotalDeClientes.DefaultCellStyle = dataGridViewCellStyle22;
+            dataGridViewCellStyle295.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle295.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle295.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle295.ForeColor = Color.White;
+            dataGridViewCellStyle295.Format = "N0";
+            dataGridViewCellStyle295.NullValue = "-";
+            dataGridViewCellStyle295.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle295.SelectionForeColor = Color.White;
+            colraTotalDeClientes.DefaultCellStyle = dataGridViewCellStyle295;
             colraTotalDeClientes.HeaderText = "Total de Clientes";
             colraTotalDeClientes.MinimumWidth = 6;
             colraTotalDeClientes.Name = "colraTotalDeClientes";
@@ -5219,15 +5244,15 @@
             // colraCantidadDeCreditosVigente
             // 
             colraCantidadDeCreditosVigente.DataPropertyName = "CantidadDeCreditosVigente";
-            dataGridViewCellStyle23.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle23.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle23.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle23.ForeColor = Color.White;
-            dataGridViewCellStyle23.Format = "N0";
-            dataGridViewCellStyle23.NullValue = "-";
-            dataGridViewCellStyle23.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle23.SelectionForeColor = Color.White;
-            colraCantidadDeCreditosVigente.DefaultCellStyle = dataGridViewCellStyle23;
+            dataGridViewCellStyle296.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle296.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle296.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle296.ForeColor = Color.White;
+            dataGridViewCellStyle296.Format = "N0";
+            dataGridViewCellStyle296.NullValue = "-";
+            dataGridViewCellStyle296.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle296.SelectionForeColor = Color.White;
+            colraCantidadDeCreditosVigente.DefaultCellStyle = dataGridViewCellStyle296;
             colraCantidadDeCreditosVigente.HeaderText = "Créditos Vigentes";
             colraCantidadDeCreditosVigente.MinimumWidth = 6;
             colraCantidadDeCreditosVigente.Name = "colraCantidadDeCreditosVigente";
@@ -5237,15 +5262,15 @@
             // colraCantidadDeCreditosImpago
             // 
             colraCantidadDeCreditosImpago.DataPropertyName = "CantidadDeCreditosImpago";
-            dataGridViewCellStyle24.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle24.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle24.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle24.ForeColor = Color.White;
-            dataGridViewCellStyle24.Format = "N0";
-            dataGridViewCellStyle24.NullValue = "-";
-            dataGridViewCellStyle24.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle24.SelectionForeColor = Color.White;
-            colraCantidadDeCreditosImpago.DefaultCellStyle = dataGridViewCellStyle24;
+            dataGridViewCellStyle297.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle297.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle297.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle297.ForeColor = Color.White;
+            dataGridViewCellStyle297.Format = "N0";
+            dataGridViewCellStyle297.NullValue = "-";
+            dataGridViewCellStyle297.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle297.SelectionForeColor = Color.White;
+            colraCantidadDeCreditosImpago.DefaultCellStyle = dataGridViewCellStyle297;
             colraCantidadDeCreditosImpago.HeaderText = "Créditos en Impago";
             colraCantidadDeCreditosImpago.MinimumWidth = 6;
             colraCantidadDeCreditosImpago.Name = "colraCantidadDeCreditosImpago";
@@ -5255,15 +5280,15 @@
             // colraCantidadCreditosVencida
             // 
             colraCantidadCreditosVencida.DataPropertyName = "CantidadDeCreditosVencida";
-            dataGridViewCellStyle25.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle25.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle25.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle25.ForeColor = Color.White;
-            dataGridViewCellStyle25.Format = "N0";
-            dataGridViewCellStyle25.NullValue = "-";
-            dataGridViewCellStyle25.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle25.SelectionForeColor = Color.White;
-            colraCantidadCreditosVencida.DefaultCellStyle = dataGridViewCellStyle25;
+            dataGridViewCellStyle298.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle298.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle298.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle298.ForeColor = Color.White;
+            dataGridViewCellStyle298.Format = "N0";
+            dataGridViewCellStyle298.NullValue = "-";
+            dataGridViewCellStyle298.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle298.SelectionForeColor = Color.White;
+            colraCantidadCreditosVencida.DefaultCellStyle = dataGridViewCellStyle298;
             colraCantidadCreditosVencida.HeaderText = "Créditos Vencidos";
             colraCantidadCreditosVencida.MinimumWidth = 6;
             colraCantidadCreditosVencida.Name = "colraCantidadCreditosVencida";
@@ -5273,15 +5298,15 @@
             // colraTotalDeCreditos
             // 
             colraTotalDeCreditos.DataPropertyName = "TotalDeCreditos";
-            dataGridViewCellStyle26.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle26.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle26.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle26.ForeColor = Color.White;
-            dataGridViewCellStyle26.Format = "N0";
-            dataGridViewCellStyle26.NullValue = "-";
-            dataGridViewCellStyle26.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle26.SelectionForeColor = Color.White;
-            colraTotalDeCreditos.DefaultCellStyle = dataGridViewCellStyle26;
+            dataGridViewCellStyle299.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle299.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle299.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle299.ForeColor = Color.White;
+            dataGridViewCellStyle299.Format = "N0";
+            dataGridViewCellStyle299.NullValue = "-";
+            dataGridViewCellStyle299.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle299.SelectionForeColor = Color.White;
+            colraTotalDeCreditos.DefaultCellStyle = dataGridViewCellStyle299;
             colraTotalDeCreditos.HeaderText = "Total de Créditos";
             colraTotalDeCreditos.MinimumWidth = 6;
             colraTotalDeCreditos.Name = "colraTotalDeCreditos";
@@ -5291,15 +5316,15 @@
             // colraSaldosCarteraVigente
             // 
             colraSaldosCarteraVigente.DataPropertyName = "SaldosCarteraVigente";
-            dataGridViewCellStyle27.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle27.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle27.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle27.ForeColor = Color.White;
-            dataGridViewCellStyle27.Format = "C2";
-            dataGridViewCellStyle27.NullValue = "-";
-            dataGridViewCellStyle27.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle27.SelectionForeColor = Color.White;
-            colraSaldosCarteraVigente.DefaultCellStyle = dataGridViewCellStyle27;
+            dataGridViewCellStyle300.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle300.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle300.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle300.ForeColor = Color.White;
+            dataGridViewCellStyle300.Format = "C2";
+            dataGridViewCellStyle300.NullValue = "-";
+            dataGridViewCellStyle300.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle300.SelectionForeColor = Color.White;
+            colraSaldosCarteraVigente.DefaultCellStyle = dataGridViewCellStyle300;
             colraSaldosCarteraVigente.HeaderText = "Saldos Vigente";
             colraSaldosCarteraVigente.MinimumWidth = 6;
             colraSaldosCarteraVigente.Name = "colraSaldosCarteraVigente";
@@ -5309,15 +5334,15 @@
             // colraSaldosCarteraImpago
             // 
             colraSaldosCarteraImpago.DataPropertyName = "SaldosCarteraImpago";
-            dataGridViewCellStyle28.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle28.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle28.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle28.ForeColor = Color.White;
-            dataGridViewCellStyle28.Format = "C2";
-            dataGridViewCellStyle28.NullValue = "-";
-            dataGridViewCellStyle28.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle28.SelectionForeColor = Color.White;
-            colraSaldosCarteraImpago.DefaultCellStyle = dataGridViewCellStyle28;
+            dataGridViewCellStyle301.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle301.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle301.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle301.ForeColor = Color.White;
+            dataGridViewCellStyle301.Format = "C2";
+            dataGridViewCellStyle301.NullValue = "-";
+            dataGridViewCellStyle301.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle301.SelectionForeColor = Color.White;
+            colraSaldosCarteraImpago.DefaultCellStyle = dataGridViewCellStyle301;
             colraSaldosCarteraImpago.HeaderText = "Saldos en Impago";
             colraSaldosCarteraImpago.MinimumWidth = 6;
             colraSaldosCarteraImpago.Name = "colraSaldosCarteraImpago";
@@ -5327,15 +5352,15 @@
             // colraSaldosCarteraVencida
             // 
             colraSaldosCarteraVencida.DataPropertyName = "SaldosCarteraVencida";
-            dataGridViewCellStyle29.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle29.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle29.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle29.ForeColor = Color.White;
-            dataGridViewCellStyle29.Format = "C2";
-            dataGridViewCellStyle29.NullValue = "-";
-            dataGridViewCellStyle29.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle29.SelectionForeColor = Color.White;
-            colraSaldosCarteraVencida.DefaultCellStyle = dataGridViewCellStyle29;
+            dataGridViewCellStyle302.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle302.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle302.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle302.ForeColor = Color.White;
+            dataGridViewCellStyle302.Format = "C2";
+            dataGridViewCellStyle302.NullValue = "-";
+            dataGridViewCellStyle302.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle302.SelectionForeColor = Color.White;
+            colraSaldosCarteraVencida.DefaultCellStyle = dataGridViewCellStyle302;
             colraSaldosCarteraVencida.HeaderText = "Saldos Vencidos";
             colraSaldosCarteraVencida.MinimumWidth = 6;
             colraSaldosCarteraVencida.Name = "colraSaldosCarteraVencida";
@@ -5345,15 +5370,15 @@
             // colraICV
             // 
             colraICV.DataPropertyName = "ICV";
-            dataGridViewCellStyle30.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle30.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle30.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle30.ForeColor = Color.White;
-            dataGridViewCellStyle30.Format = "#0.0";
-            dataGridViewCellStyle30.NullValue = "-";
-            dataGridViewCellStyle30.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle30.SelectionForeColor = Color.White;
-            colraICV.DefaultCellStyle = dataGridViewCellStyle30;
+            dataGridViewCellStyle303.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle303.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle303.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle303.ForeColor = Color.White;
+            dataGridViewCellStyle303.Format = "#0.0";
+            dataGridViewCellStyle303.NullValue = "-";
+            dataGridViewCellStyle303.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle303.SelectionForeColor = Color.White;
+            colraICV.DefaultCellStyle = dataGridViewCellStyle303;
             colraICV.HeaderText = "ICV %";
             colraICV.MinimumWidth = 6;
             colraICV.Name = "colraICV";
@@ -5363,15 +5388,15 @@
             // colraSaldosTotal
             // 
             colraSaldosTotal.DataPropertyName = "SaldosTotal";
-            dataGridViewCellStyle31.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle31.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle31.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle31.ForeColor = Color.White;
-            dataGridViewCellStyle31.Format = "C2";
-            dataGridViewCellStyle31.NullValue = "-";
-            dataGridViewCellStyle31.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle31.SelectionForeColor = Color.White;
-            colraSaldosTotal.DefaultCellStyle = dataGridViewCellStyle31;
+            dataGridViewCellStyle304.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle304.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle304.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle304.ForeColor = Color.White;
+            dataGridViewCellStyle304.Format = "C2";
+            dataGridViewCellStyle304.NullValue = "-";
+            dataGridViewCellStyle304.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle304.SelectionForeColor = Color.White;
+            colraSaldosTotal.DefaultCellStyle = dataGridViewCellStyle304;
             colraSaldosTotal.HeaderText = "Total de Saldos";
             colraSaldosTotal.MinimumWidth = 6;
             colraSaldosTotal.Name = "colraSaldosTotal";
@@ -5447,9 +5472,9 @@
             // tbpConcentradoPorAgencia
             // 
             tbpConcentradoPorAgencia.Controls.Add(pnlrdTodoDetalleAgencia);
-            tbpConcentradoPorAgencia.Location = new Point(4, 33);
+            tbpConcentradoPorAgencia.Location = new Point(4, 32);
             tbpConcentradoPorAgencia.Name = "tbpConcentradoPorAgencia";
-            tbpConcentradoPorAgencia.Size = new Size(2029, 858);
+            tbpConcentradoPorAgencia.Size = new Size(2029, 859);
             tbpConcentradoPorAgencia.TabIndex = 3;
             tbpConcentradoPorAgencia.UseVisualStyleBackColor = true;
             // 
@@ -5463,7 +5488,7 @@
             pnlrdTodoDetalleAgencia.ForeColor = Color.Black;
             pnlrdTodoDetalleAgencia.Location = new Point(0, 0);
             pnlrdTodoDetalleAgencia.Name = "pnlrdTodoDetalleAgencia";
-            pnlrdTodoDetalleAgencia.Size = new Size(2029, 858);
+            pnlrdTodoDetalleAgencia.Size = new Size(2029, 859);
             pnlrdTodoDetalleAgencia.TabIndex = 1;
             // 
             // dgvrdDetalleAgencias
@@ -5482,7 +5507,7 @@
             dgvrdDetalleAgencias.RowHeadersWidth = 51;
             dgvrdDetalleAgencias.RowTemplate.Height = 29;
             dgvrdDetalleAgencias.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dgvrdDetalleAgencias.Size = new Size(2029, 737);
+            dgvrdDetalleAgencias.Size = new Size(2029, 738);
             dgvrdDetalleAgencias.TabIndex = 2;
             // 
             // colrdRegion
@@ -5498,8 +5523,8 @@
             // colrdAgencia
             // 
             colrdAgencia.DataPropertyName = "Agencia";
-            dataGridViewCellStyle32.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            colrdAgencia.DefaultCellStyle = dataGridViewCellStyle32;
+            dataGridViewCellStyle305.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            colrdAgencia.DefaultCellStyle = dataGridViewCellStyle305;
             colrdAgencia.HeaderText = "Agencia";
             colrdAgencia.MinimumWidth = 6;
             colrdAgencia.Name = "colrdAgencia";
@@ -5510,13 +5535,13 @@
             // colrdNumCredito
             // 
             colrdNumCredito.DataPropertyName = "NumCredito";
-            dataGridViewCellStyle33.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle33.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
-            dataGridViewCellStyle33.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle33.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
-            dataGridViewCellStyle33.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle33.SelectionForeColor = Color.White;
-            colrdNumCredito.DefaultCellStyle = dataGridViewCellStyle33;
+            dataGridViewCellStyle306.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle306.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
+            dataGridViewCellStyle306.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle306.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
+            dataGridViewCellStyle306.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle306.SelectionForeColor = Color.White;
+            colrdNumCredito.DefaultCellStyle = dataGridViewCellStyle306;
             colrdNumCredito.HeaderText = "# de crédito";
             colrdNumCredito.MinimumWidth = 6;
             colrdNumCredito.Name = "colrdNumCredito";
@@ -5526,13 +5551,13 @@
             // colrdAcreditado
             // 
             colrdAcreditado.DataPropertyName = "Acreditado";
-            dataGridViewCellStyle34.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle34.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle34.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle34.ForeColor = Color.White;
-            dataGridViewCellStyle34.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle34.SelectionForeColor = Color.White;
-            colrdAcreditado.DefaultCellStyle = dataGridViewCellStyle34;
+            dataGridViewCellStyle307.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle307.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle307.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle307.ForeColor = Color.White;
+            dataGridViewCellStyle307.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle307.SelectionForeColor = Color.White;
+            colrdAcreditado.DefaultCellStyle = dataGridViewCellStyle307;
             colrdAcreditado.HeaderText = "Acreditado";
             colrdAcreditado.MinimumWidth = 6;
             colrdAcreditado.Name = "colrdAcreditado";
@@ -5542,14 +5567,14 @@
             // colrdFechaApertura
             // 
             colrdFechaApertura.DataPropertyName = "FechaApertura";
-            dataGridViewCellStyle35.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle35.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle35.ForeColor = Color.White;
-            dataGridViewCellStyle35.Format = "d";
-            dataGridViewCellStyle35.NullValue = null;
-            dataGridViewCellStyle35.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle35.SelectionForeColor = Color.White;
-            colrdFechaApertura.DefaultCellStyle = dataGridViewCellStyle35;
+            dataGridViewCellStyle308.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle308.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle308.ForeColor = Color.White;
+            dataGridViewCellStyle308.Format = "d";
+            dataGridViewCellStyle308.NullValue = null;
+            dataGridViewCellStyle308.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle308.SelectionForeColor = Color.White;
+            colrdFechaApertura.DefaultCellStyle = dataGridViewCellStyle308;
             colrdFechaApertura.HeaderText = "Fecha de Apertura";
             colrdFechaApertura.MinimumWidth = 6;
             colrdFechaApertura.Name = "colrdFechaApertura";
@@ -5559,14 +5584,14 @@
             // colrdSaldoCarteraVigente
             // 
             colrdSaldoCarteraVigente.DataPropertyName = "SaldoCarteraVigente";
-            dataGridViewCellStyle36.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle36.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle36.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle36.ForeColor = Color.White;
-            dataGridViewCellStyle36.Format = "C2";
-            dataGridViewCellStyle36.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle36.SelectionForeColor = Color.White;
-            colrdSaldoCarteraVigente.DefaultCellStyle = dataGridViewCellStyle36;
+            dataGridViewCellStyle309.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle309.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle309.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle309.ForeColor = Color.White;
+            dataGridViewCellStyle309.Format = "C2";
+            dataGridViewCellStyle309.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle309.SelectionForeColor = Color.White;
+            colrdSaldoCarteraVigente.DefaultCellStyle = dataGridViewCellStyle309;
             colrdSaldoCarteraVigente.HeaderText = "Saldo en Cartera Vigente";
             colrdSaldoCarteraVigente.MinimumWidth = 6;
             colrdSaldoCarteraVigente.Name = "colrdSaldoCarteraVigente";
@@ -5576,15 +5601,15 @@
             // colrdSaldoCarteraImpagos
             // 
             colrdSaldoCarteraImpagos.DataPropertyName = "SaldoCarteraImpagos";
-            dataGridViewCellStyle37.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle37.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle37.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle37.ForeColor = Color.White;
-            dataGridViewCellStyle37.Format = "C2";
-            dataGridViewCellStyle37.NullValue = "-";
-            dataGridViewCellStyle37.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle37.SelectionForeColor = Color.White;
-            colrdSaldoCarteraImpagos.DefaultCellStyle = dataGridViewCellStyle37;
+            dataGridViewCellStyle310.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle310.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle310.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle310.ForeColor = Color.White;
+            dataGridViewCellStyle310.Format = "C2";
+            dataGridViewCellStyle310.NullValue = "-";
+            dataGridViewCellStyle310.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle310.SelectionForeColor = Color.White;
+            colrdSaldoCarteraImpagos.DefaultCellStyle = dataGridViewCellStyle310;
             colrdSaldoCarteraImpagos.HeaderText = "Saldo en Impago";
             colrdSaldoCarteraImpagos.MinimumWidth = 6;
             colrdSaldoCarteraImpagos.Name = "colrdSaldoCarteraImpagos";
@@ -5594,15 +5619,15 @@
             // colrdSaldosCarteraVencida
             // 
             colrdSaldosCarteraVencida.DataPropertyName = "SaldosCarteraVencida";
-            dataGridViewCellStyle38.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle38.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle38.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle38.ForeColor = Color.White;
-            dataGridViewCellStyle38.Format = "C2";
-            dataGridViewCellStyle38.NullValue = "-";
-            dataGridViewCellStyle38.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle38.SelectionForeColor = Color.White;
-            colrdSaldosCarteraVencida.DefaultCellStyle = dataGridViewCellStyle38;
+            dataGridViewCellStyle311.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle311.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle311.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle311.ForeColor = Color.White;
+            dataGridViewCellStyle311.Format = "C2";
+            dataGridViewCellStyle311.NullValue = "-";
+            dataGridViewCellStyle311.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle311.SelectionForeColor = Color.White;
+            colrdSaldosCarteraVencida.DefaultCellStyle = dataGridViewCellStyle311;
             colrdSaldosCarteraVencida.HeaderText = "Saldo en Cartera Vencida";
             colrdSaldosCarteraVencida.MinimumWidth = 6;
             colrdSaldosCarteraVencida.Name = "colrdSaldosCarteraVencida";
@@ -5612,15 +5637,15 @@
             // colrdSaldosTotal
             // 
             colrdSaldosTotal.DataPropertyName = "SaldosTotal";
-            dataGridViewCellStyle39.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle39.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle39.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle39.ForeColor = Color.White;
-            dataGridViewCellStyle39.Format = "C2";
-            dataGridViewCellStyle39.NullValue = "-";
-            dataGridViewCellStyle39.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle39.SelectionForeColor = Color.White;
-            colrdSaldosTotal.DefaultCellStyle = dataGridViewCellStyle39;
+            dataGridViewCellStyle312.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle312.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle312.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle312.ForeColor = Color.White;
+            dataGridViewCellStyle312.Format = "C2";
+            dataGridViewCellStyle312.NullValue = "-";
+            dataGridViewCellStyle312.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle312.SelectionForeColor = Color.White;
+            colrdSaldosTotal.DefaultCellStyle = dataGridViewCellStyle312;
             colrdSaldosTotal.HeaderText = "Saldo Total";
             colrdSaldosTotal.MinimumWidth = 6;
             colrdSaldosTotal.Name = "colrdSaldosTotal";
@@ -5630,12 +5655,12 @@
             // colrdEsVigente
             // 
             colrdEsVigente.DataPropertyName = "EsVigente";
-            dataGridViewCellStyle40.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle40.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle40.ForeColor = Color.White;
-            dataGridViewCellStyle40.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle40.SelectionForeColor = Color.White;
-            colrdEsVigente.DefaultCellStyle = dataGridViewCellStyle40;
+            dataGridViewCellStyle313.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle313.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle313.ForeColor = Color.White;
+            dataGridViewCellStyle313.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle313.SelectionForeColor = Color.White;
+            colrdEsVigente.DefaultCellStyle = dataGridViewCellStyle313;
             colrdEsVigente.HeaderText = "Es Vigente";
             colrdEsVigente.MinimumWidth = 6;
             colrdEsVigente.Name = "colrdEsVigente";
@@ -5645,12 +5670,12 @@
             // colrdEsImpago
             // 
             colrdEsImpago.DataPropertyName = "EsImpago";
-            dataGridViewCellStyle41.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle41.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle41.ForeColor = Color.White;
-            dataGridViewCellStyle41.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle41.SelectionForeColor = Color.White;
-            colrdEsImpago.DefaultCellStyle = dataGridViewCellStyle41;
+            dataGridViewCellStyle314.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle314.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle314.ForeColor = Color.White;
+            dataGridViewCellStyle314.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle314.SelectionForeColor = Color.White;
+            colrdEsImpago.DefaultCellStyle = dataGridViewCellStyle314;
             colrdEsImpago.HeaderText = "Es Impago";
             colrdEsImpago.MinimumWidth = 6;
             colrdEsImpago.Name = "colrdEsImpago";
@@ -5660,12 +5685,12 @@
             // colrdEsVencida
             // 
             colrdEsVencida.DataPropertyName = "EsVencida";
-            dataGridViewCellStyle42.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle42.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle42.ForeColor = Color.White;
-            dataGridViewCellStyle42.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle42.SelectionForeColor = Color.White;
-            colrdEsVencida.DefaultCellStyle = dataGridViewCellStyle42;
+            dataGridViewCellStyle315.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle315.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle315.ForeColor = Color.White;
+            dataGridViewCellStyle315.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle315.SelectionForeColor = Color.White;
+            colrdEsVencida.DefaultCellStyle = dataGridViewCellStyle315;
             colrdEsVencida.HeaderText = "Es Vencida";
             colrdEsVencida.MinimumWidth = 6;
             colrdEsVencida.Name = "colrdEsVencida";
@@ -5675,12 +5700,12 @@
             // colrdEsOrigenDelDr
             // 
             colrdEsOrigenDelDr.DataPropertyName = "EsOrigenDelDr";
-            dataGridViewCellStyle43.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle43.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle43.ForeColor = Color.White;
-            dataGridViewCellStyle43.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle43.SelectionForeColor = Color.White;
-            colrdEsOrigenDelDr.DefaultCellStyle = dataGridViewCellStyle43;
+            dataGridViewCellStyle316.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle316.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle316.ForeColor = Color.White;
+            dataGridViewCellStyle316.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle316.SelectionForeColor = Color.White;
+            colrdEsOrigenDelDr.DefaultCellStyle = dataGridViewCellStyle316;
             colrdEsOrigenDelDr.HeaderText = "Apertura del 1 de Julio del 2020";
             colrdEsOrigenDelDr.MinimumWidth = 6;
             colrdEsOrigenDelDr.Name = "colrdEsOrigenDelDr";
@@ -5713,7 +5738,7 @@
             panel58.Controls.Add(btnReporteGuardaValor);
             panel58.Controls.Add(panel59);
             panel58.Dock = DockStyle.Bottom;
-            panel58.Location = new Point(0, 788);
+            panel58.Location = new Point(0, 789);
             panel58.Name = "panel58";
             panel58.Size = new Size(2029, 70);
             panel58.TabIndex = 1;
@@ -5852,12 +5877,12 @@
             // colccCatRegion
             // 
             colccCatRegion.DataPropertyName = "CatRegion";
-            dataGridViewCellStyle44.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
-            dataGridViewCellStyle44.Font = new Font("Montserrat Medium", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle44.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
-            dataGridViewCellStyle44.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle44.SelectionForeColor = Color.White;
-            colccCatRegion.DefaultCellStyle = dataGridViewCellStyle44;
+            dataGridViewCellStyle317.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
+            dataGridViewCellStyle317.Font = new Font("Montserrat Medium", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle317.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
+            dataGridViewCellStyle317.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle317.SelectionForeColor = Color.White;
+            colccCatRegion.DefaultCellStyle = dataGridViewCellStyle317;
             colccCatRegion.HeaderText = "Region";
             colccCatRegion.MinimumWidth = 6;
             colccCatRegion.Name = "colccCatRegion";
@@ -5867,15 +5892,15 @@
             // colccCantidadCreditos
             // 
             colccCantidadCreditos.DataPropertyName = "CantidadCreditos";
-            dataGridViewCellStyle45.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle45.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle45.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle45.ForeColor = Color.White;
-            dataGridViewCellStyle45.Format = "N0";
-            dataGridViewCellStyle45.NullValue = "-";
-            dataGridViewCellStyle45.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle45.SelectionForeColor = Color.White;
-            colccCantidadCreditos.DefaultCellStyle = dataGridViewCellStyle45;
+            dataGridViewCellStyle318.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle318.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle318.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle318.ForeColor = Color.White;
+            dataGridViewCellStyle318.Format = "N0";
+            dataGridViewCellStyle318.NullValue = "-";
+            dataGridViewCellStyle318.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle318.SelectionForeColor = Color.White;
+            colccCantidadCreditos.DefaultCellStyle = dataGridViewCellStyle318;
             colccCantidadCreditos.HeaderText = "Cantidad de Creditos";
             colccCantidadCreditos.MinimumWidth = 6;
             colccCantidadCreditos.Name = "colccCantidadCreditos";
@@ -5885,15 +5910,15 @@
             // colccCantidadClientes
             // 
             colccCantidadClientes.DataPropertyName = "CantidadClientes";
-            dataGridViewCellStyle46.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle46.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle46.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle46.ForeColor = Color.White;
-            dataGridViewCellStyle46.Format = "N0";
-            dataGridViewCellStyle46.NullValue = "-";
-            dataGridViewCellStyle46.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle46.SelectionForeColor = Color.White;
-            colccCantidadClientes.DefaultCellStyle = dataGridViewCellStyle46;
+            dataGridViewCellStyle319.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle319.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle319.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle319.ForeColor = Color.White;
+            dataGridViewCellStyle319.Format = "N0";
+            dataGridViewCellStyle319.NullValue = "-";
+            dataGridViewCellStyle319.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle319.SelectionForeColor = Color.White;
+            colccCantidadClientes.DefaultCellStyle = dataGridViewCellStyle319;
             colccCantidadClientes.HeaderText = "Cantidad Ctes";
             colccCantidadClientes.MinimumWidth = 6;
             colccCantidadClientes.Name = "colccCantidadClientes";
@@ -5903,15 +5928,15 @@
             // colccPersonasFisicas
             // 
             colccPersonasFisicas.DataPropertyName = "CantidadPersonasFisicas";
-            dataGridViewCellStyle47.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle47.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle47.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle47.ForeColor = Color.White;
-            dataGridViewCellStyle47.Format = "N0";
-            dataGridViewCellStyle47.NullValue = "-";
-            dataGridViewCellStyle47.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle47.SelectionForeColor = Color.White;
-            colccPersonasFisicas.DefaultCellStyle = dataGridViewCellStyle47;
+            dataGridViewCellStyle320.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle320.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle320.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle320.ForeColor = Color.White;
+            dataGridViewCellStyle320.Format = "N0";
+            dataGridViewCellStyle320.NullValue = "-";
+            dataGridViewCellStyle320.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle320.SelectionForeColor = Color.White;
+            colccPersonasFisicas.DefaultCellStyle = dataGridViewCellStyle320;
             colccPersonasFisicas.HeaderText = "Cant Cred Personas Físicas";
             colccPersonasFisicas.MinimumWidth = 6;
             colccPersonasFisicas.Name = "colccPersonasFisicas";
@@ -5921,15 +5946,15 @@
             // colccCantidadPersonasMorales
             // 
             colccCantidadPersonasMorales.DataPropertyName = "CantidadPersonasMorales";
-            dataGridViewCellStyle48.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle48.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle48.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle48.ForeColor = Color.White;
-            dataGridViewCellStyle48.Format = "N0";
-            dataGridViewCellStyle48.NullValue = "-";
-            dataGridViewCellStyle48.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle48.SelectionForeColor = Color.White;
-            colccCantidadPersonasMorales.DefaultCellStyle = dataGridViewCellStyle48;
+            dataGridViewCellStyle321.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle321.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle321.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle321.ForeColor = Color.White;
+            dataGridViewCellStyle321.Format = "N0";
+            dataGridViewCellStyle321.NullValue = "-";
+            dataGridViewCellStyle321.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle321.SelectionForeColor = Color.White;
+            colccCantidadPersonasMorales.DefaultCellStyle = dataGridViewCellStyle321;
             colccCantidadPersonasMorales.HeaderText = "Cant Cred Personas Morales";
             colccCantidadPersonasMorales.MinimumWidth = 6;
             colccCantidadPersonasMorales.Name = "colccCantidadPersonasMorales";
@@ -5939,15 +5964,15 @@
             // colccCantidadAnio2020
             // 
             colccCantidadAnio2020.DataPropertyName = "CantidadAnio2020";
-            dataGridViewCellStyle49.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle49.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle49.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle49.ForeColor = Color.White;
-            dataGridViewCellStyle49.Format = "N0";
-            dataGridViewCellStyle49.NullValue = "-";
-            dataGridViewCellStyle49.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle49.SelectionForeColor = Color.White;
-            colccCantidadAnio2020.DefaultCellStyle = dataGridViewCellStyle49;
+            dataGridViewCellStyle322.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle322.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle322.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle322.ForeColor = Color.White;
+            dataGridViewCellStyle322.Format = "N0";
+            dataGridViewCellStyle322.NullValue = "-";
+            dataGridViewCellStyle322.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle322.SelectionForeColor = Color.White;
+            colccCantidadAnio2020.DefaultCellStyle = dataGridViewCellStyle322;
             colccCantidadAnio2020.HeaderText = "Cantidad Año 2020";
             colccCantidadAnio2020.MinimumWidth = 6;
             colccCantidadAnio2020.Name = "colccCantidadAnio2020";
@@ -5957,15 +5982,15 @@
             // colccCantidadAnio2021
             // 
             colccCantidadAnio2021.DataPropertyName = "CantidadAnio2021";
-            dataGridViewCellStyle50.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle50.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle50.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle50.ForeColor = Color.White;
-            dataGridViewCellStyle50.Format = "N0";
-            dataGridViewCellStyle50.NullValue = "-";
-            dataGridViewCellStyle50.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle50.SelectionForeColor = Color.White;
-            colccCantidadAnio2021.DefaultCellStyle = dataGridViewCellStyle50;
+            dataGridViewCellStyle323.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle323.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle323.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle323.ForeColor = Color.White;
+            dataGridViewCellStyle323.Format = "N0";
+            dataGridViewCellStyle323.NullValue = "-";
+            dataGridViewCellStyle323.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle323.SelectionForeColor = Color.White;
+            colccCantidadAnio2021.DefaultCellStyle = dataGridViewCellStyle323;
             colccCantidadAnio2021.HeaderText = "Cantidad Año 2021";
             colccCantidadAnio2021.MinimumWidth = 6;
             colccCantidadAnio2021.Name = "colccCantidadAnio2021";
@@ -5975,15 +6000,15 @@
             // colccCantidadAnio2022
             // 
             colccCantidadAnio2022.DataPropertyName = "CantidadAnio2022";
-            dataGridViewCellStyle51.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle51.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle51.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle51.ForeColor = Color.White;
-            dataGridViewCellStyle51.Format = "N0";
-            dataGridViewCellStyle51.NullValue = "-";
-            dataGridViewCellStyle51.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle51.SelectionForeColor = Color.White;
-            colccCantidadAnio2022.DefaultCellStyle = dataGridViewCellStyle51;
+            dataGridViewCellStyle324.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle324.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle324.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle324.ForeColor = Color.White;
+            dataGridViewCellStyle324.Format = "N0";
+            dataGridViewCellStyle324.NullValue = "-";
+            dataGridViewCellStyle324.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle324.SelectionForeColor = Color.White;
+            colccCantidadAnio2022.DefaultCellStyle = dataGridViewCellStyle324;
             colccCantidadAnio2022.HeaderText = "Cantidad Año 2022";
             colccCantidadAnio2022.MinimumWidth = 6;
             colccCantidadAnio2022.Name = "colccCantidadAnio2022";
@@ -5993,15 +6018,15 @@
             // colccCantidadAnio2023
             // 
             colccCantidadAnio2023.DataPropertyName = "CantidadAnio2023";
-            dataGridViewCellStyle52.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle52.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle52.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle52.ForeColor = Color.White;
-            dataGridViewCellStyle52.Format = "N0";
-            dataGridViewCellStyle52.NullValue = "-";
-            dataGridViewCellStyle52.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle52.SelectionForeColor = Color.White;
-            colccCantidadAnio2023.DefaultCellStyle = dataGridViewCellStyle52;
+            dataGridViewCellStyle325.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle325.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle325.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle325.ForeColor = Color.White;
+            dataGridViewCellStyle325.Format = "N0";
+            dataGridViewCellStyle325.NullValue = "-";
+            dataGridViewCellStyle325.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle325.SelectionForeColor = Color.White;
+            colccCantidadAnio2023.DefaultCellStyle = dataGridViewCellStyle325;
             colccCantidadAnio2023.HeaderText = "Cantidad Año 2023";
             colccCantidadAnio2023.MinimumWidth = 6;
             colccCantidadAnio2023.Name = "colccCantidadAnio2023";
@@ -6011,15 +6036,15 @@
             // colccCantidadPrimerPiso
             // 
             colccCantidadPrimerPiso.DataPropertyName = "CantidadPrimerPiso";
-            dataGridViewCellStyle53.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle53.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle53.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle53.ForeColor = Color.White;
-            dataGridViewCellStyle53.Format = "N0";
-            dataGridViewCellStyle53.NullValue = "-";
-            dataGridViewCellStyle53.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle53.SelectionForeColor = Color.White;
-            colccCantidadPrimerPiso.DefaultCellStyle = dataGridViewCellStyle53;
+            dataGridViewCellStyle326.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle326.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle326.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle326.ForeColor = Color.White;
+            dataGridViewCellStyle326.Format = "N0";
+            dataGridViewCellStyle326.NullValue = "-";
+            dataGridViewCellStyle326.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle326.SelectionForeColor = Color.White;
+            colccCantidadPrimerPiso.DefaultCellStyle = dataGridViewCellStyle326;
             colccCantidadPrimerPiso.HeaderText = "Cantidad Primer Piso";
             colccCantidadPrimerPiso.MinimumWidth = 6;
             colccCantidadPrimerPiso.Name = "colccCantidadPrimerPiso";
@@ -6029,15 +6054,15 @@
             // colccCantidadSegudoPiso
             // 
             colccCantidadSegudoPiso.DataPropertyName = "CantidadSegundoPiso";
-            dataGridViewCellStyle54.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle54.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle54.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle54.ForeColor = Color.White;
-            dataGridViewCellStyle54.Format = "N0";
-            dataGridViewCellStyle54.NullValue = "-";
-            dataGridViewCellStyle54.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle54.SelectionForeColor = Color.White;
-            colccCantidadSegudoPiso.DefaultCellStyle = dataGridViewCellStyle54;
+            dataGridViewCellStyle327.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle327.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle327.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle327.ForeColor = Color.White;
+            dataGridViewCellStyle327.Format = "N0";
+            dataGridViewCellStyle327.NullValue = "-";
+            dataGridViewCellStyle327.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle327.SelectionForeColor = Color.White;
+            colccCantidadSegudoPiso.DefaultCellStyle = dataGridViewCellStyle327;
             colccCantidadSegudoPiso.HeaderText = "Cantidad Segundo Piso";
             colccCantidadSegudoPiso.MinimumWidth = 6;
             colccCantidadSegudoPiso.Name = "colccCantidadSegudoPiso";
@@ -6047,15 +6072,15 @@
             // colccCantidadFira
             // 
             colccCantidadFira.DataPropertyName = "CantidadFira";
-            dataGridViewCellStyle55.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle55.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle55.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle55.ForeColor = Color.White;
-            dataGridViewCellStyle55.Format = "N0";
-            dataGridViewCellStyle55.NullValue = "-";
-            dataGridViewCellStyle55.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle55.SelectionForeColor = Color.White;
-            colccCantidadFira.DefaultCellStyle = dataGridViewCellStyle55;
+            dataGridViewCellStyle328.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle328.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle328.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle328.ForeColor = Color.White;
+            dataGridViewCellStyle328.Format = "N0";
+            dataGridViewCellStyle328.NullValue = "-";
+            dataGridViewCellStyle328.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle328.SelectionForeColor = Color.White;
+            colccCantidadFira.DefaultCellStyle = dataGridViewCellStyle328;
             colccCantidadFira.HeaderText = "Cantidad Fira";
             colccCantidadFira.MinimumWidth = 6;
             colccCantidadFira.Name = "colccCantidadFira";
@@ -6065,15 +6090,15 @@
             // colccCantidadFondosMutuales
             // 
             colccCantidadFondosMutuales.DataPropertyName = "CantidadFondosMutuales";
-            dataGridViewCellStyle56.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle56.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle56.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle56.ForeColor = Color.White;
-            dataGridViewCellStyle56.Format = "N0";
-            dataGridViewCellStyle56.NullValue = "-";
-            dataGridViewCellStyle56.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle56.SelectionForeColor = Color.White;
-            colccCantidadFondosMutuales.DefaultCellStyle = dataGridViewCellStyle56;
+            dataGridViewCellStyle329.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle329.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle329.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle329.ForeColor = Color.White;
+            dataGridViewCellStyle329.Format = "N0";
+            dataGridViewCellStyle329.NullValue = "-";
+            dataGridViewCellStyle329.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle329.SelectionForeColor = Color.White;
+            colccCantidadFondosMutuales.DefaultCellStyle = dataGridViewCellStyle329;
             colccCantidadFondosMutuales.HeaderText = "Cantidad Fondos Mutuales";
             colccCantidadFondosMutuales.MinimumWidth = 6;
             colccCantidadFondosMutuales.Name = "colccCantidadFondosMutuales";
@@ -6083,15 +6108,15 @@
             // colccCantidadReservasPreventivas
             // 
             colccCantidadReservasPreventivas.DataPropertyName = "CantidadReservasPreventivas";
-            dataGridViewCellStyle57.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle57.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle57.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle57.ForeColor = Color.White;
-            dataGridViewCellStyle57.Format = "N0";
-            dataGridViewCellStyle57.NullValue = "-";
-            dataGridViewCellStyle57.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle57.SelectionForeColor = Color.White;
-            colccCantidadReservasPreventivas.DefaultCellStyle = dataGridViewCellStyle57;
+            dataGridViewCellStyle330.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle330.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle330.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle330.ForeColor = Color.White;
+            dataGridViewCellStyle330.Format = "N0";
+            dataGridViewCellStyle330.NullValue = "-";
+            dataGridViewCellStyle330.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle330.SelectionForeColor = Color.White;
+            colccCantidadReservasPreventivas.DefaultCellStyle = dataGridViewCellStyle330;
             colccCantidadReservasPreventivas.HeaderText = "Cantidad Reservas Preventivas";
             colccCantidadReservasPreventivas.MinimumWidth = 6;
             colccCantidadReservasPreventivas.Name = "colccCantidadReservasPreventivas";
@@ -6218,12 +6243,12 @@
             // colccrCatAgencia
             // 
             colccrCatAgencia.DataPropertyName = "CatAgencia";
-            dataGridViewCellStyle58.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
-            dataGridViewCellStyle58.Font = new Font("Montserrat Medium", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle58.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
-            dataGridViewCellStyle58.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle58.SelectionForeColor = Color.White;
-            colccrCatAgencia.DefaultCellStyle = dataGridViewCellStyle58;
+            dataGridViewCellStyle331.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
+            dataGridViewCellStyle331.Font = new Font("Montserrat Medium", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle331.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
+            dataGridViewCellStyle331.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle331.SelectionForeColor = Color.White;
+            colccrCatAgencia.DefaultCellStyle = dataGridViewCellStyle331;
             colccrCatAgencia.HeaderText = "Agencia";
             colccrCatAgencia.MinimumWidth = 6;
             colccrCatAgencia.Name = "colccrCatAgencia";
@@ -6233,15 +6258,15 @@
             // colccrCantidadCreditos
             // 
             colccrCantidadCreditos.DataPropertyName = "CantidadCreditos";
-            dataGridViewCellStyle59.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle59.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle59.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle59.ForeColor = Color.White;
-            dataGridViewCellStyle59.Format = "N0";
-            dataGridViewCellStyle59.NullValue = "-";
-            dataGridViewCellStyle59.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle59.SelectionForeColor = Color.White;
-            colccrCantidadCreditos.DefaultCellStyle = dataGridViewCellStyle59;
+            dataGridViewCellStyle332.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle332.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle332.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle332.ForeColor = Color.White;
+            dataGridViewCellStyle332.Format = "N0";
+            dataGridViewCellStyle332.NullValue = "-";
+            dataGridViewCellStyle332.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle332.SelectionForeColor = Color.White;
+            colccrCantidadCreditos.DefaultCellStyle = dataGridViewCellStyle332;
             colccrCantidadCreditos.HeaderText = "Cantidad de Creditos";
             colccrCantidadCreditos.MinimumWidth = 6;
             colccrCantidadCreditos.Name = "colccrCantidadCreditos";
@@ -6251,15 +6276,15 @@
             // colccrCantidadClientes
             // 
             colccrCantidadClientes.DataPropertyName = "CantidadClientes";
-            dataGridViewCellStyle60.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle60.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle60.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle60.ForeColor = Color.White;
-            dataGridViewCellStyle60.Format = "N0";
-            dataGridViewCellStyle60.NullValue = "-";
-            dataGridViewCellStyle60.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle60.SelectionForeColor = Color.White;
-            colccrCantidadClientes.DefaultCellStyle = dataGridViewCellStyle60;
+            dataGridViewCellStyle333.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle333.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle333.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle333.ForeColor = Color.White;
+            dataGridViewCellStyle333.Format = "N0";
+            dataGridViewCellStyle333.NullValue = "-";
+            dataGridViewCellStyle333.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle333.SelectionForeColor = Color.White;
+            colccrCantidadClientes.DefaultCellStyle = dataGridViewCellStyle333;
             colccrCantidadClientes.HeaderText = "Cantidad Ctes";
             colccrCantidadClientes.MinimumWidth = 6;
             colccrCantidadClientes.Name = "colccrCantidadClientes";
@@ -6269,15 +6294,15 @@
             // colccrCantidadPersonasFisicas
             // 
             colccrCantidadPersonasFisicas.DataPropertyName = "CantidadPersonasFisicas";
-            dataGridViewCellStyle61.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle61.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle61.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle61.ForeColor = Color.White;
-            dataGridViewCellStyle61.Format = "N0";
-            dataGridViewCellStyle61.NullValue = "-";
-            dataGridViewCellStyle61.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle61.SelectionForeColor = Color.White;
-            colccrCantidadPersonasFisicas.DefaultCellStyle = dataGridViewCellStyle61;
+            dataGridViewCellStyle334.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle334.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle334.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle334.ForeColor = Color.White;
+            dataGridViewCellStyle334.Format = "N0";
+            dataGridViewCellStyle334.NullValue = "-";
+            dataGridViewCellStyle334.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle334.SelectionForeColor = Color.White;
+            colccrCantidadPersonasFisicas.DefaultCellStyle = dataGridViewCellStyle334;
             colccrCantidadPersonasFisicas.HeaderText = "Cantidad Personas Físicas";
             colccrCantidadPersonasFisicas.MinimumWidth = 6;
             colccrCantidadPersonasFisicas.Name = "colccrCantidadPersonasFisicas";
@@ -6287,15 +6312,15 @@
             // colccrCantidadPersonasMorales
             // 
             colccrCantidadPersonasMorales.DataPropertyName = "CantidadPersonasMorales";
-            dataGridViewCellStyle62.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle62.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle62.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle62.ForeColor = Color.White;
-            dataGridViewCellStyle62.Format = "N0";
-            dataGridViewCellStyle62.NullValue = "-";
-            dataGridViewCellStyle62.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle62.SelectionForeColor = Color.White;
-            colccrCantidadPersonasMorales.DefaultCellStyle = dataGridViewCellStyle62;
+            dataGridViewCellStyle335.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle335.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle335.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle335.ForeColor = Color.White;
+            dataGridViewCellStyle335.Format = "N0";
+            dataGridViewCellStyle335.NullValue = "-";
+            dataGridViewCellStyle335.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle335.SelectionForeColor = Color.White;
+            colccrCantidadPersonasMorales.DefaultCellStyle = dataGridViewCellStyle335;
             colccrCantidadPersonasMorales.HeaderText = "Cantidad Personas Morales";
             colccrCantidadPersonasMorales.MinimumWidth = 6;
             colccrCantidadPersonasMorales.Name = "colccrCantidadPersonasMorales";
@@ -6305,15 +6330,15 @@
             // colccrCantidadAnio2020
             // 
             colccrCantidadAnio2020.DataPropertyName = "CantidadAnio2020";
-            dataGridViewCellStyle63.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle63.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle63.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle63.ForeColor = Color.White;
-            dataGridViewCellStyle63.Format = "N0";
-            dataGridViewCellStyle63.NullValue = "-";
-            dataGridViewCellStyle63.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle63.SelectionForeColor = Color.White;
-            colccrCantidadAnio2020.DefaultCellStyle = dataGridViewCellStyle63;
+            dataGridViewCellStyle336.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle336.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle336.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle336.ForeColor = Color.White;
+            dataGridViewCellStyle336.Format = "N0";
+            dataGridViewCellStyle336.NullValue = "-";
+            dataGridViewCellStyle336.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle336.SelectionForeColor = Color.White;
+            colccrCantidadAnio2020.DefaultCellStyle = dataGridViewCellStyle336;
             colccrCantidadAnio2020.HeaderText = "Cantidad Año 2020";
             colccrCantidadAnio2020.MinimumWidth = 6;
             colccrCantidadAnio2020.Name = "colccrCantidadAnio2020";
@@ -6323,15 +6348,15 @@
             // colccrCantidadAnio2021
             // 
             colccrCantidadAnio2021.DataPropertyName = "CantidadAnio2021";
-            dataGridViewCellStyle64.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle64.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle64.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle64.ForeColor = Color.White;
-            dataGridViewCellStyle64.Format = "N0";
-            dataGridViewCellStyle64.NullValue = "-";
-            dataGridViewCellStyle64.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle64.SelectionForeColor = Color.White;
-            colccrCantidadAnio2021.DefaultCellStyle = dataGridViewCellStyle64;
+            dataGridViewCellStyle337.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle337.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle337.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle337.ForeColor = Color.White;
+            dataGridViewCellStyle337.Format = "N0";
+            dataGridViewCellStyle337.NullValue = "-";
+            dataGridViewCellStyle337.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle337.SelectionForeColor = Color.White;
+            colccrCantidadAnio2021.DefaultCellStyle = dataGridViewCellStyle337;
             colccrCantidadAnio2021.HeaderText = "Cantidad Año 2021";
             colccrCantidadAnio2021.MinimumWidth = 6;
             colccrCantidadAnio2021.Name = "colccrCantidadAnio2021";
@@ -6341,15 +6366,15 @@
             // colccrCantidadAnio2022
             // 
             colccrCantidadAnio2022.DataPropertyName = "CantidadAnio2022";
-            dataGridViewCellStyle65.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle65.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle65.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle65.ForeColor = Color.White;
-            dataGridViewCellStyle65.Format = "N0";
-            dataGridViewCellStyle65.NullValue = "-";
-            dataGridViewCellStyle65.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle65.SelectionForeColor = Color.White;
-            colccrCantidadAnio2022.DefaultCellStyle = dataGridViewCellStyle65;
+            dataGridViewCellStyle338.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle338.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle338.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle338.ForeColor = Color.White;
+            dataGridViewCellStyle338.Format = "N0";
+            dataGridViewCellStyle338.NullValue = "-";
+            dataGridViewCellStyle338.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle338.SelectionForeColor = Color.White;
+            colccrCantidadAnio2022.DefaultCellStyle = dataGridViewCellStyle338;
             colccrCantidadAnio2022.HeaderText = "Cantidad Año 2022";
             colccrCantidadAnio2022.MinimumWidth = 6;
             colccrCantidadAnio2022.Name = "colccrCantidadAnio2022";
@@ -6359,15 +6384,15 @@
             // colccrCantidadAnio2023
             // 
             colccrCantidadAnio2023.DataPropertyName = "CantidadAnio2023";
-            dataGridViewCellStyle66.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle66.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle66.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle66.ForeColor = Color.White;
-            dataGridViewCellStyle66.Format = "N0";
-            dataGridViewCellStyle66.NullValue = "-";
-            dataGridViewCellStyle66.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle66.SelectionForeColor = Color.White;
-            colccrCantidadAnio2023.DefaultCellStyle = dataGridViewCellStyle66;
+            dataGridViewCellStyle339.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle339.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle339.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle339.ForeColor = Color.White;
+            dataGridViewCellStyle339.Format = "N0";
+            dataGridViewCellStyle339.NullValue = "-";
+            dataGridViewCellStyle339.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle339.SelectionForeColor = Color.White;
+            colccrCantidadAnio2023.DefaultCellStyle = dataGridViewCellStyle339;
             colccrCantidadAnio2023.HeaderText = "Cantidad Año 2023";
             colccrCantidadAnio2023.MinimumWidth = 6;
             colccrCantidadAnio2023.Name = "colccrCantidadAnio2023";
@@ -6377,15 +6402,15 @@
             // colccrCantidadPrimerPiso
             // 
             colccrCantidadPrimerPiso.DataPropertyName = "CantidadPrimerPiso";
-            dataGridViewCellStyle67.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle67.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle67.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle67.ForeColor = Color.White;
-            dataGridViewCellStyle67.Format = "N0";
-            dataGridViewCellStyle67.NullValue = "-";
-            dataGridViewCellStyle67.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle67.SelectionForeColor = Color.White;
-            colccrCantidadPrimerPiso.DefaultCellStyle = dataGridViewCellStyle67;
+            dataGridViewCellStyle340.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle340.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle340.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle340.ForeColor = Color.White;
+            dataGridViewCellStyle340.Format = "N0";
+            dataGridViewCellStyle340.NullValue = "-";
+            dataGridViewCellStyle340.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle340.SelectionForeColor = Color.White;
+            colccrCantidadPrimerPiso.DefaultCellStyle = dataGridViewCellStyle340;
             colccrCantidadPrimerPiso.HeaderText = "Cantidad Primer Piso";
             colccrCantidadPrimerPiso.MinimumWidth = 6;
             colccrCantidadPrimerPiso.Name = "colccrCantidadPrimerPiso";
@@ -6395,15 +6420,15 @@
             // colccrCantidadSegundoPiso
             // 
             colccrCantidadSegundoPiso.DataPropertyName = "CantidadSegundoPiso";
-            dataGridViewCellStyle68.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle68.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle68.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle68.ForeColor = Color.White;
-            dataGridViewCellStyle68.Format = "N0";
-            dataGridViewCellStyle68.NullValue = "-";
-            dataGridViewCellStyle68.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle68.SelectionForeColor = Color.White;
-            colccrCantidadSegundoPiso.DefaultCellStyle = dataGridViewCellStyle68;
+            dataGridViewCellStyle341.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle341.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle341.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle341.ForeColor = Color.White;
+            dataGridViewCellStyle341.Format = "N0";
+            dataGridViewCellStyle341.NullValue = "-";
+            dataGridViewCellStyle341.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle341.SelectionForeColor = Color.White;
+            colccrCantidadSegundoPiso.DefaultCellStyle = dataGridViewCellStyle341;
             colccrCantidadSegundoPiso.HeaderText = "Cantidad Segundo Piso";
             colccrCantidadSegundoPiso.MinimumWidth = 6;
             colccrCantidadSegundoPiso.Name = "colccrCantidadSegundoPiso";
@@ -6413,15 +6438,15 @@
             // colccrCantidadFira
             // 
             colccrCantidadFira.DataPropertyName = "CantidadFira";
-            dataGridViewCellStyle69.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle69.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle69.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle69.ForeColor = Color.White;
-            dataGridViewCellStyle69.Format = "N0";
-            dataGridViewCellStyle69.NullValue = "-";
-            dataGridViewCellStyle69.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle69.SelectionForeColor = Color.White;
-            colccrCantidadFira.DefaultCellStyle = dataGridViewCellStyle69;
+            dataGridViewCellStyle342.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle342.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle342.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle342.ForeColor = Color.White;
+            dataGridViewCellStyle342.Format = "N0";
+            dataGridViewCellStyle342.NullValue = "-";
+            dataGridViewCellStyle342.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle342.SelectionForeColor = Color.White;
+            colccrCantidadFira.DefaultCellStyle = dataGridViewCellStyle342;
             colccrCantidadFira.HeaderText = "Cantidad Fira";
             colccrCantidadFira.MinimumWidth = 6;
             colccrCantidadFira.Name = "colccrCantidadFira";
@@ -6431,15 +6456,15 @@
             // colccrCantidadFondosMutuales
             // 
             colccrCantidadFondosMutuales.DataPropertyName = "CantidadFondosMutuales";
-            dataGridViewCellStyle70.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle70.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle70.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle70.ForeColor = Color.White;
-            dataGridViewCellStyle70.Format = "N0";
-            dataGridViewCellStyle70.NullValue = "-";
-            dataGridViewCellStyle70.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle70.SelectionForeColor = Color.White;
-            colccrCantidadFondosMutuales.DefaultCellStyle = dataGridViewCellStyle70;
+            dataGridViewCellStyle343.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle343.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle343.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle343.ForeColor = Color.White;
+            dataGridViewCellStyle343.Format = "N0";
+            dataGridViewCellStyle343.NullValue = "-";
+            dataGridViewCellStyle343.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle343.SelectionForeColor = Color.White;
+            colccrCantidadFondosMutuales.DefaultCellStyle = dataGridViewCellStyle343;
             colccrCantidadFondosMutuales.HeaderText = "Cantidad Fondos Mutuales";
             colccrCantidadFondosMutuales.MinimumWidth = 6;
             colccrCantidadFondosMutuales.Name = "colccrCantidadFondosMutuales";
@@ -6449,15 +6474,15 @@
             // colccrCantidadReservasPreventivas
             // 
             colccrCantidadReservasPreventivas.DataPropertyName = "CantidadReservasPreventivas";
-            dataGridViewCellStyle71.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle71.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle71.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle71.ForeColor = Color.White;
-            dataGridViewCellStyle71.Format = "N0";
-            dataGridViewCellStyle71.NullValue = "-";
-            dataGridViewCellStyle71.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle71.SelectionForeColor = Color.White;
-            colccrCantidadReservasPreventivas.DefaultCellStyle = dataGridViewCellStyle71;
+            dataGridViewCellStyle344.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle344.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle344.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle344.ForeColor = Color.White;
+            dataGridViewCellStyle344.Format = "N0";
+            dataGridViewCellStyle344.NullValue = "-";
+            dataGridViewCellStyle344.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle344.SelectionForeColor = Color.White;
+            colccrCantidadReservasPreventivas.DefaultCellStyle = dataGridViewCellStyle344;
             colccrCantidadReservasPreventivas.HeaderText = "Cantidad Reservas Preventivas";
             colccrCantidadReservasPreventivas.MinimumWidth = 6;
             colccrCantidadReservasPreventivas.Name = "colccrCantidadReservasPreventivas";
@@ -6594,12 +6619,12 @@
             // colccdNumCreditoCancelado
             // 
             colccdNumCreditoCancelado.DataPropertyName = "NumCreditoCancelado";
-            dataGridViewCellStyle72.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
-            dataGridViewCellStyle72.Font = new Font("Montserrat Medium", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle72.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
-            dataGridViewCellStyle72.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle72.SelectionForeColor = Color.White;
-            colccdNumCreditoCancelado.DefaultCellStyle = dataGridViewCellStyle72;
+            dataGridViewCellStyle345.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
+            dataGridViewCellStyle345.Font = new Font("Montserrat Medium", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle345.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
+            dataGridViewCellStyle345.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle345.SelectionForeColor = Color.White;
+            colccdNumCreditoCancelado.DefaultCellStyle = dataGridViewCellStyle345;
             colccdNumCreditoCancelado.HeaderText = "Num Credito (con cancelación)";
             colccdNumCreditoCancelado.MinimumWidth = 6;
             colccdNumCreditoCancelado.Name = "colccdNumCreditoCancelado";
@@ -6609,12 +6634,12 @@
             // colccdAcreditado
             // 
             colccdAcreditado.DataPropertyName = "Acreditado";
-            dataGridViewCellStyle73.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
-            dataGridViewCellStyle73.Font = new Font("Montserrat Medium", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle73.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
-            dataGridViewCellStyle73.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle73.SelectionForeColor = Color.White;
-            colccdAcreditado.DefaultCellStyle = dataGridViewCellStyle73;
+            dataGridViewCellStyle346.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
+            dataGridViewCellStyle346.Font = new Font("Montserrat Medium", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle346.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
+            dataGridViewCellStyle346.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle346.SelectionForeColor = Color.White;
+            colccdAcreditado.DefaultCellStyle = dataGridViewCellStyle346;
             colccdAcreditado.HeaderText = "Acreditado";
             colccdAcreditado.MinimumWidth = 6;
             colccdAcreditado.Name = "colccdAcreditado";
@@ -6624,12 +6649,12 @@
             // colccdNumCliente
             // 
             colccdNumCliente.DataPropertyName = "NumCliente";
-            dataGridViewCellStyle74.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
-            dataGridViewCellStyle74.Font = new Font("Montserrat Medium", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle74.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
-            dataGridViewCellStyle74.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle74.SelectionForeColor = Color.White;
-            colccdNumCliente.DefaultCellStyle = dataGridViewCellStyle74;
+            dataGridViewCellStyle347.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
+            dataGridViewCellStyle347.Font = new Font("Montserrat Medium", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle347.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
+            dataGridViewCellStyle347.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle347.SelectionForeColor = Color.White;
+            colccdNumCliente.DefaultCellStyle = dataGridViewCellStyle347;
             colccdNumCliente.HeaderText = "Núm. Cte.";
             colccdNumCliente.MinimumWidth = 6;
             colccdNumCliente.Name = "colccdNumCliente";
@@ -6639,12 +6664,12 @@
             // colccdFechaCancelacion
             // 
             colccdFechaCancelacion.DataPropertyName = "FechaCancelacion";
-            dataGridViewCellStyle75.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle75.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle75.ForeColor = Color.White;
-            dataGridViewCellStyle75.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle75.SelectionForeColor = Color.White;
-            colccdFechaCancelacion.DefaultCellStyle = dataGridViewCellStyle75;
+            dataGridViewCellStyle348.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle348.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle348.ForeColor = Color.White;
+            dataGridViewCellStyle348.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle348.SelectionForeColor = Color.White;
+            colccdFechaCancelacion.DefaultCellStyle = dataGridViewCellStyle348;
             colccdFechaCancelacion.HeaderText = "Fecha de Cancelación";
             colccdFechaCancelacion.MinimumWidth = 6;
             colccdFechaCancelacion.Name = "colccdFechaCancelacion";
@@ -6654,12 +6679,12 @@
             // colccdFechaPrimeraDispresion
             // 
             colccdFechaPrimeraDispresion.DataPropertyName = "FechaPrimeraDispersion";
-            dataGridViewCellStyle76.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle76.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle76.ForeColor = Color.White;
-            dataGridViewCellStyle76.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle76.SelectionForeColor = Color.White;
-            colccdFechaPrimeraDispresion.DefaultCellStyle = dataGridViewCellStyle76;
+            dataGridViewCellStyle349.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle349.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle349.ForeColor = Color.White;
+            dataGridViewCellStyle349.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle349.SelectionForeColor = Color.White;
+            colccdFechaPrimeraDispresion.DefaultCellStyle = dataGridViewCellStyle349;
             colccdFechaPrimeraDispresion.HeaderText = "Fecha de 1a dispersión";
             colccdFechaPrimeraDispresion.MinimumWidth = 6;
             colccdFechaPrimeraDispresion.Name = "colccdFechaPrimeraDispresion";
@@ -6669,15 +6694,15 @@
             // colccdPersonaFisica
             // 
             colccdPersonaFisica.DataPropertyName = "PersonaFisica";
-            dataGridViewCellStyle77.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle77.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle77.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle77.ForeColor = Color.White;
-            dataGridViewCellStyle77.Format = "N0";
-            dataGridViewCellStyle77.NullValue = "-";
-            dataGridViewCellStyle77.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle77.SelectionForeColor = Color.White;
-            colccdPersonaFisica.DefaultCellStyle = dataGridViewCellStyle77;
+            dataGridViewCellStyle350.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle350.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle350.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle350.ForeColor = Color.White;
+            dataGridViewCellStyle350.Format = "N0";
+            dataGridViewCellStyle350.NullValue = "-";
+            dataGridViewCellStyle350.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle350.SelectionForeColor = Color.White;
+            colccdPersonaFisica.DefaultCellStyle = dataGridViewCellStyle350;
             colccdPersonaFisica.HeaderText = "Es persona física";
             colccdPersonaFisica.MinimumWidth = 6;
             colccdPersonaFisica.Name = "colccdPersonaFisica";
@@ -6687,15 +6712,15 @@
             // colccdPersonaMoral
             // 
             colccdPersonaMoral.DataPropertyName = "PersonaMoral";
-            dataGridViewCellStyle78.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle78.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle78.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle78.ForeColor = Color.White;
-            dataGridViewCellStyle78.Format = "N0";
-            dataGridViewCellStyle78.NullValue = "-";
-            dataGridViewCellStyle78.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle78.SelectionForeColor = Color.White;
-            colccdPersonaMoral.DefaultCellStyle = dataGridViewCellStyle78;
+            dataGridViewCellStyle351.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle351.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle351.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle351.ForeColor = Color.White;
+            dataGridViewCellStyle351.Format = "N0";
+            dataGridViewCellStyle351.NullValue = "-";
+            dataGridViewCellStyle351.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle351.SelectionForeColor = Color.White;
+            colccdPersonaMoral.DefaultCellStyle = dataGridViewCellStyle351;
             colccdPersonaMoral.HeaderText = "Es persona moral";
             colccdPersonaMoral.MinimumWidth = 6;
             colccdPersonaMoral.Name = "colccdPersonaMoral";
@@ -6705,15 +6730,15 @@
             // colccdAnio2020
             // 
             colccdAnio2020.DataPropertyName = "Anio2020";
-            dataGridViewCellStyle79.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle79.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle79.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle79.ForeColor = Color.White;
-            dataGridViewCellStyle79.Format = "N0";
-            dataGridViewCellStyle79.NullValue = "-";
-            dataGridViewCellStyle79.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle79.SelectionForeColor = Color.White;
-            colccdAnio2020.DefaultCellStyle = dataGridViewCellStyle79;
+            dataGridViewCellStyle352.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle352.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle352.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle352.ForeColor = Color.White;
+            dataGridViewCellStyle352.Format = "N0";
+            dataGridViewCellStyle352.NullValue = "-";
+            dataGridViewCellStyle352.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle352.SelectionForeColor = Color.White;
+            colccdAnio2020.DefaultCellStyle = dataGridViewCellStyle352;
             colccdAnio2020.HeaderText = "Es del Año 2020";
             colccdAnio2020.MinimumWidth = 6;
             colccdAnio2020.Name = "colccdAnio2020";
@@ -6723,15 +6748,15 @@
             // colccdAnio2021
             // 
             colccdAnio2021.DataPropertyName = "Anio2021";
-            dataGridViewCellStyle80.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle80.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle80.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle80.ForeColor = Color.White;
-            dataGridViewCellStyle80.Format = "N0";
-            dataGridViewCellStyle80.NullValue = "-";
-            dataGridViewCellStyle80.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle80.SelectionForeColor = Color.White;
-            colccdAnio2021.DefaultCellStyle = dataGridViewCellStyle80;
+            dataGridViewCellStyle353.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle353.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle353.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle353.ForeColor = Color.White;
+            dataGridViewCellStyle353.Format = "N0";
+            dataGridViewCellStyle353.NullValue = "-";
+            dataGridViewCellStyle353.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle353.SelectionForeColor = Color.White;
+            colccdAnio2021.DefaultCellStyle = dataGridViewCellStyle353;
             colccdAnio2021.HeaderText = "Es del Año 2021";
             colccdAnio2021.MinimumWidth = 6;
             colccdAnio2021.Name = "colccdAnio2021";
@@ -6741,15 +6766,15 @@
             // colccdAnio2022
             // 
             colccdAnio2022.DataPropertyName = "Anio2022";
-            dataGridViewCellStyle81.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle81.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle81.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle81.ForeColor = Color.White;
-            dataGridViewCellStyle81.Format = "N0";
-            dataGridViewCellStyle81.NullValue = "-";
-            dataGridViewCellStyle81.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle81.SelectionForeColor = Color.White;
-            colccdAnio2022.DefaultCellStyle = dataGridViewCellStyle81;
+            dataGridViewCellStyle354.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle354.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle354.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle354.ForeColor = Color.White;
+            dataGridViewCellStyle354.Format = "N0";
+            dataGridViewCellStyle354.NullValue = "-";
+            dataGridViewCellStyle354.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle354.SelectionForeColor = Color.White;
+            colccdAnio2022.DefaultCellStyle = dataGridViewCellStyle354;
             colccdAnio2022.HeaderText = "Es del Año 2022";
             colccdAnio2022.MinimumWidth = 6;
             colccdAnio2022.Name = "colccdAnio2022";
@@ -6759,15 +6784,15 @@
             // colccdAnio2023
             // 
             colccdAnio2023.DataPropertyName = "Anio2023";
-            dataGridViewCellStyle82.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle82.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle82.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle82.ForeColor = Color.White;
-            dataGridViewCellStyle82.Format = "N0";
-            dataGridViewCellStyle82.NullValue = "-";
-            dataGridViewCellStyle82.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle82.SelectionForeColor = Color.White;
-            colccdAnio2023.DefaultCellStyle = dataGridViewCellStyle82;
+            dataGridViewCellStyle355.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle355.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle355.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle355.ForeColor = Color.White;
+            dataGridViewCellStyle355.Format = "N0";
+            dataGridViewCellStyle355.NullValue = "-";
+            dataGridViewCellStyle355.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle355.SelectionForeColor = Color.White;
+            colccdAnio2023.DefaultCellStyle = dataGridViewCellStyle355;
             colccdAnio2023.HeaderText = "Es del Año 2023";
             colccdAnio2023.MinimumWidth = 6;
             colccdAnio2023.Name = "colccdAnio2023";
@@ -6777,15 +6802,15 @@
             // colccdPrimerPiso
             // 
             colccdPrimerPiso.DataPropertyName = "PrimerPiso";
-            dataGridViewCellStyle83.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle83.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle83.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle83.ForeColor = Color.White;
-            dataGridViewCellStyle83.Format = "N0";
-            dataGridViewCellStyle83.NullValue = "-";
-            dataGridViewCellStyle83.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle83.SelectionForeColor = Color.White;
-            colccdPrimerPiso.DefaultCellStyle = dataGridViewCellStyle83;
+            dataGridViewCellStyle356.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle356.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle356.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle356.ForeColor = Color.White;
+            dataGridViewCellStyle356.Format = "N0";
+            dataGridViewCellStyle356.NullValue = "-";
+            dataGridViewCellStyle356.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle356.SelectionForeColor = Color.White;
+            colccdPrimerPiso.DefaultCellStyle = dataGridViewCellStyle356;
             colccdPrimerPiso.HeaderText = "Es primer piso";
             colccdPrimerPiso.MinimumWidth = 6;
             colccdPrimerPiso.Name = "colccdPrimerPiso";
@@ -6795,15 +6820,15 @@
             // colccdSegundoPiso
             // 
             colccdSegundoPiso.DataPropertyName = "SegundoPiso";
-            dataGridViewCellStyle84.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle84.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle84.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle84.ForeColor = Color.White;
-            dataGridViewCellStyle84.Format = "N0";
-            dataGridViewCellStyle84.NullValue = "-";
-            dataGridViewCellStyle84.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle84.SelectionForeColor = Color.White;
-            colccdSegundoPiso.DefaultCellStyle = dataGridViewCellStyle84;
+            dataGridViewCellStyle357.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle357.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle357.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle357.ForeColor = Color.White;
+            dataGridViewCellStyle357.Format = "N0";
+            dataGridViewCellStyle357.NullValue = "-";
+            dataGridViewCellStyle357.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle357.SelectionForeColor = Color.White;
+            colccdSegundoPiso.DefaultCellStyle = dataGridViewCellStyle357;
             colccdSegundoPiso.HeaderText = "Es segundo piso";
             colccdSegundoPiso.MinimumWidth = 6;
             colccdSegundoPiso.Name = "colccdSegundoPiso";
@@ -6813,15 +6838,15 @@
             // colccdFira
             // 
             colccdFira.DataPropertyName = "Fira";
-            dataGridViewCellStyle85.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle85.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle85.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle85.ForeColor = Color.White;
-            dataGridViewCellStyle85.Format = "N0";
-            dataGridViewCellStyle85.NullValue = "-";
-            dataGridViewCellStyle85.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle85.SelectionForeColor = Color.White;
-            colccdFira.DefaultCellStyle = dataGridViewCellStyle85;
+            dataGridViewCellStyle358.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle358.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle358.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle358.ForeColor = Color.White;
+            dataGridViewCellStyle358.Format = "N0";
+            dataGridViewCellStyle358.NullValue = "-";
+            dataGridViewCellStyle358.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle358.SelectionForeColor = Color.White;
+            colccdFira.DefaultCellStyle = dataGridViewCellStyle358;
             colccdFira.HeaderText = "Es Fira";
             colccdFira.MinimumWidth = 6;
             colccdFira.Name = "colccdFira";
@@ -6831,15 +6856,15 @@
             // colccdFondosMutuales
             // 
             colccdFondosMutuales.DataPropertyName = "FondosMutuales";
-            dataGridViewCellStyle86.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle86.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle86.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle86.ForeColor = Color.White;
-            dataGridViewCellStyle86.Format = "N0";
-            dataGridViewCellStyle86.NullValue = "-";
-            dataGridViewCellStyle86.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle86.SelectionForeColor = Color.White;
-            colccdFondosMutuales.DefaultCellStyle = dataGridViewCellStyle86;
+            dataGridViewCellStyle359.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle359.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle359.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle359.ForeColor = Color.White;
+            dataGridViewCellStyle359.Format = "N0";
+            dataGridViewCellStyle359.NullValue = "-";
+            dataGridViewCellStyle359.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle359.SelectionForeColor = Color.White;
+            colccdFondosMutuales.DefaultCellStyle = dataGridViewCellStyle359;
             colccdFondosMutuales.HeaderText = "Es fondo mutual";
             colccdFondosMutuales.MinimumWidth = 6;
             colccdFondosMutuales.Name = "colccdFondosMutuales";
@@ -6849,15 +6874,15 @@
             // colccdReservasPreventivas
             // 
             colccdReservasPreventivas.DataPropertyName = "ReservasPreventivas";
-            dataGridViewCellStyle87.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle87.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle87.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle87.ForeColor = Color.White;
-            dataGridViewCellStyle87.Format = "N0";
-            dataGridViewCellStyle87.NullValue = "-";
-            dataGridViewCellStyle87.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle87.SelectionForeColor = Color.White;
-            colccdReservasPreventivas.DefaultCellStyle = dataGridViewCellStyle87;
+            dataGridViewCellStyle360.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle360.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle360.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle360.ForeColor = Color.White;
+            dataGridViewCellStyle360.Format = "N0";
+            dataGridViewCellStyle360.NullValue = "-";
+            dataGridViewCellStyle360.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle360.SelectionForeColor = Color.White;
+            colccdReservasPreventivas.DefaultCellStyle = dataGridViewCellStyle360;
             colccdReservasPreventivas.HeaderText = "Es reservas preventivas";
             colccdReservasPreventivas.MinimumWidth = 6;
             colccdReservasPreventivas.Name = "colccdReservasPreventivas";
@@ -7004,15 +7029,15 @@
             // colbarCatRegion
             // 
             colbarCatRegion.DataPropertyName = "CatRegion";
-            dataGridViewCellStyle88.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle88.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
-            dataGridViewCellStyle88.Font = new Font("Montserrat Medium", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle88.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
-            dataGridViewCellStyle88.Format = "N0";
-            dataGridViewCellStyle88.NullValue = "-";
-            dataGridViewCellStyle88.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle88.SelectionForeColor = Color.White;
-            colbarCatRegion.DefaultCellStyle = dataGridViewCellStyle88;
+            dataGridViewCellStyle361.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle361.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
+            dataGridViewCellStyle361.Font = new Font("Montserrat Medium", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle361.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
+            dataGridViewCellStyle361.Format = "N0";
+            dataGridViewCellStyle361.NullValue = "-";
+            dataGridViewCellStyle361.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle361.SelectionForeColor = Color.White;
+            colbarCatRegion.DefaultCellStyle = dataGridViewCellStyle361;
             colbarCatRegion.HeaderText = "Region";
             colbarCatRegion.MinimumWidth = 6;
             colbarCatRegion.Name = "colbarCatRegion";
@@ -7022,15 +7047,15 @@
             // colbarCantidadDeBienes
             // 
             colbarCantidadDeBienes.DataPropertyName = "CantidadDeBienes";
-            dataGridViewCellStyle89.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle89.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle89.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle89.ForeColor = Color.White;
-            dataGridViewCellStyle89.Format = "N0";
-            dataGridViewCellStyle89.NullValue = "-";
-            dataGridViewCellStyle89.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle89.SelectionForeColor = Color.White;
-            colbarCantidadDeBienes.DefaultCellStyle = dataGridViewCellStyle89;
+            dataGridViewCellStyle362.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle362.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle362.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle362.ForeColor = Color.White;
+            dataGridViewCellStyle362.Format = "N0";
+            dataGridViewCellStyle362.NullValue = "-";
+            dataGridViewCellStyle362.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle362.SelectionForeColor = Color.White;
+            colbarCantidadDeBienes.DefaultCellStyle = dataGridViewCellStyle362;
             colbarCantidadDeBienes.HeaderText = "Cantidad de Bienes";
             colbarCantidadDeBienes.MinimumWidth = 6;
             colbarCantidadDeBienes.Name = "colbarCantidadDeBienes";
@@ -7040,15 +7065,15 @@
             // colbarCantidadBienesMuebles
             // 
             colbarCantidadBienesMuebles.DataPropertyName = "CantidadBienesMuebles";
-            dataGridViewCellStyle90.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle90.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle90.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle90.ForeColor = Color.White;
-            dataGridViewCellStyle90.Format = "N0";
-            dataGridViewCellStyle90.NullValue = "-";
-            dataGridViewCellStyle90.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle90.SelectionForeColor = Color.White;
-            colbarCantidadBienesMuebles.DefaultCellStyle = dataGridViewCellStyle90;
+            dataGridViewCellStyle363.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle363.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle363.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle363.ForeColor = Color.White;
+            dataGridViewCellStyle363.Format = "N0";
+            dataGridViewCellStyle363.NullValue = "-";
+            dataGridViewCellStyle363.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle363.SelectionForeColor = Color.White;
+            colbarCantidadBienesMuebles.DefaultCellStyle = dataGridViewCellStyle363;
             colbarCantidadBienesMuebles.HeaderText = "Bienes Muebles";
             colbarCantidadBienesMuebles.MinimumWidth = 6;
             colbarCantidadBienesMuebles.Name = "colbarCantidadBienesMuebles";
@@ -7058,15 +7083,15 @@
             // colbarCantidadBienesInmuebles
             // 
             colbarCantidadBienesInmuebles.DataPropertyName = "CantidadBienesInmuebles";
-            dataGridViewCellStyle91.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle91.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle91.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle91.ForeColor = Color.White;
-            dataGridViewCellStyle91.Format = "N0";
-            dataGridViewCellStyle91.NullValue = "-";
-            dataGridViewCellStyle91.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle91.SelectionForeColor = Color.White;
-            colbarCantidadBienesInmuebles.DefaultCellStyle = dataGridViewCellStyle91;
+            dataGridViewCellStyle364.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle364.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle364.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle364.ForeColor = Color.White;
+            dataGridViewCellStyle364.Format = "N0";
+            dataGridViewCellStyle364.NullValue = "-";
+            dataGridViewCellStyle364.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle364.SelectionForeColor = Color.White;
+            colbarCantidadBienesInmuebles.DefaultCellStyle = dataGridViewCellStyle364;
             colbarCantidadBienesInmuebles.HeaderText = "Bienes Inmuebles";
             colbarCantidadBienesInmuebles.MinimumWidth = 6;
             colbarCantidadBienesInmuebles.Name = "colbarCantidadBienesInmuebles";
@@ -7076,15 +7101,15 @@
             // colbarCantidadClientes
             // 
             colbarCantidadClientes.DataPropertyName = "CantidadClientes";
-            dataGridViewCellStyle92.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle92.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle92.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle92.ForeColor = Color.White;
-            dataGridViewCellStyle92.Format = "N0";
-            dataGridViewCellStyle92.NullValue = "-";
-            dataGridViewCellStyle92.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle92.SelectionForeColor = Color.White;
-            colbarCantidadClientes.DefaultCellStyle = dataGridViewCellStyle92;
+            dataGridViewCellStyle365.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle365.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle365.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle365.ForeColor = Color.White;
+            dataGridViewCellStyle365.Format = "N0";
+            dataGridViewCellStyle365.NullValue = "-";
+            dataGridViewCellStyle365.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle365.SelectionForeColor = Color.White;
+            colbarCantidadClientes.DefaultCellStyle = dataGridViewCellStyle365;
             colbarCantidadClientes.HeaderText = "Adjudicados";
             colbarCantidadClientes.MinimumWidth = 6;
             colbarCantidadClientes.Name = "colbarCantidadClientes";
@@ -7094,15 +7119,15 @@
             // colbarTipoAdjudicacionJudicial
             // 
             colbarTipoAdjudicacionJudicial.DataPropertyName = "TipoAdjudicacionJudicial";
-            dataGridViewCellStyle93.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle93.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle93.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle93.ForeColor = Color.White;
-            dataGridViewCellStyle93.Format = "N0";
-            dataGridViewCellStyle93.NullValue = "-";
-            dataGridViewCellStyle93.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle93.SelectionForeColor = Color.White;
-            colbarTipoAdjudicacionJudicial.DefaultCellStyle = dataGridViewCellStyle93;
+            dataGridViewCellStyle366.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle366.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle366.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle366.ForeColor = Color.White;
+            dataGridViewCellStyle366.Format = "N0";
+            dataGridViewCellStyle366.NullValue = "-";
+            dataGridViewCellStyle366.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle366.SelectionForeColor = Color.White;
+            colbarTipoAdjudicacionJudicial.DefaultCellStyle = dataGridViewCellStyle366;
             colbarTipoAdjudicacionJudicial.HeaderText = "Bienes x Adjudiciacion Judicial";
             colbarTipoAdjudicacionJudicial.MinimumWidth = 6;
             colbarTipoAdjudicacionJudicial.Name = "colbarTipoAdjudicacionJudicial";
@@ -7112,15 +7137,15 @@
             // colbarTipoDacionDePago
             // 
             colbarTipoDacionDePago.DataPropertyName = "TipoDacionDePago";
-            dataGridViewCellStyle94.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle94.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle94.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle94.ForeColor = Color.White;
-            dataGridViewCellStyle94.Format = "N0";
-            dataGridViewCellStyle94.NullValue = "-";
-            dataGridViewCellStyle94.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle94.SelectionForeColor = Color.White;
-            colbarTipoDacionDePago.DefaultCellStyle = dataGridViewCellStyle94;
+            dataGridViewCellStyle367.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle367.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle367.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle367.ForeColor = Color.White;
+            dataGridViewCellStyle367.Format = "N0";
+            dataGridViewCellStyle367.NullValue = "-";
+            dataGridViewCellStyle367.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle367.SelectionForeColor = Color.White;
+            colbarTipoDacionDePago.DefaultCellStyle = dataGridViewCellStyle367;
             colbarTipoDacionDePago.HeaderText = "Bienes en dación de pago";
             colbarTipoDacionDePago.MinimumWidth = 6;
             colbarTipoDacionDePago.Name = "colbarTipoDacionDePago";
@@ -7130,15 +7155,15 @@
             // colbarAreaResponsableBaja
             // 
             colbarAreaResponsableBaja.DataPropertyName = "AreaResponsableBaja";
-            dataGridViewCellStyle95.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle95.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle95.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle95.ForeColor = Color.White;
-            dataGridViewCellStyle95.Format = "N0";
-            dataGridViewCellStyle95.NullValue = "-";
-            dataGridViewCellStyle95.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle95.SelectionForeColor = Color.White;
-            colbarAreaResponsableBaja.DefaultCellStyle = dataGridViewCellStyle95;
+            dataGridViewCellStyle368.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle368.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle368.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle368.ForeColor = Color.White;
+            dataGridViewCellStyle368.Format = "N0";
+            dataGridViewCellStyle368.NullValue = "-";
+            dataGridViewCellStyle368.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle368.SelectionForeColor = Color.White;
+            colbarAreaResponsableBaja.DefaultCellStyle = dataGridViewCellStyle368;
             colbarAreaResponsableBaja.HeaderText = "Baja";
             colbarAreaResponsableBaja.MinimumWidth = 6;
             colbarAreaResponsableBaja.Name = "colbarAreaResponsableBaja";
@@ -7148,15 +7173,15 @@
             // colbarAreaResponsableIndep
             // 
             colbarAreaResponsableIndep.DataPropertyName = "AreaResponsableIndep";
-            dataGridViewCellStyle96.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle96.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle96.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle96.ForeColor = Color.White;
-            dataGridViewCellStyle96.Format = "N0";
-            dataGridViewCellStyle96.NullValue = "-";
-            dataGridViewCellStyle96.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle96.SelectionForeColor = Color.White;
-            colbarAreaResponsableIndep.DefaultCellStyle = dataGridViewCellStyle96;
+            dataGridViewCellStyle369.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle369.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle369.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle369.ForeColor = Color.White;
+            dataGridViewCellStyle369.Format = "N0";
+            dataGridViewCellStyle369.NullValue = "-";
+            dataGridViewCellStyle369.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle369.SelectionForeColor = Color.White;
+            colbarAreaResponsableIndep.DefaultCellStyle = dataGridViewCellStyle369;
             colbarAreaResponsableIndep.HeaderText = "INDEP";
             colbarAreaResponsableIndep.MinimumWidth = 6;
             colbarAreaResponsableIndep.Name = "colbarAreaResponsableIndep";
@@ -7166,15 +7191,15 @@
             // colbarAreaResponsableIndepVenta
             // 
             colbarAreaResponsableIndepVenta.DataPropertyName = "AreaResponsableIndepVenta";
-            dataGridViewCellStyle97.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle97.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle97.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle97.ForeColor = Color.White;
-            dataGridViewCellStyle97.Format = "N0";
-            dataGridViewCellStyle97.NullValue = "-";
-            dataGridViewCellStyle97.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle97.SelectionForeColor = Color.White;
-            colbarAreaResponsableIndepVenta.DefaultCellStyle = dataGridViewCellStyle97;
+            dataGridViewCellStyle370.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle370.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle370.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle370.ForeColor = Color.White;
+            dataGridViewCellStyle370.Format = "N0";
+            dataGridViewCellStyle370.NullValue = "-";
+            dataGridViewCellStyle370.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle370.SelectionForeColor = Color.White;
+            colbarAreaResponsableIndepVenta.DefaultCellStyle = dataGridViewCellStyle370;
             colbarAreaResponsableIndepVenta.HeaderText = "Pendiente verificacion venta";
             colbarAreaResponsableIndepVenta.MinimumWidth = 6;
             colbarAreaResponsableIndepVenta.Name = "colbarAreaResponsableIndepVenta";
@@ -7184,15 +7209,15 @@
             // colbarAreaResponsableJuridico
             // 
             colbarAreaResponsableJuridico.DataPropertyName = "AreaResponsableJuridico";
-            dataGridViewCellStyle98.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle98.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle98.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle98.ForeColor = Color.White;
-            dataGridViewCellStyle98.Format = "N0";
-            dataGridViewCellStyle98.NullValue = "-";
-            dataGridViewCellStyle98.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle98.SelectionForeColor = Color.White;
-            colbarAreaResponsableJuridico.DefaultCellStyle = dataGridViewCellStyle98;
+            dataGridViewCellStyle371.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle371.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle371.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle371.ForeColor = Color.White;
+            dataGridViewCellStyle371.Format = "N0";
+            dataGridViewCellStyle371.NullValue = "-";
+            dataGridViewCellStyle371.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle371.SelectionForeColor = Color.White;
+            colbarAreaResponsableJuridico.DefaultCellStyle = dataGridViewCellStyle371;
             colbarAreaResponsableJuridico.HeaderText = "En jurídico";
             colbarAreaResponsableJuridico.MinimumWidth = 6;
             colbarAreaResponsableJuridico.Name = "colbarAreaResponsableJuridico";
@@ -7202,15 +7227,15 @@
             // colbarEnIntegracionDeExpediente
             // 
             colbarEnIntegracionDeExpediente.DataPropertyName = "EnIntegracionDeExpediente";
-            dataGridViewCellStyle99.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle99.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle99.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle99.ForeColor = Color.White;
-            dataGridViewCellStyle99.Format = "N0";
-            dataGridViewCellStyle99.NullValue = "-";
-            dataGridViewCellStyle99.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle99.SelectionForeColor = Color.White;
-            colbarEnIntegracionDeExpediente.DefaultCellStyle = dataGridViewCellStyle99;
+            dataGridViewCellStyle372.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle372.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle372.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle372.ForeColor = Color.White;
+            dataGridViewCellStyle372.Format = "N0";
+            dataGridViewCellStyle372.NullValue = "-";
+            dataGridViewCellStyle372.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle372.SelectionForeColor = Color.White;
+            colbarEnIntegracionDeExpediente.DefaultCellStyle = dataGridViewCellStyle372;
             colbarEnIntegracionDeExpediente.HeaderText = "En Integración de expediente";
             colbarEnIntegracionDeExpediente.MinimumWidth = 6;
             colbarEnIntegracionDeExpediente.Name = "colbarEnIntegracionDeExpediente";
@@ -7337,12 +7362,12 @@
             // colbaxeCatEntidad
             // 
             colbaxeCatEntidad.DataPropertyName = "CatEntidad";
-            dataGridViewCellStyle100.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
-            dataGridViewCellStyle100.Font = new Font("Montserrat Medium", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle100.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
-            dataGridViewCellStyle100.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle100.SelectionForeColor = Color.White;
-            colbaxeCatEntidad.DefaultCellStyle = dataGridViewCellStyle100;
+            dataGridViewCellStyle373.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
+            dataGridViewCellStyle373.Font = new Font("Montserrat Medium", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle373.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
+            dataGridViewCellStyle373.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle373.SelectionForeColor = Color.White;
+            colbaxeCatEntidad.DefaultCellStyle = dataGridViewCellStyle373;
             colbaxeCatEntidad.HeaderText = "Entidad";
             colbaxeCatEntidad.MinimumWidth = 6;
             colbaxeCatEntidad.Name = "colbaxeCatEntidad";
@@ -7352,15 +7377,15 @@
             // colbaxeCantidadDeBienes
             // 
             colbaxeCantidadDeBienes.DataPropertyName = "CantidadDeBienes";
-            dataGridViewCellStyle101.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle101.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle101.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle101.ForeColor = Color.White;
-            dataGridViewCellStyle101.Format = "N0";
-            dataGridViewCellStyle101.NullValue = "-";
-            dataGridViewCellStyle101.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle101.SelectionForeColor = Color.White;
-            colbaxeCantidadDeBienes.DefaultCellStyle = dataGridViewCellStyle101;
+            dataGridViewCellStyle374.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle374.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle374.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle374.ForeColor = Color.White;
+            dataGridViewCellStyle374.Format = "N0";
+            dataGridViewCellStyle374.NullValue = "-";
+            dataGridViewCellStyle374.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle374.SelectionForeColor = Color.White;
+            colbaxeCantidadDeBienes.DefaultCellStyle = dataGridViewCellStyle374;
             colbaxeCantidadDeBienes.HeaderText = "Cantidad de Bienes";
             colbaxeCantidadDeBienes.MinimumWidth = 6;
             colbaxeCantidadDeBienes.Name = "colbaxeCantidadDeBienes";
@@ -7370,15 +7395,15 @@
             // colbaxeCantidadBienesMuebles
             // 
             colbaxeCantidadBienesMuebles.DataPropertyName = "CantidadBienesMuebles";
-            dataGridViewCellStyle102.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle102.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle102.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle102.ForeColor = Color.White;
-            dataGridViewCellStyle102.Format = "N0";
-            dataGridViewCellStyle102.NullValue = "-";
-            dataGridViewCellStyle102.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle102.SelectionForeColor = Color.White;
-            colbaxeCantidadBienesMuebles.DefaultCellStyle = dataGridViewCellStyle102;
+            dataGridViewCellStyle375.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle375.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle375.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle375.ForeColor = Color.White;
+            dataGridViewCellStyle375.Format = "N0";
+            dataGridViewCellStyle375.NullValue = "-";
+            dataGridViewCellStyle375.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle375.SelectionForeColor = Color.White;
+            colbaxeCantidadBienesMuebles.DefaultCellStyle = dataGridViewCellStyle375;
             colbaxeCantidadBienesMuebles.HeaderText = "Bienes Muebles";
             colbaxeCantidadBienesMuebles.MinimumWidth = 6;
             colbaxeCantidadBienesMuebles.Name = "colbaxeCantidadBienesMuebles";
@@ -7388,15 +7413,15 @@
             // colbaxeCantidadBienesInmuebles
             // 
             colbaxeCantidadBienesInmuebles.DataPropertyName = "CantidadBienesInmuebles";
-            dataGridViewCellStyle103.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle103.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle103.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle103.ForeColor = Color.White;
-            dataGridViewCellStyle103.Format = "N0";
-            dataGridViewCellStyle103.NullValue = "-";
-            dataGridViewCellStyle103.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle103.SelectionForeColor = Color.White;
-            colbaxeCantidadBienesInmuebles.DefaultCellStyle = dataGridViewCellStyle103;
+            dataGridViewCellStyle376.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle376.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle376.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle376.ForeColor = Color.White;
+            dataGridViewCellStyle376.Format = "N0";
+            dataGridViewCellStyle376.NullValue = "-";
+            dataGridViewCellStyle376.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle376.SelectionForeColor = Color.White;
+            colbaxeCantidadBienesInmuebles.DefaultCellStyle = dataGridViewCellStyle376;
             colbaxeCantidadBienesInmuebles.HeaderText = "Bienes Inmuebles";
             colbaxeCantidadBienesInmuebles.MinimumWidth = 6;
             colbaxeCantidadBienesInmuebles.Name = "colbaxeCantidadBienesInmuebles";
@@ -7406,15 +7431,15 @@
             // colbaxeCantidadClientes
             // 
             colbaxeCantidadClientes.DataPropertyName = "CantidadClientes";
-            dataGridViewCellStyle104.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle104.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle104.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle104.ForeColor = Color.White;
-            dataGridViewCellStyle104.Format = "N0";
-            dataGridViewCellStyle104.NullValue = "-";
-            dataGridViewCellStyle104.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle104.SelectionForeColor = Color.White;
-            colbaxeCantidadClientes.DefaultCellStyle = dataGridViewCellStyle104;
+            dataGridViewCellStyle377.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle377.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle377.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle377.ForeColor = Color.White;
+            dataGridViewCellStyle377.Format = "N0";
+            dataGridViewCellStyle377.NullValue = "-";
+            dataGridViewCellStyle377.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle377.SelectionForeColor = Color.White;
+            colbaxeCantidadClientes.DefaultCellStyle = dataGridViewCellStyle377;
             colbaxeCantidadClientes.HeaderText = "Adjudicados";
             colbaxeCantidadClientes.MinimumWidth = 6;
             colbaxeCantidadClientes.Name = "colbaxeCantidadClientes";
@@ -7424,15 +7449,15 @@
             // colbaxeTipoAdjudicacionJudicial
             // 
             colbaxeTipoAdjudicacionJudicial.DataPropertyName = "TipoAdjudicacionJudicial";
-            dataGridViewCellStyle105.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle105.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle105.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle105.ForeColor = Color.White;
-            dataGridViewCellStyle105.Format = "N0";
-            dataGridViewCellStyle105.NullValue = "-";
-            dataGridViewCellStyle105.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle105.SelectionForeColor = Color.White;
-            colbaxeTipoAdjudicacionJudicial.DefaultCellStyle = dataGridViewCellStyle105;
+            dataGridViewCellStyle378.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle378.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle378.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle378.ForeColor = Color.White;
+            dataGridViewCellStyle378.Format = "N0";
+            dataGridViewCellStyle378.NullValue = "-";
+            dataGridViewCellStyle378.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle378.SelectionForeColor = Color.White;
+            colbaxeTipoAdjudicacionJudicial.DefaultCellStyle = dataGridViewCellStyle378;
             colbaxeTipoAdjudicacionJudicial.HeaderText = "Adjudicación Judicial";
             colbaxeTipoAdjudicacionJudicial.MinimumWidth = 6;
             colbaxeTipoAdjudicacionJudicial.Name = "colbaxeTipoAdjudicacionJudicial";
@@ -7442,15 +7467,15 @@
             // colbaxeTipoDacionDePago
             // 
             colbaxeTipoDacionDePago.DataPropertyName = "TipoDacionDePago";
-            dataGridViewCellStyle106.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle106.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle106.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle106.ForeColor = Color.White;
-            dataGridViewCellStyle106.Format = "N0";
-            dataGridViewCellStyle106.NullValue = "-";
-            dataGridViewCellStyle106.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle106.SelectionForeColor = Color.White;
-            colbaxeTipoDacionDePago.DefaultCellStyle = dataGridViewCellStyle106;
+            dataGridViewCellStyle379.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle379.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle379.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle379.ForeColor = Color.White;
+            dataGridViewCellStyle379.Format = "N0";
+            dataGridViewCellStyle379.NullValue = "-";
+            dataGridViewCellStyle379.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle379.SelectionForeColor = Color.White;
+            colbaxeTipoDacionDePago.DefaultCellStyle = dataGridViewCellStyle379;
             colbaxeTipoDacionDePago.HeaderText = "Dación de pago";
             colbaxeTipoDacionDePago.MinimumWidth = 6;
             colbaxeTipoDacionDePago.Name = "colbaxeTipoDacionDePago";
@@ -7460,15 +7485,15 @@
             // colbaxeAreaResponsableBaja
             // 
             colbaxeAreaResponsableBaja.DataPropertyName = "AreaResponsableBaja";
-            dataGridViewCellStyle107.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle107.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle107.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle107.ForeColor = Color.White;
-            dataGridViewCellStyle107.Format = "N0";
-            dataGridViewCellStyle107.NullValue = "-";
-            dataGridViewCellStyle107.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle107.SelectionForeColor = Color.White;
-            colbaxeAreaResponsableBaja.DefaultCellStyle = dataGridViewCellStyle107;
+            dataGridViewCellStyle380.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle380.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle380.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle380.ForeColor = Color.White;
+            dataGridViewCellStyle380.Format = "N0";
+            dataGridViewCellStyle380.NullValue = "-";
+            dataGridViewCellStyle380.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle380.SelectionForeColor = Color.White;
+            colbaxeAreaResponsableBaja.DefaultCellStyle = dataGridViewCellStyle380;
             colbaxeAreaResponsableBaja.HeaderText = "Baja";
             colbaxeAreaResponsableBaja.MinimumWidth = 6;
             colbaxeAreaResponsableBaja.Name = "colbaxeAreaResponsableBaja";
@@ -7478,15 +7503,15 @@
             // colbaxeAreaResponsableIndep
             // 
             colbaxeAreaResponsableIndep.DataPropertyName = "AreaResponsableIndep";
-            dataGridViewCellStyle108.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle108.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle108.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle108.ForeColor = Color.White;
-            dataGridViewCellStyle108.Format = "N0";
-            dataGridViewCellStyle108.NullValue = "-";
-            dataGridViewCellStyle108.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle108.SelectionForeColor = Color.White;
-            colbaxeAreaResponsableIndep.DefaultCellStyle = dataGridViewCellStyle108;
+            dataGridViewCellStyle381.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle381.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle381.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle381.ForeColor = Color.White;
+            dataGridViewCellStyle381.Format = "N0";
+            dataGridViewCellStyle381.NullValue = "-";
+            dataGridViewCellStyle381.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle381.SelectionForeColor = Color.White;
+            colbaxeAreaResponsableIndep.DefaultCellStyle = dataGridViewCellStyle381;
             colbaxeAreaResponsableIndep.HeaderText = "INDEP";
             colbaxeAreaResponsableIndep.MinimumWidth = 6;
             colbaxeAreaResponsableIndep.Name = "colbaxeAreaResponsableIndep";
@@ -7496,15 +7521,15 @@
             // colbaxeAreaResponsableIndepVenta
             // 
             colbaxeAreaResponsableIndepVenta.DataPropertyName = "AreaResponsableIndepVenta";
-            dataGridViewCellStyle109.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle109.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle109.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle109.ForeColor = Color.White;
-            dataGridViewCellStyle109.Format = "N0";
-            dataGridViewCellStyle109.NullValue = "-";
-            dataGridViewCellStyle109.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle109.SelectionForeColor = Color.White;
-            colbaxeAreaResponsableIndepVenta.DefaultCellStyle = dataGridViewCellStyle109;
+            dataGridViewCellStyle382.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle382.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle382.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle382.ForeColor = Color.White;
+            dataGridViewCellStyle382.Format = "N0";
+            dataGridViewCellStyle382.NullValue = "-";
+            dataGridViewCellStyle382.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle382.SelectionForeColor = Color.White;
+            colbaxeAreaResponsableIndepVenta.DefaultCellStyle = dataGridViewCellStyle382;
             colbaxeAreaResponsableIndepVenta.HeaderText = "Venta por confirmar";
             colbaxeAreaResponsableIndepVenta.MinimumWidth = 6;
             colbaxeAreaResponsableIndepVenta.Name = "colbaxeAreaResponsableIndepVenta";
@@ -7514,15 +7539,15 @@
             // colbaxeAreaResponsableJuridico
             // 
             colbaxeAreaResponsableJuridico.DataPropertyName = "AreaResponsableJuridico";
-            dataGridViewCellStyle110.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle110.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle110.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle110.ForeColor = Color.White;
-            dataGridViewCellStyle110.Format = "N0";
-            dataGridViewCellStyle110.NullValue = "-";
-            dataGridViewCellStyle110.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle110.SelectionForeColor = Color.White;
-            colbaxeAreaResponsableJuridico.DefaultCellStyle = dataGridViewCellStyle110;
+            dataGridViewCellStyle383.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle383.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle383.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle383.ForeColor = Color.White;
+            dataGridViewCellStyle383.Format = "N0";
+            dataGridViewCellStyle383.NullValue = "-";
+            dataGridViewCellStyle383.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle383.SelectionForeColor = Color.White;
+            colbaxeAreaResponsableJuridico.DefaultCellStyle = dataGridViewCellStyle383;
             colbaxeAreaResponsableJuridico.HeaderText = "En jurídico";
             colbaxeAreaResponsableJuridico.MinimumWidth = 6;
             colbaxeAreaResponsableJuridico.Name = "colbaxeAreaResponsableJuridico";
@@ -7532,15 +7557,15 @@
             // colbaxeEnIntegracionDeExpediente
             // 
             colbaxeEnIntegracionDeExpediente.DataPropertyName = "EnIntegracionDeExpediente";
-            dataGridViewCellStyle111.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle111.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle111.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle111.ForeColor = Color.White;
-            dataGridViewCellStyle111.Format = "N0";
-            dataGridViewCellStyle111.NullValue = "-";
-            dataGridViewCellStyle111.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle111.SelectionForeColor = Color.White;
-            colbaxeEnIntegracionDeExpediente.DefaultCellStyle = dataGridViewCellStyle111;
+            dataGridViewCellStyle384.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle384.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle384.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle384.ForeColor = Color.White;
+            dataGridViewCellStyle384.Format = "N0";
+            dataGridViewCellStyle384.NullValue = "-";
+            dataGridViewCellStyle384.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle384.SelectionForeColor = Color.White;
+            colbaxeEnIntegracionDeExpediente.DefaultCellStyle = dataGridViewCellStyle384;
             colbaxeEnIntegracionDeExpediente.HeaderText = "En integración de expediente";
             colbaxeEnIntegracionDeExpediente.MinimumWidth = 6;
             colbaxeEnIntegracionDeExpediente.Name = "colbaxeEnIntegracionDeExpediente";
@@ -7688,13 +7713,13 @@
             // colbadCveBien
             // 
             colbadCveBien.DataPropertyName = "CveBien";
-            dataGridViewCellStyle112.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
-            dataGridViewCellStyle112.Font = new Font("Montserrat Medium", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle112.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
-            dataGridViewCellStyle112.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle112.SelectionForeColor = Color.White;
-            dataGridViewCellStyle112.WrapMode = DataGridViewTriState.True;
-            colbadCveBien.DefaultCellStyle = dataGridViewCellStyle112;
+            dataGridViewCellStyle385.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
+            dataGridViewCellStyle385.Font = new Font("Montserrat Medium", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle385.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
+            dataGridViewCellStyle385.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle385.SelectionForeColor = Color.White;
+            dataGridViewCellStyle385.WrapMode = DataGridViewTriState.True;
+            colbadCveBien.DefaultCellStyle = dataGridViewCellStyle385;
             colbadCveBien.HeaderText = "Clave Bien";
             colbadCveBien.MinimumWidth = 6;
             colbadCveBien.Name = "colbadCveBien";
@@ -7704,13 +7729,13 @@
             // colbadExpedienteElectronico
             // 
             colbadExpedienteElectronico.DataPropertyName = "ExpedienteElectronico";
-            dataGridViewCellStyle113.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
-            dataGridViewCellStyle113.Font = new Font("Montserrat Medium", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle113.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
-            dataGridViewCellStyle113.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle113.SelectionForeColor = Color.White;
-            dataGridViewCellStyle113.WrapMode = DataGridViewTriState.True;
-            colbadExpedienteElectronico.DefaultCellStyle = dataGridViewCellStyle113;
+            dataGridViewCellStyle386.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
+            dataGridViewCellStyle386.Font = new Font("Montserrat Medium", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle386.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
+            dataGridViewCellStyle386.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle386.SelectionForeColor = Color.White;
+            dataGridViewCellStyle386.WrapMode = DataGridViewTriState.True;
+            colbadExpedienteElectronico.DefaultCellStyle = dataGridViewCellStyle386;
             colbadExpedienteElectronico.HeaderText = "Expediente";
             colbadExpedienteElectronico.MinimumWidth = 6;
             colbadExpedienteElectronico.Name = "colbadExpedienteElectronico";
@@ -7720,13 +7745,13 @@
             // colbadAcreditado
             // 
             colbadAcreditado.DataPropertyName = "Acreditado";
-            dataGridViewCellStyle114.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
-            dataGridViewCellStyle114.Font = new Font("Montserrat Medium", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle114.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
-            dataGridViewCellStyle114.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle114.SelectionForeColor = Color.White;
-            dataGridViewCellStyle114.WrapMode = DataGridViewTriState.True;
-            colbadAcreditado.DefaultCellStyle = dataGridViewCellStyle114;
+            dataGridViewCellStyle387.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
+            dataGridViewCellStyle387.Font = new Font("Montserrat Medium", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle387.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
+            dataGridViewCellStyle387.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle387.SelectionForeColor = Color.White;
+            dataGridViewCellStyle387.WrapMode = DataGridViewTriState.True;
+            colbadAcreditado.DefaultCellStyle = dataGridViewCellStyle387;
             colbadAcreditado.HeaderText = "Acreditado";
             colbadAcreditado.MinimumWidth = 6;
             colbadAcreditado.Name = "colbadAcreditado";
@@ -7736,13 +7761,13 @@
             // colbadTipoDeBien
             // 
             colbadTipoDeBien.DataPropertyName = "TipoDeBien";
-            dataGridViewCellStyle115.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle115.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle115.ForeColor = Color.White;
-            dataGridViewCellStyle115.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle115.SelectionForeColor = Color.White;
-            dataGridViewCellStyle115.WrapMode = DataGridViewTriState.True;
-            colbadTipoDeBien.DefaultCellStyle = dataGridViewCellStyle115;
+            dataGridViewCellStyle388.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle388.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle388.ForeColor = Color.White;
+            dataGridViewCellStyle388.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle388.SelectionForeColor = Color.White;
+            dataGridViewCellStyle388.WrapMode = DataGridViewTriState.True;
+            colbadTipoDeBien.DefaultCellStyle = dataGridViewCellStyle388;
             colbadTipoDeBien.HeaderText = "Tipo de bien";
             colbadTipoDeBien.MinimumWidth = 6;
             colbadTipoDeBien.Name = "colbadTipoDeBien";
@@ -7752,13 +7777,13 @@
             // colbadDescripcionReducidaBien
             // 
             colbadDescripcionReducidaBien.DataPropertyName = "DescripcionReducidaBien";
-            dataGridViewCellStyle116.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle116.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle116.ForeColor = Color.White;
-            dataGridViewCellStyle116.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle116.SelectionForeColor = Color.White;
-            dataGridViewCellStyle116.WrapMode = DataGridViewTriState.True;
-            colbadDescripcionReducidaBien.DefaultCellStyle = dataGridViewCellStyle116;
+            dataGridViewCellStyle389.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle389.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle389.ForeColor = Color.White;
+            dataGridViewCellStyle389.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle389.SelectionForeColor = Color.White;
+            dataGridViewCellStyle389.WrapMode = DataGridViewTriState.True;
+            colbadDescripcionReducidaBien.DefaultCellStyle = dataGridViewCellStyle389;
             colbadDescripcionReducidaBien.HeaderText = "Descripción corta";
             colbadDescripcionReducidaBien.MinimumWidth = 6;
             colbadDescripcionReducidaBien.Name = "colbadDescripcionReducidaBien";
@@ -7768,13 +7793,13 @@
             // colbadDescripcionCompletaBien
             // 
             colbadDescripcionCompletaBien.DataPropertyName = "DescripcionCompletaBien";
-            dataGridViewCellStyle117.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle117.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle117.ForeColor = Color.White;
-            dataGridViewCellStyle117.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle117.SelectionForeColor = Color.White;
-            dataGridViewCellStyle117.WrapMode = DataGridViewTriState.True;
-            colbadDescripcionCompletaBien.DefaultCellStyle = dataGridViewCellStyle117;
+            dataGridViewCellStyle390.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle390.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle390.ForeColor = Color.White;
+            dataGridViewCellStyle390.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle390.SelectionForeColor = Color.White;
+            dataGridViewCellStyle390.WrapMode = DataGridViewTriState.True;
+            colbadDescripcionCompletaBien.DefaultCellStyle = dataGridViewCellStyle390;
             colbadDescripcionCompletaBien.HeaderText = "Detalle del bien";
             colbadDescripcionCompletaBien.MinimumWidth = 6;
             colbadDescripcionCompletaBien.Name = "colbadDescripcionCompletaBien";
@@ -7784,13 +7809,13 @@
             // colbadOficioNotificaiconGCRJ
             // 
             colbadOficioNotificaiconGCRJ.DataPropertyName = "OficioNotificaiconGCRJ";
-            dataGridViewCellStyle118.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle118.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle118.ForeColor = Color.White;
-            dataGridViewCellStyle118.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle118.SelectionForeColor = Color.White;
-            dataGridViewCellStyle118.WrapMode = DataGridViewTriState.True;
-            colbadOficioNotificaiconGCRJ.DefaultCellStyle = dataGridViewCellStyle118;
+            dataGridViewCellStyle391.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle391.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle391.ForeColor = Color.White;
+            dataGridViewCellStyle391.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle391.SelectionForeColor = Color.White;
+            dataGridViewCellStyle391.WrapMode = DataGridViewTriState.True;
+            colbadOficioNotificaiconGCRJ.DefaultCellStyle = dataGridViewCellStyle391;
             colbadOficioNotificaiconGCRJ.HeaderText = "Oficio notificación GCRJ";
             colbadOficioNotificaiconGCRJ.MinimumWidth = 6;
             colbadOficioNotificaiconGCRJ.Name = "colbadOficioNotificaiconGCRJ";
@@ -7800,13 +7825,13 @@
             // colbadNumCredito
             // 
             colbadNumCredito.DataPropertyName = "NumCredito";
-            dataGridViewCellStyle119.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle119.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle119.ForeColor = Color.White;
-            dataGridViewCellStyle119.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle119.SelectionForeColor = Color.White;
-            dataGridViewCellStyle119.WrapMode = DataGridViewTriState.True;
-            colbadNumCredito.DefaultCellStyle = dataGridViewCellStyle119;
+            dataGridViewCellStyle392.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle392.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle392.ForeColor = Color.White;
+            dataGridViewCellStyle392.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle392.SelectionForeColor = Color.White;
+            dataGridViewCellStyle392.WrapMode = DataGridViewTriState.True;
+            colbadNumCredito.DefaultCellStyle = dataGridViewCellStyle392;
             colbadNumCredito.HeaderText = "Número de crédito relacionado";
             colbadNumCredito.MinimumWidth = 6;
             colbadNumCredito.Name = "colbadNumCredito";
@@ -7816,13 +7841,13 @@
             // colbadTipoAdjudicacion
             // 
             colbadTipoAdjudicacion.DataPropertyName = "TipoAdjudicacion";
-            dataGridViewCellStyle120.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle120.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle120.ForeColor = Color.White;
-            dataGridViewCellStyle120.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle120.SelectionForeColor = Color.White;
-            dataGridViewCellStyle120.WrapMode = DataGridViewTriState.True;
-            colbadTipoAdjudicacion.DefaultCellStyle = dataGridViewCellStyle120;
+            dataGridViewCellStyle393.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle393.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle393.ForeColor = Color.White;
+            dataGridViewCellStyle393.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle393.SelectionForeColor = Color.White;
+            dataGridViewCellStyle393.WrapMode = DataGridViewTriState.True;
+            colbadTipoAdjudicacion.DefaultCellStyle = dataGridViewCellStyle393;
             colbadTipoAdjudicacion.HeaderText = "Tipo de adjudicación";
             colbadTipoAdjudicacion.MinimumWidth = 6;
             colbadTipoAdjudicacion.Name = "colbadTipoAdjudicacion";
@@ -7832,13 +7857,13 @@
             // colbadAreaResponsable
             // 
             colbadAreaResponsable.DataPropertyName = "AreaResponsable";
-            dataGridViewCellStyle121.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle121.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle121.ForeColor = Color.White;
-            dataGridViewCellStyle121.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle121.SelectionForeColor = Color.White;
-            dataGridViewCellStyle121.WrapMode = DataGridViewTriState.True;
-            colbadAreaResponsable.DefaultCellStyle = dataGridViewCellStyle121;
+            dataGridViewCellStyle394.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle394.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle394.ForeColor = Color.White;
+            dataGridViewCellStyle394.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle394.SelectionForeColor = Color.White;
+            dataGridViewCellStyle394.WrapMode = DataGridViewTriState.True;
+            colbadAreaResponsable.DefaultCellStyle = dataGridViewCellStyle394;
             colbadAreaResponsable.HeaderText = "Área Responsable";
             colbadAreaResponsable.MinimumWidth = 6;
             colbadAreaResponsable.Name = "colbadAreaResponsable";
@@ -7848,15 +7873,15 @@
             // colbadImporteIndivAdjudicacion
             // 
             colbadImporteIndivAdjudicacion.DataPropertyName = "ImporteIndivAdjudicacion";
-            dataGridViewCellStyle122.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle122.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle122.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle122.ForeColor = Color.White;
-            dataGridViewCellStyle122.Format = "C0";
-            dataGridViewCellStyle122.NullValue = "-";
-            dataGridViewCellStyle122.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle122.SelectionForeColor = Color.White;
-            colbadImporteIndivAdjudicacion.DefaultCellStyle = dataGridViewCellStyle122;
+            dataGridViewCellStyle395.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle395.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle395.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle395.ForeColor = Color.White;
+            dataGridViewCellStyle395.Format = "C0";
+            dataGridViewCellStyle395.NullValue = "-";
+            dataGridViewCellStyle395.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle395.SelectionForeColor = Color.White;
+            colbadImporteIndivAdjudicacion.DefaultCellStyle = dataGridViewCellStyle395;
             colbadImporteIndivAdjudicacion.HeaderText = "Importe del bien";
             colbadImporteIndivAdjudicacion.MinimumWidth = 6;
             colbadImporteIndivAdjudicacion.Name = "colbadImporteIndivAdjudicacion";
@@ -7866,15 +7891,15 @@
             // colbadImporteIndivImplicado
             // 
             colbadImporteIndivImplicado.DataPropertyName = "ImporteIndivImplicado";
-            dataGridViewCellStyle123.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle123.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle123.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle123.ForeColor = Color.White;
-            dataGridViewCellStyle123.Format = "C0";
-            dataGridViewCellStyle123.NullValue = "-";
-            dataGridViewCellStyle123.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle123.SelectionForeColor = Color.White;
-            colbadImporteIndivImplicado.DefaultCellStyle = dataGridViewCellStyle123;
+            dataGridViewCellStyle396.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle396.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle396.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle396.ForeColor = Color.White;
+            dataGridViewCellStyle396.Format = "C0";
+            dataGridViewCellStyle396.NullValue = "-";
+            dataGridViewCellStyle396.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle396.SelectionForeColor = Color.White;
+            colbadImporteIndivImplicado.DefaultCellStyle = dataGridViewCellStyle396;
             colbadImporteIndivImplicado.HeaderText = "Importe del Crédito";
             colbadImporteIndivImplicado.MinimumWidth = 6;
             colbadImporteIndivImplicado.Name = "colbadImporteIndivImplicado";
@@ -7884,13 +7909,13 @@
             // colbadEstatus
             // 
             colbadEstatus.DataPropertyName = "Estatus";
-            dataGridViewCellStyle124.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle124.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle124.ForeColor = Color.White;
-            dataGridViewCellStyle124.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle124.SelectionForeColor = Color.White;
-            dataGridViewCellStyle124.WrapMode = DataGridViewTriState.True;
-            colbadEstatus.DefaultCellStyle = dataGridViewCellStyle124;
+            dataGridViewCellStyle397.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle397.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle397.ForeColor = Color.White;
+            dataGridViewCellStyle397.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle397.SelectionForeColor = Color.White;
+            dataGridViewCellStyle397.WrapMode = DataGridViewTriState.True;
+            colbadEstatus.DefaultCellStyle = dataGridViewCellStyle397;
             colbadEstatus.HeaderText = "Estado";
             colbadEstatus.MinimumWidth = 6;
             colbadEstatus.Name = "colbadEstatus";
@@ -8007,13 +8032,13 @@
             // collrRegion
             // 
             collrRegion.DataPropertyName = "Region";
-            dataGridViewCellStyle125.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle125.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
-            dataGridViewCellStyle125.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle125.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
-            dataGridViewCellStyle125.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle125.SelectionForeColor = Color.White;
-            collrRegion.DefaultCellStyle = dataGridViewCellStyle125;
+            dataGridViewCellStyle398.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle398.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
+            dataGridViewCellStyle398.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle398.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
+            dataGridViewCellStyle398.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle398.SelectionForeColor = Color.White;
+            collrRegion.DefaultCellStyle = dataGridViewCellStyle398;
             collrRegion.Frozen = true;
             collrRegion.HeaderText = "Region";
             collrRegion.MinimumWidth = 6;
@@ -8025,13 +8050,13 @@
             // dataGridViewTextBoxColumn1
             // 
             dataGridViewTextBoxColumn1.DataPropertyName = "CatRegion";
-            dataGridViewCellStyle126.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle126.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
-            dataGridViewCellStyle126.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle126.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
-            dataGridViewCellStyle126.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle126.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle126;
+            dataGridViewCellStyle399.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle399.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
+            dataGridViewCellStyle399.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle399.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
+            dataGridViewCellStyle399.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle399.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle399;
             dataGridViewTextBoxColumn1.Frozen = true;
             dataGridViewTextBoxColumn1.HeaderText = "Region";
             dataGridViewTextBoxColumn1.MinimumWidth = 6;
@@ -8042,15 +8067,15 @@
             // collrNumClientes
             // 
             collrNumClientes.DataPropertyName = "TotalClientes";
-            dataGridViewCellStyle127.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle127.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle127.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle127.ForeColor = Color.White;
-            dataGridViewCellStyle127.Format = "N0";
-            dataGridViewCellStyle127.NullValue = "-";
-            dataGridViewCellStyle127.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle127.SelectionForeColor = Color.White;
-            collrNumClientes.DefaultCellStyle = dataGridViewCellStyle127;
+            dataGridViewCellStyle400.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle400.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle400.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle400.ForeColor = Color.White;
+            dataGridViewCellStyle400.Format = "N0";
+            dataGridViewCellStyle400.NullValue = "-";
+            dataGridViewCellStyle400.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle400.SelectionForeColor = Color.White;
+            collrNumClientes.DefaultCellStyle = dataGridViewCellStyle400;
             collrNumClientes.HeaderText = "Num Ctes";
             collrNumClientes.MinimumWidth = 6;
             collrNumClientes.Name = "collrNumClientes";
@@ -8060,15 +8085,15 @@
             // collrNumCredAdminAnt
             // 
             collrNumCredAdminAnt.DataPropertyName = "CantidadAnterioresJul2020";
-            dataGridViewCellStyle128.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle128.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle128.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle128.ForeColor = Color.White;
-            dataGridViewCellStyle128.Format = "N0";
-            dataGridViewCellStyle128.NullValue = "-";
-            dataGridViewCellStyle128.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle128.SelectionForeColor = Color.White;
-            collrNumCredAdminAnt.DefaultCellStyle = dataGridViewCellStyle128;
+            dataGridViewCellStyle401.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle401.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle401.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle401.ForeColor = Color.White;
+            dataGridViewCellStyle401.Format = "N0";
+            dataGridViewCellStyle401.NullValue = "-";
+            dataGridViewCellStyle401.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle401.SelectionForeColor = Color.White;
+            collrNumCredAdminAnt.DefaultCellStyle = dataGridViewCellStyle401;
             collrNumCredAdminAnt.HeaderText = "Num Cred Admin Anterior";
             collrNumCredAdminAnt.MinimumWidth = 6;
             collrNumCredAdminAnt.Name = "collrNumCredAdminAnt";
@@ -8078,15 +8103,15 @@
             // collrNumCredSegSem2020
             // 
             collrNumCredSegSem2020.DataPropertyName = "CantidadSegundoSemestre2020";
-            dataGridViewCellStyle129.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle129.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle129.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle129.ForeColor = Color.White;
-            dataGridViewCellStyle129.Format = "N0";
-            dataGridViewCellStyle129.NullValue = "-";
-            dataGridViewCellStyle129.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle129.SelectionForeColor = Color.White;
-            collrNumCredSegSem2020.DefaultCellStyle = dataGridViewCellStyle129;
+            dataGridViewCellStyle402.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle402.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle402.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle402.ForeColor = Color.White;
+            dataGridViewCellStyle402.Format = "N0";
+            dataGridViewCellStyle402.NullValue = "-";
+            dataGridViewCellStyle402.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle402.SelectionForeColor = Color.White;
+            collrNumCredSegSem2020.DefaultCellStyle = dataGridViewCellStyle402;
             collrNumCredSegSem2020.HeaderText = "Num Cred Seg Sem 2020";
             collrNumCredSegSem2020.MinimumWidth = 6;
             collrNumCredSegSem2020.Name = "collrNumCredSegSem2020";
@@ -8096,15 +8121,15 @@
             // collrNumCred2021
             // 
             collrNumCred2021.DataPropertyName = "Cantidad2021";
-            dataGridViewCellStyle130.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle130.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle130.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle130.ForeColor = Color.White;
-            dataGridViewCellStyle130.Format = "N0";
-            dataGridViewCellStyle130.NullValue = "-";
-            dataGridViewCellStyle130.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle130.SelectionForeColor = Color.White;
-            collrNumCred2021.DefaultCellStyle = dataGridViewCellStyle130;
+            dataGridViewCellStyle403.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle403.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle403.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle403.ForeColor = Color.White;
+            dataGridViewCellStyle403.Format = "N0";
+            dataGridViewCellStyle403.NullValue = "-";
+            dataGridViewCellStyle403.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle403.SelectionForeColor = Color.White;
+            collrNumCred2021.DefaultCellStyle = dataGridViewCellStyle403;
             collrNumCred2021.HeaderText = "Num Cred 2021";
             collrNumCred2021.MinimumWidth = 6;
             collrNumCred2021.Name = "collrNumCred2021";
@@ -8114,15 +8139,15 @@
             // collrNumCred2022
             // 
             collrNumCred2022.DataPropertyName = "Cantidad2022";
-            dataGridViewCellStyle131.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle131.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle131.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle131.ForeColor = Color.White;
-            dataGridViewCellStyle131.Format = "N0";
-            dataGridViewCellStyle131.NullValue = "-";
-            dataGridViewCellStyle131.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle131.SelectionForeColor = Color.White;
-            collrNumCred2022.DefaultCellStyle = dataGridViewCellStyle131;
+            dataGridViewCellStyle404.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle404.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle404.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle404.ForeColor = Color.White;
+            dataGridViewCellStyle404.Format = "N0";
+            dataGridViewCellStyle404.NullValue = "-";
+            dataGridViewCellStyle404.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle404.SelectionForeColor = Color.White;
+            collrNumCred2022.DefaultCellStyle = dataGridViewCellStyle404;
             collrNumCred2022.HeaderText = "Num Cred 2022";
             collrNumCred2022.MinimumWidth = 6;
             collrNumCred2022.Name = "collrNumCred2022";
@@ -8132,15 +8157,15 @@
             // collrNumCred2023
             // 
             collrNumCred2023.DataPropertyName = "Cantidad2023";
-            dataGridViewCellStyle132.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle132.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle132.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle132.ForeColor = Color.White;
-            dataGridViewCellStyle132.Format = "N0";
-            dataGridViewCellStyle132.NullValue = "-";
-            dataGridViewCellStyle132.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle132.SelectionForeColor = Color.White;
-            collrNumCred2023.DefaultCellStyle = dataGridViewCellStyle132;
+            dataGridViewCellStyle405.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle405.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle405.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle405.ForeColor = Color.White;
+            dataGridViewCellStyle405.Format = "N0";
+            dataGridViewCellStyle405.NullValue = "-";
+            dataGridViewCellStyle405.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle405.SelectionForeColor = Color.White;
+            collrNumCred2023.DefaultCellStyle = dataGridViewCellStyle405;
             collrNumCred2023.HeaderText = "Num Cred 2023";
             collrNumCred2023.MinimumWidth = 6;
             collrNumCred2023.Name = "collrNumCred2023";
@@ -8150,15 +8175,15 @@
             // collrNumCredTotal
             // 
             collrNumCredTotal.DataPropertyName = "TotalCreditos";
-            dataGridViewCellStyle133.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle133.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle133.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle133.ForeColor = Color.White;
-            dataGridViewCellStyle133.Format = "N0";
-            dataGridViewCellStyle133.NullValue = "-";
-            dataGridViewCellStyle133.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle133.SelectionForeColor = Color.White;
-            collrNumCredTotal.DefaultCellStyle = dataGridViewCellStyle133;
+            dataGridViewCellStyle406.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle406.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle406.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle406.ForeColor = Color.White;
+            dataGridViewCellStyle406.Format = "N0";
+            dataGridViewCellStyle406.NullValue = "-";
+            dataGridViewCellStyle406.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle406.SelectionForeColor = Color.White;
+            collrNumCredTotal.DefaultCellStyle = dataGridViewCellStyle406;
             collrNumCredTotal.HeaderText = "Num Cred Totales";
             collrNumCredTotal.MinimumWidth = 6;
             collrNumCredTotal.Name = "collrNumCredTotal";
@@ -8168,15 +8193,15 @@
             // collrCantCredRees
             // 
             collrCantCredRees.DataPropertyName = "CantidadReestructura";
-            dataGridViewCellStyle134.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle134.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle134.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle134.ForeColor = Color.White;
-            dataGridViewCellStyle134.Format = "N0";
-            dataGridViewCellStyle134.NullValue = "-";
-            dataGridViewCellStyle134.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle134.SelectionForeColor = Color.White;
-            collrCantCredRees.DefaultCellStyle = dataGridViewCellStyle134;
+            dataGridViewCellStyle407.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle407.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle407.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle407.ForeColor = Color.White;
+            dataGridViewCellStyle407.Format = "N0";
+            dataGridViewCellStyle407.NullValue = "-";
+            dataGridViewCellStyle407.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle407.SelectionForeColor = Color.White;
+            collrCantCredRees.DefaultCellStyle = dataGridViewCellStyle407;
             collrCantCredRees.HeaderText = "Num Cred Reestructura";
             collrCantCredRees.MinimumWidth = 6;
             collrCantCredRees.Name = "collrCantCredRees";
@@ -8186,15 +8211,15 @@
             // collrNumCredCancel
             // 
             collrNumCredCancel.DataPropertyName = "CantidadCancelaciones";
-            dataGridViewCellStyle135.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle135.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle135.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle135.ForeColor = Color.White;
-            dataGridViewCellStyle135.Format = "N0";
-            dataGridViewCellStyle135.NullValue = "-";
-            dataGridViewCellStyle135.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle135.SelectionForeColor = Color.White;
-            collrNumCredCancel.DefaultCellStyle = dataGridViewCellStyle135;
+            dataGridViewCellStyle408.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle408.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle408.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle408.ForeColor = Color.White;
+            dataGridViewCellStyle408.Format = "N0";
+            dataGridViewCellStyle408.NullValue = "-";
+            dataGridViewCellStyle408.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle408.SelectionForeColor = Color.White;
+            collrNumCredCancel.DefaultCellStyle = dataGridViewCellStyle408;
             collrNumCredCancel.HeaderText = "Num Cred Cancelados";
             collrNumCredCancel.MinimumWidth = 6;
             collrNumCredCancel.Name = "collrNumCredCancel";
@@ -8204,15 +8229,15 @@
             // collrNumCredLiq
             // 
             collrNumCredLiq.DataPropertyName = "CantidadLiquidados";
-            dataGridViewCellStyle136.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle136.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle136.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle136.ForeColor = Color.White;
-            dataGridViewCellStyle136.Format = "N0";
-            dataGridViewCellStyle136.NullValue = "-";
-            dataGridViewCellStyle136.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle136.SelectionForeColor = Color.White;
-            collrNumCredLiq.DefaultCellStyle = dataGridViewCellStyle136;
+            dataGridViewCellStyle409.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle409.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle409.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle409.ForeColor = Color.White;
+            dataGridViewCellStyle409.Format = "N0";
+            dataGridViewCellStyle409.NullValue = "-";
+            dataGridViewCellStyle409.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle409.SelectionForeColor = Color.White;
+            collrNumCredLiq.DefaultCellStyle = dataGridViewCellStyle409;
             collrNumCredLiq.HeaderText = "Num Cred Liquidados";
             collrNumCredLiq.MinimumWidth = 6;
             collrNumCredLiq.Name = "collrNumCredLiq";
@@ -8222,15 +8247,15 @@
             // dataGridViewTextBoxColumn2
             // 
             dataGridViewTextBoxColumn2.DataPropertyName = "PagoCapitalAntesPrimerSemestre2020";
-            dataGridViewCellStyle137.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle137.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle137.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle137.ForeColor = Color.White;
-            dataGridViewCellStyle137.Format = "C2";
-            dataGridViewCellStyle137.NullValue = "-";
-            dataGridViewCellStyle137.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle137.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn2.DefaultCellStyle = dataGridViewCellStyle137;
+            dataGridViewCellStyle410.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle410.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle410.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle410.ForeColor = Color.White;
+            dataGridViewCellStyle410.Format = "C2";
+            dataGridViewCellStyle410.NullValue = "-";
+            dataGridViewCellStyle410.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle410.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn2.DefaultCellStyle = dataGridViewCellStyle410;
             dataGridViewTextBoxColumn2.HeaderText = "Pago Capital Admin Anter";
             dataGridViewTextBoxColumn2.MinimumWidth = 6;
             dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
@@ -8240,15 +8265,15 @@
             // collrPagoInterAdminAnt
             // 
             collrPagoInterAdminAnt.DataPropertyName = "PagoInteresAntesPrimerSemestre2020";
-            dataGridViewCellStyle138.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle138.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle138.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle138.ForeColor = Color.White;
-            dataGridViewCellStyle138.Format = "C2";
-            dataGridViewCellStyle138.NullValue = "-";
-            dataGridViewCellStyle138.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle138.SelectionForeColor = Color.White;
-            collrPagoInterAdminAnt.DefaultCellStyle = dataGridViewCellStyle138;
+            dataGridViewCellStyle411.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle411.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle411.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle411.ForeColor = Color.White;
+            dataGridViewCellStyle411.Format = "C2";
+            dataGridViewCellStyle411.NullValue = "-";
+            dataGridViewCellStyle411.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle411.SelectionForeColor = Color.White;
+            collrPagoInterAdminAnt.DefaultCellStyle = dataGridViewCellStyle411;
             collrPagoInterAdminAnt.HeaderText = "Pago Intereses Admin Anter";
             collrPagoInterAdminAnt.MinimumWidth = 6;
             collrPagoInterAdminAnt.Name = "collrPagoInterAdminAnt";
@@ -8258,15 +8283,15 @@
             // collrPagoMorAdminAnt
             // 
             collrPagoMorAdminAnt.DataPropertyName = "PagoMoratoriosAntesPrimerSemestre2020";
-            dataGridViewCellStyle139.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle139.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle139.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle139.ForeColor = Color.White;
-            dataGridViewCellStyle139.Format = "C2";
-            dataGridViewCellStyle139.NullValue = "-";
-            dataGridViewCellStyle139.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle139.SelectionForeColor = Color.White;
-            collrPagoMorAdminAnt.DefaultCellStyle = dataGridViewCellStyle139;
+            dataGridViewCellStyle412.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle412.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle412.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle412.ForeColor = Color.White;
+            dataGridViewCellStyle412.Format = "C2";
+            dataGridViewCellStyle412.NullValue = "-";
+            dataGridViewCellStyle412.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle412.SelectionForeColor = Color.White;
+            collrPagoMorAdminAnt.DefaultCellStyle = dataGridViewCellStyle412;
             collrPagoMorAdminAnt.HeaderText = "Pago Moratorios Admin Anter";
             collrPagoMorAdminAnt.MinimumWidth = 6;
             collrPagoMorAdminAnt.Name = "collrPagoMorAdminAnt";
@@ -8276,15 +8301,15 @@
             // collrPagoTotalAdminAnt
             // 
             collrPagoTotalAdminAnt.DataPropertyName = "PagoTotalAntesPrimerSemestre2020";
-            dataGridViewCellStyle140.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle140.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle140.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle140.ForeColor = Color.White;
-            dataGridViewCellStyle140.Format = "C2";
-            dataGridViewCellStyle140.NullValue = "-";
-            dataGridViewCellStyle140.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle140.SelectionForeColor = Color.White;
-            collrPagoTotalAdminAnt.DefaultCellStyle = dataGridViewCellStyle140;
+            dataGridViewCellStyle413.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle413.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle413.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle413.ForeColor = Color.White;
+            dataGridViewCellStyle413.Format = "C2";
+            dataGridViewCellStyle413.NullValue = "-";
+            dataGridViewCellStyle413.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle413.SelectionForeColor = Color.White;
+            collrPagoTotalAdminAnt.DefaultCellStyle = dataGridViewCellStyle413;
             collrPagoTotalAdminAnt.HeaderText = "Pagos Totales Admin Anterior";
             collrPagoTotalAdminAnt.MinimumWidth = 6;
             collrPagoTotalAdminAnt.Name = "collrPagoTotalAdminAnt";
@@ -8294,15 +8319,15 @@
             // colPagoCapAdminActual
             // 
             colPagoCapAdminActual.DataPropertyName = "PagoCapitalDespuesSegundoSemestre2020";
-            dataGridViewCellStyle141.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle141.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle141.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle141.ForeColor = Color.White;
-            dataGridViewCellStyle141.Format = "C2";
-            dataGridViewCellStyle141.NullValue = "-";
-            dataGridViewCellStyle141.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle141.SelectionForeColor = Color.White;
-            colPagoCapAdminActual.DefaultCellStyle = dataGridViewCellStyle141;
+            dataGridViewCellStyle414.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle414.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle414.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle414.ForeColor = Color.White;
+            dataGridViewCellStyle414.Format = "C2";
+            dataGridViewCellStyle414.NullValue = "-";
+            dataGridViewCellStyle414.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle414.SelectionForeColor = Color.White;
+            colPagoCapAdminActual.DefaultCellStyle = dataGridViewCellStyle414;
             colPagoCapAdminActual.HeaderText = "Pagos Capital Admin Actual";
             colPagoCapAdminActual.MinimumWidth = 6;
             colPagoCapAdminActual.Name = "colPagoCapAdminActual";
@@ -8312,15 +8337,15 @@
             // collrPagoInterAdminActual
             // 
             collrPagoInterAdminActual.DataPropertyName = "PagoInteresDespuesSegundoSemestre2020";
-            dataGridViewCellStyle142.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle142.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle142.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle142.ForeColor = Color.White;
-            dataGridViewCellStyle142.Format = "C2";
-            dataGridViewCellStyle142.NullValue = "-";
-            dataGridViewCellStyle142.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle142.SelectionForeColor = Color.White;
-            collrPagoInterAdminActual.DefaultCellStyle = dataGridViewCellStyle142;
+            dataGridViewCellStyle415.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle415.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle415.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle415.ForeColor = Color.White;
+            dataGridViewCellStyle415.Format = "C2";
+            dataGridViewCellStyle415.NullValue = "-";
+            dataGridViewCellStyle415.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle415.SelectionForeColor = Color.White;
+            collrPagoInterAdminActual.DefaultCellStyle = dataGridViewCellStyle415;
             collrPagoInterAdminActual.HeaderText = "Pago Intereses Admin Actual";
             collrPagoInterAdminActual.MinimumWidth = 6;
             collrPagoInterAdminActual.Name = "collrPagoInterAdminActual";
@@ -8330,15 +8355,15 @@
             // collrPagoMorAdminActual
             // 
             collrPagoMorAdminActual.DataPropertyName = "PagoMoratoriosDespuesSegundoSemestre2020";
-            dataGridViewCellStyle143.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle143.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle143.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle143.ForeColor = Color.White;
-            dataGridViewCellStyle143.Format = "C2";
-            dataGridViewCellStyle143.NullValue = "-";
-            dataGridViewCellStyle143.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle143.SelectionForeColor = Color.White;
-            collrPagoMorAdminActual.DefaultCellStyle = dataGridViewCellStyle143;
+            dataGridViewCellStyle416.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle416.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle416.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle416.ForeColor = Color.White;
+            dataGridViewCellStyle416.Format = "C2";
+            dataGridViewCellStyle416.NullValue = "-";
+            dataGridViewCellStyle416.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle416.SelectionForeColor = Color.White;
+            collrPagoMorAdminActual.DefaultCellStyle = dataGridViewCellStyle416;
             collrPagoMorAdminActual.HeaderText = "Pagos Moratorios Admin Actual";
             collrPagoMorAdminActual.MinimumWidth = 6;
             collrPagoMorAdminActual.Name = "collrPagoMorAdminActual";
@@ -8348,15 +8373,15 @@
             // collrPagoTotalAdminActual
             // 
             collrPagoTotalAdminActual.DataPropertyName = "PagoTotalDespuesSegundoSemestre2020";
-            dataGridViewCellStyle144.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle144.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle144.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle144.ForeColor = Color.White;
-            dataGridViewCellStyle144.Format = "C2";
-            dataGridViewCellStyle144.NullValue = "-";
-            dataGridViewCellStyle144.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle144.SelectionForeColor = Color.White;
-            collrPagoTotalAdminActual.DefaultCellStyle = dataGridViewCellStyle144;
+            dataGridViewCellStyle417.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle417.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle417.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle417.ForeColor = Color.White;
+            dataGridViewCellStyle417.Format = "C2";
+            dataGridViewCellStyle417.NullValue = "-";
+            dataGridViewCellStyle417.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle417.SelectionForeColor = Color.White;
+            collrPagoTotalAdminActual.DefaultCellStyle = dataGridViewCellStyle417;
             collrPagoTotalAdminActual.HeaderText = "Pagos Totales Admin Actual";
             collrPagoTotalAdminActual.MinimumWidth = 6;
             collrPagoTotalAdminActual.Name = "collrPagoTotalAdminActual";
@@ -8485,10 +8510,10 @@
             // collaRegion
             // 
             collaRegion.DataPropertyName = "Region";
-            dataGridViewCellStyle145.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
-            dataGridViewCellStyle145.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle145.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
-            collaRegion.DefaultCellStyle = dataGridViewCellStyle145;
+            dataGridViewCellStyle418.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
+            dataGridViewCellStyle418.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle418.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
+            collaRegion.DefaultCellStyle = dataGridViewCellStyle418;
             collaRegion.Frozen = true;
             collaRegion.HeaderText = "Region";
             collaRegion.MinimumWidth = 6;
@@ -8500,10 +8525,10 @@
             // collaAgencia
             // 
             collaAgencia.DataPropertyName = "Agencia";
-            dataGridViewCellStyle146.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
-            dataGridViewCellStyle146.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle146.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
-            collaAgencia.DefaultCellStyle = dataGridViewCellStyle146;
+            dataGridViewCellStyle419.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
+            dataGridViewCellStyle419.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle419.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
+            collaAgencia.DefaultCellStyle = dataGridViewCellStyle419;
             collaAgencia.Frozen = true;
             collaAgencia.HeaderText = "Agencia";
             collaAgencia.MinimumWidth = 6;
@@ -8515,11 +8540,11 @@
             // collaCatAgencia
             // 
             collaCatAgencia.DataPropertyName = "CatAgencia";
-            dataGridViewCellStyle147.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle147.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
-            dataGridViewCellStyle147.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle147.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
-            collaCatAgencia.DefaultCellStyle = dataGridViewCellStyle147;
+            dataGridViewCellStyle420.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle420.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
+            dataGridViewCellStyle420.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle420.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
+            collaCatAgencia.DefaultCellStyle = dataGridViewCellStyle420;
             collaCatAgencia.Frozen = true;
             collaCatAgencia.HeaderText = "Agencia";
             collaCatAgencia.MinimumWidth = 6;
@@ -8530,15 +8555,15 @@
             // collaTotalClientes
             // 
             collaTotalClientes.DataPropertyName = "TotalClientes";
-            dataGridViewCellStyle148.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle148.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle148.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle148.ForeColor = Color.White;
-            dataGridViewCellStyle148.Format = "N0";
-            dataGridViewCellStyle148.NullValue = "-";
-            dataGridViewCellStyle148.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle148.SelectionForeColor = Color.White;
-            collaTotalClientes.DefaultCellStyle = dataGridViewCellStyle148;
+            dataGridViewCellStyle421.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle421.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle421.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle421.ForeColor = Color.White;
+            dataGridViewCellStyle421.Format = "N0";
+            dataGridViewCellStyle421.NullValue = "-";
+            dataGridViewCellStyle421.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle421.SelectionForeColor = Color.White;
+            collaTotalClientes.DefaultCellStyle = dataGridViewCellStyle421;
             collaTotalClientes.HeaderText = "Num Ctes";
             collaTotalClientes.MinimumWidth = 6;
             collaTotalClientes.Name = "collaTotalClientes";
@@ -8548,15 +8573,15 @@
             // collaCantAdminAnterior
             // 
             collaCantAdminAnterior.DataPropertyName = "CantidadAnterioresJul2020";
-            dataGridViewCellStyle149.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle149.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle149.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle149.ForeColor = Color.White;
-            dataGridViewCellStyle149.Format = "N0";
-            dataGridViewCellStyle149.NullValue = "-";
-            dataGridViewCellStyle149.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle149.SelectionForeColor = Color.White;
-            collaCantAdminAnterior.DefaultCellStyle = dataGridViewCellStyle149;
+            dataGridViewCellStyle422.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle422.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle422.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle422.ForeColor = Color.White;
+            dataGridViewCellStyle422.Format = "N0";
+            dataGridViewCellStyle422.NullValue = "-";
+            dataGridViewCellStyle422.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle422.SelectionForeColor = Color.White;
+            collaCantAdminAnterior.DefaultCellStyle = dataGridViewCellStyle422;
             collaCantAdminAnterior.HeaderText = "Num Cred Admin Ant";
             collaCantAdminAnterior.MinimumWidth = 6;
             collaCantAdminAnterior.Name = "collaCantAdminAnterior";
@@ -8566,15 +8591,15 @@
             // collaCantCredAdminActual
             // 
             collaCantCredAdminActual.DataPropertyName = "CantidadSegundoSemestre2020";
-            dataGridViewCellStyle150.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle150.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle150.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle150.ForeColor = Color.White;
-            dataGridViewCellStyle150.Format = "N0";
-            dataGridViewCellStyle150.NullValue = "-";
-            dataGridViewCellStyle150.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle150.SelectionForeColor = Color.White;
-            collaCantCredAdminActual.DefaultCellStyle = dataGridViewCellStyle150;
+            dataGridViewCellStyle423.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle423.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle423.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle423.ForeColor = Color.White;
+            dataGridViewCellStyle423.Format = "N0";
+            dataGridViewCellStyle423.NullValue = "-";
+            dataGridViewCellStyle423.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle423.SelectionForeColor = Color.White;
+            collaCantCredAdminActual.DefaultCellStyle = dataGridViewCellStyle423;
             collaCantCredAdminActual.HeaderText = "Num Cred Seg Sem 2020";
             collaCantCredAdminActual.MinimumWidth = 6;
             collaCantCredAdminActual.Name = "collaCantCredAdminActual";
@@ -8584,15 +8609,15 @@
             // collaCant2021
             // 
             collaCant2021.DataPropertyName = "Cantidad2021";
-            dataGridViewCellStyle151.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle151.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle151.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle151.ForeColor = Color.White;
-            dataGridViewCellStyle151.Format = "N0";
-            dataGridViewCellStyle151.NullValue = "-";
-            dataGridViewCellStyle151.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle151.SelectionForeColor = Color.White;
-            collaCant2021.DefaultCellStyle = dataGridViewCellStyle151;
+            dataGridViewCellStyle424.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle424.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle424.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle424.ForeColor = Color.White;
+            dataGridViewCellStyle424.Format = "N0";
+            dataGridViewCellStyle424.NullValue = "-";
+            dataGridViewCellStyle424.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle424.SelectionForeColor = Color.White;
+            collaCant2021.DefaultCellStyle = dataGridViewCellStyle424;
             collaCant2021.HeaderText = "Num Cred 2021";
             collaCant2021.MinimumWidth = 6;
             collaCant2021.Name = "collaCant2021";
@@ -8602,15 +8627,15 @@
             // collaNumCred2022
             // 
             collaNumCred2022.DataPropertyName = "Cantidad2022";
-            dataGridViewCellStyle152.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle152.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle152.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle152.ForeColor = Color.White;
-            dataGridViewCellStyle152.Format = "N0";
-            dataGridViewCellStyle152.NullValue = "-";
-            dataGridViewCellStyle152.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle152.SelectionForeColor = Color.White;
-            collaNumCred2022.DefaultCellStyle = dataGridViewCellStyle152;
+            dataGridViewCellStyle425.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle425.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle425.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle425.ForeColor = Color.White;
+            dataGridViewCellStyle425.Format = "N0";
+            dataGridViewCellStyle425.NullValue = "-";
+            dataGridViewCellStyle425.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle425.SelectionForeColor = Color.White;
+            collaNumCred2022.DefaultCellStyle = dataGridViewCellStyle425;
             collaNumCred2022.HeaderText = "Num Cred 2022";
             collaNumCred2022.MinimumWidth = 6;
             collaNumCred2022.Name = "collaNumCred2022";
@@ -8620,15 +8645,15 @@
             // collaNumCred2023
             // 
             collaNumCred2023.DataPropertyName = "Cantidad2023";
-            dataGridViewCellStyle153.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle153.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle153.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle153.ForeColor = Color.White;
-            dataGridViewCellStyle153.Format = "N0";
-            dataGridViewCellStyle153.NullValue = "-";
-            dataGridViewCellStyle153.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle153.SelectionForeColor = Color.White;
-            collaNumCred2023.DefaultCellStyle = dataGridViewCellStyle153;
+            dataGridViewCellStyle426.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle426.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle426.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle426.ForeColor = Color.White;
+            dataGridViewCellStyle426.Format = "N0";
+            dataGridViewCellStyle426.NullValue = "-";
+            dataGridViewCellStyle426.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle426.SelectionForeColor = Color.White;
+            collaNumCred2023.DefaultCellStyle = dataGridViewCellStyle426;
             collaNumCred2023.HeaderText = "Num Cred 2023";
             collaNumCred2023.MinimumWidth = 6;
             collaNumCred2023.Name = "collaNumCred2023";
@@ -8638,15 +8663,15 @@
             // collaTotalCreditos
             // 
             collaTotalCreditos.DataPropertyName = "TotalCreditos";
-            dataGridViewCellStyle154.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle154.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle154.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle154.ForeColor = Color.White;
-            dataGridViewCellStyle154.Format = "N0";
-            dataGridViewCellStyle154.NullValue = "-";
-            dataGridViewCellStyle154.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle154.SelectionForeColor = Color.White;
-            collaTotalCreditos.DefaultCellStyle = dataGridViewCellStyle154;
+            dataGridViewCellStyle427.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle427.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle427.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle427.ForeColor = Color.White;
+            dataGridViewCellStyle427.Format = "N0";
+            dataGridViewCellStyle427.NullValue = "-";
+            dataGridViewCellStyle427.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle427.SelectionForeColor = Color.White;
+            collaTotalCreditos.DefaultCellStyle = dataGridViewCellStyle427;
             collaTotalCreditos.HeaderText = "Num Total Creditos";
             collaTotalCreditos.MinimumWidth = 6;
             collaTotalCreditos.Name = "collaTotalCreditos";
@@ -8656,15 +8681,15 @@
             // collaCantReestructura
             // 
             collaCantReestructura.DataPropertyName = "CantidadReestructura";
-            dataGridViewCellStyle155.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle155.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle155.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle155.ForeColor = Color.White;
-            dataGridViewCellStyle155.Format = "N0";
-            dataGridViewCellStyle155.NullValue = "-";
-            dataGridViewCellStyle155.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle155.SelectionForeColor = Color.White;
-            collaCantReestructura.DefaultCellStyle = dataGridViewCellStyle155;
+            dataGridViewCellStyle428.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle428.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle428.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle428.ForeColor = Color.White;
+            dataGridViewCellStyle428.Format = "N0";
+            dataGridViewCellStyle428.NullValue = "-";
+            dataGridViewCellStyle428.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle428.SelectionForeColor = Color.White;
+            collaCantReestructura.DefaultCellStyle = dataGridViewCellStyle428;
             collaCantReestructura.HeaderText = "Num Cred Reestructura";
             collaCantReestructura.MinimumWidth = 6;
             collaCantReestructura.Name = "collaCantReestructura";
@@ -8674,15 +8699,15 @@
             // collaNumCredCancela
             // 
             collaNumCredCancela.DataPropertyName = "CantidadCancelaciones";
-            dataGridViewCellStyle156.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle156.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle156.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle156.ForeColor = Color.White;
-            dataGridViewCellStyle156.Format = "N0";
-            dataGridViewCellStyle156.NullValue = "-";
-            dataGridViewCellStyle156.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle156.SelectionForeColor = Color.White;
-            collaNumCredCancela.DefaultCellStyle = dataGridViewCellStyle156;
+            dataGridViewCellStyle429.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle429.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle429.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle429.ForeColor = Color.White;
+            dataGridViewCellStyle429.Format = "N0";
+            dataGridViewCellStyle429.NullValue = "-";
+            dataGridViewCellStyle429.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle429.SelectionForeColor = Color.White;
+            collaNumCredCancela.DefaultCellStyle = dataGridViewCellStyle429;
             collaNumCredCancela.HeaderText = "Num Cred Cancelaciones";
             collaNumCredCancela.MinimumWidth = 6;
             collaNumCredCancela.Name = "collaNumCredCancela";
@@ -8692,15 +8717,15 @@
             // collaNumCredLiquidados
             // 
             collaNumCredLiquidados.DataPropertyName = "CantidadLiquidados";
-            dataGridViewCellStyle157.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle157.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle157.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle157.ForeColor = Color.White;
-            dataGridViewCellStyle157.Format = "N0";
-            dataGridViewCellStyle157.NullValue = "-";
-            dataGridViewCellStyle157.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle157.SelectionForeColor = Color.White;
-            collaNumCredLiquidados.DefaultCellStyle = dataGridViewCellStyle157;
+            dataGridViewCellStyle430.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle430.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle430.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle430.ForeColor = Color.White;
+            dataGridViewCellStyle430.Format = "N0";
+            dataGridViewCellStyle430.NullValue = "-";
+            dataGridViewCellStyle430.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle430.SelectionForeColor = Color.White;
+            collaNumCredLiquidados.DefaultCellStyle = dataGridViewCellStyle430;
             collaNumCredLiquidados.HeaderText = "Num Cred Liquidados";
             collaNumCredLiquidados.MinimumWidth = 6;
             collaNumCredLiquidados.Name = "collaNumCredLiquidados";
@@ -8710,15 +8735,15 @@
             // collaPagoCapitalAdminAnt
             // 
             collaPagoCapitalAdminAnt.DataPropertyName = "PagoCapitalAntesPrimerSemestre2020";
-            dataGridViewCellStyle158.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle158.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle158.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle158.ForeColor = Color.White;
-            dataGridViewCellStyle158.Format = "C2";
-            dataGridViewCellStyle158.NullValue = "-";
-            dataGridViewCellStyle158.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle158.SelectionForeColor = Color.White;
-            collaPagoCapitalAdminAnt.DefaultCellStyle = dataGridViewCellStyle158;
+            dataGridViewCellStyle431.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle431.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle431.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle431.ForeColor = Color.White;
+            dataGridViewCellStyle431.Format = "C2";
+            dataGridViewCellStyle431.NullValue = "-";
+            dataGridViewCellStyle431.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle431.SelectionForeColor = Color.White;
+            collaPagoCapitalAdminAnt.DefaultCellStyle = dataGridViewCellStyle431;
             collaPagoCapitalAdminAnt.HeaderText = "Pagos Capital Admin Anterior";
             collaPagoCapitalAdminAnt.MinimumWidth = 6;
             collaPagoCapitalAdminAnt.Name = "collaPagoCapitalAdminAnt";
@@ -8728,15 +8753,15 @@
             // collaPagoInterAdminAnt
             // 
             collaPagoInterAdminAnt.DataPropertyName = "PagoInteresAntesPrimerSemestre2020";
-            dataGridViewCellStyle159.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle159.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle159.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle159.ForeColor = Color.White;
-            dataGridViewCellStyle159.Format = "C2";
-            dataGridViewCellStyle159.NullValue = "-";
-            dataGridViewCellStyle159.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle159.SelectionForeColor = Color.White;
-            collaPagoInterAdminAnt.DefaultCellStyle = dataGridViewCellStyle159;
+            dataGridViewCellStyle432.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle432.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle432.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle432.ForeColor = Color.White;
+            dataGridViewCellStyle432.Format = "C2";
+            dataGridViewCellStyle432.NullValue = "-";
+            dataGridViewCellStyle432.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle432.SelectionForeColor = Color.White;
+            collaPagoInterAdminAnt.DefaultCellStyle = dataGridViewCellStyle432;
             collaPagoInterAdminAnt.HeaderText = "Pagos de Inter Admin Anterior";
             collaPagoInterAdminAnt.MinimumWidth = 6;
             collaPagoInterAdminAnt.Name = "collaPagoInterAdminAnt";
@@ -8746,15 +8771,15 @@
             // collaPagoMorAdminAnt
             // 
             collaPagoMorAdminAnt.DataPropertyName = "PagoMoratoriosAntesPrimerSemestre2020";
-            dataGridViewCellStyle160.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle160.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle160.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle160.ForeColor = Color.White;
-            dataGridViewCellStyle160.Format = "C2";
-            dataGridViewCellStyle160.NullValue = "-";
-            dataGridViewCellStyle160.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle160.SelectionForeColor = Color.White;
-            collaPagoMorAdminAnt.DefaultCellStyle = dataGridViewCellStyle160;
+            dataGridViewCellStyle433.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle433.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle433.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle433.ForeColor = Color.White;
+            dataGridViewCellStyle433.Format = "C2";
+            dataGridViewCellStyle433.NullValue = "-";
+            dataGridViewCellStyle433.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle433.SelectionForeColor = Color.White;
+            collaPagoMorAdminAnt.DefaultCellStyle = dataGridViewCellStyle433;
             collaPagoMorAdminAnt.HeaderText = "Pagos Moratorios Admin Anterior";
             collaPagoMorAdminAnt.MinimumWidth = 6;
             collaPagoMorAdminAnt.Name = "collaPagoMorAdminAnt";
@@ -8764,15 +8789,15 @@
             // collaTotalPagosAdminAnt
             // 
             collaTotalPagosAdminAnt.DataPropertyName = "PagoTotalAntesPrimerSemestre2020";
-            dataGridViewCellStyle161.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle161.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle161.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle161.ForeColor = Color.White;
-            dataGridViewCellStyle161.Format = "C2";
-            dataGridViewCellStyle161.NullValue = "-";
-            dataGridViewCellStyle161.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle161.SelectionForeColor = Color.White;
-            collaTotalPagosAdminAnt.DefaultCellStyle = dataGridViewCellStyle161;
+            dataGridViewCellStyle434.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle434.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle434.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle434.ForeColor = Color.White;
+            dataGridViewCellStyle434.Format = "C2";
+            dataGridViewCellStyle434.NullValue = "-";
+            dataGridViewCellStyle434.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle434.SelectionForeColor = Color.White;
+            collaTotalPagosAdminAnt.DefaultCellStyle = dataGridViewCellStyle434;
             collaTotalPagosAdminAnt.HeaderText = "Pagos Totales Admin Anterior";
             collaTotalPagosAdminAnt.MinimumWidth = 6;
             collaTotalPagosAdminAnt.Name = "collaTotalPagosAdminAnt";
@@ -8782,15 +8807,15 @@
             // collaPagosCapitalAdminActual
             // 
             collaPagosCapitalAdminActual.DataPropertyName = "PagoCapitalDespuesSegundoSemestre2020";
-            dataGridViewCellStyle162.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle162.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle162.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle162.ForeColor = Color.White;
-            dataGridViewCellStyle162.Format = "C2";
-            dataGridViewCellStyle162.NullValue = "-";
-            dataGridViewCellStyle162.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle162.SelectionForeColor = Color.White;
-            collaPagosCapitalAdminActual.DefaultCellStyle = dataGridViewCellStyle162;
+            dataGridViewCellStyle435.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle435.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle435.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle435.ForeColor = Color.White;
+            dataGridViewCellStyle435.Format = "C2";
+            dataGridViewCellStyle435.NullValue = "-";
+            dataGridViewCellStyle435.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle435.SelectionForeColor = Color.White;
+            collaPagosCapitalAdminActual.DefaultCellStyle = dataGridViewCellStyle435;
             collaPagosCapitalAdminActual.HeaderText = "Pagos Capital Admin Actual";
             collaPagosCapitalAdminActual.MinimumWidth = 6;
             collaPagosCapitalAdminActual.Name = "collaPagosCapitalAdminActual";
@@ -8800,15 +8825,15 @@
             // collaPagosInterAdminActual
             // 
             collaPagosInterAdminActual.DataPropertyName = "PagoInteresDespuesSegundoSemestre2020";
-            dataGridViewCellStyle163.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle163.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle163.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle163.ForeColor = Color.White;
-            dataGridViewCellStyle163.Format = "C2";
-            dataGridViewCellStyle163.NullValue = "-";
-            dataGridViewCellStyle163.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle163.SelectionForeColor = Color.White;
-            collaPagosInterAdminActual.DefaultCellStyle = dataGridViewCellStyle163;
+            dataGridViewCellStyle436.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle436.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle436.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle436.ForeColor = Color.White;
+            dataGridViewCellStyle436.Format = "C2";
+            dataGridViewCellStyle436.NullValue = "-";
+            dataGridViewCellStyle436.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle436.SelectionForeColor = Color.White;
+            collaPagosInterAdminActual.DefaultCellStyle = dataGridViewCellStyle436;
             collaPagosInterAdminActual.HeaderText = "Pagos de Inter Admin Actual";
             collaPagosInterAdminActual.MinimumWidth = 6;
             collaPagosInterAdminActual.Name = "collaPagosInterAdminActual";
@@ -8818,15 +8843,15 @@
             // collaPagosMoraAdminActual
             // 
             collaPagosMoraAdminActual.DataPropertyName = "PagoMoratoriosDespuesSegundoSemestre2020";
-            dataGridViewCellStyle164.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle164.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle164.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle164.ForeColor = Color.White;
-            dataGridViewCellStyle164.Format = "C2";
-            dataGridViewCellStyle164.NullValue = "-";
-            dataGridViewCellStyle164.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle164.SelectionForeColor = Color.White;
-            collaPagosMoraAdminActual.DefaultCellStyle = dataGridViewCellStyle164;
+            dataGridViewCellStyle437.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle437.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle437.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle437.ForeColor = Color.White;
+            dataGridViewCellStyle437.Format = "C2";
+            dataGridViewCellStyle437.NullValue = "-";
+            dataGridViewCellStyle437.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle437.SelectionForeColor = Color.White;
+            collaPagosMoraAdminActual.DefaultCellStyle = dataGridViewCellStyle437;
             collaPagosMoraAdminActual.HeaderText = "Pagos Moratorios Admin Actual";
             collaPagosMoraAdminActual.MinimumWidth = 6;
             collaPagosMoraAdminActual.Name = "collaPagosMoraAdminActual";
@@ -8836,15 +8861,15 @@
             // collaPagosTotalAdminActual
             // 
             collaPagosTotalAdminActual.DataPropertyName = "PagoTotalDespuesSegundoSemestre2020";
-            dataGridViewCellStyle165.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle165.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle165.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle165.ForeColor = Color.White;
-            dataGridViewCellStyle165.Format = "C2";
-            dataGridViewCellStyle165.NullValue = "-";
-            dataGridViewCellStyle165.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle165.SelectionForeColor = Color.White;
-            collaPagosTotalAdminActual.DefaultCellStyle = dataGridViewCellStyle165;
+            dataGridViewCellStyle438.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle438.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle438.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle438.ForeColor = Color.White;
+            dataGridViewCellStyle438.Format = "C2";
+            dataGridViewCellStyle438.NullValue = "-";
+            dataGridViewCellStyle438.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle438.SelectionForeColor = Color.White;
+            collaPagosTotalAdminActual.DefaultCellStyle = dataGridViewCellStyle438;
             collaPagosTotalAdminActual.HeaderText = "Pagos Totales Admin Actual";
             collaPagosTotalAdminActual.MinimumWidth = 6;
             collaPagosTotalAdminActual.Name = "collaPagosTotalAdminActual";
@@ -8976,12 +9001,12 @@
             // colldRegion
             // 
             colldRegion.DataPropertyName = "Region";
-            dataGridViewCellStyle166.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
-            dataGridViewCellStyle166.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle166.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
-            dataGridViewCellStyle166.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle166.SelectionForeColor = Color.White;
-            colldRegion.DefaultCellStyle = dataGridViewCellStyle166;
+            dataGridViewCellStyle439.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
+            dataGridViewCellStyle439.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle439.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
+            dataGridViewCellStyle439.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle439.SelectionForeColor = Color.White;
+            colldRegion.DefaultCellStyle = dataGridViewCellStyle439;
             colldRegion.Frozen = true;
             colldRegion.HeaderText = "Region";
             colldRegion.MinimumWidth = 6;
@@ -8993,12 +9018,12 @@
             // colldAgencia
             // 
             colldAgencia.DataPropertyName = "Agencia";
-            dataGridViewCellStyle167.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
-            dataGridViewCellStyle167.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle167.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
-            dataGridViewCellStyle167.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle167.SelectionForeColor = Color.White;
-            colldAgencia.DefaultCellStyle = dataGridViewCellStyle167;
+            dataGridViewCellStyle440.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
+            dataGridViewCellStyle440.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle440.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
+            dataGridViewCellStyle440.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle440.SelectionForeColor = Color.White;
+            colldAgencia.DefaultCellStyle = dataGridViewCellStyle440;
             colldAgencia.Frozen = true;
             colldAgencia.HeaderText = "Agencia";
             colldAgencia.MinimumWidth = 6;
@@ -9010,13 +9035,13 @@
             // colldNumCredito
             // 
             colldNumCredito.DataPropertyName = "NumCredito";
-            dataGridViewCellStyle168.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle168.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
-            dataGridViewCellStyle168.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle168.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
-            dataGridViewCellStyle168.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle168.SelectionForeColor = Color.White;
-            colldNumCredito.DefaultCellStyle = dataGridViewCellStyle168;
+            dataGridViewCellStyle441.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle441.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
+            dataGridViewCellStyle441.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle441.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
+            dataGridViewCellStyle441.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle441.SelectionForeColor = Color.White;
+            colldNumCredito.DefaultCellStyle = dataGridViewCellStyle441;
             colldNumCredito.Frozen = true;
             colldNumCredito.HeaderText = "Num Credito";
             colldNumCredito.MinimumWidth = 6;
@@ -9027,13 +9052,13 @@
             // colldAcreditado
             // 
             colldAcreditado.DataPropertyName = "Acreditado";
-            dataGridViewCellStyle169.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle169.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
-            dataGridViewCellStyle169.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle169.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
-            dataGridViewCellStyle169.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle169.SelectionForeColor = Color.White;
-            colldAcreditado.DefaultCellStyle = dataGridViewCellStyle169;
+            dataGridViewCellStyle442.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle442.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
+            dataGridViewCellStyle442.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle442.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
+            dataGridViewCellStyle442.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle442.SelectionForeColor = Color.White;
+            colldAcreditado.DefaultCellStyle = dataGridViewCellStyle442;
             colldAcreditado.Frozen = true;
             colldAcreditado.HeaderText = "Acreditado";
             colldAcreditado.MinimumWidth = 6;
@@ -9044,13 +9069,13 @@
             // colldNumCte
             // 
             colldNumCte.DataPropertyName = "NumCte";
-            dataGridViewCellStyle170.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle170.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
-            dataGridViewCellStyle170.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle170.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
-            dataGridViewCellStyle170.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle170.SelectionForeColor = Color.White;
-            colldNumCte.DefaultCellStyle = dataGridViewCellStyle170;
+            dataGridViewCellStyle443.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle443.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
+            dataGridViewCellStyle443.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle443.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
+            dataGridViewCellStyle443.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle443.SelectionForeColor = Color.White;
+            colldNumCte.DefaultCellStyle = dataGridViewCellStyle443;
             colldNumCte.HeaderText = "Num Cte";
             colldNumCte.MinimumWidth = 6;
             colldNumCte.Name = "colldNumCte";
@@ -9060,15 +9085,15 @@
             // colldFechaApertura
             // 
             colldFechaApertura.DataPropertyName = "FechaApertura";
-            dataGridViewCellStyle171.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle171.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle171.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle171.ForeColor = Color.White;
-            dataGridViewCellStyle171.Format = "d";
-            dataGridViewCellStyle171.NullValue = null;
-            dataGridViewCellStyle171.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle171.SelectionForeColor = Color.White;
-            colldFechaApertura.DefaultCellStyle = dataGridViewCellStyle171;
+            dataGridViewCellStyle444.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle444.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle444.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle444.ForeColor = Color.White;
+            dataGridViewCellStyle444.Format = "d";
+            dataGridViewCellStyle444.NullValue = null;
+            dataGridViewCellStyle444.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle444.SelectionForeColor = Color.White;
+            colldFechaApertura.DefaultCellStyle = dataGridViewCellStyle444;
             colldFechaApertura.HeaderText = "Fecha Apertura";
             colldFechaApertura.MinimumWidth = 6;
             colldFechaApertura.Name = "colldFechaApertura";
@@ -9078,14 +9103,14 @@
             // colldFechaVencim
             // 
             colldFechaVencim.DataPropertyName = "FechaVencim";
-            dataGridViewCellStyle172.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle172.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle172.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle172.ForeColor = Color.White;
-            dataGridViewCellStyle172.Format = "d";
-            dataGridViewCellStyle172.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle172.SelectionForeColor = Color.White;
-            colldFechaVencim.DefaultCellStyle = dataGridViewCellStyle172;
+            dataGridViewCellStyle445.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle445.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle445.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle445.ForeColor = Color.White;
+            dataGridViewCellStyle445.Format = "d";
+            dataGridViewCellStyle445.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle445.SelectionForeColor = Color.White;
+            colldFechaVencim.DefaultCellStyle = dataGridViewCellStyle445;
             colldFechaVencim.HeaderText = "Fecha Venc";
             colldFechaVencim.MinimumWidth = 6;
             colldFechaVencim.Name = "colldFechaVencim";
@@ -9095,15 +9120,15 @@
             // colldMontoOtorgado
             // 
             colldMontoOtorgado.DataPropertyName = "MontoOtorgado";
-            dataGridViewCellStyle173.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle173.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle173.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle173.ForeColor = Color.White;
-            dataGridViewCellStyle173.Format = "C2";
-            dataGridViewCellStyle173.NullValue = "-";
-            dataGridViewCellStyle173.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle173.SelectionForeColor = Color.White;
-            colldMontoOtorgado.DefaultCellStyle = dataGridViewCellStyle173;
+            dataGridViewCellStyle446.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle446.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle446.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle446.ForeColor = Color.White;
+            dataGridViewCellStyle446.Format = "C2";
+            dataGridViewCellStyle446.NullValue = "-";
+            dataGridViewCellStyle446.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle446.SelectionForeColor = Color.White;
+            colldMontoOtorgado.DefaultCellStyle = dataGridViewCellStyle446;
             colldMontoOtorgado.HeaderText = "Monto Otorgado";
             colldMontoOtorgado.MinimumWidth = 6;
             colldMontoOtorgado.Name = "colldMontoOtorgado";
@@ -9113,15 +9138,15 @@
             // colldMinistaciones
             // 
             colldMinistaciones.DataPropertyName = "Ministraciones";
-            dataGridViewCellStyle174.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle174.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle174.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle174.ForeColor = Color.White;
-            dataGridViewCellStyle174.Format = "N0";
-            dataGridViewCellStyle174.NullValue = "-";
-            dataGridViewCellStyle174.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle174.SelectionForeColor = Color.White;
-            colldMinistaciones.DefaultCellStyle = dataGridViewCellStyle174;
+            dataGridViewCellStyle447.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle447.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle447.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle447.ForeColor = Color.White;
+            dataGridViewCellStyle447.Format = "N0";
+            dataGridViewCellStyle447.NullValue = "-";
+            dataGridViewCellStyle447.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle447.SelectionForeColor = Color.White;
+            colldMinistaciones.DefaultCellStyle = dataGridViewCellStyle447;
             colldMinistaciones.HeaderText = "Ministraciones";
             colldMinistaciones.MinimumWidth = 6;
             colldMinistaciones.Name = "colldMinistaciones";
@@ -9131,14 +9156,14 @@
             // colldFecPrimMinistra
             // 
             colldFecPrimMinistra.DataPropertyName = "FecPrimMinistra";
-            dataGridViewCellStyle175.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle175.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle175.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle175.ForeColor = Color.White;
-            dataGridViewCellStyle175.Format = "d";
-            dataGridViewCellStyle175.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle175.SelectionForeColor = Color.White;
-            colldFecPrimMinistra.DefaultCellStyle = dataGridViewCellStyle175;
+            dataGridViewCellStyle448.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle448.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle448.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle448.ForeColor = Color.White;
+            dataGridViewCellStyle448.Format = "d";
+            dataGridViewCellStyle448.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle448.SelectionForeColor = Color.White;
+            colldFecPrimMinistra.DefaultCellStyle = dataGridViewCellStyle448;
             colldFecPrimMinistra.HeaderText = "Fecha Prim Ministra";
             colldFecPrimMinistra.MinimumWidth = 6;
             colldFecPrimMinistra.Name = "colldFecPrimMinistra";
@@ -9148,14 +9173,14 @@
             // colldFecUltMinistra
             // 
             colldFecUltMinistra.DataPropertyName = "FecUltimaMinistra";
-            dataGridViewCellStyle176.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle176.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle176.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle176.ForeColor = Color.White;
-            dataGridViewCellStyle176.Format = "d";
-            dataGridViewCellStyle176.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle176.SelectionForeColor = Color.White;
-            colldFecUltMinistra.DefaultCellStyle = dataGridViewCellStyle176;
+            dataGridViewCellStyle449.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle449.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle449.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle449.ForeColor = Color.White;
+            dataGridViewCellStyle449.Format = "d";
+            dataGridViewCellStyle449.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle449.SelectionForeColor = Color.White;
+            colldFecUltMinistra.DefaultCellStyle = dataGridViewCellStyle449;
             colldFecUltMinistra.HeaderText = "Fecha Ult Ministra";
             colldFecUltMinistra.MinimumWidth = 6;
             colldFecUltMinistra.Name = "colldFecUltMinistra";
@@ -9165,15 +9190,15 @@
             // colldMontoMinistrado
             // 
             colldMontoMinistrado.DataPropertyName = "MontoMinistrado";
-            dataGridViewCellStyle177.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle177.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle177.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle177.ForeColor = Color.White;
-            dataGridViewCellStyle177.Format = "C2";
-            dataGridViewCellStyle177.NullValue = "-";
-            dataGridViewCellStyle177.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle177.SelectionForeColor = Color.White;
-            colldMontoMinistrado.DefaultCellStyle = dataGridViewCellStyle177;
+            dataGridViewCellStyle450.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle450.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle450.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle450.ForeColor = Color.White;
+            dataGridViewCellStyle450.Format = "C2";
+            dataGridViewCellStyle450.NullValue = "-";
+            dataGridViewCellStyle450.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle450.SelectionForeColor = Color.White;
+            colldMontoMinistrado.DefaultCellStyle = dataGridViewCellStyle450;
             colldMontoMinistrado.HeaderText = "Monto Ministrado";
             colldMontoMinistrado.MinimumWidth = 6;
             colldMontoMinistrado.Name = "colldMontoMinistrado";
@@ -9183,13 +9208,13 @@
             // colldReestructura
             // 
             colldReestructura.DataPropertyName = "Reestructura";
-            dataGridViewCellStyle178.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle178.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle178.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle178.ForeColor = Color.White;
-            dataGridViewCellStyle178.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle178.SelectionForeColor = Color.White;
-            colldReestructura.DefaultCellStyle = dataGridViewCellStyle178;
+            dataGridViewCellStyle451.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle451.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle451.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle451.ForeColor = Color.White;
+            dataGridViewCellStyle451.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle451.SelectionForeColor = Color.White;
+            colldReestructura.DefaultCellStyle = dataGridViewCellStyle451;
             colldReestructura.HeaderText = "Reestructura";
             colldReestructura.MinimumWidth = 6;
             colldReestructura.Name = "colldReestructura";
@@ -9199,13 +9224,13 @@
             // colldCancelacion
             // 
             colldCancelacion.DataPropertyName = "Cancelacion";
-            dataGridViewCellStyle179.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle179.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle179.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle179.ForeColor = Color.White;
-            dataGridViewCellStyle179.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle179.SelectionForeColor = Color.White;
-            colldCancelacion.DefaultCellStyle = dataGridViewCellStyle179;
+            dataGridViewCellStyle452.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle452.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle452.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle452.ForeColor = Color.White;
+            dataGridViewCellStyle452.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle452.SelectionForeColor = Color.White;
+            colldCancelacion.DefaultCellStyle = dataGridViewCellStyle452;
             colldCancelacion.HeaderText = "Cancelacion";
             colldCancelacion.MinimumWidth = 6;
             colldCancelacion.Name = "colldCancelacion";
@@ -9215,15 +9240,15 @@
             // colldPagoCapital
             // 
             colldPagoCapital.DataPropertyName = "PagoCapital";
-            dataGridViewCellStyle180.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle180.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle180.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle180.ForeColor = Color.White;
-            dataGridViewCellStyle180.Format = "C2";
-            dataGridViewCellStyle180.NullValue = "-";
-            dataGridViewCellStyle180.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle180.SelectionForeColor = Color.White;
-            colldPagoCapital.DefaultCellStyle = dataGridViewCellStyle180;
+            dataGridViewCellStyle453.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle453.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle453.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle453.ForeColor = Color.White;
+            dataGridViewCellStyle453.Format = "C2";
+            dataGridViewCellStyle453.NullValue = "-";
+            dataGridViewCellStyle453.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle453.SelectionForeColor = Color.White;
+            colldPagoCapital.DefaultCellStyle = dataGridViewCellStyle453;
             colldPagoCapital.HeaderText = "Pago de Capital";
             colldPagoCapital.MinimumWidth = 6;
             colldPagoCapital.Name = "colldPagoCapital";
@@ -9233,15 +9258,15 @@
             // colldPagoInteres
             // 
             colldPagoInteres.DataPropertyName = "PagoInteres";
-            dataGridViewCellStyle181.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle181.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle181.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle181.ForeColor = Color.White;
-            dataGridViewCellStyle181.Format = "C2";
-            dataGridViewCellStyle181.NullValue = "-";
-            dataGridViewCellStyle181.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle181.SelectionForeColor = Color.White;
-            colldPagoInteres.DefaultCellStyle = dataGridViewCellStyle181;
+            dataGridViewCellStyle454.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle454.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle454.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle454.ForeColor = Color.White;
+            dataGridViewCellStyle454.Format = "C2";
+            dataGridViewCellStyle454.NullValue = "-";
+            dataGridViewCellStyle454.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle454.SelectionForeColor = Color.White;
+            colldPagoInteres.DefaultCellStyle = dataGridViewCellStyle454;
             colldPagoInteres.HeaderText = "Pago de Intereses";
             colldPagoInteres.MinimumWidth = 6;
             colldPagoInteres.Name = "colldPagoInteres";
@@ -9251,15 +9276,15 @@
             // colldPagoMoratorios
             // 
             colldPagoMoratorios.DataPropertyName = "PagoMoratorios";
-            dataGridViewCellStyle182.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle182.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle182.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle182.ForeColor = Color.White;
-            dataGridViewCellStyle182.Format = "C2";
-            dataGridViewCellStyle182.NullValue = "-";
-            dataGridViewCellStyle182.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle182.SelectionForeColor = Color.White;
-            colldPagoMoratorios.DefaultCellStyle = dataGridViewCellStyle182;
+            dataGridViewCellStyle455.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle455.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle455.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle455.ForeColor = Color.White;
+            dataGridViewCellStyle455.Format = "C2";
+            dataGridViewCellStyle455.NullValue = "-";
+            dataGridViewCellStyle455.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle455.SelectionForeColor = Color.White;
+            colldPagoMoratorios.DefaultCellStyle = dataGridViewCellStyle455;
             colldPagoMoratorios.HeaderText = "Pago de Moratorios";
             colldPagoMoratorios.MinimumWidth = 6;
             colldPagoMoratorios.Name = "colldPagoMoratorios";
@@ -9269,15 +9294,15 @@
             // colldPagoTotal
             // 
             colldPagoTotal.DataPropertyName = "PagoTotal";
-            dataGridViewCellStyle183.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle183.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle183.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle183.ForeColor = Color.White;
-            dataGridViewCellStyle183.Format = "C2";
-            dataGridViewCellStyle183.NullValue = "-";
-            dataGridViewCellStyle183.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle183.SelectionForeColor = Color.White;
-            colldPagoTotal.DefaultCellStyle = dataGridViewCellStyle183;
+            dataGridViewCellStyle456.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle456.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle456.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle456.ForeColor = Color.White;
+            dataGridViewCellStyle456.Format = "C2";
+            dataGridViewCellStyle456.NullValue = "-";
+            dataGridViewCellStyle456.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle456.SelectionForeColor = Color.White;
+            colldPagoTotal.DefaultCellStyle = dataGridViewCellStyle456;
             colldPagoTotal.HeaderText = "Pago Total del Credito";
             colldPagoTotal.MinimumWidth = 6;
             colldPagoTotal.Name = "colldPagoTotal";
@@ -9404,14 +9429,14 @@
             dgvTratamientosRegion.MultiSelect = false;
             dgvTratamientosRegion.Name = "dgvTratamientosRegion";
             dgvTratamientosRegion.ReadOnly = true;
-            dataGridViewCellStyle199.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle199.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle199.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle199.ForeColor = Color.White;
-            dataGridViewCellStyle199.SelectionBackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle199.SelectionForeColor = Color.White;
-            dataGridViewCellStyle199.WrapMode = DataGridViewTriState.True;
-            dgvTratamientosRegion.RowHeadersDefaultCellStyle = dataGridViewCellStyle199;
+            dataGridViewCellStyle472.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle472.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle472.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle472.ForeColor = Color.White;
+            dataGridViewCellStyle472.SelectionBackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle472.SelectionForeColor = Color.White;
+            dataGridViewCellStyle472.WrapMode = DataGridViewTriState.True;
+            dgvTratamientosRegion.RowHeadersDefaultCellStyle = dataGridViewCellStyle472;
             dgvTratamientosRegion.RowHeadersWidth = 51;
             dgvTratamientosRegion.RowTemplate.Height = 29;
             dgvTratamientosRegion.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
@@ -9421,12 +9446,12 @@
             // dataGridViewTextBoxColumn3
             // 
             dataGridViewTextBoxColumn3.DataPropertyName = "Region";
-            dataGridViewCellStyle184.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
-            dataGridViewCellStyle184.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle184.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
-            dataGridViewCellStyle184.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle184.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn3.DefaultCellStyle = dataGridViewCellStyle184;
+            dataGridViewCellStyle457.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
+            dataGridViewCellStyle457.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle457.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
+            dataGridViewCellStyle457.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle457.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn3.DefaultCellStyle = dataGridViewCellStyle457;
             dataGridViewTextBoxColumn3.HeaderText = "Cve";
             dataGridViewTextBoxColumn3.MinimumWidth = 6;
             dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
@@ -9437,12 +9462,12 @@
             // dataGridViewTextBoxColumn4
             // 
             dataGridViewTextBoxColumn4.DataPropertyName = "CatRegion";
-            dataGridViewCellStyle185.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
-            dataGridViewCellStyle185.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle185.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
-            dataGridViewCellStyle185.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle185.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn4.DefaultCellStyle = dataGridViewCellStyle185;
+            dataGridViewCellStyle458.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
+            dataGridViewCellStyle458.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle458.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
+            dataGridViewCellStyle458.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle458.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn4.DefaultCellStyle = dataGridViewCellStyle458;
             dataGridViewTextBoxColumn4.HeaderText = "Region";
             dataGridViewTextBoxColumn4.MinimumWidth = 6;
             dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
@@ -9452,15 +9477,15 @@
             // dataGridViewTextBoxColumn5
             // 
             dataGridViewTextBoxColumn5.DataPropertyName = "CantidadClientesVigente";
-            dataGridViewCellStyle186.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle186.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle186.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle186.ForeColor = Color.White;
-            dataGridViewCellStyle186.Format = "N0";
-            dataGridViewCellStyle186.NullValue = "-";
-            dataGridViewCellStyle186.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle186.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn5.DefaultCellStyle = dataGridViewCellStyle186;
+            dataGridViewCellStyle459.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle459.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle459.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle459.ForeColor = Color.White;
+            dataGridViewCellStyle459.Format = "N0";
+            dataGridViewCellStyle459.NullValue = "-";
+            dataGridViewCellStyle459.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle459.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn5.DefaultCellStyle = dataGridViewCellStyle459;
             dataGridViewTextBoxColumn5.HeaderText = "Clientes Cartera Vigente";
             dataGridViewTextBoxColumn5.MinimumWidth = 6;
             dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
@@ -9470,15 +9495,15 @@
             // dataGridViewTextBoxColumn7
             // 
             dataGridViewTextBoxColumn7.DataPropertyName = "CantidadClientesImpago";
-            dataGridViewCellStyle187.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle187.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle187.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle187.ForeColor = Color.White;
-            dataGridViewCellStyle187.Format = "N0";
-            dataGridViewCellStyle187.NullValue = "-";
-            dataGridViewCellStyle187.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle187.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn7.DefaultCellStyle = dataGridViewCellStyle187;
+            dataGridViewCellStyle460.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle460.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle460.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle460.ForeColor = Color.White;
+            dataGridViewCellStyle460.Format = "N0";
+            dataGridViewCellStyle460.NullValue = "-";
+            dataGridViewCellStyle460.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle460.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn7.DefaultCellStyle = dataGridViewCellStyle460;
             dataGridViewTextBoxColumn7.HeaderText = "Clientes en Impagos";
             dataGridViewTextBoxColumn7.MinimumWidth = 6;
             dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
@@ -9488,15 +9513,15 @@
             // dataGridViewTextBoxColumn6
             // 
             dataGridViewTextBoxColumn6.DataPropertyName = "CantidadClientesVencida";
-            dataGridViewCellStyle188.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle188.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle188.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle188.ForeColor = Color.White;
-            dataGridViewCellStyle188.Format = "N0";
-            dataGridViewCellStyle188.NullValue = "-";
-            dataGridViewCellStyle188.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle188.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn6.DefaultCellStyle = dataGridViewCellStyle188;
+            dataGridViewCellStyle461.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle461.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle461.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle461.ForeColor = Color.White;
+            dataGridViewCellStyle461.Format = "N0";
+            dataGridViewCellStyle461.NullValue = "-";
+            dataGridViewCellStyle461.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle461.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn6.DefaultCellStyle = dataGridViewCellStyle461;
             dataGridViewTextBoxColumn6.HeaderText = "Clientes Cartera Vencida";
             dataGridViewTextBoxColumn6.MinimumWidth = 6;
             dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
@@ -9506,15 +9531,15 @@
             // dataGridViewTextBoxColumn8
             // 
             dataGridViewTextBoxColumn8.DataPropertyName = "TotalDeClientes";
-            dataGridViewCellStyle189.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle189.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle189.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle189.ForeColor = Color.White;
-            dataGridViewCellStyle189.Format = "N0";
-            dataGridViewCellStyle189.NullValue = "-";
-            dataGridViewCellStyle189.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle189.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn8.DefaultCellStyle = dataGridViewCellStyle189;
+            dataGridViewCellStyle462.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle462.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle462.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle462.ForeColor = Color.White;
+            dataGridViewCellStyle462.Format = "N0";
+            dataGridViewCellStyle462.NullValue = "-";
+            dataGridViewCellStyle462.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle462.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn8.DefaultCellStyle = dataGridViewCellStyle462;
             dataGridViewTextBoxColumn8.HeaderText = "Total de Clientes";
             dataGridViewTextBoxColumn8.MinimumWidth = 6;
             dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
@@ -9524,15 +9549,15 @@
             // dataGridViewTextBoxColumn9
             // 
             dataGridViewTextBoxColumn9.DataPropertyName = "CantidadDeCreditosVigente";
-            dataGridViewCellStyle190.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle190.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle190.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle190.ForeColor = Color.White;
-            dataGridViewCellStyle190.Format = "N0";
-            dataGridViewCellStyle190.NullValue = "-";
-            dataGridViewCellStyle190.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle190.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn9.DefaultCellStyle = dataGridViewCellStyle190;
+            dataGridViewCellStyle463.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle463.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle463.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle463.ForeColor = Color.White;
+            dataGridViewCellStyle463.Format = "N0";
+            dataGridViewCellStyle463.NullValue = "-";
+            dataGridViewCellStyle463.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle463.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn9.DefaultCellStyle = dataGridViewCellStyle463;
             dataGridViewTextBoxColumn9.HeaderText = "Créditos Cartera Vigente";
             dataGridViewTextBoxColumn9.MinimumWidth = 6;
             dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
@@ -9542,15 +9567,15 @@
             // dataGridViewTextBoxColumn11
             // 
             dataGridViewTextBoxColumn11.DataPropertyName = "CantidadDeCreditosImpago";
-            dataGridViewCellStyle191.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle191.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle191.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle191.ForeColor = Color.White;
-            dataGridViewCellStyle191.Format = "N0";
-            dataGridViewCellStyle191.NullValue = "-";
-            dataGridViewCellStyle191.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle191.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn11.DefaultCellStyle = dataGridViewCellStyle191;
+            dataGridViewCellStyle464.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle464.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle464.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle464.ForeColor = Color.White;
+            dataGridViewCellStyle464.Format = "N0";
+            dataGridViewCellStyle464.NullValue = "-";
+            dataGridViewCellStyle464.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle464.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn11.DefaultCellStyle = dataGridViewCellStyle464;
             dataGridViewTextBoxColumn11.HeaderText = "Créditos en Impagos";
             dataGridViewTextBoxColumn11.MinimumWidth = 6;
             dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
@@ -9560,15 +9585,15 @@
             // dataGridViewTextBoxColumn10
             // 
             dataGridViewTextBoxColumn10.DataPropertyName = "CantidadDeCreditosVencida";
-            dataGridViewCellStyle192.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle192.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle192.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle192.ForeColor = Color.White;
-            dataGridViewCellStyle192.Format = "N0";
-            dataGridViewCellStyle192.NullValue = "-";
-            dataGridViewCellStyle192.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle192.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn10.DefaultCellStyle = dataGridViewCellStyle192;
+            dataGridViewCellStyle465.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle465.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle465.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle465.ForeColor = Color.White;
+            dataGridViewCellStyle465.Format = "N0";
+            dataGridViewCellStyle465.NullValue = "-";
+            dataGridViewCellStyle465.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle465.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn10.DefaultCellStyle = dataGridViewCellStyle465;
             dataGridViewTextBoxColumn10.HeaderText = "Créditos Cartera Vencida";
             dataGridViewTextBoxColumn10.MinimumWidth = 6;
             dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
@@ -9578,15 +9603,15 @@
             // dataGridViewTextBoxColumn12
             // 
             dataGridViewTextBoxColumn12.DataPropertyName = "TotalDeCreditos";
-            dataGridViewCellStyle193.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle193.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle193.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle193.ForeColor = Color.White;
-            dataGridViewCellStyle193.Format = "N0";
-            dataGridViewCellStyle193.NullValue = "-";
-            dataGridViewCellStyle193.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle193.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn12.DefaultCellStyle = dataGridViewCellStyle193;
+            dataGridViewCellStyle466.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle466.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle466.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle466.ForeColor = Color.White;
+            dataGridViewCellStyle466.Format = "N0";
+            dataGridViewCellStyle466.NullValue = "-";
+            dataGridViewCellStyle466.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle466.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn12.DefaultCellStyle = dataGridViewCellStyle466;
             dataGridViewTextBoxColumn12.HeaderText = "Total de Créditos";
             dataGridViewTextBoxColumn12.MinimumWidth = 6;
             dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
@@ -9596,15 +9621,15 @@
             // dataGridViewTextBoxColumn13
             // 
             dataGridViewTextBoxColumn13.DataPropertyName = "SaldosCarteraVigente";
-            dataGridViewCellStyle194.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle194.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle194.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle194.ForeColor = Color.White;
-            dataGridViewCellStyle194.Format = "C2";
-            dataGridViewCellStyle194.NullValue = "-";
-            dataGridViewCellStyle194.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle194.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn13.DefaultCellStyle = dataGridViewCellStyle194;
+            dataGridViewCellStyle467.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle467.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle467.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle467.ForeColor = Color.White;
+            dataGridViewCellStyle467.Format = "C2";
+            dataGridViewCellStyle467.NullValue = "-";
+            dataGridViewCellStyle467.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle467.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn13.DefaultCellStyle = dataGridViewCellStyle467;
             dataGridViewTextBoxColumn13.HeaderText = "Saldos Vigente";
             dataGridViewTextBoxColumn13.MinimumWidth = 6;
             dataGridViewTextBoxColumn13.Name = "dataGridViewTextBoxColumn13";
@@ -9614,15 +9639,15 @@
             // dataGridViewTextBoxColumn15
             // 
             dataGridViewTextBoxColumn15.DataPropertyName = "SaldosCarteraImpago";
-            dataGridViewCellStyle195.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle195.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle195.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle195.ForeColor = Color.White;
-            dataGridViewCellStyle195.Format = "C2";
-            dataGridViewCellStyle195.NullValue = ".";
-            dataGridViewCellStyle195.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle195.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn15.DefaultCellStyle = dataGridViewCellStyle195;
+            dataGridViewCellStyle468.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle468.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle468.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle468.ForeColor = Color.White;
+            dataGridViewCellStyle468.Format = "C2";
+            dataGridViewCellStyle468.NullValue = ".";
+            dataGridViewCellStyle468.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle468.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn15.DefaultCellStyle = dataGridViewCellStyle468;
             dataGridViewTextBoxColumn15.HeaderText = "Impagos";
             dataGridViewTextBoxColumn15.MinimumWidth = 6;
             dataGridViewTextBoxColumn15.Name = "dataGridViewTextBoxColumn15";
@@ -9632,15 +9657,15 @@
             // dataGridViewTextBoxColumn14
             // 
             dataGridViewTextBoxColumn14.DataPropertyName = "SaldosCarteraVencida";
-            dataGridViewCellStyle196.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle196.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle196.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle196.ForeColor = Color.White;
-            dataGridViewCellStyle196.Format = "C2";
-            dataGridViewCellStyle196.NullValue = "-";
-            dataGridViewCellStyle196.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle196.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn14.DefaultCellStyle = dataGridViewCellStyle196;
+            dataGridViewCellStyle469.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle469.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle469.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle469.ForeColor = Color.White;
+            dataGridViewCellStyle469.Format = "C2";
+            dataGridViewCellStyle469.NullValue = "-";
+            dataGridViewCellStyle469.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle469.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn14.DefaultCellStyle = dataGridViewCellStyle469;
             dataGridViewTextBoxColumn14.HeaderText = "Saldos Cartera Vencida";
             dataGridViewTextBoxColumn14.MinimumWidth = 6;
             dataGridViewTextBoxColumn14.Name = "dataGridViewTextBoxColumn14";
@@ -9650,15 +9675,15 @@
             // dataGridViewTextBoxColumn16
             // 
             dataGridViewTextBoxColumn16.DataPropertyName = "ICV";
-            dataGridViewCellStyle197.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle197.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle197.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle197.ForeColor = Color.White;
-            dataGridViewCellStyle197.Format = "#0.0";
-            dataGridViewCellStyle197.NullValue = "-";
-            dataGridViewCellStyle197.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle197.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn16.DefaultCellStyle = dataGridViewCellStyle197;
+            dataGridViewCellStyle470.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle470.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle470.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle470.ForeColor = Color.White;
+            dataGridViewCellStyle470.Format = "#0.0";
+            dataGridViewCellStyle470.NullValue = "-";
+            dataGridViewCellStyle470.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle470.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn16.DefaultCellStyle = dataGridViewCellStyle470;
             dataGridViewTextBoxColumn16.HeaderText = "ICV %";
             dataGridViewTextBoxColumn16.MinimumWidth = 6;
             dataGridViewTextBoxColumn16.Name = "dataGridViewTextBoxColumn16";
@@ -9668,15 +9693,15 @@
             // dataGridViewTextBoxColumn17
             // 
             dataGridViewTextBoxColumn17.DataPropertyName = "SaldosTotal";
-            dataGridViewCellStyle198.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle198.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle198.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle198.ForeColor = Color.White;
-            dataGridViewCellStyle198.Format = "C2";
-            dataGridViewCellStyle198.NullValue = "-";
-            dataGridViewCellStyle198.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle198.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn17.DefaultCellStyle = dataGridViewCellStyle198;
+            dataGridViewCellStyle471.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle471.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle471.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle471.ForeColor = Color.White;
+            dataGridViewCellStyle471.Format = "C2";
+            dataGridViewCellStyle471.NullValue = "-";
+            dataGridViewCellStyle471.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle471.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn17.DefaultCellStyle = dataGridViewCellStyle471;
             dataGridViewTextBoxColumn17.HeaderText = "Total de Saldos";
             dataGridViewTextBoxColumn17.MinimumWidth = 6;
             dataGridViewTextBoxColumn17.Name = "dataGridViewTextBoxColumn17";
@@ -9794,13 +9819,13 @@
             // dataGridViewTextBoxColumn18
             // 
             dataGridViewTextBoxColumn18.DataPropertyName = "Agencia";
-            dataGridViewCellStyle200.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
-            dataGridViewCellStyle200.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle200.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
-            dataGridViewCellStyle200.NullValue = "-";
-            dataGridViewCellStyle200.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle200.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn18.DefaultCellStyle = dataGridViewCellStyle200;
+            dataGridViewCellStyle473.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
+            dataGridViewCellStyle473.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle473.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
+            dataGridViewCellStyle473.NullValue = "-";
+            dataGridViewCellStyle473.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle473.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn18.DefaultCellStyle = dataGridViewCellStyle473;
             dataGridViewTextBoxColumn18.HeaderText = "Agencia";
             dataGridViewTextBoxColumn18.MinimumWidth = 6;
             dataGridViewTextBoxColumn18.Name = "dataGridViewTextBoxColumn18";
@@ -9811,13 +9836,13 @@
             // dataGridViewTextBoxColumn19
             // 
             dataGridViewTextBoxColumn19.DataPropertyName = "CatAgencia";
-            dataGridViewCellStyle201.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle201.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
-            dataGridViewCellStyle201.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle201.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
-            dataGridViewCellStyle201.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle201.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn19.DefaultCellStyle = dataGridViewCellStyle201;
+            dataGridViewCellStyle474.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle474.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
+            dataGridViewCellStyle474.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle474.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
+            dataGridViewCellStyle474.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle474.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn19.DefaultCellStyle = dataGridViewCellStyle474;
             dataGridViewTextBoxColumn19.HeaderText = "Agencia";
             dataGridViewTextBoxColumn19.MinimumWidth = 6;
             dataGridViewTextBoxColumn19.Name = "dataGridViewTextBoxColumn19";
@@ -9827,15 +9852,15 @@
             // dataGridViewTextBoxColumn20
             // 
             dataGridViewTextBoxColumn20.DataPropertyName = "CantidadClientesVigente";
-            dataGridViewCellStyle202.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle202.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle202.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle202.ForeColor = Color.White;
-            dataGridViewCellStyle202.Format = "N0";
-            dataGridViewCellStyle202.NullValue = "-";
-            dataGridViewCellStyle202.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle202.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn20.DefaultCellStyle = dataGridViewCellStyle202;
+            dataGridViewCellStyle475.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle475.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle475.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle475.ForeColor = Color.White;
+            dataGridViewCellStyle475.Format = "N0";
+            dataGridViewCellStyle475.NullValue = "-";
+            dataGridViewCellStyle475.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle475.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn20.DefaultCellStyle = dataGridViewCellStyle475;
             dataGridViewTextBoxColumn20.HeaderText = "Clientes Vigentes";
             dataGridViewTextBoxColumn20.MinimumWidth = 6;
             dataGridViewTextBoxColumn20.Name = "dataGridViewTextBoxColumn20";
@@ -9845,15 +9870,15 @@
             // dataGridViewTextBoxColumn22
             // 
             dataGridViewTextBoxColumn22.DataPropertyName = "CantidadClientesImpago";
-            dataGridViewCellStyle203.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle203.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle203.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle203.ForeColor = Color.White;
-            dataGridViewCellStyle203.Format = "N0";
-            dataGridViewCellStyle203.NullValue = "-";
-            dataGridViewCellStyle203.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle203.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn22.DefaultCellStyle = dataGridViewCellStyle203;
+            dataGridViewCellStyle476.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle476.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle476.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle476.ForeColor = Color.White;
+            dataGridViewCellStyle476.Format = "N0";
+            dataGridViewCellStyle476.NullValue = "-";
+            dataGridViewCellStyle476.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle476.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn22.DefaultCellStyle = dataGridViewCellStyle476;
             dataGridViewTextBoxColumn22.HeaderText = "Cantidad de Clientes en Impago";
             dataGridViewTextBoxColumn22.MinimumWidth = 6;
             dataGridViewTextBoxColumn22.Name = "dataGridViewTextBoxColumn22";
@@ -9863,15 +9888,15 @@
             // dataGridViewTextBoxColumn21
             // 
             dataGridViewTextBoxColumn21.DataPropertyName = "CantidadClientesVencida";
-            dataGridViewCellStyle204.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle204.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle204.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle204.ForeColor = Color.White;
-            dataGridViewCellStyle204.Format = "N0";
-            dataGridViewCellStyle204.NullValue = "-";
-            dataGridViewCellStyle204.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle204.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn21.DefaultCellStyle = dataGridViewCellStyle204;
+            dataGridViewCellStyle477.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle477.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle477.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle477.ForeColor = Color.White;
+            dataGridViewCellStyle477.Format = "N0";
+            dataGridViewCellStyle477.NullValue = "-";
+            dataGridViewCellStyle477.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle477.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn21.DefaultCellStyle = dataGridViewCellStyle477;
             dataGridViewTextBoxColumn21.HeaderText = "Cantidad Clientes Vencidos";
             dataGridViewTextBoxColumn21.MinimumWidth = 6;
             dataGridViewTextBoxColumn21.Name = "dataGridViewTextBoxColumn21";
@@ -9881,15 +9906,15 @@
             // dataGridViewTextBoxColumn23
             // 
             dataGridViewTextBoxColumn23.DataPropertyName = "TotalDeClientes";
-            dataGridViewCellStyle205.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle205.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle205.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle205.ForeColor = Color.White;
-            dataGridViewCellStyle205.Format = "N0";
-            dataGridViewCellStyle205.NullValue = "-";
-            dataGridViewCellStyle205.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle205.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn23.DefaultCellStyle = dataGridViewCellStyle205;
+            dataGridViewCellStyle478.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle478.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle478.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle478.ForeColor = Color.White;
+            dataGridViewCellStyle478.Format = "N0";
+            dataGridViewCellStyle478.NullValue = "-";
+            dataGridViewCellStyle478.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle478.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn23.DefaultCellStyle = dataGridViewCellStyle478;
             dataGridViewTextBoxColumn23.HeaderText = "Total de Clientes";
             dataGridViewTextBoxColumn23.MinimumWidth = 6;
             dataGridViewTextBoxColumn23.Name = "dataGridViewTextBoxColumn23";
@@ -9899,15 +9924,15 @@
             // dataGridViewTextBoxColumn24
             // 
             dataGridViewTextBoxColumn24.DataPropertyName = "CantidadDeCreditosVigente";
-            dataGridViewCellStyle206.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle206.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle206.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle206.ForeColor = Color.White;
-            dataGridViewCellStyle206.Format = "N0";
-            dataGridViewCellStyle206.NullValue = "-";
-            dataGridViewCellStyle206.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle206.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn24.DefaultCellStyle = dataGridViewCellStyle206;
+            dataGridViewCellStyle479.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle479.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle479.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle479.ForeColor = Color.White;
+            dataGridViewCellStyle479.Format = "N0";
+            dataGridViewCellStyle479.NullValue = "-";
+            dataGridViewCellStyle479.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle479.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn24.DefaultCellStyle = dataGridViewCellStyle479;
             dataGridViewTextBoxColumn24.HeaderText = "Créditos Vigentes";
             dataGridViewTextBoxColumn24.MinimumWidth = 6;
             dataGridViewTextBoxColumn24.Name = "dataGridViewTextBoxColumn24";
@@ -9917,15 +9942,15 @@
             // dataGridViewTextBoxColumn26
             // 
             dataGridViewTextBoxColumn26.DataPropertyName = "CantidadDeCreditosImpago";
-            dataGridViewCellStyle207.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle207.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle207.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle207.ForeColor = Color.White;
-            dataGridViewCellStyle207.Format = "N0";
-            dataGridViewCellStyle207.NullValue = "-";
-            dataGridViewCellStyle207.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle207.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn26.DefaultCellStyle = dataGridViewCellStyle207;
+            dataGridViewCellStyle480.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle480.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle480.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle480.ForeColor = Color.White;
+            dataGridViewCellStyle480.Format = "N0";
+            dataGridViewCellStyle480.NullValue = "-";
+            dataGridViewCellStyle480.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle480.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn26.DefaultCellStyle = dataGridViewCellStyle480;
             dataGridViewTextBoxColumn26.HeaderText = "Créditos en Impago";
             dataGridViewTextBoxColumn26.MinimumWidth = 6;
             dataGridViewTextBoxColumn26.Name = "dataGridViewTextBoxColumn26";
@@ -9935,15 +9960,15 @@
             // dataGridViewTextBoxColumn25
             // 
             dataGridViewTextBoxColumn25.DataPropertyName = "CantidadDeCreditosVencida";
-            dataGridViewCellStyle208.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle208.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle208.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle208.ForeColor = Color.White;
-            dataGridViewCellStyle208.Format = "N0";
-            dataGridViewCellStyle208.NullValue = "-";
-            dataGridViewCellStyle208.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle208.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn25.DefaultCellStyle = dataGridViewCellStyle208;
+            dataGridViewCellStyle481.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle481.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle481.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle481.ForeColor = Color.White;
+            dataGridViewCellStyle481.Format = "N0";
+            dataGridViewCellStyle481.NullValue = "-";
+            dataGridViewCellStyle481.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle481.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn25.DefaultCellStyle = dataGridViewCellStyle481;
             dataGridViewTextBoxColumn25.HeaderText = "Créditos Vencidos";
             dataGridViewTextBoxColumn25.MinimumWidth = 6;
             dataGridViewTextBoxColumn25.Name = "dataGridViewTextBoxColumn25";
@@ -9953,15 +9978,15 @@
             // dataGridViewTextBoxColumn27
             // 
             dataGridViewTextBoxColumn27.DataPropertyName = "TotalDeCreditos";
-            dataGridViewCellStyle209.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle209.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle209.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle209.ForeColor = Color.White;
-            dataGridViewCellStyle209.Format = "N0";
-            dataGridViewCellStyle209.NullValue = "-";
-            dataGridViewCellStyle209.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle209.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn27.DefaultCellStyle = dataGridViewCellStyle209;
+            dataGridViewCellStyle482.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle482.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle482.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle482.ForeColor = Color.White;
+            dataGridViewCellStyle482.Format = "N0";
+            dataGridViewCellStyle482.NullValue = "-";
+            dataGridViewCellStyle482.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle482.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn27.DefaultCellStyle = dataGridViewCellStyle482;
             dataGridViewTextBoxColumn27.HeaderText = "Total de Créditos";
             dataGridViewTextBoxColumn27.MinimumWidth = 6;
             dataGridViewTextBoxColumn27.Name = "dataGridViewTextBoxColumn27";
@@ -9971,15 +9996,15 @@
             // dataGridViewTextBoxColumn28
             // 
             dataGridViewTextBoxColumn28.DataPropertyName = "SaldosCarteraVigente";
-            dataGridViewCellStyle210.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle210.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle210.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle210.ForeColor = Color.White;
-            dataGridViewCellStyle210.Format = "C2";
-            dataGridViewCellStyle210.NullValue = "-";
-            dataGridViewCellStyle210.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle210.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn28.DefaultCellStyle = dataGridViewCellStyle210;
+            dataGridViewCellStyle483.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle483.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle483.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle483.ForeColor = Color.White;
+            dataGridViewCellStyle483.Format = "C2";
+            dataGridViewCellStyle483.NullValue = "-";
+            dataGridViewCellStyle483.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle483.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn28.DefaultCellStyle = dataGridViewCellStyle483;
             dataGridViewTextBoxColumn28.HeaderText = "Saldos Vigente";
             dataGridViewTextBoxColumn28.MinimumWidth = 6;
             dataGridViewTextBoxColumn28.Name = "dataGridViewTextBoxColumn28";
@@ -9989,15 +10014,15 @@
             // dataGridViewTextBoxColumn30
             // 
             dataGridViewTextBoxColumn30.DataPropertyName = "SaldosCarteraImpago";
-            dataGridViewCellStyle211.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle211.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle211.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle211.ForeColor = Color.White;
-            dataGridViewCellStyle211.Format = "C2";
-            dataGridViewCellStyle211.NullValue = "-";
-            dataGridViewCellStyle211.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle211.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn30.DefaultCellStyle = dataGridViewCellStyle211;
+            dataGridViewCellStyle484.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle484.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle484.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle484.ForeColor = Color.White;
+            dataGridViewCellStyle484.Format = "C2";
+            dataGridViewCellStyle484.NullValue = "-";
+            dataGridViewCellStyle484.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle484.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn30.DefaultCellStyle = dataGridViewCellStyle484;
             dataGridViewTextBoxColumn30.HeaderText = "Saldos en Impago";
             dataGridViewTextBoxColumn30.MinimumWidth = 6;
             dataGridViewTextBoxColumn30.Name = "dataGridViewTextBoxColumn30";
@@ -10007,15 +10032,15 @@
             // dataGridViewTextBoxColumn29
             // 
             dataGridViewTextBoxColumn29.DataPropertyName = "SaldosCarteraVencida";
-            dataGridViewCellStyle212.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle212.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle212.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle212.ForeColor = Color.White;
-            dataGridViewCellStyle212.Format = "C2";
-            dataGridViewCellStyle212.NullValue = "-";
-            dataGridViewCellStyle212.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle212.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn29.DefaultCellStyle = dataGridViewCellStyle212;
+            dataGridViewCellStyle485.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle485.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle485.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle485.ForeColor = Color.White;
+            dataGridViewCellStyle485.Format = "C2";
+            dataGridViewCellStyle485.NullValue = "-";
+            dataGridViewCellStyle485.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle485.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn29.DefaultCellStyle = dataGridViewCellStyle485;
             dataGridViewTextBoxColumn29.HeaderText = "Saldos Vencidos";
             dataGridViewTextBoxColumn29.MinimumWidth = 6;
             dataGridViewTextBoxColumn29.Name = "dataGridViewTextBoxColumn29";
@@ -10025,15 +10050,15 @@
             // dataGridViewTextBoxColumn31
             // 
             dataGridViewTextBoxColumn31.DataPropertyName = "ICV";
-            dataGridViewCellStyle213.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle213.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle213.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle213.ForeColor = Color.White;
-            dataGridViewCellStyle213.Format = "#0.0";
-            dataGridViewCellStyle213.NullValue = "-";
-            dataGridViewCellStyle213.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle213.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn31.DefaultCellStyle = dataGridViewCellStyle213;
+            dataGridViewCellStyle486.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle486.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle486.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle486.ForeColor = Color.White;
+            dataGridViewCellStyle486.Format = "#0.0";
+            dataGridViewCellStyle486.NullValue = "-";
+            dataGridViewCellStyle486.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle486.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn31.DefaultCellStyle = dataGridViewCellStyle486;
             dataGridViewTextBoxColumn31.HeaderText = "ICV %";
             dataGridViewTextBoxColumn31.MinimumWidth = 6;
             dataGridViewTextBoxColumn31.Name = "dataGridViewTextBoxColumn31";
@@ -10043,15 +10068,15 @@
             // dataGridViewTextBoxColumn32
             // 
             dataGridViewTextBoxColumn32.DataPropertyName = "SaldosTotal";
-            dataGridViewCellStyle214.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle214.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle214.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle214.ForeColor = Color.White;
-            dataGridViewCellStyle214.Format = "C2";
-            dataGridViewCellStyle214.NullValue = "-";
-            dataGridViewCellStyle214.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle214.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn32.DefaultCellStyle = dataGridViewCellStyle214;
+            dataGridViewCellStyle487.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle487.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle487.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle487.ForeColor = Color.White;
+            dataGridViewCellStyle487.Format = "C2";
+            dataGridViewCellStyle487.NullValue = "-";
+            dataGridViewCellStyle487.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle487.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn32.DefaultCellStyle = dataGridViewCellStyle487;
             dataGridViewTextBoxColumn32.HeaderText = "Total de Saldos";
             dataGridViewTextBoxColumn32.MinimumWidth = 6;
             dataGridViewTextBoxColumn32.Name = "dataGridViewTextBoxColumn32";
@@ -10178,8 +10203,8 @@
             // dataGridViewTextBoxColumn34
             // 
             dataGridViewTextBoxColumn34.DataPropertyName = "Agencia";
-            dataGridViewCellStyle215.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewTextBoxColumn34.DefaultCellStyle = dataGridViewCellStyle215;
+            dataGridViewCellStyle488.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewTextBoxColumn34.DefaultCellStyle = dataGridViewCellStyle488;
             dataGridViewTextBoxColumn34.HeaderText = "Agencia";
             dataGridViewTextBoxColumn34.MinimumWidth = 6;
             dataGridViewTextBoxColumn34.Name = "dataGridViewTextBoxColumn34";
@@ -10190,13 +10215,13 @@
             // dataGridViewTextBoxColumn35
             // 
             dataGridViewTextBoxColumn35.DataPropertyName = "NumCredito";
-            dataGridViewCellStyle216.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle216.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
-            dataGridViewCellStyle216.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle216.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
-            dataGridViewCellStyle216.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle216.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn35.DefaultCellStyle = dataGridViewCellStyle216;
+            dataGridViewCellStyle489.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle489.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
+            dataGridViewCellStyle489.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle489.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
+            dataGridViewCellStyle489.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle489.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn35.DefaultCellStyle = dataGridViewCellStyle489;
             dataGridViewTextBoxColumn35.HeaderText = "# de crédito";
             dataGridViewTextBoxColumn35.MinimumWidth = 6;
             dataGridViewTextBoxColumn35.Name = "dataGridViewTextBoxColumn35";
@@ -10206,13 +10231,13 @@
             // dataGridViewTextBoxColumn36
             // 
             dataGridViewTextBoxColumn36.DataPropertyName = "Acreditado";
-            dataGridViewCellStyle217.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle217.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle217.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle217.ForeColor = Color.White;
-            dataGridViewCellStyle217.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle217.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn36.DefaultCellStyle = dataGridViewCellStyle217;
+            dataGridViewCellStyle490.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle490.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle490.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle490.ForeColor = Color.White;
+            dataGridViewCellStyle490.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle490.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn36.DefaultCellStyle = dataGridViewCellStyle490;
             dataGridViewTextBoxColumn36.HeaderText = "Acreditado";
             dataGridViewTextBoxColumn36.MinimumWidth = 6;
             dataGridViewTextBoxColumn36.Name = "dataGridViewTextBoxColumn36";
@@ -10222,14 +10247,14 @@
             // coltdCreditoOrigen
             // 
             coltdCreditoOrigen.DataPropertyName = "CreditoOrigen";
-            dataGridViewCellStyle218.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle218.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
-            dataGridViewCellStyle218.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle218.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
-            dataGridViewCellStyle218.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle218.SelectionForeColor = Color.White;
-            dataGridViewCellStyle218.WrapMode = DataGridViewTriState.True;
-            coltdCreditoOrigen.DefaultCellStyle = dataGridViewCellStyle218;
+            dataGridViewCellStyle491.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle491.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
+            dataGridViewCellStyle491.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle491.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
+            dataGridViewCellStyle491.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle491.SelectionForeColor = Color.White;
+            dataGridViewCellStyle491.WrapMode = DataGridViewTriState.True;
+            coltdCreditoOrigen.DefaultCellStyle = dataGridViewCellStyle491;
             coltdCreditoOrigen.HeaderText = "Origen";
             coltdCreditoOrigen.MinimumWidth = 6;
             coltdCreditoOrigen.Name = "coltdCreditoOrigen";
@@ -10239,14 +10264,14 @@
             // dataGridViewTextBoxColumn37
             // 
             dataGridViewTextBoxColumn37.DataPropertyName = "FechaApertura";
-            dataGridViewCellStyle219.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle219.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle219.ForeColor = Color.White;
-            dataGridViewCellStyle219.Format = "d";
-            dataGridViewCellStyle219.NullValue = null;
-            dataGridViewCellStyle219.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle219.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn37.DefaultCellStyle = dataGridViewCellStyle219;
+            dataGridViewCellStyle492.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle492.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle492.ForeColor = Color.White;
+            dataGridViewCellStyle492.Format = "d";
+            dataGridViewCellStyle492.NullValue = null;
+            dataGridViewCellStyle492.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle492.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn37.DefaultCellStyle = dataGridViewCellStyle492;
             dataGridViewTextBoxColumn37.HeaderText = "Fecha de Apertura";
             dataGridViewTextBoxColumn37.MinimumWidth = 6;
             dataGridViewTextBoxColumn37.Name = "dataGridViewTextBoxColumn37";
@@ -10256,14 +10281,14 @@
             // dataGridViewTextBoxColumn38
             // 
             dataGridViewTextBoxColumn38.DataPropertyName = "SaldoCarteraVigente";
-            dataGridViewCellStyle220.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle220.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle220.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle220.ForeColor = Color.White;
-            dataGridViewCellStyle220.Format = "C2";
-            dataGridViewCellStyle220.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle220.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn38.DefaultCellStyle = dataGridViewCellStyle220;
+            dataGridViewCellStyle493.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle493.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle493.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle493.ForeColor = Color.White;
+            dataGridViewCellStyle493.Format = "C2";
+            dataGridViewCellStyle493.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle493.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn38.DefaultCellStyle = dataGridViewCellStyle493;
             dataGridViewTextBoxColumn38.HeaderText = "Saldo en Cartera Vigente";
             dataGridViewTextBoxColumn38.MinimumWidth = 6;
             dataGridViewTextBoxColumn38.Name = "dataGridViewTextBoxColumn38";
@@ -10273,15 +10298,15 @@
             // dataGridViewTextBoxColumn40
             // 
             dataGridViewTextBoxColumn40.DataPropertyName = "SaldoCarteraImpagos";
-            dataGridViewCellStyle221.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle221.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle221.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle221.ForeColor = Color.White;
-            dataGridViewCellStyle221.Format = "C2";
-            dataGridViewCellStyle221.NullValue = "-";
-            dataGridViewCellStyle221.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle221.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn40.DefaultCellStyle = dataGridViewCellStyle221;
+            dataGridViewCellStyle494.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle494.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle494.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle494.ForeColor = Color.White;
+            dataGridViewCellStyle494.Format = "C2";
+            dataGridViewCellStyle494.NullValue = "-";
+            dataGridViewCellStyle494.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle494.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn40.DefaultCellStyle = dataGridViewCellStyle494;
             dataGridViewTextBoxColumn40.HeaderText = "Saldo en Impago";
             dataGridViewTextBoxColumn40.MinimumWidth = 6;
             dataGridViewTextBoxColumn40.Name = "dataGridViewTextBoxColumn40";
@@ -10291,15 +10316,15 @@
             // dataGridViewTextBoxColumn39
             // 
             dataGridViewTextBoxColumn39.DataPropertyName = "SaldosCarteraVencida";
-            dataGridViewCellStyle222.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle222.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle222.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle222.ForeColor = Color.White;
-            dataGridViewCellStyle222.Format = "C2";
-            dataGridViewCellStyle222.NullValue = "-";
-            dataGridViewCellStyle222.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle222.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn39.DefaultCellStyle = dataGridViewCellStyle222;
+            dataGridViewCellStyle495.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle495.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle495.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle495.ForeColor = Color.White;
+            dataGridViewCellStyle495.Format = "C2";
+            dataGridViewCellStyle495.NullValue = "-";
+            dataGridViewCellStyle495.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle495.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn39.DefaultCellStyle = dataGridViewCellStyle495;
             dataGridViewTextBoxColumn39.HeaderText = "Saldo en Cartera Vencida";
             dataGridViewTextBoxColumn39.MinimumWidth = 6;
             dataGridViewTextBoxColumn39.Name = "dataGridViewTextBoxColumn39";
@@ -10309,15 +10334,15 @@
             // dataGridViewTextBoxColumn41
             // 
             dataGridViewTextBoxColumn41.DataPropertyName = "SaldosTotal";
-            dataGridViewCellStyle223.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle223.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle223.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle223.ForeColor = Color.White;
-            dataGridViewCellStyle223.Format = "C2";
-            dataGridViewCellStyle223.NullValue = "-";
-            dataGridViewCellStyle223.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle223.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn41.DefaultCellStyle = dataGridViewCellStyle223;
+            dataGridViewCellStyle496.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle496.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle496.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle496.ForeColor = Color.White;
+            dataGridViewCellStyle496.Format = "C2";
+            dataGridViewCellStyle496.NullValue = "-";
+            dataGridViewCellStyle496.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle496.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn41.DefaultCellStyle = dataGridViewCellStyle496;
             dataGridViewTextBoxColumn41.HeaderText = "Saldo Total";
             dataGridViewTextBoxColumn41.MinimumWidth = 6;
             dataGridViewTextBoxColumn41.Name = "dataGridViewTextBoxColumn41";
@@ -10327,12 +10352,12 @@
             // dataGridViewTextBoxColumn42
             // 
             dataGridViewTextBoxColumn42.DataPropertyName = "EsVigente";
-            dataGridViewCellStyle224.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle224.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle224.ForeColor = Color.White;
-            dataGridViewCellStyle224.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle224.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn42.DefaultCellStyle = dataGridViewCellStyle224;
+            dataGridViewCellStyle497.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle497.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle497.ForeColor = Color.White;
+            dataGridViewCellStyle497.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle497.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn42.DefaultCellStyle = dataGridViewCellStyle497;
             dataGridViewTextBoxColumn42.HeaderText = "Es Vigente";
             dataGridViewTextBoxColumn42.MinimumWidth = 6;
             dataGridViewTextBoxColumn42.Name = "dataGridViewTextBoxColumn42";
@@ -10342,12 +10367,12 @@
             // dataGridViewTextBoxColumn43
             // 
             dataGridViewTextBoxColumn43.DataPropertyName = "EsImpago";
-            dataGridViewCellStyle225.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle225.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle225.ForeColor = Color.White;
-            dataGridViewCellStyle225.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle225.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn43.DefaultCellStyle = dataGridViewCellStyle225;
+            dataGridViewCellStyle498.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle498.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle498.ForeColor = Color.White;
+            dataGridViewCellStyle498.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle498.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn43.DefaultCellStyle = dataGridViewCellStyle498;
             dataGridViewTextBoxColumn43.HeaderText = "Es Impago";
             dataGridViewTextBoxColumn43.MinimumWidth = 6;
             dataGridViewTextBoxColumn43.Name = "dataGridViewTextBoxColumn43";
@@ -10357,12 +10382,12 @@
             // dataGridViewTextBoxColumn44
             // 
             dataGridViewTextBoxColumn44.DataPropertyName = "EsVencida";
-            dataGridViewCellStyle226.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle226.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle226.ForeColor = Color.White;
-            dataGridViewCellStyle226.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle226.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn44.DefaultCellStyle = dataGridViewCellStyle226;
+            dataGridViewCellStyle499.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle499.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle499.ForeColor = Color.White;
+            dataGridViewCellStyle499.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle499.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn44.DefaultCellStyle = dataGridViewCellStyle499;
             dataGridViewTextBoxColumn44.HeaderText = "Es Vencida";
             dataGridViewTextBoxColumn44.MinimumWidth = 6;
             dataGridViewTextBoxColumn44.Name = "dataGridViewTextBoxColumn44";
@@ -10372,12 +10397,12 @@
             // dataGridViewTextBoxColumn45
             // 
             dataGridViewTextBoxColumn45.DataPropertyName = "EsOrigenDelDr";
-            dataGridViewCellStyle227.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle227.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle227.ForeColor = Color.White;
-            dataGridViewCellStyle227.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle227.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn45.DefaultCellStyle = dataGridViewCellStyle227;
+            dataGridViewCellStyle500.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle500.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle500.ForeColor = Color.White;
+            dataGridViewCellStyle500.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle500.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn45.DefaultCellStyle = dataGridViewCellStyle500;
             dataGridViewTextBoxColumn45.HeaderText = "Apertura del 1 de Julio del 2020";
             dataGridViewTextBoxColumn45.MinimumWidth = 6;
             dataGridViewTextBoxColumn45.Name = "dataGridViewTextBoxColumn45";
@@ -10503,14 +10528,14 @@
             dgvExpedientesJuridicosRegion.MultiSelect = false;
             dgvExpedientesJuridicosRegion.Name = "dgvExpedientesJuridicosRegion";
             dgvExpedientesJuridicosRegion.ReadOnly = true;
-            dataGridViewCellStyle242.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle242.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle242.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle242.ForeColor = Color.White;
-            dataGridViewCellStyle242.SelectionBackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle242.SelectionForeColor = Color.White;
-            dataGridViewCellStyle242.WrapMode = DataGridViewTriState.True;
-            dgvExpedientesJuridicosRegion.RowHeadersDefaultCellStyle = dataGridViewCellStyle242;
+            dataGridViewCellStyle515.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle515.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle515.Font = new Font("Montserrat", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle515.ForeColor = Color.White;
+            dataGridViewCellStyle515.SelectionBackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle515.SelectionForeColor = Color.White;
+            dataGridViewCellStyle515.WrapMode = DataGridViewTriState.True;
+            dgvExpedientesJuridicosRegion.RowHeadersDefaultCellStyle = dataGridViewCellStyle515;
             dgvExpedientesJuridicosRegion.RowHeadersWidth = 51;
             dgvExpedientesJuridicosRegion.RowTemplate.Height = 29;
             dgvExpedientesJuridicosRegion.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
@@ -10520,12 +10545,12 @@
             // dataGridViewTextBoxColumn48
             // 
             dataGridViewTextBoxColumn48.DataPropertyName = "Region";
-            dataGridViewCellStyle228.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
-            dataGridViewCellStyle228.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle228.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
-            dataGridViewCellStyle228.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle228.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn48.DefaultCellStyle = dataGridViewCellStyle228;
+            dataGridViewCellStyle501.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
+            dataGridViewCellStyle501.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle501.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
+            dataGridViewCellStyle501.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle501.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn48.DefaultCellStyle = dataGridViewCellStyle501;
             dataGridViewTextBoxColumn48.HeaderText = "Cve";
             dataGridViewTextBoxColumn48.MinimumWidth = 6;
             dataGridViewTextBoxColumn48.Name = "dataGridViewTextBoxColumn48";
@@ -10536,12 +10561,12 @@
             // dataGridViewTextBoxColumn49
             // 
             dataGridViewTextBoxColumn49.DataPropertyName = "CatRegion";
-            dataGridViewCellStyle229.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
-            dataGridViewCellStyle229.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle229.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
-            dataGridViewCellStyle229.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle229.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn49.DefaultCellStyle = dataGridViewCellStyle229;
+            dataGridViewCellStyle502.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
+            dataGridViewCellStyle502.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle502.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
+            dataGridViewCellStyle502.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle502.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn49.DefaultCellStyle = dataGridViewCellStyle502;
             dataGridViewTextBoxColumn49.HeaderText = "Region";
             dataGridViewTextBoxColumn49.MinimumWidth = 6;
             dataGridViewTextBoxColumn49.Name = "dataGridViewTextBoxColumn49";
@@ -10551,15 +10576,15 @@
             // dataGridViewTextBoxColumn50
             // 
             dataGridViewTextBoxColumn50.DataPropertyName = "CantContratos";
-            dataGridViewCellStyle230.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle230.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle230.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle230.ForeColor = Color.White;
-            dataGridViewCellStyle230.Format = "N0";
-            dataGridViewCellStyle230.NullValue = "-";
-            dataGridViewCellStyle230.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle230.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn50.DefaultCellStyle = dataGridViewCellStyle230;
+            dataGridViewCellStyle503.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle503.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle503.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle503.ForeColor = Color.White;
+            dataGridViewCellStyle503.Format = "N0";
+            dataGridViewCellStyle503.NullValue = "-";
+            dataGridViewCellStyle503.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle503.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn50.DefaultCellStyle = dataGridViewCellStyle503;
             dataGridViewTextBoxColumn50.HeaderText = "Contratos";
             dataGridViewTextBoxColumn50.MinimumWidth = 6;
             dataGridViewTextBoxColumn50.Name = "dataGridViewTextBoxColumn50";
@@ -10569,15 +10594,15 @@
             // dataGridViewTextBoxColumn51
             // 
             dataGridViewTextBoxColumn51.DataPropertyName = "CantClientes";
-            dataGridViewCellStyle231.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle231.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle231.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle231.ForeColor = Color.White;
-            dataGridViewCellStyle231.Format = "N0";
-            dataGridViewCellStyle231.NullValue = "-";
-            dataGridViewCellStyle231.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle231.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn51.DefaultCellStyle = dataGridViewCellStyle231;
+            dataGridViewCellStyle504.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle504.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle504.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle504.ForeColor = Color.White;
+            dataGridViewCellStyle504.Format = "N0";
+            dataGridViewCellStyle504.NullValue = "-";
+            dataGridViewCellStyle504.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle504.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn51.DefaultCellStyle = dataGridViewCellStyle504;
             dataGridViewTextBoxColumn51.HeaderText = "Clientes";
             dataGridViewTextBoxColumn51.MinimumWidth = 6;
             dataGridViewTextBoxColumn51.Name = "dataGridViewTextBoxColumn51";
@@ -10587,15 +10612,15 @@
             // dataGridViewTextBoxColumn52
             // 
             dataGridViewTextBoxColumn52.DataPropertyName = "CantCreditosHomologados";
-            dataGridViewCellStyle232.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle232.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle232.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle232.ForeColor = Color.White;
-            dataGridViewCellStyle232.Format = "N0";
-            dataGridViewCellStyle232.NullValue = "-";
-            dataGridViewCellStyle232.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle232.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn52.DefaultCellStyle = dataGridViewCellStyle232;
+            dataGridViewCellStyle505.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle505.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle505.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle505.ForeColor = Color.White;
+            dataGridViewCellStyle505.Format = "N0";
+            dataGridViewCellStyle505.NullValue = "-";
+            dataGridViewCellStyle505.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle505.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn52.DefaultCellStyle = dataGridViewCellStyle505;
             dataGridViewTextBoxColumn52.HeaderText = "Creditos homologados";
             dataGridViewTextBoxColumn52.MinimumWidth = 6;
             dataGridViewTextBoxColumn52.Name = "dataGridViewTextBoxColumn52";
@@ -10605,15 +10630,15 @@
             // dataGridViewTextBoxColumn53
             // 
             dataGridViewTextBoxColumn53.DataPropertyName = "CantDesfavorable";
-            dataGridViewCellStyle233.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle233.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle233.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle233.ForeColor = Color.White;
-            dataGridViewCellStyle233.Format = "N0";
-            dataGridViewCellStyle233.NullValue = "-";
-            dataGridViewCellStyle233.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle233.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn53.DefaultCellStyle = dataGridViewCellStyle233;
+            dataGridViewCellStyle506.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle506.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle506.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle506.ForeColor = Color.White;
+            dataGridViewCellStyle506.Format = "N0";
+            dataGridViewCellStyle506.NullValue = "-";
+            dataGridViewCellStyle506.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle506.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn53.DefaultCellStyle = dataGridViewCellStyle506;
             dataGridViewTextBoxColumn53.HeaderText = "Cantidad Exp Desfavorable";
             dataGridViewTextBoxColumn53.MinimumWidth = 6;
             dataGridViewTextBoxColumn53.Name = "dataGridViewTextBoxColumn53";
@@ -10623,15 +10648,15 @@
             // dataGridViewTextBoxColumn54
             // 
             dataGridViewTextBoxColumn54.DataPropertyName = "CantFavorable";
-            dataGridViewCellStyle234.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle234.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle234.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle234.ForeColor = Color.White;
-            dataGridViewCellStyle234.Format = "N0";
-            dataGridViewCellStyle234.NullValue = "-";
-            dataGridViewCellStyle234.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle234.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn54.DefaultCellStyle = dataGridViewCellStyle234;
+            dataGridViewCellStyle507.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle507.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle507.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle507.ForeColor = Color.White;
+            dataGridViewCellStyle507.Format = "N0";
+            dataGridViewCellStyle507.NullValue = "-";
+            dataGridViewCellStyle507.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle507.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn54.DefaultCellStyle = dataGridViewCellStyle507;
             dataGridViewTextBoxColumn54.HeaderText = "Cantidad Exp Favorable";
             dataGridViewTextBoxColumn54.MinimumWidth = 6;
             dataGridViewTextBoxColumn54.Name = "dataGridViewTextBoxColumn54";
@@ -10641,15 +10666,15 @@
             // dataGridViewTextBoxColumn55
             // 
             dataGridViewTextBoxColumn55.DataPropertyName = "CantNoFavorable";
-            dataGridViewCellStyle235.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle235.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle235.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle235.ForeColor = Color.White;
-            dataGridViewCellStyle235.Format = "N0";
-            dataGridViewCellStyle235.NullValue = "-";
-            dataGridViewCellStyle235.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle235.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn55.DefaultCellStyle = dataGridViewCellStyle235;
+            dataGridViewCellStyle508.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle508.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle508.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle508.ForeColor = Color.White;
+            dataGridViewCellStyle508.Format = "N0";
+            dataGridViewCellStyle508.NullValue = "-";
+            dataGridViewCellStyle508.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle508.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn55.DefaultCellStyle = dataGridViewCellStyle508;
             dataGridViewTextBoxColumn55.HeaderText = "Cantidad Exp No Favorable";
             dataGridViewTextBoxColumn55.MinimumWidth = 6;
             dataGridViewTextBoxColumn55.Name = "dataGridViewTextBoxColumn55";
@@ -10659,15 +10684,15 @@
             // dataGridViewTextBoxColumn56
             // 
             dataGridViewTextBoxColumn56.DataPropertyName = "CantReservado";
-            dataGridViewCellStyle236.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle236.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle236.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle236.ForeColor = Color.White;
-            dataGridViewCellStyle236.Format = "N0";
-            dataGridViewCellStyle236.NullValue = "-";
-            dataGridViewCellStyle236.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle236.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn56.DefaultCellStyle = dataGridViewCellStyle236;
+            dataGridViewCellStyle509.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle509.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle509.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle509.ForeColor = Color.White;
+            dataGridViewCellStyle509.Format = "N0";
+            dataGridViewCellStyle509.NullValue = "-";
+            dataGridViewCellStyle509.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle509.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn56.DefaultCellStyle = dataGridViewCellStyle509;
             dataGridViewTextBoxColumn56.HeaderText = "Cantidad Exp Reservado";
             dataGridViewTextBoxColumn56.MinimumWidth = 6;
             dataGridViewTextBoxColumn56.Name = "dataGridViewTextBoxColumn56";
@@ -10677,15 +10702,15 @@
             // dataGridViewTextBoxColumn58
             // 
             dataGridViewTextBoxColumn58.DataPropertyName = "TotalCapitalDesfavorable";
-            dataGridViewCellStyle237.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle237.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle237.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle237.ForeColor = Color.White;
-            dataGridViewCellStyle237.Format = "C2";
-            dataGridViewCellStyle237.NullValue = "-";
-            dataGridViewCellStyle237.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle237.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn58.DefaultCellStyle = dataGridViewCellStyle237;
+            dataGridViewCellStyle510.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle510.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle510.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle510.ForeColor = Color.White;
+            dataGridViewCellStyle510.Format = "C2";
+            dataGridViewCellStyle510.NullValue = "-";
+            dataGridViewCellStyle510.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle510.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn58.DefaultCellStyle = dataGridViewCellStyle510;
             dataGridViewTextBoxColumn58.HeaderText = "Saldos Capital Desfavorable";
             dataGridViewTextBoxColumn58.MinimumWidth = 6;
             dataGridViewTextBoxColumn58.Name = "dataGridViewTextBoxColumn58";
@@ -10695,15 +10720,15 @@
             // dataGridViewTextBoxColumn59
             // 
             dataGridViewTextBoxColumn59.DataPropertyName = "TotalCapitalFavorable";
-            dataGridViewCellStyle238.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle238.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle238.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle238.ForeColor = Color.White;
-            dataGridViewCellStyle238.Format = "C2";
-            dataGridViewCellStyle238.NullValue = ".";
-            dataGridViewCellStyle238.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle238.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn59.DefaultCellStyle = dataGridViewCellStyle238;
+            dataGridViewCellStyle511.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle511.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle511.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle511.ForeColor = Color.White;
+            dataGridViewCellStyle511.Format = "C2";
+            dataGridViewCellStyle511.NullValue = ".";
+            dataGridViewCellStyle511.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle511.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn59.DefaultCellStyle = dataGridViewCellStyle511;
             dataGridViewTextBoxColumn59.HeaderText = "Saldos Capital Favorable";
             dataGridViewTextBoxColumn59.MinimumWidth = 6;
             dataGridViewTextBoxColumn59.Name = "dataGridViewTextBoxColumn59";
@@ -10713,15 +10738,15 @@
             // dataGridViewTextBoxColumn60
             // 
             dataGridViewTextBoxColumn60.DataPropertyName = "TotalCapitalNoFavorable";
-            dataGridViewCellStyle239.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle239.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle239.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle239.ForeColor = Color.White;
-            dataGridViewCellStyle239.Format = "C2";
-            dataGridViewCellStyle239.NullValue = "-";
-            dataGridViewCellStyle239.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle239.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn60.DefaultCellStyle = dataGridViewCellStyle239;
+            dataGridViewCellStyle512.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle512.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle512.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle512.ForeColor = Color.White;
+            dataGridViewCellStyle512.Format = "C2";
+            dataGridViewCellStyle512.NullValue = "-";
+            dataGridViewCellStyle512.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle512.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn60.DefaultCellStyle = dataGridViewCellStyle512;
             dataGridViewTextBoxColumn60.HeaderText = "Saldos Capital No Favorable";
             dataGridViewTextBoxColumn60.MinimumWidth = 6;
             dataGridViewTextBoxColumn60.Name = "dataGridViewTextBoxColumn60";
@@ -10731,15 +10756,15 @@
             // dataGridViewTextBoxColumn62
             // 
             dataGridViewTextBoxColumn62.DataPropertyName = "TotalCapitalReservado";
-            dataGridViewCellStyle240.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle240.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle240.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle240.ForeColor = Color.White;
-            dataGridViewCellStyle240.Format = "C2";
-            dataGridViewCellStyle240.NullValue = "-";
-            dataGridViewCellStyle240.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle240.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn62.DefaultCellStyle = dataGridViewCellStyle240;
+            dataGridViewCellStyle513.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle513.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle513.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle513.ForeColor = Color.White;
+            dataGridViewCellStyle513.Format = "C2";
+            dataGridViewCellStyle513.NullValue = "-";
+            dataGridViewCellStyle513.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle513.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn62.DefaultCellStyle = dataGridViewCellStyle513;
             dataGridViewTextBoxColumn62.HeaderText = "Saldos Capital Reservado";
             dataGridViewTextBoxColumn62.MinimumWidth = 6;
             dataGridViewTextBoxColumn62.Name = "dataGridViewTextBoxColumn62";
@@ -10749,15 +10774,15 @@
             // Column1
             // 
             Column1.DataPropertyName = "TotalCapitalDemandado";
-            dataGridViewCellStyle241.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle241.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle241.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle241.ForeColor = Color.White;
-            dataGridViewCellStyle241.Format = "C2";
-            dataGridViewCellStyle241.NullValue = "-";
-            dataGridViewCellStyle241.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle241.SelectionForeColor = Color.White;
-            Column1.DefaultCellStyle = dataGridViewCellStyle241;
+            dataGridViewCellStyle514.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle514.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle514.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle514.ForeColor = Color.White;
+            dataGridViewCellStyle514.Format = "C2";
+            dataGridViewCellStyle514.NullValue = "-";
+            dataGridViewCellStyle514.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle514.SelectionForeColor = Color.White;
+            Column1.DefaultCellStyle = dataGridViewCellStyle514;
             Column1.HeaderText = "Total Capital Demandado";
             Column1.MinimumWidth = 6;
             Column1.Name = "Column1";
@@ -10875,13 +10900,13 @@
             // dataGridViewTextBoxColumn63
             // 
             dataGridViewTextBoxColumn63.DataPropertyName = "Agencia";
-            dataGridViewCellStyle243.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
-            dataGridViewCellStyle243.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle243.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
-            dataGridViewCellStyle243.NullValue = "-";
-            dataGridViewCellStyle243.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle243.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn63.DefaultCellStyle = dataGridViewCellStyle243;
+            dataGridViewCellStyle516.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
+            dataGridViewCellStyle516.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle516.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
+            dataGridViewCellStyle516.NullValue = "-";
+            dataGridViewCellStyle516.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle516.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn63.DefaultCellStyle = dataGridViewCellStyle516;
             dataGridViewTextBoxColumn63.HeaderText = "Agencia";
             dataGridViewTextBoxColumn63.MinimumWidth = 6;
             dataGridViewTextBoxColumn63.Name = "dataGridViewTextBoxColumn63";
@@ -10892,13 +10917,13 @@
             // dataGridViewTextBoxColumn64
             // 
             dataGridViewTextBoxColumn64.DataPropertyName = "CatAgencia";
-            dataGridViewCellStyle244.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle244.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
-            dataGridViewCellStyle244.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle244.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
-            dataGridViewCellStyle244.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle244.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn64.DefaultCellStyle = dataGridViewCellStyle244;
+            dataGridViewCellStyle517.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle517.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
+            dataGridViewCellStyle517.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle517.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
+            dataGridViewCellStyle517.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle517.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn64.DefaultCellStyle = dataGridViewCellStyle517;
             dataGridViewTextBoxColumn64.HeaderText = "Agencia";
             dataGridViewTextBoxColumn64.MinimumWidth = 6;
             dataGridViewTextBoxColumn64.Name = "dataGridViewTextBoxColumn64";
@@ -10908,15 +10933,15 @@
             // dataGridViewTextBoxColumn65
             // 
             dataGridViewTextBoxColumn65.DataPropertyName = "CantContratos";
-            dataGridViewCellStyle245.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle245.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle245.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle245.ForeColor = Color.White;
-            dataGridViewCellStyle245.Format = "N0";
-            dataGridViewCellStyle245.NullValue = "-";
-            dataGridViewCellStyle245.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle245.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn65.DefaultCellStyle = dataGridViewCellStyle245;
+            dataGridViewCellStyle518.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle518.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle518.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle518.ForeColor = Color.White;
+            dataGridViewCellStyle518.Format = "N0";
+            dataGridViewCellStyle518.NullValue = "-";
+            dataGridViewCellStyle518.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle518.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn65.DefaultCellStyle = dataGridViewCellStyle518;
             dataGridViewTextBoxColumn65.HeaderText = "Contratos";
             dataGridViewTextBoxColumn65.MinimumWidth = 6;
             dataGridViewTextBoxColumn65.Name = "dataGridViewTextBoxColumn65";
@@ -10926,15 +10951,15 @@
             // dataGridViewTextBoxColumn66
             // 
             dataGridViewTextBoxColumn66.DataPropertyName = "CantClientes";
-            dataGridViewCellStyle246.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle246.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle246.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle246.ForeColor = Color.White;
-            dataGridViewCellStyle246.Format = "N0";
-            dataGridViewCellStyle246.NullValue = "-";
-            dataGridViewCellStyle246.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle246.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn66.DefaultCellStyle = dataGridViewCellStyle246;
+            dataGridViewCellStyle519.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle519.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle519.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle519.ForeColor = Color.White;
+            dataGridViewCellStyle519.Format = "N0";
+            dataGridViewCellStyle519.NullValue = "-";
+            dataGridViewCellStyle519.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle519.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn66.DefaultCellStyle = dataGridViewCellStyle519;
             dataGridViewTextBoxColumn66.HeaderText = "Clientes";
             dataGridViewTextBoxColumn66.MinimumWidth = 6;
             dataGridViewTextBoxColumn66.Name = "dataGridViewTextBoxColumn66";
@@ -10944,15 +10969,15 @@
             // dataGridViewTextBoxColumn67
             // 
             dataGridViewTextBoxColumn67.DataPropertyName = "CantCreditosHomologados";
-            dataGridViewCellStyle247.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle247.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle247.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle247.ForeColor = Color.White;
-            dataGridViewCellStyle247.Format = "N0";
-            dataGridViewCellStyle247.NullValue = "-";
-            dataGridViewCellStyle247.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle247.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn67.DefaultCellStyle = dataGridViewCellStyle247;
+            dataGridViewCellStyle520.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle520.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle520.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle520.ForeColor = Color.White;
+            dataGridViewCellStyle520.Format = "N0";
+            dataGridViewCellStyle520.NullValue = "-";
+            dataGridViewCellStyle520.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle520.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn67.DefaultCellStyle = dataGridViewCellStyle520;
             dataGridViewTextBoxColumn67.HeaderText = "Creditos homologados";
             dataGridViewTextBoxColumn67.MinimumWidth = 6;
             dataGridViewTextBoxColumn67.Name = "dataGridViewTextBoxColumn67";
@@ -10962,15 +10987,15 @@
             // dataGridViewTextBoxColumn68
             // 
             dataGridViewTextBoxColumn68.DataPropertyName = "CantDesfavorable";
-            dataGridViewCellStyle248.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle248.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle248.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle248.ForeColor = Color.White;
-            dataGridViewCellStyle248.Format = "N0";
-            dataGridViewCellStyle248.NullValue = "-";
-            dataGridViewCellStyle248.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle248.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn68.DefaultCellStyle = dataGridViewCellStyle248;
+            dataGridViewCellStyle521.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle521.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle521.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle521.ForeColor = Color.White;
+            dataGridViewCellStyle521.Format = "N0";
+            dataGridViewCellStyle521.NullValue = "-";
+            dataGridViewCellStyle521.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle521.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn68.DefaultCellStyle = dataGridViewCellStyle521;
             dataGridViewTextBoxColumn68.HeaderText = "Cantidad Exp Desfavorable";
             dataGridViewTextBoxColumn68.MinimumWidth = 6;
             dataGridViewTextBoxColumn68.Name = "dataGridViewTextBoxColumn68";
@@ -10980,15 +11005,15 @@
             // dataGridViewTextBoxColumn69
             // 
             dataGridViewTextBoxColumn69.DataPropertyName = "CantFavorable";
-            dataGridViewCellStyle249.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle249.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle249.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle249.ForeColor = Color.White;
-            dataGridViewCellStyle249.Format = "N0";
-            dataGridViewCellStyle249.NullValue = "-";
-            dataGridViewCellStyle249.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle249.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn69.DefaultCellStyle = dataGridViewCellStyle249;
+            dataGridViewCellStyle522.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle522.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle522.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle522.ForeColor = Color.White;
+            dataGridViewCellStyle522.Format = "N0";
+            dataGridViewCellStyle522.NullValue = "-";
+            dataGridViewCellStyle522.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle522.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn69.DefaultCellStyle = dataGridViewCellStyle522;
             dataGridViewTextBoxColumn69.HeaderText = "Cantidad Exp Favorable";
             dataGridViewTextBoxColumn69.MinimumWidth = 6;
             dataGridViewTextBoxColumn69.Name = "dataGridViewTextBoxColumn69";
@@ -10998,15 +11023,15 @@
             // dataGridViewTextBoxColumn70
             // 
             dataGridViewTextBoxColumn70.DataPropertyName = "CantNoFavorable";
-            dataGridViewCellStyle250.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle250.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle250.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle250.ForeColor = Color.White;
-            dataGridViewCellStyle250.Format = "N0";
-            dataGridViewCellStyle250.NullValue = "-";
-            dataGridViewCellStyle250.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle250.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn70.DefaultCellStyle = dataGridViewCellStyle250;
+            dataGridViewCellStyle523.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle523.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle523.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle523.ForeColor = Color.White;
+            dataGridViewCellStyle523.Format = "N0";
+            dataGridViewCellStyle523.NullValue = "-";
+            dataGridViewCellStyle523.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle523.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn70.DefaultCellStyle = dataGridViewCellStyle523;
             dataGridViewTextBoxColumn70.HeaderText = "Cantidad Exp No Favorable";
             dataGridViewTextBoxColumn70.MinimumWidth = 6;
             dataGridViewTextBoxColumn70.Name = "dataGridViewTextBoxColumn70";
@@ -11016,15 +11041,15 @@
             // dataGridViewTextBoxColumn71
             // 
             dataGridViewTextBoxColumn71.DataPropertyName = "CantReservado";
-            dataGridViewCellStyle251.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle251.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle251.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle251.ForeColor = Color.White;
-            dataGridViewCellStyle251.Format = "N0";
-            dataGridViewCellStyle251.NullValue = "-";
-            dataGridViewCellStyle251.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle251.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn71.DefaultCellStyle = dataGridViewCellStyle251;
+            dataGridViewCellStyle524.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle524.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle524.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle524.ForeColor = Color.White;
+            dataGridViewCellStyle524.Format = "N0";
+            dataGridViewCellStyle524.NullValue = "-";
+            dataGridViewCellStyle524.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle524.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn71.DefaultCellStyle = dataGridViewCellStyle524;
             dataGridViewTextBoxColumn71.HeaderText = "Cantidad Exp Reservado";
             dataGridViewTextBoxColumn71.MinimumWidth = 6;
             dataGridViewTextBoxColumn71.Name = "dataGridViewTextBoxColumn71";
@@ -11034,15 +11059,15 @@
             // dataGridViewTextBoxColumn73
             // 
             dataGridViewTextBoxColumn73.DataPropertyName = "TotalCapitalDesfavorable";
-            dataGridViewCellStyle252.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle252.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle252.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle252.ForeColor = Color.White;
-            dataGridViewCellStyle252.Format = "C2";
-            dataGridViewCellStyle252.NullValue = "-";
-            dataGridViewCellStyle252.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle252.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn73.DefaultCellStyle = dataGridViewCellStyle252;
+            dataGridViewCellStyle525.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle525.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle525.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle525.ForeColor = Color.White;
+            dataGridViewCellStyle525.Format = "C2";
+            dataGridViewCellStyle525.NullValue = "-";
+            dataGridViewCellStyle525.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle525.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn73.DefaultCellStyle = dataGridViewCellStyle525;
             dataGridViewTextBoxColumn73.HeaderText = "Saldos Capital Desfavorable";
             dataGridViewTextBoxColumn73.MinimumWidth = 6;
             dataGridViewTextBoxColumn73.Name = "dataGridViewTextBoxColumn73";
@@ -11052,15 +11077,15 @@
             // dataGridViewTextBoxColumn74
             // 
             dataGridViewTextBoxColumn74.DataPropertyName = "TotalCapitalFavorable";
-            dataGridViewCellStyle253.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle253.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle253.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle253.ForeColor = Color.White;
-            dataGridViewCellStyle253.Format = "C2";
-            dataGridViewCellStyle253.NullValue = "-";
-            dataGridViewCellStyle253.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle253.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn74.DefaultCellStyle = dataGridViewCellStyle253;
+            dataGridViewCellStyle526.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle526.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle526.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle526.ForeColor = Color.White;
+            dataGridViewCellStyle526.Format = "C2";
+            dataGridViewCellStyle526.NullValue = "-";
+            dataGridViewCellStyle526.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle526.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn74.DefaultCellStyle = dataGridViewCellStyle526;
             dataGridViewTextBoxColumn74.HeaderText = "Saldos Capital Favorable";
             dataGridViewTextBoxColumn74.MinimumWidth = 6;
             dataGridViewTextBoxColumn74.Name = "dataGridViewTextBoxColumn74";
@@ -11070,15 +11095,15 @@
             // dataGridViewTextBoxColumn75
             // 
             dataGridViewTextBoxColumn75.DataPropertyName = "TotalCapitalNoFavorable";
-            dataGridViewCellStyle254.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle254.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle254.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle254.ForeColor = Color.White;
-            dataGridViewCellStyle254.Format = "C2";
-            dataGridViewCellStyle254.NullValue = "-";
-            dataGridViewCellStyle254.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle254.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn75.DefaultCellStyle = dataGridViewCellStyle254;
+            dataGridViewCellStyle527.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle527.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle527.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle527.ForeColor = Color.White;
+            dataGridViewCellStyle527.Format = "C2";
+            dataGridViewCellStyle527.NullValue = "-";
+            dataGridViewCellStyle527.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle527.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn75.DefaultCellStyle = dataGridViewCellStyle527;
             dataGridViewTextBoxColumn75.HeaderText = "Saldos Capital No Favorable";
             dataGridViewTextBoxColumn75.MinimumWidth = 6;
             dataGridViewTextBoxColumn75.Name = "dataGridViewTextBoxColumn75";
@@ -11088,15 +11113,15 @@
             // dataGridViewTextBoxColumn77
             // 
             dataGridViewTextBoxColumn77.DataPropertyName = "TotalCapitalReservado";
-            dataGridViewCellStyle255.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle255.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle255.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle255.ForeColor = Color.White;
-            dataGridViewCellStyle255.Format = "C2";
-            dataGridViewCellStyle255.NullValue = "-";
-            dataGridViewCellStyle255.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle255.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn77.DefaultCellStyle = dataGridViewCellStyle255;
+            dataGridViewCellStyle528.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle528.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle528.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle528.ForeColor = Color.White;
+            dataGridViewCellStyle528.Format = "C2";
+            dataGridViewCellStyle528.NullValue = "-";
+            dataGridViewCellStyle528.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle528.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn77.DefaultCellStyle = dataGridViewCellStyle528;
             dataGridViewTextBoxColumn77.HeaderText = "Saldos Capital Reservado";
             dataGridViewTextBoxColumn77.MinimumWidth = 6;
             dataGridViewTextBoxColumn77.Name = "dataGridViewTextBoxColumn77";
@@ -11106,14 +11131,14 @@
             // Column2
             // 
             Column2.DataPropertyName = "TotalCapitalDemandado";
-            dataGridViewCellStyle256.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle256.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle256.ForeColor = Color.White;
-            dataGridViewCellStyle256.Format = "C2";
-            dataGridViewCellStyle256.NullValue = "-";
-            dataGridViewCellStyle256.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle256.SelectionForeColor = Color.White;
-            Column2.DefaultCellStyle = dataGridViewCellStyle256;
+            dataGridViewCellStyle529.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle529.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle529.ForeColor = Color.White;
+            dataGridViewCellStyle529.Format = "C2";
+            dataGridViewCellStyle529.NullValue = "-";
+            dataGridViewCellStyle529.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle529.SelectionForeColor = Color.White;
+            Column2.DefaultCellStyle = dataGridViewCellStyle529;
             Column2.HeaderText = "Total Capital Demandado";
             Column2.MinimumWidth = 6;
             Column2.Name = "Column2";
@@ -11240,8 +11265,8 @@
             // dataGridViewTextBoxColumn79
             // 
             dataGridViewTextBoxColumn79.DataPropertyName = "Agencia";
-            dataGridViewCellStyle257.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewTextBoxColumn79.DefaultCellStyle = dataGridViewCellStyle257;
+            dataGridViewCellStyle530.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewTextBoxColumn79.DefaultCellStyle = dataGridViewCellStyle530;
             dataGridViewTextBoxColumn79.HeaderText = "Agencia";
             dataGridViewTextBoxColumn79.MinimumWidth = 6;
             dataGridViewTextBoxColumn79.Name = "dataGridViewTextBoxColumn79";
@@ -11252,13 +11277,13 @@
             // dataGridViewTextBoxColumn80
             // 
             dataGridViewTextBoxColumn80.DataPropertyName = "NumContrato";
-            dataGridViewCellStyle258.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle258.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
-            dataGridViewCellStyle258.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle258.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
-            dataGridViewCellStyle258.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle258.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn80.DefaultCellStyle = dataGridViewCellStyle258;
+            dataGridViewCellStyle531.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle531.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
+            dataGridViewCellStyle531.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle531.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
+            dataGridViewCellStyle531.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle531.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn80.DefaultCellStyle = dataGridViewCellStyle531;
             dataGridViewTextBoxColumn80.HeaderText = "# Contrato";
             dataGridViewTextBoxColumn80.MinimumWidth = 6;
             dataGridViewTextBoxColumn80.Name = "dataGridViewTextBoxColumn80";
@@ -11268,13 +11293,13 @@
             // dataGridViewTextBoxColumn81
             // 
             dataGridViewTextBoxColumn81.DataPropertyName = "NombreDemandado";
-            dataGridViewCellStyle259.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle259.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle259.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle259.ForeColor = Color.White;
-            dataGridViewCellStyle259.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle259.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn81.DefaultCellStyle = dataGridViewCellStyle259;
+            dataGridViewCellStyle532.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle532.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle532.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle532.ForeColor = Color.White;
+            dataGridViewCellStyle532.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle532.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn81.DefaultCellStyle = dataGridViewCellStyle532;
             dataGridViewTextBoxColumn81.HeaderText = "Nombre Demandado";
             dataGridViewTextBoxColumn81.MinimumWidth = 6;
             dataGridViewTextBoxColumn81.Name = "dataGridViewTextBoxColumn81";
@@ -11284,13 +11309,13 @@
             // Column5
             // 
             Column5.DataPropertyName = "NumCte";
-            dataGridViewCellStyle260.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle260.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle260.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle260.ForeColor = Color.White;
-            dataGridViewCellStyle260.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle260.SelectionForeColor = Color.White;
-            Column5.DefaultCellStyle = dataGridViewCellStyle260;
+            dataGridViewCellStyle533.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle533.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle533.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle533.ForeColor = Color.White;
+            dataGridViewCellStyle533.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle533.SelectionForeColor = Color.White;
+            Column5.DefaultCellStyle = dataGridViewCellStyle533;
             Column5.HeaderText = "Num Cte";
             Column5.MinimumWidth = 6;
             Column5.Name = "Column5";
@@ -11300,13 +11325,13 @@
             // Column6
             // 
             Column6.DataPropertyName = "TipoCredito";
-            dataGridViewCellStyle261.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle261.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle261.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle261.ForeColor = Color.White;
-            dataGridViewCellStyle261.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle261.SelectionForeColor = Color.White;
-            Column6.DefaultCellStyle = dataGridViewCellStyle261;
+            dataGridViewCellStyle534.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle534.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle534.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle534.ForeColor = Color.White;
+            dataGridViewCellStyle534.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle534.SelectionForeColor = Color.White;
+            Column6.DefaultCellStyle = dataGridViewCellStyle534;
             Column6.HeaderText = "Tipo Credito";
             Column6.MinimumWidth = 6;
             Column6.Name = "Column6";
@@ -11316,14 +11341,14 @@
             // dataGridViewTextBoxColumn82
             // 
             dataGridViewTextBoxColumn82.DataPropertyName = "NumCredito";
-            dataGridViewCellStyle262.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle262.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
-            dataGridViewCellStyle262.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle262.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
-            dataGridViewCellStyle262.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle262.SelectionForeColor = Color.White;
-            dataGridViewCellStyle262.WrapMode = DataGridViewTriState.True;
-            dataGridViewTextBoxColumn82.DefaultCellStyle = dataGridViewCellStyle262;
+            dataGridViewCellStyle535.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle535.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
+            dataGridViewCellStyle535.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle535.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
+            dataGridViewCellStyle535.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle535.SelectionForeColor = Color.White;
+            dataGridViewCellStyle535.WrapMode = DataGridViewTriState.True;
+            dataGridViewTextBoxColumn82.DefaultCellStyle = dataGridViewCellStyle535;
             dataGridViewTextBoxColumn82.HeaderText = "Num Credito";
             dataGridViewTextBoxColumn82.MinimumWidth = 6;
             dataGridViewTextBoxColumn82.Name = "dataGridViewTextBoxColumn82";
@@ -11333,14 +11358,14 @@
             // Column7
             // 
             Column7.DataPropertyName = "NumCreditos";
-            dataGridViewCellStyle263.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle263.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
-            dataGridViewCellStyle263.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle263.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
-            dataGridViewCellStyle263.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle263.SelectionForeColor = Color.White;
-            dataGridViewCellStyle263.WrapMode = DataGridViewTriState.True;
-            Column7.DefaultCellStyle = dataGridViewCellStyle263;
+            dataGridViewCellStyle536.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle536.BackColor = Color.FromArgb((int)((byte)(156)), (int)((byte)(35)), (int)((byte)(72)));
+            dataGridViewCellStyle536.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle536.ForeColor = Color.FromArgb((int)((byte)(212)), (int)((byte)(193)), (int)((byte)(156)));
+            dataGridViewCellStyle536.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle536.SelectionForeColor = Color.White;
+            dataGridViewCellStyle536.WrapMode = DataGridViewTriState.True;
+            Column7.DefaultCellStyle = dataGridViewCellStyle536;
             Column7.HeaderText = "Num Creditos";
             Column7.MinimumWidth = 6;
             Column7.Name = "Column7";
@@ -11350,14 +11375,14 @@
             // dataGridViewTextBoxColumn83
             // 
             dataGridViewTextBoxColumn83.DataPropertyName = "FechaTranspasoJuridico";
-            dataGridViewCellStyle264.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle264.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle264.ForeColor = Color.White;
-            dataGridViewCellStyle264.Format = "d";
-            dataGridViewCellStyle264.NullValue = null;
-            dataGridViewCellStyle264.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle264.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn83.DefaultCellStyle = dataGridViewCellStyle264;
+            dataGridViewCellStyle537.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle537.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle537.ForeColor = Color.White;
+            dataGridViewCellStyle537.Format = "d";
+            dataGridViewCellStyle537.NullValue = null;
+            dataGridViewCellStyle537.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle537.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn83.DefaultCellStyle = dataGridViewCellStyle537;
             dataGridViewTextBoxColumn83.HeaderText = "Fecha Transpaso Jurídico";
             dataGridViewTextBoxColumn83.MinimumWidth = 6;
             dataGridViewTextBoxColumn83.Name = "dataGridViewTextBoxColumn83";
@@ -11367,14 +11392,14 @@
             // Column8
             // 
             Column8.DataPropertyName = "FechaTranspasoExterno";
-            dataGridViewCellStyle265.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle265.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle265.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle265.ForeColor = Color.White;
-            dataGridViewCellStyle265.Format = "d";
-            dataGridViewCellStyle265.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle265.SelectionForeColor = Color.White;
-            Column8.DefaultCellStyle = dataGridViewCellStyle265;
+            dataGridViewCellStyle538.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle538.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle538.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle538.ForeColor = Color.White;
+            dataGridViewCellStyle538.Format = "d";
+            dataGridViewCellStyle538.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle538.SelectionForeColor = Color.White;
+            Column8.DefaultCellStyle = dataGridViewCellStyle538;
             Column8.HeaderText = "Fecha Transpaso Externo";
             Column8.MinimumWidth = 6;
             Column8.Name = "Column8";
@@ -11384,14 +11409,14 @@
             // Column9
             // 
             Column9.DataPropertyName = "FechaDemanda";
-            dataGridViewCellStyle266.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle266.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
-            dataGridViewCellStyle266.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle266.ForeColor = Color.White;
-            dataGridViewCellStyle266.Format = "d";
-            dataGridViewCellStyle266.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle266.SelectionForeColor = Color.White;
-            Column9.DefaultCellStyle = dataGridViewCellStyle266;
+            dataGridViewCellStyle539.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle539.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
+            dataGridViewCellStyle539.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle539.ForeColor = Color.White;
+            dataGridViewCellStyle539.Format = "d";
+            dataGridViewCellStyle539.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle539.SelectionForeColor = Color.White;
+            Column9.DefaultCellStyle = dataGridViewCellStyle539;
             Column9.HeaderText = "Fecha Demanda";
             Column9.MinimumWidth = 6;
             Column9.Name = "Column9";
@@ -11401,13 +11426,13 @@
             // Column10
             // 
             Column10.DataPropertyName = "Juicio";
-            dataGridViewCellStyle267.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle267.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle267.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle267.ForeColor = Color.White;
-            dataGridViewCellStyle267.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle267.SelectionForeColor = Color.White;
-            Column10.DefaultCellStyle = dataGridViewCellStyle267;
+            dataGridViewCellStyle540.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle540.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle540.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle540.ForeColor = Color.White;
+            dataGridViewCellStyle540.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle540.SelectionForeColor = Color.White;
+            Column10.DefaultCellStyle = dataGridViewCellStyle540;
             Column10.HeaderText = "Juicio";
             Column10.MinimumWidth = 6;
             Column10.Name = "Column10";
@@ -11417,13 +11442,13 @@
             // Column11
             // 
             Column11.DataPropertyName = "TipoGarantias";
-            dataGridViewCellStyle268.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle268.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle268.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle268.ForeColor = Color.White;
-            dataGridViewCellStyle268.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle268.SelectionForeColor = Color.White;
-            Column11.DefaultCellStyle = dataGridViewCellStyle268;
+            dataGridViewCellStyle541.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle541.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle541.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle541.ForeColor = Color.White;
+            dataGridViewCellStyle541.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle541.SelectionForeColor = Color.White;
+            Column11.DefaultCellStyle = dataGridViewCellStyle541;
             Column11.HeaderText = "Tipo Garantías";
             Column11.MinimumWidth = 6;
             Column11.Name = "Column11";
@@ -11433,14 +11458,14 @@
             // dataGridViewTextBoxColumn84
             // 
             dataGridViewTextBoxColumn84.DataPropertyName = "CapitalDemandado";
-            dataGridViewCellStyle269.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle269.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle269.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle269.ForeColor = Color.White;
-            dataGridViewCellStyle269.Format = "C2";
-            dataGridViewCellStyle269.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle269.SelectionForeColor = Color.White;
-            dataGridViewTextBoxColumn84.DefaultCellStyle = dataGridViewCellStyle269;
+            dataGridViewCellStyle542.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle542.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle542.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle542.ForeColor = Color.White;
+            dataGridViewCellStyle542.Format = "C2";
+            dataGridViewCellStyle542.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle542.SelectionForeColor = Color.White;
+            dataGridViewTextBoxColumn84.DefaultCellStyle = dataGridViewCellStyle542;
             dataGridViewTextBoxColumn84.HeaderText = "Capital Demandado";
             dataGridViewTextBoxColumn84.MinimumWidth = 6;
             dataGridViewTextBoxColumn84.Name = "dataGridViewTextBoxColumn84";
@@ -11450,13 +11475,13 @@
             // Column12
             // 
             Column12.DataPropertyName = "Fonaga";
-            dataGridViewCellStyle270.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle270.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle270.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle270.ForeColor = Color.White;
-            dataGridViewCellStyle270.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle270.SelectionForeColor = Color.White;
-            Column12.DefaultCellStyle = dataGridViewCellStyle270;
+            dataGridViewCellStyle543.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle543.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle543.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle543.ForeColor = Color.White;
+            dataGridViewCellStyle543.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle543.SelectionForeColor = Color.White;
+            Column12.DefaultCellStyle = dataGridViewCellStyle543;
             Column12.HeaderText = "Es Fonaga";
             Column12.MinimumWidth = 6;
             Column12.Name = "Column12";
@@ -11466,13 +11491,13 @@
             // Column13
             // 
             Column13.DataPropertyName = "PequenioProductor";
-            dataGridViewCellStyle271.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle271.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle271.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle271.ForeColor = Color.White;
-            dataGridViewCellStyle271.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle271.SelectionForeColor = Color.White;
-            Column13.DefaultCellStyle = dataGridViewCellStyle271;
+            dataGridViewCellStyle544.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle544.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle544.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle544.ForeColor = Color.White;
+            dataGridViewCellStyle544.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle544.SelectionForeColor = Color.White;
+            Column13.DefaultCellStyle = dataGridViewCellStyle544;
             Column13.HeaderText = "Es Pequeño Productor";
             Column13.MinimumWidth = 6;
             Column13.Name = "Column13";
@@ -11482,13 +11507,13 @@
             // Column14
             // 
             Column14.DataPropertyName = "FondoMutual";
-            dataGridViewCellStyle272.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle272.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
-            dataGridViewCellStyle272.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle272.ForeColor = Color.White;
-            dataGridViewCellStyle272.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle272.SelectionForeColor = Color.White;
-            Column14.DefaultCellStyle = dataGridViewCellStyle272;
+            dataGridViewCellStyle545.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle545.BackColor = Color.FromArgb((int)((byte)(179)), (int)((byte)(142)), (int)((byte)(93)));
+            dataGridViewCellStyle545.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle545.ForeColor = Color.White;
+            dataGridViewCellStyle545.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle545.SelectionForeColor = Color.White;
+            Column14.DefaultCellStyle = dataGridViewCellStyle545;
             Column14.HeaderText = "Es Fondo Mutual";
             Column14.MinimumWidth = 6;
             Column14.Name = "Column14";
@@ -11498,13 +11523,13 @@
             // Column15
             // 
             Column15.DataPropertyName = "ExpectativasRecuperacion";
-            dataGridViewCellStyle273.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle273.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
-            dataGridViewCellStyle273.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle273.ForeColor = Color.White;
-            dataGridViewCellStyle273.SelectionBackColor = Color.Black;
-            dataGridViewCellStyle273.SelectionForeColor = Color.White;
-            Column15.DefaultCellStyle = dataGridViewCellStyle273;
+            dataGridViewCellStyle546.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle546.BackColor = Color.FromArgb((int)((byte)(98)), (int)((byte)(17)), (int)((byte)(50)));
+            dataGridViewCellStyle546.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle546.ForeColor = Color.White;
+            dataGridViewCellStyle546.SelectionBackColor = Color.Black;
+            dataGridViewCellStyle546.SelectionForeColor = Color.White;
+            Column15.DefaultCellStyle = dataGridViewCellStyle546;
             Column15.HeaderText = "Expectativas Recuperación";
             Column15.MinimumWidth = 6;
             Column15.Name = "Column15";
@@ -12110,6 +12135,7 @@
             // 
             // pnlVisorDeImagenes
             // 
+            pnlVisorDeImagenes.Controls.Add(btnVerImagenGuardaValores);
             pnlVisorDeImagenes.Controls.Add(panel11);
             pnlVisorDeImagenes.Controls.Add(lblCargando);
             pnlVisorDeImagenes.Controls.Add(btnImagenSiguiente);
@@ -12130,13 +12156,25 @@
             pnlVisorDeImagenes.Size = new Size(2037, 73);
             pnlVisorDeImagenes.TabIndex = 0;
             // 
+            // btnVerImagenGuardaValores
+            // 
+            btnVerImagenGuardaValores.BackColor = Color.FromArgb((int)((byte)(109)), (int)((byte)(135)), (int)((byte)(39)));
+            btnVerImagenGuardaValores.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            btnVerImagenGuardaValores.ForeColor = Color.White;
+            btnVerImagenGuardaValores.Location = new Point(1420, 5);
+            btnVerImagenGuardaValores.Name = "btnVerImagenGuardaValores";
+            btnVerImagenGuardaValores.Size = new Size(123, 65);
+            btnVerImagenGuardaValores.TabIndex = 23;
+            btnVerImagenGuardaValores.Text = "Ver solo Guarda Valor";
+            btnVerImagenGuardaValores.UseVisualStyleBackColor = false;
+            // 
             // panel11
             // 
             panel11.Controls.Add(btnRegresaBusquedaImagenNormal);
             panel11.Dock = DockStyle.Right;
-            panel11.Location = new Point(1884, 0);
+            panel11.Location = new Point(1923, 0);
             panel11.Name = "panel11";
-            panel11.Size = new Size(153, 73);
+            panel11.Size = new Size(114, 73);
             panel11.TabIndex = 22;
             // 
             // btnRegresaBusquedaImagenNormal
@@ -12144,7 +12182,7 @@
             btnRegresaBusquedaImagenNormal.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
             btnRegresaBusquedaImagenNormal.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
             btnRegresaBusquedaImagenNormal.ForeColor = Color.White;
-            btnRegresaBusquedaImagenNormal.Location = new Point(37, 5);
+            btnRegresaBusquedaImagenNormal.Location = new Point(4, 5);
             btnRegresaBusquedaImagenNormal.Name = "btnRegresaBusquedaImagenNormal";
             btnRegresaBusquedaImagenNormal.Size = new Size(108, 61);
             btnRegresaBusquedaImagenNormal.TabIndex = 30;
@@ -12166,7 +12204,7 @@
             btnImagenSiguiente.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
             btnImagenSiguiente.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
             btnImagenSiguiente.ForeColor = Color.White;
-            btnImagenSiguiente.Location = new Point(1558, 5);
+            btnImagenSiguiente.Location = new Point(1669, 5);
             btnImagenSiguiente.Name = "btnImagenSiguiente";
             btnImagenSiguiente.Size = new Size(123, 65);
             btnImagenSiguiente.TabIndex = 20;
@@ -12178,7 +12216,7 @@
             btnImagenAnterior.BackColor = Color.FromArgb((int)((byte)(40)), (int)((byte)(92)), (int)((byte)(77)));
             btnImagenAnterior.Font = new Font("Montserrat", 9F, FontStyle.Bold, GraphicsUnit.Point);
             btnImagenAnterior.ForeColor = Color.White;
-            btnImagenAnterior.Location = new Point(1429, 5);
+            btnImagenAnterior.Location = new Point(1545, 5);
             btnImagenAnterior.Name = "btnImagenAnterior";
             btnImagenAnterior.Size = new Size(123, 65);
             btnImagenAnterior.TabIndex = 1;
@@ -14147,5 +14185,9 @@
         private Button btnDescargaGuardaValores;
         private Button btnReporteGuardaValor;
         private SaveFileDialog sfdGuardaReporte;
+        private FolderBrowserDialog fbdGuardaImagenes;
+        private Label lblNombreArchivoAbSaldos;
+        private Label lblFechaAbSaldos;
+        private Button btnVerImagenGuardaValores;
     }
 }

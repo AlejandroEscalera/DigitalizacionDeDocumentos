@@ -12,7 +12,7 @@ namespace gob.fnd.Dominio.Digitalizacion.Negocio.Carga
     {
         Task<IEnumerable<ArchivoImagenCorta>> CargaImagenesLiquidadosAsync(string directorioOrigen, IProgress<ReporteProgresoProceso> progreso, string directorioTemporal ="");
         Task<IList<string>> ObtieneListaDirectorios(string directorioOrigen);
-
         Task<IEnumerable<ArchivoImagenCorta>> CargaImagenesGuardaValoresAsync(string directorioOrigen, IProgress<ReporteProgresoProceso> progreso, string unidadTemporal = "");
+        Task<IEnumerable<ArchivoImagenCorta>> CargaImagenesExpedientesAsync(string directorioOrigen, IProgress<ReporteProgresoProceso> progreso, string unidadTemporal = "");
     }
 }

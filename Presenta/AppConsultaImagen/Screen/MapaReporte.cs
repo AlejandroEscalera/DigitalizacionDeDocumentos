@@ -15,6 +15,8 @@ namespace AppConsultaImagen;
 /// </summary>
 public partial class MainFRM
 {
+    private string _nombreReporte = "";
+    private string _fechaReporte = "";
 
     private void InicializaResumen()
     {

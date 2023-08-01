@@ -10,6 +10,9 @@ namespace AppCargaImagenes
         public MainFRM()
         {
             InitializeComponent();
+            btnSeleccionaCarpetaGuardaValores.Click += BtnSeleccionaCarpetaGuardaValores;
+            btnSekeccionDirectorioCargaExpedientes.Click += BtnSeleccionCarpetaExpedientes;
+            btnCargaInformacionExpedientes.Click += BtnCargaImagenesCargaExpedientesClick;
         }
 
         private void BtnSalirClick(object sender, EventArgs e)
@@ -25,7 +28,7 @@ namespace AppCargaImagenes
             }
         }
 
-        private void BtnSeleccionaCarpetaGuardaValores(object sender, EventArgs e)
+        private void BtnSeleccionaCarpetaGuardaValores(object? sender, EventArgs e)
         {
             if (fbdSeleccionaCarpetaImagenes.ShowDialog() == DialogResult.OK)
             {
@@ -33,18 +36,28 @@ namespace AppCargaImagenes
             }
         }
 
+        private void BtnSeleccionCarpetaExpedientes(object? sender, EventArgs e)
+        {
+            if (fbdSeleccionaCarpetaImagenes.ShowDialog() == DialogResult.OK)
+            {
+                txtDirectorioCargaExpedientes.Text = fbdSeleccionaCarpetaImagenes.SelectedPath;
+            }
+        }
+
         private void DeshabilitaBotones()
         {
             btnCargaInformacion.Enabled = false;
             btnCargaInformacionGuardaValores.Enabled = false;
+            btnCargaInformacionExpedientes.Enabled = false;
         }
         private void HabilitaBotones()
         {
             btnCargaInformacion.Enabled = true;
             btnCargaInformacionGuardaValores.Enabled = true;
+            btnCargaInformacionExpedientes.Enabled = true;
         }
 
-        private async void BtnCargaImagenesClick(object sender, EventArgs e)
+        private async void BtnCargaImagenesClick(object? sender, EventArgs e)
         {
             // Mostrar el cuadro de diálogo de confirmación
             DialogResult resultado = MessageBox.Show("¿Desea continuar?", "Confirmar", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
@@ -89,7 +102,7 @@ namespace AppCargaImagenes
             }
         }
 
-        private async void BtnCargaImagenesGuardaValoresClick(object sender, EventArgs e)
+        private async void BtnCargaImagenesGuardaValoresClick(object? sender, EventArgs e)
         {
             // Mostrar el cuadro de diálogo de confirmación
             DialogResult resultado = MessageBox.Show("¿Desea continuar?", "Confirmar", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
@@ -116,6 +129,51 @@ namespace AppCargaImagenes
                         {
                             await cargaImagenes.
                                 CargaImagenesGuardaValoresAsync(txtDirectorioCargaGuardaValores.Text,
+                                reporteProgresoProceso, unidadTemporal);
+                            MessageBox.Show("Proceso de carga de imágenes terminado");
+                        }
+                    }
+                    finally
+                    {
+                        btnSalir.Enabled = true;
+
+                    }
+                }
+
+            }
+            finally
+            {
+                HabilitaBotones();
+            }
+        }
+
+        private async void BtnCargaImagenesCargaExpedientesClick(object? sender, EventArgs e)
+        {
+            // Mostrar el cuadro de diálogo de confirmación
+            DialogResult resultado = MessageBox.Show("¿Desea continuar?", "Confirmar", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (resultado == DialogResult.No)
+            {
+                return;
+            }
+
+            DeshabilitaBotones();
+            try
+            {
+                pnlReportaAvances.Visible = true;
+                if (_windowsFormsGloablInformation is not null)
+                {
+                    btnSalir.Enabled = false;
+                    try
+                    {
+                        string unidadTemporal = txtUnidadTemporal.Text;
+                        Progress<ReporteProgresoProceso> reporteProgresoProceso = new();
+                        reporteProgresoProceso.ProgressChanged += ReportProgress;
+                        ICargaImagenes cargaImagenes = _windowsFormsGloablInformation.
+                            ActivaCargaImagenesService();
+                        if (cargaImagenes is not null)
+                        {
+                            await cargaImagenes.
+                                CargaImagenesExpedientesAsync(txtDirectorioCargaGuardaValores.Text,
                                 reporteProgresoProceso, unidadTemporal);
                             MessageBox.Show("Proceso de carga de imágenes terminado");
                         }

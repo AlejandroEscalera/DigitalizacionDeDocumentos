@@ -22,6 +22,7 @@ using gob.fnd.Dominio.Digitalizacion.Excel.Ministraciones;
 using gob.fnd.Dominio.Digitalizacion.Liquidaciones;
 using gob.fnd.Dominio.Digitalizacion.Negocio.CargaCsv;
 using gob.fnd.Dominio.Digitalizacion.Negocio.Consultas;
+using gob.fnd.Dominio.Digitalizacion.Negocio.Descarga;
 using gob.fnd.Dominio.Digitalizacion.Negocio.Tratamientos;
 using gob.fnd.Infraestructura.Digitalizacion.Excel.Config;
 using Microsoft.Extensions.Configuration;
@@ -29,6 +30,7 @@ using Microsoft.Extensions.Logging;
 using OfficeOpenXml.DataValidation;
 using System.Collections.Generic;
 using System.Globalization;
+using System.Text.RegularExpressions;
 
 namespace gob.fnd.Infraestructura.Negocio.Consultas;
 
@@ -59,6 +61,7 @@ public partial class ConsultaServices : IConsultaServices
     private readonly IJuridico _juridicoService;
     private readonly IObtieneCatalogoProductos _obtieneCatalogoProductos;
     private readonly IAdministraGuardaValores _administraGuardaValores;
+    private readonly IDescargaGuardaValoresAgencia _descargaGuardaValoresServices;
     #endregion
 
     #region Información de los archivos
@@ -119,6 +122,18 @@ public partial class ConsultaServices : IConsultaServices
     private bool _tieneErrorTemporal = false;
     #endregion
 
+    private string? _fechaReporte;
+    private string? _nombreArchivoReporte;
+
+    public string ObtieneFechaArchivo()
+    {
+        return _fechaReporte ??= DateTime.Now.ToString("yyyyMMdd");
+    }
+    public string ObtieneNombreArchivo()
+    {
+        return _nombreArchivoReporte??"";
+    }
+
     public ConsultaServices(ILogger<ConsultaServices> logger, IConfiguration configuration,
         #region Servicios
         IServicioMinistracionesMesa ministracionesMesaService,
@@ -140,7 +155,8 @@ public partial class ConsultaServices : IConsultaServices
         IAdministraExpedientesJuridicos administraExpedientesJuridicosService,
         IJuridico juridicoService,
         IObtieneCatalogoProductos obtieneCatalogoProductos, 
-        IAdministraGuardaValores administraGuardaValores
+        IAdministraGuardaValores administraGuardaValores,
+        IDescargaGuardaValoresAgencia descargaGuardaValoresServices
     #endregion
         )
     {
@@ -167,6 +183,7 @@ public partial class ConsultaServices : IConsultaServices
         _juridicoService = juridicoService;
         _obtieneCatalogoProductos = obtieneCatalogoProductos;
         _administraGuardaValores = administraGuardaValores;
+        _descargaGuardaValoresServices = descargaGuardaValoresServices;
         _archivoSoloPDFProcesado = _configuration.GetValue<string>("archivoSoloPDFProcesado") ?? "";
         _archivoExpedientesConsultaCsv = _configuration.GetValue<string>("archivoExpedientesConsulta") ?? "";
         _archivoExpedientesConsultaGvCsv = _configuration.GetValue<string>("archivoExpedientesConsultaGv") ?? "";
@@ -203,12 +220,30 @@ public partial class ConsultaServices : IConsultaServices
         
         _imagenesCortas = null;
     }
+
+    private static DateTime ObtieneFechaDeUnArchivo(string nombreCompletoArchivo)
+    {
+        string fileNamePattern = "ABSDO\\d{4}\\d{2}\\d{2}\\.csv";
+        string fileName = Path.GetFileName(nombreCompletoArchivo);
+        Match match = Regex.Match(fileName, fileNamePattern);
+        if (match.Success)
+        {
+            string fecha = match.Value.Substring(5, 8);
+            return DateTime.ParseExact(fecha, "yyyyMMdd", CultureInfo.InvariantCulture);
+        }
+        else
+            return DateTime.MinValue;
+    }
     public IEnumerable<ExpedienteDeConsultaGv> CargaInformacion()
     {
         _expedienteDeConsulta = null; // new List<ExpedienteDeConsulta>();
         bool ultimosSaldos = false;
         if (_administraABSaldosDiarioService.CopiaABSaldosDiario())
         {
+
+            _nombreArchivoReporte = _archivoABSaldosDiarioDestino;
+            _fechaReporte = String.Format("{0:dd}/{0:MM}/{0:yyyy}", ObtieneFechaDeUnArchivo(_nombreArchivoReporte));
+
             _abSaldosCompleta = _administraCargaCorteDiarioService.CargaABSaldosCompleta(_archivoABSaldosDiarioDestino);
             LlenaInformacionABSaldosFiltroCredito(_abSaldosCompleta);
             ultimosSaldos = true;
@@ -220,6 +255,9 @@ public partial class ConsultaServices : IConsultaServices
                 if (_administraABSaldosDiarioService.DescargaABSaldosDiario())
                 {
                     string lastFileName = ObtieneUltimoABSaldos();
+                    _nombreArchivoReporte = lastFileName;
+                    _fechaReporte = String.Format("{0:dd}/{0:MM}/{0:yyyy}", ObtieneFechaDeUnArchivo(_nombreArchivoReporte));
+
                     _abSaldosCompleta = _administraCargaCorteDiarioService.CargaABSaldosCompleta(lastFileName);
                     LlenaInformacionABSaldosFiltroCredito(_abSaldosCompleta);
                     ultimosSaldos = true;
@@ -239,6 +277,9 @@ public partial class ConsultaServices : IConsultaServices
 
                 if (File.Exists(lastFileName))
                 {
+                    _nombreArchivoReporte = lastFileName;
+                    _fechaReporte = String.Format("{0:dd}/{0:MM}/{0:yyyy}", ObtieneFechaDeUnArchivo(_nombreArchivoReporte));
+
                     _abSaldosCompleta = _administraCargaCorteDiarioService.CargaABSaldosCompleta(lastFileName);
                     LlenaInformacionABSaldosFiltroCredito(_abSaldosCompleta);
                     // ultimosSaldos = false;
@@ -248,6 +289,9 @@ public partial class ConsultaServices : IConsultaServices
                 {
                     if (File.Exists(_archivoABSaldosDiarioDestino))
                     {
+                        _nombreArchivoReporte = _archivoABSaldosDiarioDestino;
+                        _fechaReporte = String.Format("{0:dd}/{0:MM}/{0:yyyy}", ObtieneFechaDeUnArchivo(_nombreArchivoReporte));
+
                         _abSaldosCompleta = _administraCargaCorteDiarioService.CargaABSaldosCompleta(_archivoABSaldosDiarioDestino);
                         LlenaInformacionABSaldosFiltroCredito(_abSaldosCompleta);
                         ultimosSaldos = true;
@@ -1324,8 +1368,36 @@ public partial class ConsultaServices : IConsultaServices
             #region Busco por el contrato en vez del crédito para traer GV del contrato
             string contrato = QuitaCastigoContrato(numeroDeCredito);
             var contratoYGV = _imagenesCortas.OrderByDescending(y => y.NumPaginas).Where(x => QuitaCastigo(x.NumCredito).Equals(contrato, StringComparison.OrdinalIgnoreCase)).ToList();
-            ((List<ArchivoImagenCorta>)listaImagenesEncontradas).AddRange(contratoYGV);
+            if (contratoYGV.Any())
+            {
+                ((List<ArchivoImagenCorta>)listaImagenesEncontradas).AddRange(contratoYGV);
+            }
             #endregion
+            #region Agrego los Turnos de Jurídico tambien
+            if (_imagenesCortasExpedientesJuridico is not null) {
+                string contratoExpedienteJuridico = QuitaCastigoContrato(numeroDeCredito);
+                var contratoExpedJuridico = _imagenesCortasExpedientesJuridico.OrderByDescending(y => y.NumPaginas).Where(x => (QuitaCastigo((x.NumCredito??""))[..14]).Equals(contratoExpedienteJuridico[..14], StringComparison.OrdinalIgnoreCase))
+                    .Select(m=> new ArchivoImagenCorta() { 
+                        Id = m.Id,
+                        NumCredito = m.NumCredito,
+                        NombreArchivo = m.NombreArchivo,
+                        CarpetaDestino = m.CarpetaDestino,
+                        NumPaginas = m.NumPaginas,
+                        Hash = m.Hash
+                    }).Distinct()
+                    .ToList();
+                if (contratoExpedJuridico.Any())
+                {
+                    ((List<ArchivoImagenCorta>)listaImagenesEncontradas).AddRange(contratoExpedJuridico);
+                }
+
+            }
+            #endregion
+
+            if (listaImagenesEncontradas.Count == 1 && listaImagenesEncontradas.Where(x => (x.CarpetaDestino ?? "").Contains(@":\11\GV\", StringComparison.InvariantCultureIgnoreCase)).Any())
+            {
+                directas = false;
+            }
 
             if (!listaImagenesEncontradas.Any() || !directas)
             { 

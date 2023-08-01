@@ -40,7 +40,7 @@
             lblSeleccionCarpeta = new Label();
             tabPage2 = new TabPage();
             panel1 = new Panel();
-            button1 = new Button();
+            btnSeleccionaCarpetaGuardaValores = new Button();
             txtDirectorioCargaGuardaValores = new TextBox();
             label1 = new Label();
             btnCargaInformacionGuardaValores = new Button();
@@ -61,6 +61,14 @@
             prgEtapa = new ProgressBar();
             lblEtapa = new Label();
             lblEtapaEtiqueta = new Label();
+            tbpCargaExpedientes = new TabPage();
+            panel2 = new Panel();
+            btnSekeccionDirectorioCargaExpedientes = new Button();
+            txtDirectorioCargaExpedientes = new TextBox();
+            label4 = new Label();
+            btnCargaInformacionExpedientes = new Button();
+            txtUnidadTemporalExpedientes = new TextBox();
+            label5 = new Label();
             tbcCargaDeInformacion.SuspendLayout();
             tbpCargaLiquidados.SuspendLayout();
             pnlSeleccionTop.SuspendLayout();
@@ -69,6 +77,8 @@
             pnlInferior.SuspendLayout();
             pnlDerecho.SuspendLayout();
             pnlReportaAvances.SuspendLayout();
+            tbpCargaExpedientes.SuspendLayout();
+            panel2.SuspendLayout();
             SuspendLayout();
             // 
             // tbcCargaDeInformacion
@@ -76,6 +86,7 @@
             tbcCargaDeInformacion.Appearance = TabAppearance.Buttons;
             tbcCargaDeInformacion.Controls.Add(tbpCargaLiquidados);
             tbcCargaDeInformacion.Controls.Add(tabPage2);
+            tbcCargaDeInformacion.Controls.Add(tbpCargaExpedientes);
             tbcCargaDeInformacion.Dock = DockStyle.Top;
             tbcCargaDeInformacion.Location = new Point(0, 0);
             tbcCargaDeInformacion.Name = "tbcCargaDeInformacion";
@@ -187,7 +198,7 @@
             // 
             // panel1
             // 
-            panel1.Controls.Add(button1);
+            panel1.Controls.Add(btnSeleccionaCarpetaGuardaValores);
             panel1.Controls.Add(txtDirectorioCargaGuardaValores);
             panel1.Controls.Add(label1);
             panel1.Controls.Add(btnCargaInformacionGuardaValores);
@@ -201,13 +212,12 @@
             // 
             // button1
             // 
-            button1.Location = new Point(904, 42);
-            button1.Name = "button1";
-            button1.Size = new Size(31, 29);
-            button1.TabIndex = 6;
-            button1.Text = "...";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += BtnSeleccionaCarpetaGuardaValores;
+            btnSeleccionaCarpetaGuardaValores.Location = new Point(904, 42);
+            btnSeleccionaCarpetaGuardaValores.Name = "button1";
+            btnSeleccionaCarpetaGuardaValores.Size = new Size(31, 29);
+            btnSeleccionaCarpetaGuardaValores.TabIndex = 6;
+            btnSeleccionaCarpetaGuardaValores.Text = "...";
+            btnSeleccionaCarpetaGuardaValores.UseVisualStyleBackColor = true;            
             // 
             // txtDirectorioCargaGuardaValores
             // 
@@ -384,6 +394,83 @@
             lblEtapaEtiqueta.TabIndex = 0;
             lblEtapaEtiqueta.Text = "Etapa:";
             // 
+            // tbpCargaExpedientes
+            // 
+            tbpCargaExpedientes.Controls.Add(panel2);
+            tbpCargaExpedientes.Location = new Point(4, 32);
+            tbpCargaExpedientes.Name = "tbpCargaExpedientes";
+            tbpCargaExpedientes.Padding = new Padding(3);
+            tbpCargaExpedientes.Size = new Size(1172, 77);
+            tbpCargaExpedientes.TabIndex = 2;
+            tbpCargaExpedientes.Text = "Carga expedientes";
+            tbpCargaExpedientes.UseVisualStyleBackColor = true;
+            // 
+            // panel2
+            // 
+            panel2.Controls.Add(btnSekeccionDirectorioCargaExpedientes);
+            panel2.Controls.Add(txtDirectorioCargaExpedientes);
+            panel2.Controls.Add(label4);
+            panel2.Controls.Add(btnCargaInformacionExpedientes);
+            panel2.Controls.Add(txtUnidadTemporalExpedientes);
+            panel2.Controls.Add(label5);
+            panel2.Dock = DockStyle.Top;
+            panel2.Location = new Point(3, 3);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(1166, 80);
+            panel2.TabIndex = 2;
+            // 
+            // btnSekeccionDirectorioCargaExpedientes
+            // 
+            btnSekeccionDirectorioCargaExpedientes.Location = new Point(904, 42);
+            btnSekeccionDirectorioCargaExpedientes.Name = "btnSekeccionDirectorioCargaExpedientes";
+            btnSekeccionDirectorioCargaExpedientes.Size = new Size(31, 29);
+            btnSekeccionDirectorioCargaExpedientes.TabIndex = 6;
+            btnSekeccionDirectorioCargaExpedientes.Text = "...";
+            btnSekeccionDirectorioCargaExpedientes.UseVisualStyleBackColor = true;
+            // 
+            // txtDirectorioCargaExpedientes
+            // 
+            txtDirectorioCargaExpedientes.Location = new Point(143, 42);
+            txtDirectorioCargaExpedientes.Name = "txtDirectorioCargaExpedientes";
+            txtDirectorioCargaExpedientes.Size = new Size(754, 27);
+            txtDirectorioCargaExpedientes.TabIndex = 5;
+            txtDirectorioCargaExpedientes.Text = "C:\\OD\\FND\\Documentos Valor - Noroeste";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(20, 46);
+            label4.Name = "label4";
+            label4.Size = new Size(124, 20);
+            label4.TabIndex = 4;
+            label4.Text = "Directorio carga :";
+            // 
+            // btnCargaInformacionExpedientes
+            // 
+            btnCargaInformacionExpedientes.Location = new Point(988, 42);
+            btnCargaInformacionExpedientes.Name = "btnCargaInformacionExpedientes";
+            btnCargaInformacionExpedientes.Size = new Size(166, 29);
+            btnCargaInformacionExpedientes.TabIndex = 1;
+            btnCargaInformacionExpedientes.Text = "Carga Imagenes";
+            btnCargaInformacionExpedientes.UseVisualStyleBackColor = true;
+            // 
+            // txtUnidadTemporalExpedientes
+            // 
+            txtUnidadTemporalExpedientes.Location = new Point(143, 7);
+            txtUnidadTemporalExpedientes.Name = "txtUnidadTemporalExpedientes";
+            txtUnidadTemporalExpedientes.Size = new Size(34, 27);
+            txtUnidadTemporalExpedientes.TabIndex = 1;
+            txtUnidadTemporalExpedientes.Text = "Z:";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(15, 10);
+            label5.Name = "label5";
+            label5.Size = new Size(129, 20);
+            label5.TabIndex = 0;
+            label5.Text = "Unidad temporal :";
+            // 
             // MainFRM
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -406,6 +493,9 @@
             pnlDerecho.ResumeLayout(false);
             pnlReportaAvances.ResumeLayout(false);
             pnlReportaAvances.PerformLayout();
+            tbpCargaExpedientes.ResumeLayout(false);
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -438,11 +528,19 @@
         private Label lblEtapa;
         private Label lblEtapaEtiqueta;
         private Panel panel1;
-        private Button button1;
+        private Button btnSeleccionaCarpetaGuardaValores;
         private TextBox txtDirectorioCargaGuardaValores;
         private Label label1;
         private Button btnCargaInformacionGuardaValores;
         private TextBox txtUnidadTemporal;
         private Label label3;
+        private TabPage tbpCargaExpedientes;
+        private Panel panel2;
+        private Button btnSekeccionDirectorioCargaExpedientes;
+        private TextBox txtDirectorioCargaExpedientes;
+        private Label label4;
+        private Button btnCargaInformacionExpedientes;
+        private TextBox txtUnidadTemporalExpedientes;
+        private Label label5;
     }
 }

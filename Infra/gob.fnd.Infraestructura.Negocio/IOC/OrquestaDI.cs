@@ -14,6 +14,7 @@ using Jaec.Helper.IoC;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -31,6 +32,7 @@ public class OrquestaDI : IJaecContainer
         services.AddScoped<IDescargaExpedientes, DescargaExpedientesService>();
         services.AddScoped<IConsultaServices, ConsultaServices>();
         services.AddScoped<ICargaImagenes, CargaImagenService>();
+        services.AddScoped<IDescargaGuardaValoresAgencia, DescargaGuardaValoresAgenciaServices>();
         // services.AddScoped<IProcesaParametrosCarta, ProcesaParametrosCarta>();
 
         // throw new NotImplementedException();

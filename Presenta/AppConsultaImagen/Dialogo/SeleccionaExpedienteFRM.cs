@@ -18,6 +18,7 @@ namespace AppConsultaImagen.Dialogo
             dgvListaDeExpedientes.DoubleClick += DoBuscar;
             btnBuscar.Click += DoBuscar;
             btnCancelar.Click += (s, e) => Hide();
+            this.Load += (s, e) => { this.TopMost = true; };
         }
 
         public MainFRM? FormaPrincipal { get; set; }

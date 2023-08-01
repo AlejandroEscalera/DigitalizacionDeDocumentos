@@ -263,15 +263,5 @@ public partial class MainFRM
 
     }
 
-    private ExpedienteDeConsultaGv? BuscaImagenes(string numeroDeCredito, bool directas = true)
-    {
-        if (_windowsFormsGloablInformation is not null)
-        {
-            imagenesEncontradas = _windowsFormsGloablInformation.ActivaConsultasServices().BuscaImagenes(numeroDeCredito, directas).ToArray();
-            var resultado = BuscaPorNumeroDeCredito(numeroDeCredito).OrderByDescending(x => x.NumCredito).ToList();
-            return resultado.FirstOrDefault();
-        }
-        return null;
-    }
 }
 

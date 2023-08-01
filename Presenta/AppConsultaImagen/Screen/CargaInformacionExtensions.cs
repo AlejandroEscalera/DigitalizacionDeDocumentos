@@ -29,6 +29,12 @@ namespace AppConsultaImagen
                 _logger.LogInformation("Comienzo a cargar la información de los saldos");
                 _infoExpedientes = _windowsFormsGloablInformation.ActivaConsultasServices().CargaInformacion(); // Carga información
                 _unidadDeDiscoImagenes = _windowsFormsGloablInformation.ActivaConsultasServices().ObtieneUnidadImagenes();
+                _nombreReporte = _windowsFormsGloablInformation.ActivaConsultasServices().ObtieneNombreArchivo()??"";
+                _fechaReporte = _windowsFormsGloablInformation.ActivaConsultasServices().ObtieneFechaArchivo()??"";
+                lblFechaAbSaldos.Text = _fechaReporte;
+                lblNombreArchivoAbSaldos.Text = _nombreReporte;
+                lblNombreArchivoAbSaldos.MouseHover += (s, e) => { lblNombreArchivoAbSaldos.ForeColor = Color.Black;  };
+                lblNombreArchivoAbSaldos.MouseLeave += (s, e) => { lblNombreArchivoAbSaldos.ForeColor = Color.White; };
             }
             catch (Exception ex)
             {

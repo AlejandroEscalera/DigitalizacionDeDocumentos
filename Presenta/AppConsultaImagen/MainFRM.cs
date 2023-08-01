@@ -193,6 +193,13 @@ public partial class MainFRM
         TmrBringToFront.Enabled = true;
         TmrBringToFront.Start();
         #endregion
+
+        this.Load += MainFRM_Load;
+    }
+
+    private void MainFRM_Load(object? sender, EventArgs e)
+    {
+        this.TopMost = true;
     }
 
     private void PnlTodoTabReporteFinal_Resize(object? sender, EventArgs e)

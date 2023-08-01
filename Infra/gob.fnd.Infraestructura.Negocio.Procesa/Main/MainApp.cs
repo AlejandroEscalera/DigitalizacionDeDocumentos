@@ -417,7 +417,7 @@ namespace gob.fnd.Infraestructura.Negocio.Procesa.Main
 
             IEnumerable<ArchivosImagenes> imagenes;
 
-            #region Carga Bienes Adjudicados y revisa estado de los creditos
+            #region Cruce para saber los faltantes de los créditos liquidados
             if (_soloCargaCreditosBienesAdjudicados)
             {
                 string fnLqTramitados = @"C:\OD\OneDrive - FND\Entrega\Liquidados\LQTramitados.csv";

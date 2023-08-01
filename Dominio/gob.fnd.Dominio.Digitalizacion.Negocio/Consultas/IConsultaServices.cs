@@ -8,6 +8,7 @@ using gob.fnd.Dominio.Digitalizacion.Entidades.Consultas.Tratamientos;
 using gob.fnd.Dominio.Digitalizacion.Entidades.GuardaValores;
 using gob.fnd.Dominio.Digitalizacion.Entidades.Imagenes;
 using gob.fnd.Dominio.Digitalizacion.Entidades.Juridico;
+using gob.fnd.Dominio.Digitalizacion.Entidades.ReportesAvance;
 using gob.fnd.Dominio.Digitalizacion.Liquidaciones;
 using System;
 using System.Collections.Generic;
@@ -164,11 +165,26 @@ namespace gob.fnd.Dominio.Digitalizacion.Negocio.Consultas
         ExpedienteJuridicoDetalle? BuscaExpedienteJuridico(string contrato, string numCredito);
         Task<IEnumerable<ExpedienteJuridico>> CargaExpedientesJuridicosAsync(bool cruzaConImagenes = false);
         Task<IEnumerable<ArchivoImagenExpedientesCorta>> CargaInformacionImagenesExpedientesJuridicosAsync();
+        Task<IEnumerable<ArchivoImagenExpedientesCorta>> GuardaImagenesCortasJuridico(IEnumerable<ArchivosImagenes> imagenes);
         #endregion
 
         #region GuardaValores
         IEnumerable<GuardaValores> ObtieneGuardaValores(int Agencia);
         bool GuardaValores(IEnumerable<GuardaValores> valoresAGuardar, string nombreArchivoReporte);
+        Task<bool> DescargaGuardaValoresAgencia(IEnumerable<GuardaValores> guardaValores, int agencia, string carpetaDestino, IProgress<ReporteProgresoDescompresionArchivos> avance);
+        #endregion
+
+        #region Referencia de Carga
+        /// <summary>
+        /// Obtiene la información del AB Saldos que se ha cargado en pantalla
+        /// </summary>
+        /// <returns>Fecha en string</returns>
+        string? ObtieneFechaArchivo();
+        /// <summary>
+        /// Obtiene el nombre del archivo que se ha cargado en pantalla
+        /// </summary>
+        /// <returns>Nombre completo para luego ser pintado en pantalla</returns>
+        string? ObtieneNombreArchivo();
         #endregion
     }
 }

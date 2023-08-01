@@ -33,7 +33,10 @@ namespace AppConsultaImagen
                 prgProgressBar.Value = 0;
 
             if (!File.Exists(C_STR_CTL_SPLASH))
+            {
+                TopMost = false;
                 Close();
+            }
         }
     }
 }

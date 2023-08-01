@@ -4,9 +4,11 @@ using gob.fnd.Dominio.Digitalizacion.Entidades.Cancelados;
 using gob.fnd.Dominio.Digitalizacion.Entidades.Config;
 using gob.fnd.Dominio.Digitalizacion.Entidades.Consultas;
 using gob.fnd.Dominio.Digitalizacion.Entidades.CorteDiario.ABSaldos;
+using gob.fnd.Dominio.Digitalizacion.Entidades.GuardaValores;
 using gob.fnd.Dominio.Digitalizacion.Entidades.Imagenes;
 using gob.fnd.Dominio.Digitalizacion.Entidades.Juridico;
 using gob.fnd.Dominio.Digitalizacion.Entidades.Ministraciones;
+using gob.fnd.Dominio.Digitalizacion.Entidades.ReportesAvance;
 using gob.fnd.Dominio.Digitalizacion.Liquidaciones;
 using gob.fnd.Dominio.Digitalizacion.Negocio.Consultas;
 using Microsoft.Extensions.Logging;
@@ -93,6 +95,8 @@ partial class ConsultaServices : IConsultaServices
         bool ultimosSaldos = false;
         if (await _administraABSaldosDiarioService.CopiaABSaldosDiarioAync())
         {
+            _nombreArchivoReporte = _archivoABSaldosDiarioDestino;
+            _fechaReporte = String.Format("{0:dd}/{0:MM}/{0:yyyy}", ObtieneFechaDeUnArchivo(_nombreArchivoReporte));
             var abSaldosCompleta = await Task.Run(() => { return _administraCargaCorteDiarioService.CargaABSaldosCompleta(_archivoABSaldosDiarioDestino); });
             await LlenaInformacionABSaldosFiltroCreditoAync(abSaldosCompleta);
             ultimosSaldos = true;
@@ -103,7 +107,10 @@ partial class ConsultaServices : IConsultaServices
             {
                 if (await _administraABSaldosDiarioService.DescargaABSaldosDiarioAync())
                 {
-                    var abSaldosCompleta = await Task.Run(() => { return _administraCargaCorteDiarioService.CargaABSaldosCompleta(_archivoABSaldosDiarioDestino); });
+                    string lastFileName = ObtieneUltimoABSaldos();
+                    _nombreArchivoReporte = lastFileName;
+                    _fechaReporte = String.Format("{0:dd}/{0:MM}/{0:yyyy}", ObtieneFechaDeUnArchivo(_nombreArchivoReporte));
+                    var abSaldosCompleta = await Task.Run(() => { return _administraCargaCorteDiarioService.CargaABSaldosCompleta(lastFileName); });
                     await LlenaInformacionABSaldosFiltroCreditoAync(abSaldosCompleta);
                     ultimosSaldos = true;
                 }
@@ -118,16 +125,20 @@ partial class ConsultaServices : IConsultaServices
 
                 if (File.Exists(lastFileName))
                 {
+                    _nombreArchivoReporte = lastFileName;
+                    _fechaReporte = String.Format("{0:dd}/{0:MM}/{0:yyyy}", ObtieneFechaDeUnArchivo(_nombreArchivoReporte));
                     var abSaldosCompleta = await Task.Run(() => { return _administraCargaCorteDiarioService.CargaABSaldosCompleta(lastFileName); });
 
                     await LlenaInformacionABSaldosFiltroCreditoAync(abSaldosCompleta);
-                    ultimosSaldos = false;
+                    ultimosSaldos = true;
                     // ultimosSaldos = true;
                 }
                 else
                 {
                     if (File.Exists(_archivoABSaldosDiarioDestino))
                     {
+                        _nombreArchivoReporte = _archivoABSaldosDiarioDestino;
+                        _fechaReporte = String.Format("{0:dd}/{0:MM}/{0:yyyy}", ObtieneFechaDeUnArchivo(_nombreArchivoReporte));
                         var abSaldosCompleta = await Task.Run(() => { return _administraCargaCorteDiarioService.CargaABSaldosCompleta(_archivoABSaldosDiarioDestino); });
                         await LlenaInformacionABSaldosFiltroCreditoAync(abSaldosCompleta);
                         ultimosSaldos = true;
@@ -970,10 +981,16 @@ partial class ConsultaServices : IConsultaServices
         }
         // IList<ArchivoImagenCorta> lista = new List<ArchivoImagenCorta>();
         IEnumerable<ArchivosImagenes> resultado = await _servicioImagenes.CargaImagenesTratadasAsync(_archivosImagenesExpedientesJuridico);
-        resultado = resultado.Where(x => (x.Extension ?? "").Equals(".pdf", StringComparison.InvariantCultureIgnoreCase));
+        _imagenesCortasExpedientesJuridico = await GuardaImagenesCortasJuridico(resultado);
+        return _imagenesCortasExpedientesJuridico;
+    }
+
+    public async Task<IEnumerable<ArchivoImagenExpedientesCorta>> GuardaImagenesCortasJuridico(IEnumerable<ArchivosImagenes> imagenes)
+    {
+        imagenes = imagenes.Where(x => (x.Extension ?? "").Equals(".pdf", comparisonType: StringComparison.InvariantCultureIgnoreCase));
         var resultadoCorto = await Task.Run(() =>
         {
-            return resultado.Select(x => new ArchivoImagenExpedientesCorta()
+            return imagenes.Select(x => new ArchivoImagenExpedientesCorta()
             {
                 Id = x.Id,
                 NumContrato = x.NumContrato,
@@ -988,7 +1005,6 @@ partial class ConsultaServices : IConsultaServices
         });
 
         await Task.Run(() => { _ = _creaArchivoCsvService.CreaArchivoCsv(_archivosImagenesExpedientesJuridicoCorta, resultadoCorto); });
-        _imagenesCortasExpedientesJuridico = resultadoCorto;
         return resultadoCorto;
     }
 
@@ -1098,5 +1114,13 @@ partial class ConsultaServices : IConsultaServices
         return true;
     }
     #endregion
+    #endregion
+
+    #region Guarda Valores
+    public async Task<bool> DescargaGuardaValoresAgencia(IEnumerable<GuardaValores> guardaValores, int agencia, string carpetaDestino, IProgress<ReporteProgresoDescompresionArchivos> avance)
+    {
+        var guardaValoresAgencia = guardaValores.Where(x=>x.Sucursal == agencia).ToList();
+        return await _descargaGuardaValoresServices.DescargaGuardaValoresAgencia(guardaValoresAgencia, carpetaDestino, avance);    
+    }
     #endregion
 }

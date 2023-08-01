@@ -739,8 +739,22 @@ public class AdministraGuardaValores : IAdministraGuardaValores
                 hoja.Row(row).Height = 16.8 + 0.78;
                 row++;
                 hoja.Row(row).Height = 16.8 + 0.78;
+                hoja.Cells[row, 1, row, 9].Merge = true;
+                hoja.Cells[row, 1, row, 9].Value = string.Format("COORDINACIÓN {0}", guardaValores.FirstOrDefault()?.CatRegional??"").ToUpper();
+                hoja.Cells[row, 1, row, 9].Style.HorizontalAlignment = ExcelHorizontalAlignment.Center;
+                hoja.Cells[row, 1, row, 9].Style.VerticalAlignment = ExcelVerticalAlignment.Center;
+                hoja.Cells[row, 1, row, 9].Style.Font.Name = "Montserrat";
+                hoja.Cells[row, 1, row, 9].Style.Font.Size = 12;
+                hoja.Cells[row, 1, row, 9].Style.Font.Bold = true;
                 row++;
                 hoja.Row(row).Height = 16.8 + 0.78;
+                hoja.Cells[row, 1, row, 9].Merge = true;
+                hoja.Cells[row, 1, row, 9].Value = string.Format("AGENCIA {0}", guardaValores.FirstOrDefault()?.CatRegional ?? "").ToUpper();
+                hoja.Cells[row, 1, row, 9].Style.HorizontalAlignment = ExcelHorizontalAlignment.Center;
+                hoja.Cells[row, 1, row, 9].Style.VerticalAlignment = ExcelVerticalAlignment.Center;
+                hoja.Cells[row, 1, row, 9].Style.Font.Name = "Montserrat";
+                hoja.Cells[row, 1, row, 9].Style.Font.Size = 11;
+                hoja.Cells[row, 1, row, 9].Style.Font.Bold = false;
                 row++;
                 hoja.Row(row).Height = 16.8 + 0.78;
                 row++;
@@ -758,11 +772,11 @@ public class AdministraGuardaValores : IAdministraGuardaValores
                 int col = 1;
                 hoja.Row(row).Height = 33.6 + 0.78;
                 Color titleColor = Color.FromArgb(40, 92, 77);
-                PrintTitleCell(hoja, row, col, 9, "Region", titleColor);
+                PrintTitleCell(hoja, row, col, 0, "Region", titleColor); // 9
                 col++;
                 PrintTitleCell(hoja, row, col, 29.22, "Estado", titleColor);
                 col++;
-                PrintTitleCell(hoja, row, col, 22.44, "Agencia", titleColor);
+                PrintTitleCell(hoja, row, col, 0, "Agencia", titleColor); // 22.44
                 col++;
                 PrintTitleCell(hoja, row, col, 12.22, "Numero de Cliente", titleColor);
                 col++;
@@ -815,6 +829,9 @@ public class AdministraGuardaValores : IAdministraGuardaValores
                 #region autofiltro
                 hoja.Cells[String.Format("A6:I{0}", row - 1)].AutoFilter = true;
 
+                hoja.Cells[row, 1, row, 9].Style.Font.Name = "Montserrat";
+                hoja.Cells[row, 1, row, 9].Style.Font.Size = 9;
+                hoja.Cells[row, 1, row, 9].Style.Font.Color.SetColor(Color.Black);
                 hoja.Cells[row, 9].Formula = string.Format("=SUBTOTAL(9,I6:I{0})", row - 1);
                 hoja.Cells[row, 9].Style.Numberformat.Format = "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)";
                 row++;
@@ -854,6 +871,13 @@ public class AdministraGuardaValores : IAdministraGuardaValores
         hoja.Cells[row, col].Style.Font.Color.SetColor(Color.White);
         hoja.Cells[row, col].Style.WrapText = true;
         FNDExcelHelper.ChangeBackgroundColor(hoja.Cells[row, col], titleColor);
-        hoja.Column(col).Width = colWidth + 0.78;
+        if (colWidth > 0)
+        {
+            hoja.Column(col).Width = colWidth + 0.78;
+        }
+        else
+        {
+            hoja.Column(col).Width = 0;
+        }
     }
 }
