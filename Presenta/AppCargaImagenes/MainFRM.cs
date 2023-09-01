@@ -13,6 +13,7 @@ namespace AppCargaImagenes
             btnSeleccionaCarpetaGuardaValores.Click += BtnSeleccionaCarpetaGuardaValores;
             btnSekeccionDirectorioCargaExpedientes.Click += BtnSeleccionCarpetaExpedientes;
             btnCargaInformacionExpedientes.Click += BtnCargaImagenesCargaExpedientesClick;
+            btnComienzaLimpieza.Click += BtnComienzaLimpieza_Click;
         }
 
         private void BtnSalirClick(object sender, EventArgs e)
@@ -49,12 +50,14 @@ namespace AppCargaImagenes
             btnCargaInformacion.Enabled = false;
             btnCargaInformacionGuardaValores.Enabled = false;
             btnCargaInformacionExpedientes.Enabled = false;
+            btnComienzaLimpieza.Enabled = false;
         }
         private void HabilitaBotones()
         {
             btnCargaInformacion.Enabled = true;
             btnCargaInformacionGuardaValores.Enabled = true;
             btnCargaInformacionExpedientes.Enabled = true;
+            btnComienzaLimpieza.Enabled = true;
         }
 
         private async void BtnCargaImagenesClick(object? sender, EventArgs e)
@@ -173,7 +176,7 @@ namespace AppCargaImagenes
                         if (cargaImagenes is not null)
                         {
                             await cargaImagenes.
-                                CargaImagenesExpedientesAsync(txtDirectorioCargaGuardaValores.Text,
+                                CargaImagenesExpedientesAsync(txtDirectorioCargaExpedientes.Text,
                                 reporteProgresoProceso, unidadTemporal);
                             MessageBox.Show("Proceso de carga de imágenes terminado");
                         }
@@ -294,5 +297,49 @@ namespace AppCargaImagenes
                 txtDirectorioTemporal.Text = fbdSeleccionaTemporal.SelectedPath;
             }
         }
+
+        private async void BtnComienzaLimpieza_Click(object? sender, EventArgs e)
+        {
+            // Mostrar el cuadro de diálogo de confirmación
+            DialogResult resultado = MessageBox.Show("¿Desea continuar?", "Confirmar", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (resultado == DialogResult.No)
+            {
+                return;
+            }
+
+            DeshabilitaBotones();
+            try
+            {
+                pnlReportaAvances.Visible = true;
+                if (_windowsFormsGloablInformation is not null)
+                {
+                    btnSalir.Enabled = false;
+                    try
+                    {
+                        Progress<ReporteProgresoProceso> reporteProgresoProceso = new();
+                        reporteProgresoProceso.ProgressChanged += ReportProgress;
+                        ICargaImagenes cargaImagenes = _windowsFormsGloablInformation.
+                            ActivaCargaImagenesService();
+                        if (cargaImagenes is not null)
+                        {
+                            await cargaImagenes.
+                                LimpiaImagenes(reporteProgresoProceso);
+                            MessageBox.Show("Proceso de carga de imágenes terminado");
+                        }
+                    }
+                    finally
+                    {
+                        btnSalir.Enabled = true;
+
+                    }
+                }
+
+                MessageBox.Show("Proceso de limpieza de imágenes terminado");
+            }
+            finally
+            {
+                HabilitaBotones();
+            }
+            }
     }
 }

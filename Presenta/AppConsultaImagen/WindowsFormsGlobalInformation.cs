@@ -106,6 +106,11 @@ public class WindowsFormsGlobalInformation
                 catch (Exception ex)
                 {
                     logger.LogError("No se cargaron las librerias {mensaje}", ex.Message);
+                    while (ex.InnerException != null)
+                    {
+                        logger.LogError("No se cargaron las librerias {mensaje}", ex.InnerException.Message);
+                        ex = ex.InnerException;
+                    }
                 }
                 
             })
@@ -175,13 +180,15 @@ public class WindowsFormsGlobalInformation
             if (_host != null)
             {
                 Assembly? mainAssembly = _config.GetMainAssembly();
-
+                _logger.LogInformation("Se cargó la librería {libreria}", mainAssembly?.FullName);
                 if (mainAssembly != null)
                 {
 
                     Type? tipoCarga = mainAssembly.GetAuxiliarType(_config);
+                    _logger.LogInformation("Se va a intentar cargar el tipo {config}", _config);
                     if (tipoCarga != null)
                     {
+                        _logger.LogInformation("Voy a intentar crear la instancia del servicio");
                         _consultaServices = (IConsultaServices)ActivatorUtilities.CreateInstance(_host.Services, tipoCarga);
                     }
                 }

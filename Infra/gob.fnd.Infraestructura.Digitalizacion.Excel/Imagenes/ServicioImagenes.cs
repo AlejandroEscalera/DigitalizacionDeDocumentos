@@ -1182,268 +1182,267 @@ namespace gob.fnd.Infraestructura.Digitalizacion.Excel.Imagenes
 
             #region Abrimos el excel de ABSaldos y Extraemos la información de todos los campos
 #pragma warning disable IDE0063 // Use la instrucción "using" simple
-            using (var package = new ExcelPackage())
-            {
-                using (FileStream fs = new(archivo, FileMode.Open, FileAccess.Read, FileShare.Read))
-                {
-                    package.Load(fs);
-                    if (package.Workbook.Worksheets.Count == 0)
-                        return resultado;
-                    var hoja = package.Workbook.Worksheets[0];
-                    ObtieneValoresCampos(hoja);
-                    int row = 2;
-                    bool salDelCiclo = false;
-                    while (!salDelCiclo)
-                    {
-                        var obj = new ArchivosImagenes();
-
-                        int col = 1;
-
-                        var celda = hoja.Cells[row, col];
-                        obj.Id = FNDExcelHelper.GetCellInt(celda);
-                        col++;
-
-                        if (obj.Id == 0)
-                            break;
-
-                        celda = hoja.Cells[row, col];
-                        obj.IdSearch = FNDExcelHelper.GetCellString(celda);
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.ArchivoOrigen = FNDExcelHelper.GetCellString(celda);
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.NombreArchivo = FNDExcelHelper.GetCellString(celda);
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.NumCte = FNDExcelHelper.GetCellString(celda);
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.Acreditado = FNDExcelHelper.GetCellString(celda);
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.NumContrato = FNDExcelHelper.GetCellString(celda);
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        string numCredito = FNDExcelHelper.GetCellString(celda);
-                        if (numCredito.Length < 18)
-                            obj.NumCredito = numCredito;
-                        else
-                            obj.NumCredito = Condiciones.QuitaCastigo(numCredito);
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.FechaDeModificacion = FNDExcelHelper.GetCellDateTime(celda);
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.UsuarioDeModificacion = FNDExcelHelper.GetCellString(celda);
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.TamanioArchivo = Convert.ToInt64("0" + FNDExcelHelper.GetCellString(celda));
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.RutaDeGuardado = FNDExcelHelper.GetCellString(celda);
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.UrlArchivo = FNDExcelHelper.GetCellString(celda);
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.Ministracion = FNDExcelHelper.GetCellInt(celda);
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.VigenciaDelContato = FNDExcelHelper.GetCellString(celda);
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.FechaVigenciaDelaDispOContrato = FNDExcelHelper.GetCellDateTime(celda);
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.CheckList = FNDExcelHelper.GetCellString(celda);
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.ValidadoPorCalidad = Condiciones.ObtieneEsVerdaderoFalso(FNDExcelHelper.GetCellString(celda));
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.NumeroCreditoActivo = FNDExcelHelper.GetCellString(celda);
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.FechaApertura = FNDExcelHelper.GetCellDateTime(celda);
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.Castigo = Condiciones.RegresaObtieneCastigo(FNDExcelHelper.GetCellString(celda));
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.EsOrigenDelDoctor = Condiciones.RegresaEsPeriodoDelDr(FNDExcelHelper.GetCellString(celda)) ?? false;
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.EsCarteraActiva = Condiciones.ObtieneEstaEnABSaldosActivo(FNDExcelHelper.GetCellString(celda)) ?? false;
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.NumeroMinistracion = FNDExcelHelper.GetCellInt(celda);
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.ClasifMesa = FNDExcelHelper.GetCellString(celda);
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.FechaAsignacionEntrada = FNDExcelHelper.GetCellDateTime(celda);
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.MontoOtorgado = FNDExcelHelper.GetCellDecimal(celda);
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.Analista = FNDExcelHelper.GetCellString(celda);
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.Regional = FNDExcelHelper.GetCellInt(celda);
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.Sucursal = FNDExcelHelper.GetCellInt(celda);
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.CatAgencia = FNDExcelHelper.GetCellString(celda);
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.Extension = FNDExcelHelper.GetCellString(celda);
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.CarpetaDestino = FNDExcelHelper.GetCellString(celda);
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.ThreadId = FNDExcelHelper.GetCellInt(celda);
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.Job = FNDExcelHelper.GetCellInt(celda);
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.PorDescargar = Condiciones.ObtieneEsVerdaderoFalso(FNDExcelHelper.GetCellString(celda));
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.ErrorAlDescargar = Condiciones.ObtieneEsVerdaderoFalso(FNDExcelHelper.GetCellString(celda));
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.MensajeDeErrorAlDescargar = FNDExcelHelper.GetCellString(celda);
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.PorOcr = Condiciones.ObtieneEsVerdaderoFalso(FNDExcelHelper.GetCellString(celda));
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.ErrorOcr = Condiciones.ObtieneEsVerdaderoFalso(FNDExcelHelper.GetCellString(celda));
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.MensajeDeErrorOCR = FNDExcelHelper.GetCellString(celda);
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.PorAOcr = Condiciones.ObtieneEsVerdaderoFalso(FNDExcelHelper.GetCellString(celda));
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.ErrorAOcr = Condiciones.ObtieneEsVerdaderoFalso(FNDExcelHelper.GetCellString(celda));
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.MensajeDeErrorAOCR = FNDExcelHelper.GetCellString(celda);
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.PorAcomodar = Condiciones.ObtieneEsVerdaderoFalso(FNDExcelHelper.GetCellString(celda));
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.ErrorAcomodar = Condiciones.ObtieneEsVerdaderoFalso(FNDExcelHelper.GetCellString(celda));
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.MensajeDeErrorAcomodar = FNDExcelHelper.GetCellString(celda);
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.Termino = Condiciones.ObtieneEsVerdaderoFalso(FNDExcelHelper.GetCellString(celda));
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.Hash = FNDExcelHelper.GetCellString(celda);
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.CadenaCredito = FNDExcelHelper.GetCellString(celda);
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.CadenaCliente = FNDExcelHelper.GetCellString(celda);
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.OcrNumCredito = FNDExcelHelper.GetCellString(celda);
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.OcrNumCliente = FNDExcelHelper.GetCellString(celda);
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.IgualNumCredito = Condiciones.ObtieneEsVerdaderoFalso(FNDExcelHelper.GetCellString(celda));
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.TieneNumCredito = Condiciones.ObtieneEsVerdaderoFalso(FNDExcelHelper.GetCellString(celda));
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.ChecarTona = Condiciones.ObtieneEsVerdaderoFalso(FNDExcelHelper.GetCellString(celda));
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.NumPaginas = FNDExcelHelper.GetCellInt(celda);
-                        col++;
-
-                        celda = hoja.Cells[row, col];
-                        obj.SubArchivo = FNDExcelHelper.GetCellInt(celda);
-
-                        resultado.Add(obj);
-
-                        row++;
-                    }
-                }
-            }
 #pragma warning restore IDE0063 // Use la instrucción "using" simple
+            using (ExcelPackage package = new())
+            {
+                using FileStream fs = new(archivo, FileMode.Open, FileAccess.Read, FileShare.Read);
+                package.Load(fs);
+                if (package.Workbook.Worksheets.Count == 0)
+                    return resultado;
+                var hoja = package.Workbook.Worksheets[0];
+                ObtieneValoresCampos(hoja);
+                int row = 2;
+                bool salDelCiclo = false;
+                while (!salDelCiclo)
+                {
+                    var obj = new ArchivosImagenes();
+
+                    int col = 1;
+
+                    var celda = hoja.Cells[row, col];
+                    obj.Id = FNDExcelHelper.GetCellInt(celda);
+                    col++;
+
+                    if (obj.Id == 0)
+                        break;
+
+                    celda = hoja.Cells[row, col];
+                    obj.IdSearch = FNDExcelHelper.GetCellString(celda);
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.ArchivoOrigen = FNDExcelHelper.GetCellString(celda);
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.NombreArchivo = FNDExcelHelper.GetCellString(celda);
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.NumCte = FNDExcelHelper.GetCellString(celda);
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.Acreditado = FNDExcelHelper.GetCellString(celda);
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.NumContrato = FNDExcelHelper.GetCellString(celda);
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    string numCredito = FNDExcelHelper.GetCellString(celda);
+                    if (numCredito.Length < 18)
+                        obj.NumCredito = numCredito;
+                    else
+                        obj.NumCredito = Condiciones.QuitaCastigo(numCredito);
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.FechaDeModificacion = FNDExcelHelper.GetCellDateTime(celda);
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.UsuarioDeModificacion = FNDExcelHelper.GetCellString(celda);
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.TamanioArchivo = Convert.ToInt64("0" + FNDExcelHelper.GetCellString(celda));
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.RutaDeGuardado = FNDExcelHelper.GetCellString(celda);
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.UrlArchivo = FNDExcelHelper.GetCellString(celda);
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.Ministracion = FNDExcelHelper.GetCellInt(celda);
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.VigenciaDelContato = FNDExcelHelper.GetCellString(celda);
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.FechaVigenciaDelaDispOContrato = FNDExcelHelper.GetCellDateTime(celda);
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.CheckList = FNDExcelHelper.GetCellString(celda);
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.ValidadoPorCalidad = Condiciones.ObtieneEsVerdaderoFalso(FNDExcelHelper.GetCellString(celda));
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.NumeroCreditoActivo = FNDExcelHelper.GetCellString(celda);
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.FechaApertura = FNDExcelHelper.GetCellDateTime(celda);
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.Castigo = Condiciones.RegresaObtieneCastigo(FNDExcelHelper.GetCellString(celda));
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.EsOrigenDelDoctor = Condiciones.RegresaEsPeriodoDelDr(FNDExcelHelper.GetCellString(celda)) ?? false;
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.EsCarteraActiva = Condiciones.ObtieneEstaEnABSaldosActivo(FNDExcelHelper.GetCellString(celda)) ?? false;
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.NumeroMinistracion = FNDExcelHelper.GetCellInt(celda);
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.ClasifMesa = FNDExcelHelper.GetCellString(celda);
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.FechaAsignacionEntrada = FNDExcelHelper.GetCellDateTime(celda);
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.MontoOtorgado = FNDExcelHelper.GetCellDecimal(celda);
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.Analista = FNDExcelHelper.GetCellString(celda);
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.Regional = FNDExcelHelper.GetCellInt(celda);
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.Sucursal = FNDExcelHelper.GetCellInt(celda);
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.CatAgencia = FNDExcelHelper.GetCellString(celda);
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.Extension = FNDExcelHelper.GetCellString(celda);
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.CarpetaDestino = FNDExcelHelper.GetCellString(celda);
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.ThreadId = FNDExcelHelper.GetCellInt(celda);
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.Job = FNDExcelHelper.GetCellInt(celda);
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.PorDescargar = Condiciones.ObtieneEsVerdaderoFalso(FNDExcelHelper.GetCellString(celda));
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.ErrorAlDescargar = Condiciones.ObtieneEsVerdaderoFalso(FNDExcelHelper.GetCellString(celda));
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.MensajeDeErrorAlDescargar = FNDExcelHelper.GetCellString(celda);
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.PorOcr = Condiciones.ObtieneEsVerdaderoFalso(FNDExcelHelper.GetCellString(celda));
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.ErrorOcr = Condiciones.ObtieneEsVerdaderoFalso(FNDExcelHelper.GetCellString(celda));
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.MensajeDeErrorOCR = FNDExcelHelper.GetCellString(celda);
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.PorAOcr = Condiciones.ObtieneEsVerdaderoFalso(FNDExcelHelper.GetCellString(celda));
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.ErrorAOcr = Condiciones.ObtieneEsVerdaderoFalso(FNDExcelHelper.GetCellString(celda));
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.MensajeDeErrorAOCR = FNDExcelHelper.GetCellString(celda);
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.PorAcomodar = Condiciones.ObtieneEsVerdaderoFalso(FNDExcelHelper.GetCellString(celda));
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.ErrorAcomodar = Condiciones.ObtieneEsVerdaderoFalso(FNDExcelHelper.GetCellString(celda));
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.MensajeDeErrorAcomodar = FNDExcelHelper.GetCellString(celda);
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.Termino = Condiciones.ObtieneEsVerdaderoFalso(FNDExcelHelper.GetCellString(celda));
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.Hash = FNDExcelHelper.GetCellString(celda);
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.CadenaCredito = FNDExcelHelper.GetCellString(celda);
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.CadenaCliente = FNDExcelHelper.GetCellString(celda);
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.OcrNumCredito = FNDExcelHelper.GetCellString(celda);
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.OcrNumCliente = FNDExcelHelper.GetCellString(celda);
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.IgualNumCredito = Condiciones.ObtieneEsVerdaderoFalso(FNDExcelHelper.GetCellString(celda));
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.TieneNumCredito = Condiciones.ObtieneEsVerdaderoFalso(FNDExcelHelper.GetCellString(celda));
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.ChecarTona = Condiciones.ObtieneEsVerdaderoFalso(FNDExcelHelper.GetCellString(celda));
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.NumPaginas = FNDExcelHelper.GetCellInt(celda);
+                    col++;
+
+                    celda = hoja.Cells[row, col];
+                    obj.SubArchivo = FNDExcelHelper.GetCellInt(celda);
+
+                    resultado.Add(obj);
+
+                    row++;
+                }
+                fs.Close();
+            }
             #endregion
 
             return resultado.OrderBy(x => x.NumCredito).Select(y => y).ToList();

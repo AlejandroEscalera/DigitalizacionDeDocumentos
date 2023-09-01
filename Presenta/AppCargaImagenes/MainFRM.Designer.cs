@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainFRM));
             tbcCargaDeInformacion = new TabControl();
             tbpCargaLiquidados = new TabPage();
             pnlSeleccionTop = new Panel();
@@ -46,6 +47,14 @@
             btnCargaInformacionGuardaValores = new Button();
             txtUnidadTemporal = new TextBox();
             label3 = new Label();
+            tbpCargaExpedientes = new TabPage();
+            panel2 = new Panel();
+            btnSekeccionDirectorioCargaExpedientes = new Button();
+            txtDirectorioCargaExpedientes = new TextBox();
+            label4 = new Label();
+            btnCargaInformacionExpedientes = new Button();
+            txtUnidadTemporalExpedientes = new TextBox();
+            label5 = new Label();
             pnlInferior = new Panel();
             pnlDerecho = new Panel();
             btnSalir = new Button();
@@ -61,24 +70,20 @@
             prgEtapa = new ProgressBar();
             lblEtapa = new Label();
             lblEtapaEtiqueta = new Label();
-            tbpCargaExpedientes = new TabPage();
-            panel2 = new Panel();
-            btnSekeccionDirectorioCargaExpedientes = new Button();
-            txtDirectorioCargaExpedientes = new TextBox();
-            label4 = new Label();
-            btnCargaInformacionExpedientes = new Button();
-            txtUnidadTemporalExpedientes = new TextBox();
-            label5 = new Label();
+            tbpLimpiaImagenes = new TabPage();
+            btnComienzaLimpieza = new Button();
+            label6 = new Label();
             tbcCargaDeInformacion.SuspendLayout();
             tbpCargaLiquidados.SuspendLayout();
             pnlSeleccionTop.SuspendLayout();
             tabPage2.SuspendLayout();
             panel1.SuspendLayout();
+            tbpCargaExpedientes.SuspendLayout();
+            panel2.SuspendLayout();
             pnlInferior.SuspendLayout();
             pnlDerecho.SuspendLayout();
             pnlReportaAvances.SuspendLayout();
-            tbpCargaExpedientes.SuspendLayout();
-            panel2.SuspendLayout();
+            tbpLimpiaImagenes.SuspendLayout();
             SuspendLayout();
             // 
             // tbcCargaDeInformacion
@@ -87,6 +92,7 @@
             tbcCargaDeInformacion.Controls.Add(tbpCargaLiquidados);
             tbcCargaDeInformacion.Controls.Add(tabPage2);
             tbcCargaDeInformacion.Controls.Add(tbpCargaExpedientes);
+            tbcCargaDeInformacion.Controls.Add(tbpLimpiaImagenes);
             tbcCargaDeInformacion.Dock = DockStyle.Top;
             tbcCargaDeInformacion.Location = new Point(0, 0);
             tbcCargaDeInformacion.Name = "tbcCargaDeInformacion";
@@ -210,14 +216,14 @@
             panel1.Size = new Size(1166, 80);
             panel1.TabIndex = 1;
             // 
-            // button1
+            // btnSeleccionaCarpetaGuardaValores
             // 
             btnSeleccionaCarpetaGuardaValores.Location = new Point(904, 42);
-            btnSeleccionaCarpetaGuardaValores.Name = "button1";
+            btnSeleccionaCarpetaGuardaValores.Name = "btnSeleccionaCarpetaGuardaValores";
             btnSeleccionaCarpetaGuardaValores.Size = new Size(31, 29);
             btnSeleccionaCarpetaGuardaValores.TabIndex = 6;
             btnSeleccionaCarpetaGuardaValores.Text = "...";
-            btnSeleccionaCarpetaGuardaValores.UseVisualStyleBackColor = true;            
+            btnSeleccionaCarpetaGuardaValores.UseVisualStyleBackColor = true;
             // 
             // txtDirectorioCargaGuardaValores
             // 
@@ -262,6 +268,83 @@
             label3.Size = new Size(129, 20);
             label3.TabIndex = 0;
             label3.Text = "Unidad temporal :";
+            // 
+            // tbpCargaExpedientes
+            // 
+            tbpCargaExpedientes.Controls.Add(panel2);
+            tbpCargaExpedientes.Location = new Point(4, 32);
+            tbpCargaExpedientes.Name = "tbpCargaExpedientes";
+            tbpCargaExpedientes.Padding = new Padding(3);
+            tbpCargaExpedientes.Size = new Size(1172, 77);
+            tbpCargaExpedientes.TabIndex = 2;
+            tbpCargaExpedientes.Text = "Carga expedientes";
+            tbpCargaExpedientes.UseVisualStyleBackColor = true;
+            // 
+            // panel2
+            // 
+            panel2.Controls.Add(btnSekeccionDirectorioCargaExpedientes);
+            panel2.Controls.Add(txtDirectorioCargaExpedientes);
+            panel2.Controls.Add(label4);
+            panel2.Controls.Add(btnCargaInformacionExpedientes);
+            panel2.Controls.Add(txtUnidadTemporalExpedientes);
+            panel2.Controls.Add(label5);
+            panel2.Dock = DockStyle.Top;
+            panel2.Location = new Point(3, 3);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(1166, 80);
+            panel2.TabIndex = 2;
+            // 
+            // btnSekeccionDirectorioCargaExpedientes
+            // 
+            btnSekeccionDirectorioCargaExpedientes.Location = new Point(904, 42);
+            btnSekeccionDirectorioCargaExpedientes.Name = "btnSekeccionDirectorioCargaExpedientes";
+            btnSekeccionDirectorioCargaExpedientes.Size = new Size(31, 29);
+            btnSekeccionDirectorioCargaExpedientes.TabIndex = 6;
+            btnSekeccionDirectorioCargaExpedientes.Text = "...";
+            btnSekeccionDirectorioCargaExpedientes.UseVisualStyleBackColor = true;
+            // 
+            // txtDirectorioCargaExpedientes
+            // 
+            txtDirectorioCargaExpedientes.Location = new Point(143, 42);
+            txtDirectorioCargaExpedientes.Name = "txtDirectorioCargaExpedientes";
+            txtDirectorioCargaExpedientes.Size = new Size(754, 27);
+            txtDirectorioCargaExpedientes.TabIndex = 5;
+            txtDirectorioCargaExpedientes.Text = "C:\\OD\\FND\\Documentos Valor - Noroeste";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(20, 46);
+            label4.Name = "label4";
+            label4.Size = new Size(124, 20);
+            label4.TabIndex = 4;
+            label4.Text = "Directorio carga :";
+            // 
+            // btnCargaInformacionExpedientes
+            // 
+            btnCargaInformacionExpedientes.Location = new Point(988, 42);
+            btnCargaInformacionExpedientes.Name = "btnCargaInformacionExpedientes";
+            btnCargaInformacionExpedientes.Size = new Size(166, 29);
+            btnCargaInformacionExpedientes.TabIndex = 1;
+            btnCargaInformacionExpedientes.Text = "Carga Imagenes";
+            btnCargaInformacionExpedientes.UseVisualStyleBackColor = true;
+            // 
+            // txtUnidadTemporalExpedientes
+            // 
+            txtUnidadTemporalExpedientes.Location = new Point(143, 7);
+            txtUnidadTemporalExpedientes.Name = "txtUnidadTemporalExpedientes";
+            txtUnidadTemporalExpedientes.Size = new Size(34, 27);
+            txtUnidadTemporalExpedientes.TabIndex = 1;
+            txtUnidadTemporalExpedientes.Text = "Z:";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(15, 10);
+            label5.Name = "label5";
+            label5.Size = new Size(129, 20);
+            label5.TabIndex = 0;
+            label5.Text = "Unidad temporal :";
             // 
             // pnlInferior
             // 
@@ -394,82 +477,35 @@
             lblEtapaEtiqueta.TabIndex = 0;
             lblEtapaEtiqueta.Text = "Etapa:";
             // 
-            // tbpCargaExpedientes
+            // tbpLimpiaImagenes
             // 
-            tbpCargaExpedientes.Controls.Add(panel2);
-            tbpCargaExpedientes.Location = new Point(4, 32);
-            tbpCargaExpedientes.Name = "tbpCargaExpedientes";
-            tbpCargaExpedientes.Padding = new Padding(3);
-            tbpCargaExpedientes.Size = new Size(1172, 77);
-            tbpCargaExpedientes.TabIndex = 2;
-            tbpCargaExpedientes.Text = "Carga expedientes";
-            tbpCargaExpedientes.UseVisualStyleBackColor = true;
+            tbpLimpiaImagenes.Controls.Add(btnComienzaLimpieza);
+            tbpLimpiaImagenes.Controls.Add(label6);
+            tbpLimpiaImagenes.Location = new Point(4, 32);
+            tbpLimpiaImagenes.Name = "tbpLimpiaImagenes";
+            tbpLimpiaImagenes.Padding = new Padding(3);
+            tbpLimpiaImagenes.Size = new Size(1172, 77);
+            tbpLimpiaImagenes.TabIndex = 3;
+            tbpLimpiaImagenes.Text = "Limpia Imagenes";
+            tbpLimpiaImagenes.UseVisualStyleBackColor = true;
             // 
-            // panel2
+            // btnComienzaLimpieza
             // 
-            panel2.Controls.Add(btnSekeccionDirectorioCargaExpedientes);
-            panel2.Controls.Add(txtDirectorioCargaExpedientes);
-            panel2.Controls.Add(label4);
-            panel2.Controls.Add(btnCargaInformacionExpedientes);
-            panel2.Controls.Add(txtUnidadTemporalExpedientes);
-            panel2.Controls.Add(label5);
-            panel2.Dock = DockStyle.Top;
-            panel2.Location = new Point(3, 3);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(1166, 80);
-            panel2.TabIndex = 2;
+            btnComienzaLimpieza.Location = new Point(172, 42);
+            btnComienzaLimpieza.Name = "btnComienzaLimpieza";
+            btnComienzaLimpieza.Size = new Size(240, 29);
+            btnComienzaLimpieza.TabIndex = 0;
+            btnComienzaLimpieza.Text = "Comienza Limpieza";
+            btnComienzaLimpieza.UseVisualStyleBackColor = true;
             // 
-            // btnSekeccionDirectorioCargaExpedientes
+            // label6
             // 
-            btnSekeccionDirectorioCargaExpedientes.Location = new Point(904, 42);
-            btnSekeccionDirectorioCargaExpedientes.Name = "btnSekeccionDirectorioCargaExpedientes";
-            btnSekeccionDirectorioCargaExpedientes.Size = new Size(31, 29);
-            btnSekeccionDirectorioCargaExpedientes.TabIndex = 6;
-            btnSekeccionDirectorioCargaExpedientes.Text = "...";
-            btnSekeccionDirectorioCargaExpedientes.UseVisualStyleBackColor = true;
-            // 
-            // txtDirectorioCargaExpedientes
-            // 
-            txtDirectorioCargaExpedientes.Location = new Point(143, 42);
-            txtDirectorioCargaExpedientes.Name = "txtDirectorioCargaExpedientes";
-            txtDirectorioCargaExpedientes.Size = new Size(754, 27);
-            txtDirectorioCargaExpedientes.TabIndex = 5;
-            txtDirectorioCargaExpedientes.Text = "C:\\OD\\FND\\Documentos Valor - Noroeste";
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new Point(20, 46);
-            label4.Name = "label4";
-            label4.Size = new Size(124, 20);
-            label4.TabIndex = 4;
-            label4.Text = "Directorio carga :";
-            // 
-            // btnCargaInformacionExpedientes
-            // 
-            btnCargaInformacionExpedientes.Location = new Point(988, 42);
-            btnCargaInformacionExpedientes.Name = "btnCargaInformacionExpedientes";
-            btnCargaInformacionExpedientes.Size = new Size(166, 29);
-            btnCargaInformacionExpedientes.TabIndex = 1;
-            btnCargaInformacionExpedientes.Text = "Carga Imagenes";
-            btnCargaInformacionExpedientes.UseVisualStyleBackColor = true;
-            // 
-            // txtUnidadTemporalExpedientes
-            // 
-            txtUnidadTemporalExpedientes.Location = new Point(143, 7);
-            txtUnidadTemporalExpedientes.Name = "txtUnidadTemporalExpedientes";
-            txtUnidadTemporalExpedientes.Size = new Size(34, 27);
-            txtUnidadTemporalExpedientes.TabIndex = 1;
-            txtUnidadTemporalExpedientes.Text = "Z:";
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Location = new Point(15, 10);
-            label5.Name = "label5";
-            label5.Size = new Size(129, 20);
-            label5.TabIndex = 0;
-            label5.Text = "Unidad temporal :";
+            label6.Dock = DockStyle.Top;
+            label6.Location = new Point(3, 3);
+            label6.Name = "label6";
+            label6.Size = new Size(1166, 48);
+            label6.TabIndex = 1;
+            label6.Text = resources.GetString("label6.Text");
             // 
             // MainFRM
             // 
@@ -489,13 +525,14 @@
             tabPage2.ResumeLayout(false);
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+            tbpCargaExpedientes.ResumeLayout(false);
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
             pnlInferior.ResumeLayout(false);
             pnlDerecho.ResumeLayout(false);
             pnlReportaAvances.ResumeLayout(false);
             pnlReportaAvances.PerformLayout();
-            tbpCargaExpedientes.ResumeLayout(false);
-            panel2.ResumeLayout(false);
-            panel2.PerformLayout();
+            tbpLimpiaImagenes.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -542,5 +579,8 @@
         private Button btnCargaInformacionExpedientes;
         private TextBox txtUnidadTemporalExpedientes;
         private Label label5;
+        private TabPage tbpLimpiaImagenes;
+        private Button btnComienzaLimpieza;
+        private Label label6;
     }
 }

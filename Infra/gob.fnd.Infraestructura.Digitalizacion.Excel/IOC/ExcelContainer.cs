@@ -51,7 +51,7 @@ namespace gob.fnd.Infraestructura.Digitalizacion.Excel.IOC
             services.AddScoped<IServicioABSaldosRegionales, ServicioABSaldosRegionales>();
             services.AddScoped<IBienesAdjudicados, ServicioBienesAdjudicados>();
             services.AddScoped<IBienesAdjudicadosIdentificados, ServicioBienesAdjudicadosIdentificados>();
-            services.AddScoped < ILiquidaciones, LiquidacionesService>();
+            services.AddScoped<ILiquidaciones, LiquidacionesService>();
             services.AddScoped<ITratamientos, Tratamientos.TratamientosService>();
             services.AddScoped<IJuridico, JuridicoService>();
         }

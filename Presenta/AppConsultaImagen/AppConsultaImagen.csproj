@@ -43,6 +43,10 @@
     <ProjectReference Include="..\..\Dominio\gob.fnd.Dominio.Digitalizacion.Negocio.Procesa\gob.fnd.Dominio.Digitalizacion.Negocio.Procesa.csproj" />
     <ProjectReference Include="..\..\Dominio\gob.fnd.Dominio.Digitalizacion.Negocio\gob.fnd.Dominio.Digitalizacion.Negocio.csproj" />
     <ProjectReference Include="..\..\Dominio\gob.fnd.Dominio.Digitalizacion\gob.fnd.Dominio.Digitalizacion.csproj" />
+    <ProjectReference Include="..\..\Infra\gob.fnd.Infraestructura.Digitalizacion.Excel\gob.fnd.Infraestructura.Digitalizacion.Excel.csproj" />
+    <ProjectReference Include="..\..\Infra\gob.fnd.Infraestructura.Negocio.CargaCsv\gob.fnd.Infraestructura.Negocio.CargaCsv.csproj" />
+    <ProjectReference Include="..\..\Infra\gob.fnd.Infraestructura.Negocio.Procesa.Zip\gob.fnd.Infraestructura.Negocio.Procesa.Zip.csproj" />
+    <ProjectReference Include="..\..\Infra\gob.fnd.Infraestructura.Negocio\gob.fnd.Infraestructura.Negocio.csproj" />
     <ProjectReference Include="..\..\Infra\Jaec.Helper\Jaec.Helper.csproj" />
   </ItemGroup>
 

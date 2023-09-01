@@ -63,18 +63,15 @@ echo ============================================
 rem Comprobar si estamos en un entorno de depuración o lanzamiento
 if "%environment%"==""Debug"" (
     echo Estas en un entorno de depuracion.
-rem xcopy "%cd%\..\..\Infra\gob.fnd.Infraestructura.Negocio\bin\Debug\net6.0\gob.fnd.Infraestructura.Negocio.dll" "%libDir%\Infra\gob.fnd.Infraestructura.Negocio\gob.fnd.Infraestructura.Negocio.dll" /d/y/-i
-rem xcopy "%cd%\..\..\Infra\gob.fnd.Infraestructura.Negocio\bin\Debug\net6.0\gob.fnd.Infraestructura.Negocio.pdb" "%libDir%\Infra\gob.fnd.Infraestructura.Negocio\gob.fnd.Infraestructura.Negocio.pdb" /d/y/-i
+xcopy "%cd%\..\..\Infra\gob.fnd.Infraestructura.Negocio\bin\Debug\net6.0\gob.fnd.Infraestructura.Negocio.dll" "%libDir%\Infra\gob.fnd.Infraestructura.Negocio\gob.fnd.Infraestructura.Negocio.dll" /d/y/-i
 
-rem xcopy "%cd%\..\..\Infra\gob.fnd.Infraestructura.Negocio.CargaCsv\bin\Debug\net6.0\gob.fnd.Infraestructura.Negocio.CargaCsv.dll" "%libDir%\Infra\gob.fnd.Infraestructura.Negocio.CargaCsv\gob.fnd.Infraestructura.Negocio.CargaCsv.dll" /d/y/-i
-rem xcopy "%cd%\..\..\Infra\gob.fnd.Infraestructura.Negocio.CargaCsv\bin\Debug\net6.0\gob.fnd.Infraestructura.Negocio.CargaCsv.pdb" "%libDir%\Infra\gob.fnd.Infraestructura.Negocio.CargaCsv\gob.fnd.Infraestructura.Negocio.CargaCsv.pdb" /d/y/-i
+xcopy "%cd%\..\..\Infra\gob.fnd.Infraestructura.Negocio.CargaCsv\bin\Debug\net6.0\gob.fnd.Infraestructura.Negocio.CargaCsv.dll" "%libDir%\Infra\gob.fnd.Infraestructura.Negocio.CargaCsv\gob.fnd.Infraestructura.Negocio.CargaCsv.dll" /d/y/-i
 
-Echo "%cd%\..\..\Infra\gob.fnd.Infraestructura.Digitalizacion.Excel\bin\Debug\net6.0\gob.fnd.Infraestructura.Digitalizacion.Excel.dll" "%libDir%\Infra\gob.fnd.Infraestructura.Digitalizacion.Excel\gob.fnd.Infraestructura.Digitalizacion.Excel.dll" /d/y/-i
-rem xcopy "%cd%\..\..\Infra\gob.fnd.Infraestructura.Digitalizacion.Excel\bin\Debug\net6.0\gob.fnd.Infraestructura.Digitalizacion.Excel.dll" "%libDir%\Infra\gob.fnd.Infraestructura.Digitalizacion.Excel\gob.fnd.Infraestructura.Digitalizacion.Excel.dll" /d/y/-i
-rem xcopy "%cd%\..\..\Infra\gob.fnd.Infraestructura.Digitalizacion.Excel\bin\Debug\net6.0\gob.fnd.Infraestructura.Digitalizacion.Excel.pdb" "%libDir%\Infra\gob.fnd.Infraestructura.Digitalizacion.Excel\gob.fnd.Infraestructura.Digitalizacion.Excel.pdb" /d/y/-i
+xcopy "%cd%\..\..\Infra\gob.fnd.Infraestructura.Digitalizacion.Excel\bin\Debug\net6.0\gob.fnd.Infraestructura.Digitalizacion.Excel.dll" "%libDir%\Infra\gob.fnd.Infraestructura.Digitalizacion.Excel\gob.fnd.Infraestructura.Digitalizacion.Excel.dll" /d/y/-i
 
-rem xcopy "%cd%\..\..\Infra\gob.fnd.Infraestructura.Digitalizacion.Excel\bin\Debug\net6.0\gob.fnd.ExcelHelper.dll" "%libDir%\Infra\gob.fnd.Infraestructura.Digitalizacion.Excel\gob.fnd.ExcelHelper.dll" /d/y/-i
-rem xcopy "%cd%\..\..\Infra\gob.fnd.Infraestructura.Digitalizacion.Excel\bin\Debug\net6.0\gob.fnd.ExcelHelper.pdb" "%libDir%\Infra\gob.fnd.Infraestructura.Digitalizacion.Excel\gob.fnd.ExcelHelper.pdb" /d/y/-i
+xcopy "%cd%\..\..\Infra\gob.fnd.Infraestructura.Digitalizacion.Excel\bin\Debug\net6.0\gob.fnd.ExcelHelper.dll" "%libDir%\Infra\gob.fnd.Infraestructura.Digitalizacion.Excel\gob.fnd.ExcelHelper.dll" /d/y/-i
+
+xcopy "%cd%\..\..\Infra\gob.fnd.Infraestructura.Negocio.Procesa.Zip\bin\Debug\net6.0\gob.fnd.Infraestructura.Negocio.Procesa.Zip.dll" "%libDir%\Infra\gob.fnd.Infraestructura.Negocio.Procesa.Zip\gob.fnd.Infraestructura.Negocio.Procesa.Zip.dll" /d/y/-i
 
 
 ) else if "%environment%"==""Release"" (
