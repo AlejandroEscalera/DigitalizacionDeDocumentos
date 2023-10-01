@@ -1762,13 +1762,13 @@ public partial class ConsultaServices : IConsultaServices
         {
 
             // Se filtran los elementos de "_imagenesCortasExpedientesJuridico" y se asignan a la variable "listaImagenesEncontradas".
-            listaImagenesEncontradas = _imagenesCortasExpedientesJuridico.OrderByDescending(y => y.NumPaginas).Where(x => (contrato ?? "").Equals((x.NumContrato ?? "")[..15], StringComparison.OrdinalIgnoreCase)
-             && (numCredito ?? "").Equals(x.NumCredito, StringComparison.OrdinalIgnoreCase)            
+            listaImagenesEncontradas = _imagenesCortasExpedientesJuridico.OrderByDescending(y => y.NumPaginas).Where(x => (contrato ?? "000000000000000").Equals((x.NumContrato+ "000000000000000" ?? "000000000000000")[..15], StringComparison.OrdinalIgnoreCase)
+             && (numCredito ?? "000000000000000000").Equals(x.NumCredito, StringComparison.OrdinalIgnoreCase)            
             ).ToList();
 
             if (!listaImagenesEncontradas.Any())
             {
-                listaImagenesEncontradas = _imagenesCortasExpedientesJuridico.OrderByDescending(y => y.NumPaginas).Where(x => (contrato ?? "").Equals((x.NumContrato ?? "")[..15], StringComparison.OrdinalIgnoreCase)                 
+                listaImagenesEncontradas = _imagenesCortasExpedientesJuridico.OrderByDescending(y => y.NumPaginas).Where(x => (contrato ?? "").Equals((x.NumContrato + "000000000000000" ?? "")[..15], StringComparison.OrdinalIgnoreCase)                 
                 ).ToList();
             }
 
